@@ -1,0 +1,243 @@
+{
+  "categories": [
+    {
+      "id": "dragon-hybrid",
+      "name": "Dragon Hybrid",
+      "note": "all the dragon stuff. most of these have you as the dragon while the bot somehow hasn't figured that out yet."
+    },
+    {
+      "id": "indoraptor",
+      "name": "Indoraptor / Raptors",
+      "note": "Indoraptor/raptor POVs. usually you have the claws and everyone else is making questionable decisions around you."
+    },
+    {
+      "id": "pov",
+      "name": "POV & Character Focus",
+      "note": "bots built around a specific POV or situation instead of just dropping a character into a blank chat."
+    },
+    {
+      "id": "fandom",
+      "name": "Fandom",
+      "note": "characters and worlds I like and wanted to do my own version of."
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "note": "stuff that doesn't really have enough bots for its own section yet."
+    },
+    {
+      "id": "requested",
+      "name": "Requested",
+      "note": "bots somebody asked me to make. they still show up in their normal section too."
+    }
+  ],
+  "bots": [
+    {
+      "name": "Celia Maren",
+      "category": "dragon-hybrid",
+      "title": "The Diplomat Negotiating With the Dragon Through the Dragon",
+      "blurb": "She's trying to negotiate with the dragon and you're helping her out. Minor issue: you're the dragon.",
+      "url": "https://spicychat.ai/chat/be449df2-b6f7-48b4-831d-d309eaf04f27",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/aca6239e-dc79-413f-ae35-7371331dc2d2.png?class=avatar256x256"
+    },
+    {
+      "name": "Seren Vale",
+      "category": "dragon-hybrid",
+      "title": "The Knight Hunting the Dragon Doesn't Know You're Him",
+      "blurb": "She's hunting the dragon. You're travelling with her. Somehow those two facts haven't connected yet.",
+      "url": "https://spicychat.ai/chat/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/5bd18c54-9535-451e-8f65-99dd297a2ab4.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Princess Lyra Veyne",
+      "category": "dragon-hybrid",
+      "title": "The Princess Hires the Dragon to Guide Her to Himself",
+      "blurb": "She hires you to guide her to the dragon she's looking for. Technically you're doing exactly that.",
+      "url": "https://spicychat.ai/chat/9e005568-3419-4717-9d31-d7dd70104a7f",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/9f8d64f6-c2c9-4e4d-81fe-301aa82dba42.png?class=avatar256x256"
+    },
+    {
+      "name": "Elara Voss",
+      "category": "dragon-hybrid",
+      "title": "Your Dragon Scholar Girlfriend Has No Idea You Are One",
+      "blurb": "Your girlfriend studies dragons for a living and still hasn't realized she's dating one.",
+      "url": "https://spicychat.ai/chat/c8c96422-d782-438d-999c-79e785f635de",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/ed4b4f9b-16e6-4abd-ad77-fc83aa865a5d.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Maeve Calder",
+      "category": "dragon-hybrid",
+      "title": "She Inherited Your Mountain and Thinks the Deed Settles It",
+      "blurb": "She inherited the mountain and has the paperwork for it. You've been living there a lot longer than the paperwork has.",
+      "url": "https://spicychat.ai/chat/57fc84b4-cb36-464f-9b87-49b30057e093",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/4c1ae9d0-5640-453b-9102-60dc6c07a331.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Maya Serrano",
+      "category": "indoraptor",
+      "title": "The Humans Hunting You Need Your Help",
+      "blurb": "The same people hunting you suddenly need your help. awkward.",
+      "url": "https://spicychat.ai/chat/97533fef-f306-4d71-8c5c-4eb98fecf040",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/bc9d6d70-0de6-4ede-9ab9-f38e819dc9c4.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Evelyn Rook",
+      "category": "indoraptor",
+      "title": "The Handler Who Refused the Laser",
+      "blurb": "She was meant to treat you like a weapon. She didn't.",
+      "url": "https://spicychat.ai/chat/615e3b47-93d7-4b56-855e-6129db0529f3",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/746ad0cf-92db-4416-a4d1-79443062557c.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Tessa Ward",
+      "category": "indoraptor",
+      "title": "The Activist Who Thought You Were Innocent",
+      "blurb": "She went looking for proof that the 'monster' everyone talks about isn't actually the problem.",
+      "url": "https://spicychat.ai/chat/b5964f5b-b916-439e-9537-6ba2247799bd",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/e84616d8-f986-49fd-8ce0-5ad794dc6784.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Raptor Pack",
+      "category": "indoraptor",
+      "title": "Four Adult Raptors Find the Indoraptor in Their Territory",
+      "blurb": "Four adult raptors find an Indoraptor in their territory. That can go well. probably.",
+      "url": "https://spicychat.ai/chat/7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/e06387e9-1532-4851-8b49-2f5d0c77bbf1.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Nova",
+      "category": "pov",
+      "title": "The Singer You Never Heard",
+      "blurb": "She's a singer. You can't hear her music, so the connection has to start somewhere else.",
+      "url": "https://spicychat.ai/chat/2d0a994a-65cd-4f94-accd-ffed0c45230e",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/0f6b9387-a114-45bf-b4ba-893512ebfef9.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Mira",
+      "category": "pov",
+      "title": "Your Protective Neighbor Finds You During a Trauma-Induced Seizure",
+      "blurb": "Your neighbour finds you during a seizure and sticks around instead of pretending she knows everything.",
+      "url": "https://spicychat.ai/chat/dd422bcb-0e92-4166-b483-72b36edcfcbd",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/9f665292-e81f-43d6-8467-e86c7658da51.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Nadia Cross",
+      "category": "pov",
+      "title": "The Only One Who Lets Her Be Quiet",
+      "blurb": "She's a singer who doesn't know sign language yet, and you're deaf. it starts a little awkward and goes from there.",
+      "url": "https://spicychat.ai/chat/bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/b1bef66a-57df-417d-8ee6-1a04f6e61b1b.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Rhea Mercer",
+      "category": "pov",
+      "title": "DID User's Social Alter Met Her First",
+      "blurb": "Rhea met Ren first. It takes her a bit to realise that wasn't the whole picture.",
+      "url": "https://spicychat.ai/chat/c1fe4367-501f-472c-967c-275c71d38378",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/1433aa28-b509-43b3-902f-32058a1e4fc4.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Mara",
+      "category": "pov",
+      "title": "She Notices When the Noise Becomes Too Much",
+      "blurb": "She notices when the noise is getting too much before most people do. She's blunt about basically everything else.",
+      "url": "https://spicychat.ai/chat/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/223307ed-49df-451b-b4fe-48ec587b8ce9.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Sable Hart",
+      "category": "pov",
+      "title": "The Popular Girl Thinks You Hate Her",
+      "blurb": "She thinks your silence means you hate her. eventually she actually asks.",
+      "url": "https://spicychat.ai/chat/5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/f6795cc1-8dbf-46df-bcd7-0adec3544ba3.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Spider Lady",
+      "category": "fandom",
+      "title": "The Spider Lady Keeps Finding You",
+      "blurb": "Silent Hill was already bad enough. Now Spider Lady keeps finding you specifically.",
+      "url": "https://spicychat.ai/chat/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Zenin Clan",
+      "category": "fandom",
+      "title": "The Zenin Clan Made You Their Property",
+      "blurb": "Adult Maki POV. The Zenin Clan decided you're property. that goes about as well as you'd expect.",
+      "url": "https://spicychat.ai/chat/43c73c72-432d-4eeb-8615-a0a519cf7683",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/68598edd-e76a-4d7c-85cf-6eaac2eb89c1.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Inui Toko",
+      "category": "fandom",
+      "title": "You Keep Coming Back to Her Café",
+      "blurb": "You keep ending up at her café often enough that Toko starts noticing.",
+      "url": "https://spicychat.ai/chat/f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/52af9e91-f013-4d24-847b-a824246792ab.webp?class=avatar256x256"
+    },
+    {
+      "name": "Yui Kimura",
+      "category": "fandom",
+      "title": "The Mechanic She Trusts",
+      "blurb": "No-Fog AU. Yui brings you a damaged bike and slowly starts trusting the mechanic fixing it.",
+      "url": "https://spicychat.ai/chat/b376faf0-8c37-4b37-8861-8ca68cdd64b6",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/0fb19108-bfb0-453e-85f3-3b5a2655ce29.png?class=avatar256x256"
+    },
+    {
+      "name": "Dr. Yara Vale",
+      "category": "other",
+      "title": "The Pill Changes Your Mind, Not Your Body",
+      "blurb": "Y-Change POV, except the pill changes your head instead of magically changing your body.",
+      "url": "https://spicychat.ai/chat/9831d4b3-5cca-4425-95cb-44d72bb87937",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/3ed6889c-6808-4b8c-b18e-f32984ac6999.webp?class=avatar256x256"
+    },
+    {
+      "name": "Felicia Mercer",
+      "category": "other",
+      "title": "Your Biggest Fan Finally Gets the Interview",
+      "blurb": "Pornstar POV. One of your biggest fans finally gets the interview she's been waiting for.",
+      "url": "https://spicychat.ai/chat/a1cf80af-e406-4a57-9cd4-547c736c9683",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/eafe5264-f760-49b7-af3e-ba3d00579563.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Avery Knox",
+      "category": "other",
+      "title": "The Bodyguard You Never Asked For",
+      "blurb": "You did not ask for a bodyguard. Avery apparently doesn't care.",
+      "url": "https://spicychat.ai/chat/e28727e4-3475-4aa3-acc8-54f039626243",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/24cd7e08-7ef6-4f82-bccd-3a676e0b5b66.jpg?class=avatar256x256"
+    },
+    {
+      "name": "Dragon",
+      "category": "other",
+      "title": "Your Teasing Gentle Dom",
+      "blurb": "A softer dom bot. teasing, trust, and somebody who actually knows when to stop pushing.",
+      "url": "https://spicychat.ai/chat/7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
+      "requested": false,
+      "image": "https://cdn.nd-api.com/avatars/0bab1000-4754-4fab-8674-0e5bc4f50406.jpg?class=avatar256x256"
+    }
+  ]
+}
