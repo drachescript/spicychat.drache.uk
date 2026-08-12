@@ -1,34 +1,27 @@
 # spicychat.drache.uk
 
-Small static site for my SpicyChat stuff.
+Small static site for Dragon's SpicyChat stuff.
 
 ## Pages
 
-- `/` — landing page with Chatbots / SpicyChat QoL
-- `/chatbots/` — bot showcase, categories and search
+- `/` — landing page with Chatbots / SpicyChat QoL choices
+- `/chatbots/` — all chatbot categories and links
 - QoL links to https://spicychatqol.drache.uk/
 
-## Add or edit bots
+## Add a bot
 
-Everything is in `assets/bots.json`. The layout itself does not contain the bot list.
+Open `assets/bots.js` and add another object to `window.BOTS`.
 
-Each bot has:
+Main fields:
 
 - `name`
 - `category`
 - `title`
 - `blurb`
 - `url`
-- `image`
 - `requested`
 
-Set `requested` to `true` if somebody requested the bot. It will still show in its normal category and will also appear under Requested.
-
-For SpicyChat avatar images I use the CDN URL, for example:
-
-```text
-https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256
-```
+Set `requested: true` if the bot was made from a request. It will stay in its normal category and also appear in the Requested section.
 
 ## Current categories
 
@@ -39,10 +32,6 @@ https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=av
 - `other`
 - `requested` is generated from `requested: true`
 
-## Site icons
-
-The cropped profile picture/favicon files are in `assets/icons/`.
-
 ## GitHub Pages
 
-Publish the root of the `main` branch. `CNAME` is already set to `spicychat.drache.uk`.
+This repository is ready to be published from the root of the `main` branch. The `CNAME` file is already set to `spicychat.drache.uk`.

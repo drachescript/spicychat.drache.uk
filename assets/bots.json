@@ -111,7 +111,8 @@
       "blurb": "Four adult raptors find an Indoraptor in their territory. That can go well. probably.",
       "url": "https://spicychat.ai/chat/7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
       "requested": false,
-      "image": "https://cdn.nd-api.com/avatars/e06387e9-1532-4851-8b49-2f5d0c77bbf1.jpg?class=avatar256x256"
+      "image": "https://cdn.nd-api.com/avatars/e06387e9-1532-4851-8b49-2f5d0c77bbf1.jpg?class=avatar256x256",
+      "favoriteOrder": 2
     },
     {
       "name": "Nova",
@@ -120,7 +121,8 @@
       "blurb": "She's a singer. You can't hear her music, so the connection has to start somewhere else.",
       "url": "https://spicychat.ai/chat/2d0a994a-65cd-4f94-accd-ffed0c45230e",
       "requested": false,
-      "image": "https://cdn.nd-api.com/avatars/0f6b9387-a114-45bf-b4ba-893512ebfef9.jpg?class=avatar256x256"
+      "image": "https://cdn.nd-api.com/avatars/0f6b9387-a114-45bf-b4ba-893512ebfef9.jpg?class=avatar256x256",
+      "favoriteOrder": 3
     },
     {
       "name": "Mira",
@@ -147,7 +149,8 @@
       "blurb": "Rhea met Ren first. It takes her a bit to realise that wasn't the whole picture.",
       "url": "https://spicychat.ai/chat/c1fe4367-501f-472c-967c-275c71d38378",
       "requested": false,
-      "image": "https://cdn.nd-api.com/avatars/1433aa28-b509-43b3-902f-32058a1e4fc4.jpg?class=avatar256x256"
+      "image": "https://cdn.nd-api.com/avatars/1433aa28-b509-43b3-902f-32058a1e4fc4.jpg?class=avatar256x256",
+      "favoriteOrder": 4
     },
     {
       "name": "Mara",
@@ -201,7 +204,8 @@
       "blurb": "No-Fog AU. Yui brings you a damaged bike and slowly starts trusting the mechanic fixing it.",
       "url": "https://spicychat.ai/chat/b376faf0-8c37-4b37-8861-8ca68cdd64b6",
       "requested": false,
-      "image": "https://cdn.nd-api.com/avatars/0fb19108-bfb0-453e-85f3-3b5a2655ce29.png?class=avatar256x256"
+      "image": "https://cdn.nd-api.com/avatars/0fb19108-bfb0-453e-85f3-3b5a2655ce29.png?class=avatar256x256",
+      "favoriteOrder": 1
     },
     {
       "name": "Dr. Yara Vale",

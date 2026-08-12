@@ -26,14 +26,19 @@
     <section class="bot-hero">
       <p class="eyebrow">My Chatbots</p>
       <h1>All my bots in one place.</h1>
-      <p class="lead">I make basically whatever idea sounds fun at the time, so this is just the easier way to keep everything in one place. pick a section or search for one.</p>
+      <p class="lead">I make pretty much whatever idea gets stuck in my head, so this is the easiest way to keep all of them somewhere without digging through my profile.</p>
+
+      <nav class="bot-view-tabs" aria-label="Chatbot views">
+        <a href="?view=all" data-view="all">All Bots</a>
+        <a href="?view=categories" data-view="categories">Categories</a>
+      </nav>
 
       <div class="toolbar">
         <label class="search-wrap">
           <span>Search</span>
           <input id="bot-search" type="search" placeholder="Name, POV, series..." autocomplete="off">
         </label>
-        <div id="category-pills" class="category-pills" aria-label="Jump to a section"></div>
+        <div id="category-pills" class="category-pills" aria-label="Jump to a section" hidden></div>
       </div>
     </section>
 
