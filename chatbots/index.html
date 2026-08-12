@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#09090b">
+  <meta name="description" content="Dragon's SpicyChat chatbot collection.">
+  <title>Chatbots | Dragon</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header shell sticky-header">
+    <a class="brand" href="../">Dragon <span>/ SpicyChat</span></a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a class="active" href="./">Chatbots</a>
+      <a href="https://spicychatqol.drache.uk/" target="_blank" rel="noopener">QoL</a>
+    </nav>
+  </header>
+
+  <main class="shell bot-page">
+    <section class="bot-hero">
+      <p class="eyebrow">My Chatbots</p>
+      <h1>All the weird little scenarios I've made.</h1>
+      <p class="lead">I make a lot of POV-heavy bots, creature stuff, fandom bots and whatever else sounds fun at the time. This is the easier way to find all of them.</p>
+
+      <div class="toolbar">
+        <label class="search-wrap">
+          <span>Search</span>
+          <input id="bot-search" type="search" placeholder="Name, POV, series..." autocomplete="off">
+        </label>
+        <div id="category-pills" class="category-pills" aria-label="Jump to a section"></div>
+      </div>
+    </section>
+
+    <div id="bot-sections"></div>
+    <p id="empty-state" class="empty-state" hidden>No bots matched that search.</p>
+  </main>
+
+  <footer class="site-footer shell">Bots link straight to their SpicyChat pages.</footer>
+  <script src="../assets/bots.js"></script>
+  <script src="../assets/chatbots.js"></script>
+</body>
+</html>
