@@ -1,190 +1,23 @@
 (() => {
-  const sectionsEl = document.getElementById("bot-sections");
-  const pillsEl = document.getElementById("category-pills");
-  const searchEl = document.getElementById("bot-search");
-  const emptyEl = document.getElementById("empty-state");
-  const viewTabs = [...document.querySelectorAll("[data-view]")];
-
-  const escapeHtml = (value) => String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
-
-  const initials = (name) => String(name || "?")
-    .split(/\s+/)
-    .filter(Boolean)
-    .map(part => part[0])
-    .join("")
-    .slice(0, 2)
-    .toUpperCase();
-
-  let cats = [];
-  let bots = [];
-  let currentView = "all";
-
-  function readViewFromUrl() {
-    const requested = new URLSearchParams(window.location.search).get("view");
-    return requested === "categories" ? "categories" : "all";
-  }
-
-  function setView(view, push = false) {
-    currentView = view === "categories" ? "categories" : "all";
-
-    viewTabs.forEach(tab => {
-      const active = tab.dataset.view === currentView;
-      tab.classList.toggle("active", active);
-      tab.setAttribute("aria-current", active ? "page" : "false");
-    });
-
-    pillsEl.hidden = currentView !== "categories";
-
-    if (push) {
-      const url = new URL(window.location.href);
-      if (currentView === "all") url.searchParams.delete("view");
-      else url.searchParams.set("view", "categories");
-      history.pushState({ view: currentView }, "", url);
-    }
-
-    render();
-  }
-
-  function art(bot) {
-    const fallback = `<span class="bot-art-fallback">${escapeHtml(initials(bot.name))}</span>`;
-    if (!bot.image) return `<div class="bot-art">${fallback}</div>`;
-
-    return `
-      <div class="bot-art">
-        ${fallback}
-        <img src="${escapeHtml(bot.image)}" alt="${escapeHtml(bot.name)}" loading="lazy" referrerpolicy="no-referrer">
-      </div>`;
-  }
-
-  function botCard(bot) {
-    return `
-      <article class="bot-card">
-        ${art(bot)}
-        <div class="bot-card-body">
-          <div class="bot-card-topline">
-            <h3>${escapeHtml(bot.name)}</h3>
-            ${bot.requested ? '<span class="requested-badge">Requested</span>' : ''}
-          </div>
-          <p class="bot-title">${escapeHtml(bot.title)}</p>
-          <p class="bot-blurb">${escapeHtml(bot.blurb)}</p>
-          <a class="chat-button" href="${escapeHtml(bot.url)}" target="_blank" rel="noopener">Open <span>↗</span></a>
-        </div>
-      </article>`;
-  }
-
-  function matches(bot, query) {
-    if (!query) return true;
-    return `${bot.name} ${bot.title} ${bot.blurb}`.toLowerCase().includes(query);
-  }
-
-  function categoryItems(cat) {
-    if (cat.id === "requested") return bots.filter(bot => bot.requested);
-    return bots.filter(bot => bot.category === cat.id);
-  }
-
-  function sectionMarkup({ id, name, note, items, kicker }) {
-    if (!items.length) return "";
-    return `
-      <section class="bot-section" id="${escapeHtml(id)}">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">${escapeHtml(kicker || `${items.length} ${items.length === 1 ? "bot" : "bots"}`)}</p>
-            <h2>${escapeHtml(name)}</h2>
-          </div>
-          ${note ? `<p>${escapeHtml(note)}</p>` : ""}
-        </div>
-        <div class="bot-grid">${items.map(botCard).join("")}</div>
-      </section>`;
-  }
-
-  function renderAll(query) {
-    const favorites = bots
-      .filter(bot => Number.isFinite(Number(bot.favoriteOrder)))
-      .sort((a, b) => Number(a.favoriteOrder) - Number(b.favoriteOrder))
-      .filter(bot => matches(bot, query));
-
-    const all = bots.filter(bot => matches(bot, query));
-
-    return {
-      count: all.length,
-      html: [
-        sectionMarkup({
-          id: "personal-favorites",
-          name: "Personal Favorites",
-          note: "the ones I'd probably point you at first if you don't know where to start.",
-          items: favorites,
-          kicker: "my picks"
-        }),
-        sectionMarkup({
-          id: "all-bots",
-          name: "All Bots",
-          note: "everything I've got up right now, newest ideas mixed in with older ones.",
-          items: all
-        })
-      ].join("")
-    };
-  }
-
-  function renderCategories(query) {
-    let count = 0;
-    const html = cats.map(cat => {
-      const items = categoryItems(cat).filter(bot => matches(bot, query));
-      if (!items.length) return "";
-      count += items.length;
-      return sectionMarkup({ id: cat.id, name: cat.name, note: cat.note, items });
-    }).join("");
-    return { count, html };
-  }
-
-  function bindImageFallbacks() {
-    document.querySelectorAll(".bot-art img").forEach(img => {
-      img.addEventListener("error", () => img.remove(), { once: true });
-    });
-  }
-
-  function render() {
-    const query = searchEl.value.trim().toLowerCase();
-    const result = currentView === "categories"
-      ? renderCategories(query)
-      : renderAll(query);
-
-    sectionsEl.innerHTML = result.html;
-    bindImageFallbacks();
-    emptyEl.hidden = result.count !== 0;
-  }
-
-  async function load() {
-    try {
-      const response = await fetch("../assets/bots.json", { cache: "no-store" });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-      const data = await response.json();
-      cats = Array.isArray(data.categories) ? data.categories : [];
-      bots = Array.isArray(data.bots) ? data.bots : [];
-
-      pillsEl.innerHTML = cats
-        .map(cat => `<a href="#${escapeHtml(cat.id)}">${escapeHtml(cat.name)}</a>`)
-        .join("");
-
-      viewTabs.forEach(tab => {
-        tab.addEventListener("click", event => {
-          event.preventDefault();
-          setView(tab.dataset.view, true);
-        });
-      });
-
-      window.addEventListener("popstate", () => setView(readViewFromUrl(), false));
-      searchEl.addEventListener("input", render);
-      setView(readViewFromUrl(), false);
-    } catch (error) {
-      console.error("Couldn't load bots.json", error);
-      sectionsEl.innerHTML = '<p class="load-error">Couldn\'t load the bot list. Try refreshing the page.</p>';
-    }
-  }
-
-  load();
+const sectionsEl=document.getElementById('bot-sections'),overviewEl=document.getElementById('category-overview'),searchEl=document.getElementById('bot-search'),emptyEl=document.getElementById('empty-state'),countEl=document.getElementById('bot-count'),favoriteCountEl=document.getElementById('favorite-count'),viewTabs=[...document.querySelectorAll('[data-view]')];
+const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+const initials=n=>String(n||'?').split(/\s+/).filter(Boolean).map(p=>p[0]).join('').slice(0,2).toUpperCase();
+let categories=[],bots=[],currentView='all',newBadgeDays=14;
+const readView=()=>new URLSearchParams(location.search).get('view')==='categories'?'categories':'all';
+function setView(view,push=false){currentView=view==='categories'?'categories':'all';viewTabs.forEach(t=>{const a=t.dataset.view===currentView;t.classList.toggle('active',a);a?t.setAttribute('aria-current','page'):t.removeAttribute('aria-current')});if(push){const u=new URL(location.href);currentView==='all'?u.searchParams.delete('view'):u.searchParams.set('view','categories');u.hash='';history.pushState({view:currentView},'',u)}render()}
+function isNew(b){if(!b.addedAt)return false;const d=new Date(`${b.addedAt}T00:00:00`);if(Number.isNaN(d.getTime()))return false;const age=Date.now()-d.getTime();return age>=0&&age<=newBadgeDays*86400000}
+function art(b){const fb=`<span class="bot-art-fallback">${esc(initials(b.name))}</span>`;if(b.imageHidden)return `<div class="bot-art bot-art-hidden">${fb}<span class="hidden-image-note">${esc(b.imageNote||'Image hidden')}</span></div>`;if(!b.image)return `<div class="bot-art">${fb}</div>`;return `<div class="bot-art">${fb}<img src="${esc(b.image)}" alt="${esc(b.name)}" loading="lazy" referrerpolicy="no-referrer"></div>`}
+function badges(b){const x=[];if(Number.isFinite(Number(b.favoriteOrder)))x.push('<span class="card-badge favorite-badge">★ Favorite</span>');if(isNew(b))x.push('<span class="card-badge new-badge">New</span>');if(b.requested)x.push('<span class="card-badge requested-badge">Requested</span>');return x.length?`<div class="card-badges">${x.join('')}</div>`:''}
+function card(b){return `<article class="bot-card">${art(b)}<div class="bot-card-body"><div class="bot-card-topline"><h3>${esc(b.name)}</h3>${badges(b)}</div><p class="bot-title">${esc(b.title)}</p><p class="bot-blurb">${esc(b.blurb)}</p><a class="chat-button" href="${esc(b.url)}" target="_blank" rel="noopener">Open on SpicyChat <span>↗</span></a></div></article>`}
+function text(b){const c=categories.find(x=>x.id===b.category);return [b.name,b.title,b.blurb,c?.name,...(Array.isArray(b.tags)?b.tags:[])].join(' ').toLowerCase()}
+const matches=(b,q)=>!q||text(b).includes(q),ordered=a=>[...a].sort((x,y)=>Number(x.order||9999)-Number(y.order||9999));
+function catItems(id){return id==='requested'?ordered(bots.filter(b=>b.requested)):ordered(bots.filter(b=>b.category===id))}
+function section({id,name,note,items,kicker}){if(!items.length)return'';return `<section class="bot-section" id="${esc(id)}"><div class="section-heading"><div><p class="section-kicker">${esc(kicker||`${items.length} ${items.length===1?'bot':'bots'}`)}</p><h2>${esc(name)}</h2></div>${note?`<p>${esc(note)}</p>`:''}</div><div class="bot-grid">${items.map(card).join('')}</div></section>`}
+function categoryOverview(q){if(currentView!=='categories'||q){overviewEl.hidden=true;overviewEl.innerHTML='';return}const cards=categories.map(c=>{const n=catItems(c.id).length;if(!n)return'';return `<a class="category-card" href="#${esc(c.id)}"><span class="category-count">${n} ${n===1?'bot':'bots'}</span><h2>${esc(c.name)}</h2><p>${esc(c.note)}</p><span class="category-arrow">↓</span></a>`}).join('');overviewEl.innerHTML=`<div class="category-overview-heading"><p class="section-kicker">Browse by type</p><h2>Categories</h2></div><div class="category-card-grid">${cards}</div>`;overviewEl.hidden=false}
+function allView(q){const fav=bots.filter(b=>Number.isFinite(Number(b.favoriteOrder))).sort((a,b)=>Number(a.favoriteOrder)-Number(b.favoriteOrder)).filter(b=>matches(b,q)),all=ordered(bots).filter(b=>matches(b,q));return{count:all.length,html:section({id:'personal-favorites',name:'Personal Favorites',note:"the ones I'd probably point you at first if you don't know where to start.",items:fav,kicker:'my picks · in order'})+section({id:'all-bots',name:'All Bots',note:"everything I've got up right now. the order mostly follows how they show on my current creations page.",items:all,kicker:`${all.length} total`})}}
+function catView(q){const ids=new Set();const html=categories.map(c=>{const items=catItems(c.id).filter(b=>matches(b,q));items.forEach(b=>ids.add(b.id||b.url));return section({id:c.id,name:c.name,note:c.note,items})}).join('');return{count:ids.size,html}}
+function fallbacks(){document.querySelectorAll('.bot-art img').forEach(img=>img.addEventListener('error',()=>img.remove(),{once:true}))}
+function render(){const q=searchEl.value.trim().toLowerCase();categoryOverview(q);const r=currentView==='categories'?catView(q):allView(q);sectionsEl.innerHTML=r.html;fallbacks();emptyEl.hidden=r.count!==0}
+async function load(){try{const r=await fetch('../assets/bots.json',{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);const d=await r.json();categories=Array.isArray(d.categories)?d.categories:[];bots=Array.isArray(d.bots)?d.bots:[];newBadgeDays=Number(d.newBadgeDays||14);countEl.textContent=String(bots.length);favoriteCountEl.textContent=String(bots.filter(b=>Number.isFinite(Number(b.favoriteOrder))).length);viewTabs.forEach(t=>t.addEventListener('click',e=>{e.preventDefault();setView(t.dataset.view,true)}));addEventListener('popstate',()=>setView(readView(),false));searchEl.addEventListener('input',render);setView(readView(),false)}catch(e){console.error("Couldn't load bots.json",e);overviewEl.hidden=true;sectionsEl.innerHTML='<p class="load-error">Couldn\'t load the bot list. try refreshing the page.</p>'}}
+load();
 })();

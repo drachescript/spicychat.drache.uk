@@ -1,0 +1,1 @@
+(() => { const el=document.getElementById('home-bot-count'); if(!el)return; fetch('./assets/bots.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(d=>{if(Array.isArray(d.bots))el.textContent=String(d.bots.length)}).catch(()=>{}); })();
