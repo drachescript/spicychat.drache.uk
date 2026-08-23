@@ -1,1 +1,10 @@
-*.zip
+# Local SpicyChat updater inputs / outputs
+tools/imports/*.html
+tools/imports/*.htm
+tools/imports/archive/*
+!tools/imports/archive/.gitkeep
+tools/backups/*
+!tools/backups/.gitkeep
+tools/reports/*.txt
+!tools/reports/.gitkeep
+/tools
