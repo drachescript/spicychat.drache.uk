@@ -525,6 +525,24 @@
       "value": 500,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-24T13:32:40Z",
+      "botId": "e28727e4-3475-4aa3-acc8-54f039626243",
+      "botName": "Avery Knox",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-24T13:32:40Z",
+      "botId": "e28727e4-3475-4aa3-acc8-54f039626243",
+      "botName": "Avery Knox",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
