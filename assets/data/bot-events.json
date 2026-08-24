@@ -516,6 +516,15 @@
       "type": "visibility",
       "from": "unlisted",
       "to": "public"
+    },
+    {
+      "at": "2026-08-24T08:41:06Z",
+      "botId": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "botName": "Spider Lady",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
