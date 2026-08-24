@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-24T09:26:22Z",
+  "capturedAt": "2026-08-24T11:04:29Z",
   "source": "github-public-updater",
   "sourceSha256": "eb54eca357adcfb898c75360e5458cda4d2ac10c366db0dcee74dcb98eafffaa",
   "label": "Automatic update",
@@ -263,15 +263,18 @@
       "title": "The Bodyguard You Never Asked For",
       "url": "https://spicychat.ai/chat/e28727e4-3475-4aa3-acc8-54f039626243",
       "visibility": "public",
-      "messages": 68,
-      "messagesDisplay": "68",
+      "messages": 94,
+      "messagesDisplay": "94",
       "messagesApproximate": false,
       "tokens": 1547,
       "tokensDisplay": "1547",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/24cd7e08-7ef6-4f82-bccd-3a676e0b5b66.jpg?class=avatar256x256",
-      "rawMessages": "68",
-      "rawTokens": "1547"
+      "rawMessages": "94",
+      "rawTokens": "1547",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/e28727e4-3475-4aa3-acc8-54f039626243",
+      "statsUpdatedAt": "2026-08-24T11:04:29Z"
     },
     {
       "id": "615e3b47-93d7-4b56-855e-6129db0529f3",
