@@ -1,25 +1,28 @@
 # spicychat.drache.uk
 
-GitHub Pages site for Dragon's SpicyChat bot collection and project links.
+Static site for my SpicyChat bot collection.
 
-- `/` — landing page / project hub
-- `/chatbots/` — chatbot collection
-- `/chatbots/stats/` — noindex bot stats page
-- `/.well-known/discord` — Discord domain verification
+## Main pages
 
-## Site data
+- `/` — home
+- `/chatbots/` — full bot collection
+- `/chatbots/stats/` — bot stats
+- `/changelog/` — site changelog
 
-- `assets/data/bots.json` — curated bot data: blurbs, category, tags, favorites, origin, made date and hidden-image settings
-- `assets/data/bot-stats.json` — latest SpicyChat stats update
-- `assets/data/bot-history.json` — saved message/status/token history
-- `assets/data/bot-events.json` — timeline events such as milestones, visibility changes and new bots
+## Bot data
 
-Bot cards are rendered generically; bot entries are not hardcoded in JavaScript.
+Public site data lives in `assets/data/`.
 
-Personal favorite order is controlled by `favoriteOrder`. Current order: Yui Kimura, Raptor Pack, Nova, Rhea Mercer.
+- `bots.json` — the hand-edited bot list, categories, origins, favorites and made dates
+- `bot-stats.json` — latest usage stats
+- `bot-history.json` — saved stat history
+- `bot-events.json` — milestones and other tracked changes
+- `bot-discoveries.json` — new public bots noticed by the automatic updater but not added to the collection yet
 
-`origin` is the single source of truth for Requested vs Made for Myself. `createdAt` is used for bot age and messages/day; older bots use the best creation evidence currently available when an exact date was not recorded.
+## Automatic stats
 
-## Local updater
+`.github/workflows/update-bot-stats.yml` checks the public creator page and direct bot profile pages. During testing it runs every 2 hours. The normal schedule can be changed to every 6 hours later.
 
-`/tools/` stays inside the working project but is gitignored. See `tools/README.md` locally for the HTML importer/history workflow.
+The automatic updater only changes usage/stat data. It does not rewrite hand-edited bot info such as categories, origins, blurbs or favorites.
+
+The local My Creations updater stays under `/tools/` and is ignored by git.
