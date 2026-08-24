@@ -552,6 +552,15 @@
       "value": 100,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-24T22:56:01Z",
+      "botId": "a1cf80af-e406-4a57-9cd4-547c736c9683",
+      "botName": "Felicia Mercer",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
