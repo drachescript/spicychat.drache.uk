@@ -1,1 +1,1 @@
-(() => { const el=document.getElementById('home-bot-count'); if(!el)return; fetch('./assets/bots.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(d=>{if(Array.isArray(d.bots))el.textContent=String(d.bots.length)}).catch(()=>{}); })();
+(()=>{fetch('./assets/data/bots.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(d=>{const n=(d.bots||[]).length;const a=document.getElementById('home-bot-count');if(a)a.textContent=n;document.querySelectorAll('.feature-mark[data-bot-count]').forEach(x=>x.textContent=n)}).catch(()=>{})})();
