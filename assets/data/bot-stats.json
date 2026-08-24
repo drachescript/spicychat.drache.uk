@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-24T08:41:06Z",
+  "capturedAt": "2026-08-24T09:26:22Z",
   "source": "github-public-updater",
   "sourceSha256": "eb54eca357adcfb898c75360e5458cda4d2ac10c366db0dcee74dcb98eafffaa",
   "label": "Automatic update",
@@ -11,18 +11,18 @@
       "title": "The Spider Lady Keeps Finding You (Silent Hill)",
       "url": "https://spicychat.ai/chat/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
       "visibility": "public",
-      "messages": 605,
-      "messagesDisplay": "605",
+      "messages": 626,
+      "messagesDisplay": "626",
       "messagesApproximate": false,
       "tokens": 2294,
       "tokensDisplay": "2294",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256",
-      "rawMessages": "605",
+      "rawMessages": "626",
       "rawTokens": "2294",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
-      "statsUpdatedAt": "2026-08-24T08:41:06Z"
+      "statsUpdatedAt": "2026-08-24T09:26:22Z"
     },
     {
       "id": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
@@ -212,15 +212,18 @@
       "title": "The Popular Girl Thinks You're Ignoring Her (blind POV)",
       "url": "https://spicychat.ai/chat/a04bc9a5-952e-4870-ac90-0a267f695374",
       "visibility": "public",
-      "messages": 11,
-      "messagesDisplay": "11",
+      "messages": 41,
+      "messagesDisplay": "41",
       "messagesApproximate": false,
       "tokens": 1746,
       "tokensDisplay": "1746",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/ab3a99c7-f000-4704-a35f-beaa2860348d.png?class=avatar256x256",
-      "rawMessages": "11",
-      "rawTokens": "1746"
+      "rawMessages": "41",
+      "rawTokens": "1746",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/a04bc9a5-952e-4870-ac90-0a267f695374",
+      "statsUpdatedAt": "2026-08-24T09:26:22Z"
     },
     {
       "id": "fbfad622-eea2-493b-8894-6d6f877441de",
