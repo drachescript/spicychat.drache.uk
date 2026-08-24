@@ -8,3 +8,4 @@ tools/backups/*
 tools/reports/*.txt
 !tools/reports/.gitkeep
 /tools
+*.zip
