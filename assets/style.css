@@ -32,3 +32,12 @@
 @media(max-width:700px){.stats-subnav{flex-wrap:nowrap;overflow:auto}.stats-subnav a{white-space:nowrap}.activity-event{grid-template-columns:92px 8px minmax(0,1fr);gap:9px}.bot-detail-hero{grid-template-columns:1fr;align-items:start;padding-top:34px}.bot-detail-art{width:132px;border-radius:18px}.bot-detail-copy h1{font-size:42px}.bot-detail-facts{grid-template-columns:1fr 1fr}.launch-grid{grid-template-columns:1fr}.bot-detail-chart{margin-inline:12px}.milestone-list{grid-template-columns:1fr 1fr}}
 @media(max-width:440px){.bot-detail-facts{grid-template-columns:1fr}.milestone-list{grid-template-columns:1fr}.activity-event{grid-template-columns:1fr}.activity-event .activity-dot{display:none}.activity-event time{padding:0}.bot-detail-actions .button{width:100%}}
 .bot-card-stats-hint{position:absolute;z-index:3;left:8px;top:8px;margin:0;padding:4px 6px;border:1px solid rgba(255,255,255,.12);border-radius:7px;background:rgba(7,8,10,.72);backdrop-filter:blur(8px);color:#fff;font-size:8px;font-weight:800;opacity:0;transform:translateY(-2px);pointer-events:none}.bot-card-clickable:hover .bot-card-stats-hint,.bot-card-clickable:focus-visible .bot-card-stats-hint{opacity:1;transform:translateY(0)}
+
+/* v0.6.7 compact overview polish + discovery badges */
+.hot-badge{color:#ffc59e;background:rgba(255,139,88,.11);border:1px solid rgba(255,139,88,.22)}
+.bot-row-clickable{cursor:pointer}.bot-row-clickable:focus-visible{outline:1px solid var(--blue);outline-offset:-1px}.stats-ranked-list .bot-row-clickable:hover,.health-list .bot-row-clickable:hover{background:#151821}.activity-event.bot-row-clickable:hover{background:rgba(255,255,255,.018)}
+.recent-change-divider{display:block!important;padding:6px 18px!important;border-top:1px solid var(--line-soft)!important;background:#0e1015;color:var(--faint);font-size:7.5px!important;font-weight:850;text-transform:uppercase;letter-spacing:.1em}
+.stats-panel-head-side{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}.stats-panel-head-side>span{color:var(--faint);font-size:9px}
+.bot-at-a-glance{width:fit-content;max-width:100%;margin:14px 0 0;padding:7px 10px;border:1px solid var(--line-soft);border-radius:999px;background:rgba(124,183,255,.06);color:var(--soft);font-size:9.5px;font-weight:760;line-height:1.35}
+.leaderboard-card .stats-link-button{font-size:inherit}.health-panel[hidden]{display:none}
+@media(max-width:620px){.stats-panel-head-side{align-items:flex-end;flex-direction:column;gap:3px}.bot-at-a-glance{border-radius:10px}}

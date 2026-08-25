@@ -15,3 +15,8 @@ Static GitHub Pages site for Dragon's SpicyChat bot collection.
 - `/changelog/` — site changelog
 
 Bot/content data stays under `assets/data/`. Local import tools stay under `tools/` and are gitignored.
+
+## Collection badges
+
+- `New` lasts 7 days. Public bots count from their public date; unlisted bots count from their made date.
+- `Hot` is based on the strongest visible 24-hour message growth from saved stats history.

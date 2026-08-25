@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.7 — August 25, 2026
+
+- New badges now last 7 days; public bots use their public date while unlisted bots use their made date
+- added a separate Hot badge for the strongest visible 24-hour growers
+- Recent Changes now fills up to 5 useful entries by pulling in earlier saved updates when the latest update is sparse
+- recent-change rows now show rank movement, milestone context and how recent the change was
+- kept Recently Made compact at 5 entries with a link to the full New bots activity view
+- bot rows across Stats are clickable and open the reusable detailed bot page
+- detailed bot pages now include an at-a-glance summary, current/previous rank and best observed 7-day performance
+- Data Check now stays hidden when there is nothing that needs attention
+- milestone tracking continues to use 100 / 250 / 500 / 1k / 2.5k / 5k / 10k
+
 ## v0.6.6 — August 25, 2026
 
 - split the growing stats dashboard into Overview, Trending, Update History, Activity and Low Movement pages
