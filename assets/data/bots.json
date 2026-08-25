@@ -63,7 +63,7 @@
       "createdAt": "2026-08-25",
       "createdAtSource": "first-import",
       "missingFromLatest": false,
-      "needsReview": true
+      "needsReview": false
     },
     {
       "id": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
