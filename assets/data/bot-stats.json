@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-25T11:02:21Z",
+  "capturedAt": "2026-08-25T13:30:23Z",
   "source": "github-public-updater",
   "sourceSha256": "a6e9cc2f09786674f90c9e08cf1a5c280887a2d12087a2314fdbe7b70bafa650",
   "label": "Automatic update",
@@ -14,15 +14,15 @@
       "messages": 76,
       "messagesDisplay": "76",
       "messagesApproximate": false,
-      "tokens": 2212,
-      "tokensDisplay": "2212",
+      "tokens": 2292,
+      "tokensDisplay": "2292",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c9af6731-6ff1-4048-abb0-bcaf92a5b178.jpg?class=avatar256x256",
       "rawMessages": "76",
-      "rawTokens": "2,212",
+      "rawTokens": "2,292",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/98ebe0d7-625d-4196-a7a5-ebfd4f262367",
-      "statsUpdatedAt": "2026-08-25T11:02:21Z"
+      "statsUpdatedAt": "2026-08-25T13:30:23Z"
     },
     {
       "id": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
@@ -190,15 +190,18 @@
       "title": "The Princess Hires the Dragon to Guide Her to Himself (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/9e005568-3419-4717-9d31-d7dd70104a7f",
       "visibility": "public",
-      "messages": 96,
-      "messagesDisplay": "96",
+      "messages": 126,
+      "messagesDisplay": "126",
       "messagesApproximate": false,
       "tokens": 1648,
       "tokensDisplay": "1648",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9f8d64f6-c2c9-4e4d-81fe-301aa82dba42.png?class=avatar256x256",
-      "rawMessages": "96",
-      "rawTokens": "1648"
+      "rawMessages": "126",
+      "rawTokens": "1648",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/9e005568-3419-4717-9d31-d7dd70104a7f",
+      "statsUpdatedAt": "2026-08-25T13:30:23Z"
     },
     {
       "id": "a1cf80af-e406-4a57-9cd4-547c736c9683",
