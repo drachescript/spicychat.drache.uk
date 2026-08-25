@@ -22,6 +22,7 @@ STATS_PATH = DATA_DIR / "bot-stats.json"
 HISTORY_PATH = DATA_DIR / "bot-history.json"
 EVENTS_PATH = DATA_DIR / "bot-events.json"
 DISCOVERIES_PATH = DATA_DIR / "bot-discoveries.json"
+PUBLIC_PATH = DATA_DIR / "bot-public.json"
 
 PROFILE_RE = re.compile(r"/chatbot/([^/?#]+)")
 CHAT_RE = re.compile(r"/chat/([^/?#]+)")
@@ -367,6 +368,7 @@ def process_updates(
     history_doc: dict,
     events_doc: dict,
     discoveries_doc: dict,
+    public_doc: dict,
     creator_entries: dict[str, dict],
     direct_entries: dict[str, dict],
     now: str,
@@ -378,6 +380,15 @@ def process_updates(
     changed_bot_ids: set[str] = set()
     milestones_added: list[str] = []
     visibility_changes: list[str] = []
+    public_baselines_added: list[str] = []
+    public_changed = False
+    public_doc.setdefault("schemaVersion", 1)
+    public_doc.setdefault(
+        "note",
+        "Public baselines are evidence-based. first-observed means the bot was definitely public by that point, not that the exact switch time is known.",
+    )
+    public_entries = public_doc.setdefault("bots", [])
+    public_by_id = {item.get("id"): item for item in public_entries if item.get("id")}
 
     milestones = events_doc.get("milestones") or MILESTONES_DEFAULT
     new_rows = []
@@ -395,8 +406,8 @@ def process_updates(
 
             # Appearing on the public creator profile is enough to confirm public visibility.
             visibility_changed = False
-            if observed["source"] == "creator-profile" and row.get("visibility") != "public":
-                old_visibility = row.get("visibility", "unknown")
+            old_visibility = row.get("visibility", "unknown")
+            if observed["source"] == "creator-profile" and old_visibility != "public":
                 row["visibility"] = "public"
                 visibility_changed = True
                 visibility_changes.append(f"{row.get('name')}: {old_visibility} -> public")
@@ -412,6 +423,27 @@ def process_updates(
                         "source": "creator-profile",
                     },
                 )
+
+            # Save the first public message baseline once. Direct chatbot pages can also
+            # belong to unlisted bots, so only the creator listing confirms public status.
+            if observed["source"] == "creator-profile" and bot_id not in public_by_id and row.get("messages") is not None:
+                was_non_public = old_visibility not in {None, "", "unknown", "public"}
+                baseline = {
+                    "id": bot_id,
+                    "name": bot.get("name", row.get("name", bot_id)),
+                    "firstPublicObservedAt": now,
+                    "previousNonPublicObservedAt": stats_doc.get("capturedAt") if was_non_public else None,
+                    "baselineAt": now,
+                    "messagesAtBaseline": row.get("messages"),
+                    "messagesDisplayAtBaseline": row.get("messagesDisplay") or str(row.get("messages")),
+                    "messagesApproximateAtBaseline": bool(row.get("messagesApproximate")),
+                    "accuracy": "first-observed",
+                    "source": "creator-profile",
+                }
+                public_entries.append(baseline)
+                public_by_id[bot_id] = baseline
+                public_baselines_added.append(baseline["name"])
+                public_changed = True
 
             if old_messages is None and row.get("messages") is not None:
                 add_event(
@@ -511,10 +543,13 @@ def process_updates(
 
     events_doc["events"] = sorted(events_doc.get("events", []), key=lambda e: e.get("at", ""))
     discoveries_doc["discoveries"] = sorted(discoveries_doc.get("discoveries", []), key=lambda d: d.get("firstSeenAt", ""))
+    public_doc["bots"] = sorted(public_doc.get("bots", []), key=lambda d: (d.get("firstPublicObservedAt", ""), d.get("name", "")))
 
     return {
         "statsChanged": meaningful_stats_change,
         "discoveriesChanged": discoveries_changed,
+        "publicChanged": public_changed,
+        "publicBaselines": public_baselines_added,
         "changedBotIds": sorted(changed_bot_ids),
         "newDiscoveries": new_discoveries,
         "milestones": milestones_added,
@@ -551,6 +586,8 @@ def build_summary(result: dict, creator_count: int, pages_checked: int, direct_c
         lines.append(f"- Milestones: **{', '.join(result['milestones'])}**")
     if result["visibilityChanges"]:
         lines.append(f"- Visibility changes: **{', '.join(result['visibilityChanges'])}**")
+    if result.get("publicBaselines"):
+        lines.append(f"- Public baselines added: **{', '.join(result['publicBaselines'])}**")
     if unavailable:
         lines.append(f"- Direct profiles unavailable: **{len(unavailable)}**")
     if result["warnings"]:
@@ -559,7 +596,7 @@ def build_summary(result: dict, creator_count: int, pages_checked: int, direct_c
         lines += ["", "### Needs site info"] + [
             f"- {item['name']} (`{item['id']}`)" for item in result["newDiscoveries"]
         ]
-    if not result["statsChanged"] and not result["discoveriesChanged"]:
+    if not result["statsChanged"] and not result["discoveriesChanged"] and not result.get("publicChanged"):
         lines += ["", "No repository data changed this run."]
     return "\n".join(lines) + "\n"
 
@@ -578,6 +615,7 @@ def main() -> int:
     history_doc = read_json(HISTORY_PATH)
     events_doc = read_json(EVENTS_PATH, {"schemaVersion": 1, "milestones": MILESTONES_DEFAULT, "events": []})
     discoveries_doc = read_json(DISCOVERIES_PATH, {"schemaVersion": 1, "discoveries": []})
+    public_doc = read_json(PUBLIC_PATH, {"schemaVersion": 1, "bots": []})
 
     known_ids = {bot["id"] for bot in bots_doc.get("bots", [])}
     creator_url = f"https://spicychat.ai/creator/{args.creator}"
@@ -629,6 +667,7 @@ def main() -> int:
             history_doc,
             events_doc,
             discoveries_doc,
+            public_doc,
             creator_entries,
             direct_entries,
             now,
@@ -655,6 +694,8 @@ def main() -> int:
 
             if result["discoveriesChanged"]:
                 write_json(DISCOVERIES_PATH, discoveries_doc)
+            if result.get("publicChanged"):
+                write_json(PUBLIC_PATH, public_doc)
 
         return 0
     finally:

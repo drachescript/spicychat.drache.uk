@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.4 — August 25, 2026
+
+- expanded Stats with 6h, 12h, 24h, 3d, 7d, 14d, 30d and all-time views
+- added recent popularity, message gain and percentage-growth rankings
+- added per-bot history with saved message points and a small graph
+- added update history so each saved stats update can be opened and compared
+- added public message baselines so public bots can show how much they gained after first being seen public
+- backfilled the public baselines from older saved SpicyChat pages where possible
+- the automatic and local updaters now keep public baselines for future bots
+- Stats now has the main navigation spot instead of Changelog
+- changed the visible Dragon site image to `dragonfull.jpg` while keeping the smaller favicon/app icons
+
 ## v0.6.3 — August 24, 2026
 
 - added automatic bot stat checks through GitHub Actions
@@ -16,9 +28,7 @@
 ## v0.6.2 — August 24, 2026
 
 - cleaned up the stats page wording
-- changed Latest snapshot to Latest update
-- changed Recently known to Recently made
-- changed Data health to Data check
+- cleaned up a few stats page labels
 - added bot age and average messages per day
 - bot age now uses the bot's made date instead of the latest saved HTML date
 - moved short-term message changes into their own Since last update section
