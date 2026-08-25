@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-25T17:08:07Z",
+  "capturedAt": "2026-08-25T19:10:48Z",
   "source": "github-public-updater",
   "sourceSha256": "a6e9cc2f09786674f90c9e08cf1a5c280887a2d12087a2314fdbe7b70bafa650",
   "label": "Automatic update",
@@ -30,15 +30,18 @@
       "title": "The Spider Lady Keeps Finding You (Silent Hill)",
       "url": "https://spicychat.ai/chat/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
       "visibility": "public",
-      "messages": 767,
-      "messagesDisplay": "767",
+      "messages": 780,
+      "messagesDisplay": "780",
       "messagesApproximate": false,
       "tokens": 2294,
       "tokensDisplay": "2294",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256",
-      "rawMessages": "767",
-      "rawTokens": "2294"
+      "rawMessages": "780",
+      "rawTokens": "2294",
+      "statsSource": "direct-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "statsUpdatedAt": "2026-08-25T19:10:48Z"
     },
     {
       "id": "c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
