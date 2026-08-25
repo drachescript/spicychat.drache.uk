@@ -561,6 +561,12 @@
       "value": 100,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-25T02:23:52-04:00",
+      "botId": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "botName": "Piper QoL",
+      "type": "new"
     }
   ]
 }
