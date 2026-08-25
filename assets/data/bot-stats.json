@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-25T02:23:52-04:00",
-  "source": "All Your Chatbot Characters In One Place _ Spicychat.html",
+  "capturedAt": "2026-08-25T07:27:28Z",
+  "source": "github-public-updater",
   "sourceSha256": "a6e9cc2f09786674f90c9e08cf1a5c280887a2d12087a2314fdbe7b70bafa650",
-  "label": "Imported export",
+  "label": "Automatic update",
   "bots": [
     {
       "id": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
@@ -11,15 +11,18 @@
       "title": "She's Upset You Still Don't Use SpicyChat QoL",
       "url": "https://spicychat.ai/chat/98ebe0d7-625d-4196-a7a5-ebfd4f262367",
       "visibility": "unlisted",
-      "messages": 4,
-      "messagesDisplay": "4",
+      "messages": 49,
+      "messagesDisplay": "49",
       "messagesApproximate": false,
-      "tokens": 2243,
-      "tokensDisplay": "2243",
+      "tokens": 2201,
+      "tokensDisplay": "2201",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c9af6731-6ff1-4048-abb0-bcaf92a5b178.jpg?class=avatar256x256",
-      "rawMessages": "4",
-      "rawTokens": "2243"
+      "rawMessages": "49",
+      "rawTokens": "2,201",
+      "statsSource": "direct-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "statsUpdatedAt": "2026-08-25T07:27:28Z"
     },
     {
       "id": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
