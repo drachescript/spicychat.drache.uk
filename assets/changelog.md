@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.6 — August 25, 2026
+
+- split the growing stats dashboard into Overview, Trending, Update History, Activity and Low Movement pages
+- kept the main Stats overview compact instead of putting every analytics tool on one page
+- added one reusable detailed stats page for every bot
+- bot detail pages show made date, confirmed public date, current rank, recent growth, since-public growth, launch tracking, history, bot info and milestones
+- chatbot cards are now clickable and open that bot's detailed stats page
+- kept the existing Open on SpicyChat button unchanged
+- bot names throughout Stats now link to the reusable detailed bot page
+
 ## v0.6.5 — August 25, 2026
 
 - replaced the estimated public dates with the SpicyChat approval-email times for all 36 current public bots
