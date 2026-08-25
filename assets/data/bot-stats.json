@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-25T02:05:19Z",
+  "capturedAt": "2026-08-25T03:28:11Z",
   "source": "github-public-updater",
   "sourceSha256": "eb54eca357adcfb898c75360e5458cda4d2ac10c366db0dcee74dcb98eafffaa",
   "label": "Automatic update",
@@ -215,18 +215,18 @@
       "title": "The Popular Girl Thinks You're Ignoring Her (blind POV)",
       "url": "https://spicychat.ai/chat/a04bc9a5-952e-4870-ac90-0a267f695374",
       "visibility": "public",
-      "messages": 183,
-      "messagesDisplay": "183",
+      "messages": 199,
+      "messagesDisplay": "199",
       "messagesApproximate": false,
       "tokens": 1746,
       "tokensDisplay": "1746",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/ab3a99c7-f000-4704-a35f-beaa2860348d.png?class=avatar256x256",
-      "rawMessages": "183",
+      "rawMessages": "199",
       "rawTokens": "1746",
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/a04bc9a5-952e-4870-ac90-0a267f695374",
-      "statsUpdatedAt": "2026-08-24T19:11:44Z"
+      "statsUpdatedAt": "2026-08-25T03:28:11Z"
     },
     {
       "id": "fbfad622-eea2-493b-8894-6d6f877441de",
@@ -563,18 +563,18 @@
       "title": "Four adult raptors find the Indoraptor in their territory. AU",
       "url": "https://spicychat.ai/chat/7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
       "visibility": "public",
-      "messages": 1700,
-      "messagesDisplay": "1.7k",
+      "messages": 1800,
+      "messagesDisplay": "1.8k",
       "messagesApproximate": true,
       "tokens": 2104,
       "tokensDisplay": "2104",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/e06387e9-1532-4851-8b49-2f5d0c77bbf1.jpg?class=avatar256x256",
-      "rawMessages": "1.7k",
+      "rawMessages": "1.8k",
       "rawTokens": "2104",
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
-      "statsUpdatedAt": "2026-08-24T22:56:01Z"
+      "statsUpdatedAt": "2026-08-25T03:28:11Z"
     },
     {
       "id": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
