@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-25T19:10:48Z",
+  "capturedAt": "2026-08-25T20:57:59Z",
   "source": "github-public-updater",
   "sourceSha256": "a6e9cc2f09786674f90c9e08cf1a5c280887a2d12087a2314fdbe7b70bafa650",
   "label": "Automatic update",
@@ -30,18 +30,18 @@
       "title": "The Spider Lady Keeps Finding You (Silent Hill)",
       "url": "https://spicychat.ai/chat/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
       "visibility": "public",
-      "messages": 780,
-      "messagesDisplay": "780",
+      "messages": 784,
+      "messagesDisplay": "784",
       "messagesApproximate": false,
       "tokens": 2294,
       "tokensDisplay": "2294",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256",
-      "rawMessages": "780",
+      "rawMessages": "784",
       "rawTokens": "2294",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
-      "statsUpdatedAt": "2026-08-25T19:10:48Z"
+      "statsUpdatedAt": "2026-08-25T20:57:59Z"
     },
     {
       "id": "c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
@@ -474,18 +474,18 @@
       "title": "His Girlfriend Thinks You're Controlling Him (DID POV)",
       "url": "https://spicychat.ai/chat/a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
       "visibility": "public",
-      "messages": 118,
-      "messagesDisplay": "118",
+      "messages": 173,
+      "messagesDisplay": "173",
       "messagesApproximate": false,
       "tokens": 1860,
       "tokensDisplay": "1860",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/ed0a77bb-3188-4851-a8c2-6c172109144c.png?class=avatar256x256",
-      "rawMessages": "118",
+      "rawMessages": "173",
       "rawTokens": "1860",
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
-      "statsUpdatedAt": "2026-08-25T15:24:21Z"
+      "statsUpdatedAt": "2026-08-25T20:57:59Z"
     },
     {
       "id": "615e3b47-93d7-4b56-855e-6129db0529f3",
