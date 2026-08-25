@@ -382,10 +382,10 @@ def process_updates(
     visibility_changes: list[str] = []
     public_baselines_added: list[str] = []
     public_changed = False
-    public_doc.setdefault("schemaVersion", 1)
-    public_doc.setdefault(
-        "note",
-        "Public baselines are evidence-based. first-observed means the bot was definitely public by that point, not that the exact switch time is known.",
+    public_doc["schemaVersion"] = max(2, int(public_doc.get("schemaVersion") or 1))
+    public_doc["note"] = (
+        "Public dates are confirmed from SpicyChat approval emails when publicSinceAccuracy is confirmed. "
+        "Message baselines are kept separately because the first saved message count can be later than the approval time."
     )
     public_entries = public_doc.setdefault("bots", [])
     public_by_id = {item.get("id"): item for item in public_entries if item.get("id")}
@@ -431,12 +431,18 @@ def process_updates(
                 baseline = {
                     "id": bot_id,
                     "name": bot.get("name", row.get("name", bot_id)),
+                    "publicSinceAt": now,
+                    "publicSinceAccuracy": "first-observed",
+                    "publicSinceSource": "creator-profile",
                     "firstPublicObservedAt": now,
                     "previousNonPublicObservedAt": stats_doc.get("capturedAt") if was_non_public else None,
                     "baselineAt": now,
                     "messagesAtBaseline": row.get("messages"),
                     "messagesDisplayAtBaseline": row.get("messagesDisplay") or str(row.get("messages")),
                     "messagesApproximateAtBaseline": bool(row.get("messagesApproximate")),
+                    "baselineAccuracy": "same-observation",
+                    "baselineLagMinutes": 0,
+                    "baselineSource": "creator-profile",
                     "accuracy": "first-observed",
                     "source": "creator-profile",
                 }

@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.5 — August 25, 2026
+
+- replaced the estimated public dates with the SpicyChat approval-email times for all 36 current public bots
+- kept the public date separate from the first saved message baseline
+- since-public message gains now stay marked as a minimum when the first message snapshot happened after publication
+- bot history now shows the confirmed public time and when message tracking started
+- Data Check now points out public bots that only have an estimated public date
+
 ## v0.6.4 — August 25, 2026
 
 - expanded Stats with 6h, 12h, 24h, 3d, 7d, 14d, 30d and all-time views
