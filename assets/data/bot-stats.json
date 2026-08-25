@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-25T15:24:21Z",
+  "capturedAt": "2026-08-25T17:08:07Z",
   "source": "github-public-updater",
   "sourceSha256": "a6e9cc2f09786674f90c9e08cf1a5c280887a2d12087a2314fdbe7b70bafa650",
   "label": "Automatic update",
@@ -126,15 +126,18 @@
       "title": "The Popular Girl Thinks You Hate Her (Mute POV)",
       "url": "https://spicychat.ai/chat/5d2df83e-1ee3-4654-8897-c280742a0fe2",
       "visibility": "public",
-      "messages": 611,
-      "messagesDisplay": "611",
+      "messages": 625,
+      "messagesDisplay": "625",
       "messagesApproximate": false,
       "tokens": 1867,
       "tokensDisplay": "1867",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/f6795cc1-8dbf-46df-bcd7-0adec3544ba3.jpg?class=avatar256x256",
-      "rawMessages": "611",
-      "rawTokens": "1867"
+      "rawMessages": "625",
+      "rawTokens": "1867",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "statsUpdatedAt": "2026-08-25T17:08:07Z"
     },
     {
       "id": "a04bc9a5-952e-4870-ac90-0a267f695374",
@@ -190,18 +193,18 @@
       "title": "The Princess Hires the Dragon to Guide Her to Himself (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/9e005568-3419-4717-9d31-d7dd70104a7f",
       "visibility": "public",
-      "messages": 156,
-      "messagesDisplay": "156",
+      "messages": 192,
+      "messagesDisplay": "192",
       "messagesApproximate": false,
       "tokens": 1648,
       "tokensDisplay": "1648",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9f8d64f6-c2c9-4e4d-81fe-301aa82dba42.png?class=avatar256x256",
-      "rawMessages": "156",
+      "rawMessages": "192",
       "rawTokens": "1648",
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/9e005568-3419-4717-9d31-d7dd70104a7f",
-      "statsUpdatedAt": "2026-08-25T15:24:21Z"
+      "statsUpdatedAt": "2026-08-25T17:08:07Z"
     },
     {
       "id": "a1cf80af-e406-4a57-9cd4-547c736c9683",
