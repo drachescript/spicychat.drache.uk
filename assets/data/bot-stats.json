@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-24T22:56:01Z",
+  "capturedAt": "2026-08-25T02:05:19Z",
   "source": "github-public-updater",
   "sourceSha256": "eb54eca357adcfb898c75360e5458cda4d2ac10c366db0dcee74dcb98eafffaa",
   "label": "Automatic update",
@@ -11,18 +11,18 @@
       "title": "The Spider Lady Keeps Finding You (Silent Hill)",
       "url": "https://spicychat.ai/chat/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
       "visibility": "public",
-      "messages": 650,
-      "messagesDisplay": "650",
+      "messages": 733,
+      "messagesDisplay": "733",
       "messagesApproximate": false,
       "tokens": 2294,
       "tokensDisplay": "2294",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256",
-      "rawMessages": "650",
+      "rawMessages": "733",
       "rawTokens": "2294",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
-      "statsUpdatedAt": "2026-08-24T21:01:34Z"
+      "statsUpdatedAt": "2026-08-25T02:05:19Z"
     },
     {
       "id": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
@@ -196,18 +196,18 @@
       "title": "The Princess Hires the Dragon to Guide Her to Himself (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/9e005568-3419-4717-9d31-d7dd70104a7f",
       "visibility": "public",
-      "messages": 88,
-      "messagesDisplay": "88",
+      "messages": 96,
+      "messagesDisplay": "96",
       "messagesApproximate": false,
       "tokens": 1648,
       "tokensDisplay": "1648",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9f8d64f6-c2c9-4e4d-81fe-301aa82dba42.png?class=avatar256x256",
-      "rawMessages": "88",
+      "rawMessages": "96",
       "rawTokens": "1648",
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/9e005568-3419-4717-9d31-d7dd70104a7f",
-      "statsUpdatedAt": "2026-08-24T19:11:44Z"
+      "statsUpdatedAt": "2026-08-25T02:05:19Z"
     },
     {
       "id": "a04bc9a5-952e-4870-ac90-0a267f695374",
