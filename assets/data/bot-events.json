@@ -576,6 +576,15 @@
       "value": 100,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-25T22:58:11Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
