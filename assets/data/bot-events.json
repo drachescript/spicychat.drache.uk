@@ -630,6 +630,24 @@
       "value": 500,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-26T18:19:26Z",
+      "botId": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "botName": "Spider Lady",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-26T18:19:26Z",
+      "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
+      "botName": "Maya Serrano",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
