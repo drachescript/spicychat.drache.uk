@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-26T07:28:54Z",
+  "capturedAt": "2026-08-26T11:04:44Z",
   "source": "github-public-updater",
   "sourceSha256": "a6e9cc2f09786674f90c9e08cf1a5c280887a2d12087a2314fdbe7b70bafa650",
   "label": "Automatic update",
@@ -448,18 +448,18 @@
       "title": "The Knight Hunting the Dragon Doesn't Know You're Him (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
       "visibility": "public",
-      "messages": 267,
-      "messagesDisplay": "267",
+      "messages": 292,
+      "messagesDisplay": "292",
       "messagesApproximate": false,
       "tokens": 1520,
       "tokensDisplay": "1520",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/5bd18c54-9535-451e-8f65-99dd297a2ab4.jpg?class=avatar256x256",
-      "rawMessages": "267",
+      "rawMessages": "292",
       "rawTokens": "1520",
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
-      "statsUpdatedAt": "2026-08-26T07:28:54Z"
+      "statsUpdatedAt": "2026-08-26T11:04:44Z"
     },
     {
       "id": "be449df2-b6f7-48b4-831d-d309eaf04f27",
