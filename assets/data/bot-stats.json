@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-26T02:11:09Z",
+  "capturedAt": "2026-08-26T03:34:47Z",
   "source": "github-public-updater",
   "sourceSha256": "a6e9cc2f09786674f90c9e08cf1a5c280887a2d12087a2314fdbe7b70bafa650",
   "label": "Automatic update",
@@ -151,15 +151,18 @@
       "title": "The Popular Girl Thinks You're Ignoring Her (blind POV)",
       "url": "https://spicychat.ai/chat/a04bc9a5-952e-4870-ac90-0a267f695374",
       "visibility": "public",
-      "messages": 199,
-      "messagesDisplay": "199",
+      "messages": 202,
+      "messagesDisplay": "202",
       "messagesApproximate": false,
       "tokens": 1746,
       "tokensDisplay": "1746",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/ab3a99c7-f000-4704-a35f-beaa2860348d.png?class=avatar256x256",
-      "rawMessages": "199",
-      "rawTokens": "1746"
+      "rawMessages": "202",
+      "rawTokens": "1746",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/a04bc9a5-952e-4870-ac90-0a267f695374",
+      "statsUpdatedAt": "2026-08-26T03:34:47Z"
     },
     {
       "id": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
