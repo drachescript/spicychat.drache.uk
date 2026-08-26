@@ -594,6 +594,24 @@
       "value": 500,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-26T07:28:54Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-26T07:28:54Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
