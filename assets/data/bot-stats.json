@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-26T03:34:47Z",
+  "capturedAt": "2026-08-26T05:08:20Z",
   "source": "github-public-updater",
   "sourceSha256": "a6e9cc2f09786674f90c9e08cf1a5c280887a2d12087a2314fdbe7b70bafa650",
   "label": "Automatic update",
@@ -30,18 +30,18 @@
       "title": "The Spider Lady Keeps Finding You (Silent Hill)",
       "url": "https://spicychat.ai/chat/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
       "visibility": "public",
-      "messages": 802,
-      "messagesDisplay": "802",
+      "messages": 836,
+      "messagesDisplay": "836",
       "messagesApproximate": false,
       "tokens": 2294,
       "tokensDisplay": "2294",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256",
-      "rawMessages": "802",
+      "rawMessages": "836",
       "rawTokens": "2294",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
-      "statsUpdatedAt": "2026-08-26T02:11:09Z"
+      "statsUpdatedAt": "2026-08-26T05:08:20Z"
     },
     {
       "id": "c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
@@ -132,18 +132,18 @@
       "title": "The Popular Girl Thinks You Hate Her (Mute POV)",
       "url": "https://spicychat.ai/chat/5d2df83e-1ee3-4654-8897-c280742a0fe2",
       "visibility": "public",
-      "messages": 639,
-      "messagesDisplay": "639",
+      "messages": 654,
+      "messagesDisplay": "654",
       "messagesApproximate": false,
       "tokens": 1867,
       "tokensDisplay": "1867",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/f6795cc1-8dbf-46df-bcd7-0adec3544ba3.jpg?class=avatar256x256",
-      "rawMessages": "639",
+      "rawMessages": "654",
       "rawTokens": "1867",
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/5d2df83e-1ee3-4654-8897-c280742a0fe2",
-      "statsUpdatedAt": "2026-08-25T22:58:11Z"
+      "statsUpdatedAt": "2026-08-26T05:08:20Z"
     },
     {
       "id": "a04bc9a5-952e-4870-ac90-0a267f695374",
