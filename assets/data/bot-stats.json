@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-27T01:53:04-04:00",
-  "source": "All Your Chatbot Characters In One Place _ Spicychat.html",
+  "capturedAt": "2026-08-27T15:26:00Z",
+  "source": "github-public-updater",
   "sourceSha256": "2dd133456847cbf27286973134f71530fff937c9f92b505cdb63d16744e052be",
-  "label": "Imported export",
+  "label": "Automatic update",
   "bots": [
     {
       "id": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
@@ -43,15 +43,18 @@
       "title": "The Knight Hunting the Dragon Doesn't Know You're Him (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
       "visibility": "public",
-      "messages": 782,
-      "messagesDisplay": "782",
-      "messagesApproximate": false,
+      "messages": 1200,
+      "messagesDisplay": "1.2k",
+      "messagesApproximate": true,
       "tokens": 1520,
       "tokensDisplay": "1520",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/5bd18c54-9535-451e-8f65-99dd297a2ab4.jpg?class=avatar256x256",
-      "rawMessages": "782",
-      "rawTokens": "1520"
+      "rawMessages": "1.2k",
+      "rawTokens": "1520",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "statsUpdatedAt": "2026-08-27T15:26:00Z"
     },
     {
       "id": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
@@ -59,15 +62,18 @@
       "title": "The Popular Girl Thinks You Hate Her (Mute POV)",
       "url": "https://spicychat.ai/chat/5d2df83e-1ee3-4654-8897-c280742a0fe2",
       "visibility": "public",
-      "messages": 803,
-      "messagesDisplay": "803",
+      "messages": 822,
+      "messagesDisplay": "822",
       "messagesApproximate": false,
       "tokens": 1867,
       "tokensDisplay": "1867",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/f6795cc1-8dbf-46df-bcd7-0adec3544ba3.jpg?class=avatar256x256",
-      "rawMessages": "803",
-      "rawTokens": "1867"
+      "rawMessages": "822",
+      "rawTokens": "1867",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "statsUpdatedAt": "2026-08-27T15:26:00Z"
     },
     {
       "id": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
@@ -171,15 +177,18 @@
       "title": "The Princess Hires the Dragon to Guide Her to Himself (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/9e005568-3419-4717-9d31-d7dd70104a7f",
       "visibility": "public",
-      "messages": 521,
-      "messagesDisplay": "521",
+      "messages": 758,
+      "messagesDisplay": "758",
       "messagesApproximate": false,
       "tokens": 1648,
       "tokensDisplay": "1648",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9f8d64f6-c2c9-4e4d-81fe-301aa82dba42.png?class=avatar256x256",
-      "rawMessages": "521",
-      "rawTokens": "1648"
+      "rawMessages": "758",
+      "rawTokens": "1648",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/9e005568-3419-4717-9d31-d7dd70104a7f",
+      "statsUpdatedAt": "2026-08-27T15:26:00Z"
     },
     {
       "id": "be449df2-b6f7-48b4-831d-d309eaf04f27",
@@ -299,15 +308,18 @@
       "title": "A blunt alt girl notices when the noise becomes too much and slowly learns how to help.",
       "url": "https://spicychat.ai/chat/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
       "visibility": "public",
-      "messages": 428,
-      "messagesDisplay": "428",
+      "messages": 435,
+      "messagesDisplay": "435",
       "messagesApproximate": false,
       "tokens": 1718,
       "tokensDisplay": "1718",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/223307ed-49df-451b-b4fe-48ec587b8ce9.jpg?class=avatar256x256",
-      "rawMessages": "428",
-      "rawTokens": "1718"
+      "rawMessages": "435",
+      "rawTokens": "1718",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "statsUpdatedAt": "2026-08-27T15:26:00Z"
     },
     {
       "id": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
@@ -538,7 +550,7 @@
       "name": "Riley Stone",
       "title": "The System's Friend Likes You Better (DID POV)",
       "url": "https://spicychat.ai/chat/81c1380f-7f02-472c-93c2-5d230032cdf9",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 45,
       "messagesDisplay": "45",
       "messagesApproximate": false,
@@ -547,7 +559,10 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/f52b548a-08be-44e2-98ff-b17525c89efd.jpg?class=avatar256x256",
       "rawMessages": "45",
-      "rawTokens": "1425"
+      "rawTokens": "1425",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/81c1380f-7f02-472c-93c2-5d230032cdf9",
+      "statsUpdatedAt": "2026-08-27T15:26:00Z"
     },
     {
       "id": "c1fe4367-501f-472c-967c-275c71d38378",
@@ -570,7 +585,7 @@
       "name": "Elise Carver",
       "title": "She Inherited an Abandoned Facility With You Still Inside",
       "url": "https://spicychat.ai/chat/82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 99,
       "messagesDisplay": "99",
       "messagesApproximate": false,
@@ -579,14 +594,17 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/2a740411-8dcf-4c53-9e66-d8e0e36c780d.jpg?class=avatar256x256",
       "rawMessages": "99",
-      "rawTokens": "1664"
+      "rawTokens": "1664",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "statsUpdatedAt": "2026-08-27T15:26:00Z"
     },
     {
       "id": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
       "name": "Vivian Kade",
       "title": "The Black-Market Auction Goes Wrong (Creature POV)",
       "url": "https://spicychat.ai/chat/2b4a0861-36d4-49de-8ea0-a77071953a1e",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 25,
       "messagesDisplay": "25",
       "messagesApproximate": false,
@@ -595,7 +613,10 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/b730df26-a15a-44c8-9cc3-c5e12b26c23c.jpg?class=avatar256x256",
       "rawMessages": "25",
-      "rawTokens": "1605"
+      "rawTokens": "1605",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "statsUpdatedAt": "2026-08-27T15:26:00Z"
     },
     {
       "id": "615e3b47-93d7-4b56-855e-6129db0529f3",
@@ -650,16 +671,19 @@
       "name": "SCP Foundation",
       "title": "The Foundation Caught the Living Blueprint of Every Creature (SCP POV)",
       "url": "https://spicychat.ai/chat/51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
-      "visibility": "unlisted",
-      "messages": 197,
-      "messagesDisplay": "197",
+      "visibility": "public",
+      "messages": 212,
+      "messagesDisplay": "212",
       "messagesApproximate": false,
       "tokens": 1978,
       "tokensDisplay": "1978",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/714ca673-a377-4b49-80f0-cea10f923206.webp?class=avatar256x256",
-      "rawMessages": "197",
-      "rawTokens": "1978"
+      "rawMessages": "212",
+      "rawTokens": "1978",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "statsUpdatedAt": "2026-08-27T15:26:00Z"
     },
     {
       "id": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
