@@ -1,10 +1,41 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-27T14:03:42-04:00",
+  "capturedAt": "2026-08-27T14:10:59-04:00",
   "source": "All Your Chatbot Characters In One Place _ Spicychat.html",
-  "sourceSha256": "3e8b1c1411e8e523b4a6e4f8ae3089cfeb3f911c09f14cb38d877201910929dd",
   "label": "Imported export",
   "bots": [
+    {
+      "id": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "name": "The Crooked Flask",
+      "title": "You Tailor Potions for Adventurers Before Their Dungeon Runs (Potion Seller POV)",
+      "url": "https://spicychat.ai/chat/f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "visibility": "unlisted",
+      "messages": 101,
+      "messagesDisplay": "101",
+      "messagesApproximate": false,
+      "tokens": 2411,
+      "tokensDisplay": "2411",
+      "tokensApproximate": false,
+      "image": null,
+      "rawMessages": "101",
+      "rawTokens": "2411"
+    },
+    {
+      "id": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "name": "UPRUSH",
+      "title": "Your Energy Supplement Has a Very Unexpected Reputation",
+      "url": "https://spicychat.ai/chat/9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "visibility": "unlisted",
+      "messages": 135,
+      "messagesDisplay": "135",
+      "messagesApproximate": false,
+      "tokens": 1709,
+      "tokensDisplay": "1709",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/f85c31d4-3443-424f-b3cf-7da6c59841a0.jpg?class=avatar256x256",
+      "rawMessages": "135",
+      "rawTokens": "1709"
+    },
     {
       "id": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
       "name": "Seren Vale",

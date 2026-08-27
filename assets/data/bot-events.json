@@ -656,12 +656,49 @@
       "type": "new"
     },
     {
-      "at": "2026-08-27T14:03:42-04:00",
+      "at": "2026-08-27T03:15:00-04:00",
       "botId": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
       "botName": "Piper QoL",
       "type": "visibility",
       "from": "unlisted",
-      "to": "public"
+      "to": "public",
+      "source": "spicychat-approval-email"
+    },
+    {
+      "at": "2026-08-27T05:32:00-04:00",
+      "botId": "81c1380f-7f02-472c-93c2-5d230032cdf9",
+      "botName": "Riley Stone",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "spicychat-approval-email"
+    },
+    {
+      "at": "2026-08-27T05:32:00-04:00",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "spicychat-approval-email"
+    },
+    {
+      "at": "2026-08-27T05:32:00-04:00",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "spicychat-approval-email"
+    },
+    {
+      "at": "2026-08-27T05:32:00-04:00",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "spicychat-approval-email"
     },
     {
       "at": "2026-08-27T15:26:00Z",
@@ -673,40 +710,17 @@
       "source": "creator-profile"
     },
     {
-      "at": "2026-08-27T15:26:00Z",
-      "botId": "81c1380f-7f02-472c-93c2-5d230032cdf9",
-      "botName": "Riley Stone",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public",
-      "source": "creator-profile"
+      "at": "2026-08-27T14:10:59-04:00",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "new"
     },
     {
-      "at": "2026-08-27T15:26:00Z",
-      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
-      "botName": "Elise Carver",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public",
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-08-27T15:26:00Z",
-      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
-      "botName": "Vivian Kade",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public",
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-08-27T15:26:00Z",
-      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
-      "botName": "SCP Foundation",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public",
-      "source": "creator-profile"
+      "at": "2026-08-27T14:10:59-04:00",
+      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "botName": "UPRUSH",
+      "type": "origin",
+      "value": "personal"
     }
   ]
 }
