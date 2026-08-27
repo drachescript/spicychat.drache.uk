@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.8 — August 27, 2026
+
+- added the new `/requests/` character-request page and a Requests button to the main navigation
+- added an 18+ Yes/No gate that remembers accepted browsers locally
+- added short and detailed request-preference views, with unlisted themes explicitly not treated as automatic approval
+- added the custom request form with required Discord-or-email contact, request type, idea, `{{user}}`, dynamic, content rating, kinks/themes, hard no's and flexibility
+- added a Copy for Discord option so the same request can be pasted directly to `@dragongraf`
+- connected website submissions to the Cloudflare request Worker so successful requests receive their saved request ID
+- added the optional Discord server link without requiring server membership
+- kept contact details private and added the adult-characters-only confirmation for sexual requests
+- added `assets/data/requests.json` so request status, Discord link, API endpoint and preference lists are easy to edit
+
 ## v0.6.7 — August 25, 2026
 
 - New badges now last 7 days; public bots use their public date while unlisted bots use their made date
