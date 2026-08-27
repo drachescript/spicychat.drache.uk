@@ -687,6 +687,24 @@
       "baselineLagMinutes": 47
     },
     {
+      "id": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "name": "Piper QoL",
+      "publicSinceAt": "2026-08-27T14:03:42-04:00",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "saved-my-creations",
+      "firstPublicObservedAt": "2026-08-27T14:03:42-04:00",
+      "previousNonPublicObservedAt": "2026-08-27T15:26:00Z",
+      "baselineAt": "2026-08-27T14:03:42-04:00",
+      "messagesAtBaseline": 76,
+      "messagesDisplayAtBaseline": "76",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "saved-my-creations",
+      "accuracy": "first-observed",
+      "source": "saved-my-creations"
+    },
+    {
       "id": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
       "name": "Elise Carver",
       "publicSinceAt": "2026-08-27T15:26:00Z",

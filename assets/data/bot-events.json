@@ -656,6 +656,14 @@
       "type": "new"
     },
     {
+      "at": "2026-08-27T14:03:42-04:00",
+      "botId": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "botName": "Piper QoL",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
       "at": "2026-08-27T15:26:00Z",
       "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
       "botName": "Seren Vale",
