@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-28T14:33:44Z",
+  "capturedAt": "2026-08-28T23:39:28Z",
   "source": "github-public-updater",
   "label": "Automatic update",
   "bots": [
@@ -10,18 +10,18 @@
       "title": "You Tailor Potions for Adventurers Before Their Dungeon Runs (Potion Seller POV)",
       "url": "https://spicychat.ai/chat/f766afe6-5b8f-4220-b389-475e4c6d2b9f",
       "visibility": "unlisted",
-      "messages": 128,
-      "messagesDisplay": "128",
+      "messages": 187,
+      "messagesDisplay": "187",
       "messagesApproximate": false,
       "tokens": 2411,
       "tokensDisplay": "2411",
       "tokensApproximate": false,
       "image": null,
-      "rawMessages": "128",
+      "rawMessages": "187",
       "rawTokens": "2411",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/f766afe6-5b8f-4220-b389-475e4c6d2b9f",
-      "statsUpdatedAt": "2026-08-28T14:33:44Z"
+      "statsUpdatedAt": "2026-08-28T23:39:28Z"
     },
     {
       "id": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
@@ -29,18 +29,18 @@
       "title": "The Knight Hunting the Dragon Doesn't Know You're Him (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
       "visibility": "public",
-      "messages": 1900,
-      "messagesDisplay": "1.9k",
+      "messages": 2100,
+      "messagesDisplay": "2.1k",
       "messagesApproximate": true,
       "tokens": 1520,
       "tokensDisplay": "1520",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/5bd18c54-9535-451e-8f65-99dd297a2ab4.jpg?class=avatar256x256",
-      "rawMessages": "1.9k",
+      "rawMessages": "2.1k",
       "rawTokens": "1520",
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
-      "statsUpdatedAt": "2026-08-28T14:33:44Z"
+      "statsUpdatedAt": "2026-08-28T23:39:28Z"
     },
     {
       "id": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
@@ -115,18 +115,18 @@
       "title": "The Pill Changes Your Mind, Not Your Body (Y-Change POV)",
       "url": "https://spicychat.ai/chat/9831d4b3-5cca-4425-95cb-44d72bb87937",
       "visibility": "public",
-      "messages": 31,
-      "messagesDisplay": "31",
+      "messages": 35,
+      "messagesDisplay": "35",
       "messagesApproximate": false,
       "tokens": 1734,
       "tokensDisplay": "1734",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/3ed6889c-6808-4b8c-b18e-f32984ac6999.webp?class=avatar256x256",
-      "rawMessages": "31",
+      "rawMessages": "35",
       "rawTokens": "1734",
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/9831d4b3-5cca-4425-95cb-44d72bb87937",
-      "statsUpdatedAt": "2026-08-28T14:33:44Z"
+      "statsUpdatedAt": "2026-08-28T23:39:28Z"
     },
     {
       "id": "8fdfe8d4-5b03-49c5-9e50-b505222e2d45",
@@ -169,15 +169,18 @@
       "title": "The Princess Hires the Dragon to Guide Her to Himself (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/9e005568-3419-4717-9d31-d7dd70104a7f",
       "visibility": "public",
-      "messages": 758,
-      "messagesDisplay": "758",
+      "messages": 917,
+      "messagesDisplay": "917",
       "messagesApproximate": false,
       "tokens": 1648,
       "tokensDisplay": "1648",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9f8d64f6-c2c9-4e4d-81fe-301aa82dba42.png?class=avatar256x256",
-      "rawMessages": "758",
-      "rawTokens": "1648"
+      "rawMessages": "917",
+      "rawTokens": "1648",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/9e005568-3419-4717-9d31-d7dd70104a7f",
+      "statsUpdatedAt": "2026-08-28T23:39:28Z"
     },
     {
       "id": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
@@ -185,15 +188,18 @@
       "title": "A blunt alt girl notices when the noise becomes too much and slowly learns how to help.",
       "url": "https://spicychat.ai/chat/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
       "visibility": "public",
-      "messages": 435,
-      "messagesDisplay": "435",
+      "messages": 452,
+      "messagesDisplay": "452",
       "messagesApproximate": false,
       "tokens": 1718,
       "tokensDisplay": "1718",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/223307ed-49df-451b-b4fe-48ec587b8ce9.jpg?class=avatar256x256",
-      "rawMessages": "435",
-      "rawTokens": "1718"
+      "rawMessages": "452",
+      "rawTokens": "1718",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "statsUpdatedAt": "2026-08-28T23:39:28Z"
     },
     {
       "id": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
@@ -431,15 +437,18 @@
       "title": "The Diplomat Negotiating With the Dragon Through the Dragon (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/be449df2-b6f7-48b4-831d-d309eaf04f27",
       "visibility": "public",
-      "messages": 27,
-      "messagesDisplay": "27",
+      "messages": 53,
+      "messagesDisplay": "53",
       "messagesApproximate": false,
       "tokens": 1495,
       "tokensDisplay": "1495",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/aca6239e-dc79-413f-ae35-7371331dc2d2.png?class=avatar256x256",
-      "rawMessages": "27",
-      "rawTokens": "1495"
+      "rawMessages": "53",
+      "rawTokens": "1495",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/be449df2-b6f7-48b4-831d-d309eaf04f27",
+      "statsUpdatedAt": "2026-08-28T23:39:28Z"
     },
     {
       "id": "f55dad9d-8339-46ac-a11d-dce0afd98660",
@@ -706,18 +715,18 @@
       "title": "Your Energy Supplement Has a Very Unexpected Reputation",
       "url": "https://spicychat.ai/chat/9e6207d9-60bd-482c-a28c-4e29a2dbea89",
       "visibility": "unlisted",
-      "messages": 206,
-      "messagesDisplay": "206",
+      "messages": 255,
+      "messagesDisplay": "255",
       "messagesApproximate": false,
       "tokens": 1709,
       "tokensDisplay": "1709",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/f85c31d4-3443-424f-b3cf-7da6c59841a0.jpg?class=avatar256x256",
-      "rawMessages": "206",
+      "rawMessages": "255",
       "rawTokens": "1709",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/9e6207d9-60bd-482c-a28c-4e29a2dbea89",
-      "statsUpdatedAt": "2026-08-28T14:33:44Z"
+      "statsUpdatedAt": "2026-08-28T23:39:28Z"
     }
   ]
 }

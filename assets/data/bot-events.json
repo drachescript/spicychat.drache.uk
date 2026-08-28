@@ -721,6 +721,15 @@
       "value": 1000,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-28T23:39:28Z",
+      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "botName": "UPRUSH",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
