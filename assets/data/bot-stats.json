@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-27T14:10:59-04:00",
-  "source": "All Your Chatbot Characters In One Place _ Spicychat.html",
-  "label": "Imported export",
+  "capturedAt": "2026-08-28T01:05:28Z",
+  "source": "github-public-updater",
+  "label": "Automatic update",
   "bots": [
     {
       "id": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
@@ -10,31 +10,18 @@
       "title": "You Tailor Potions for Adventurers Before Their Dungeon Runs (Potion Seller POV)",
       "url": "https://spicychat.ai/chat/f766afe6-5b8f-4220-b389-475e4c6d2b9f",
       "visibility": "unlisted",
-      "messages": 101,
-      "messagesDisplay": "101",
+      "messages": 114,
+      "messagesDisplay": "114",
       "messagesApproximate": false,
       "tokens": 2411,
       "tokensDisplay": "2411",
       "tokensApproximate": false,
       "image": null,
-      "rawMessages": "101",
-      "rawTokens": "2411"
-    },
-    {
-      "id": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
-      "name": "UPRUSH",
-      "title": "Your Energy Supplement Has a Very Unexpected Reputation",
-      "url": "https://spicychat.ai/chat/9e6207d9-60bd-482c-a28c-4e29a2dbea89",
-      "visibility": "unlisted",
-      "messages": 135,
-      "messagesDisplay": "135",
-      "messagesApproximate": false,
-      "tokens": 1709,
-      "tokensDisplay": "1709",
-      "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/f85c31d4-3443-424f-b3cf-7da6c59841a0.jpg?class=avatar256x256",
-      "rawMessages": "135",
-      "rawTokens": "1709"
+      "rawMessages": "114",
+      "rawTokens": "2411",
+      "statsSource": "direct-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "statsUpdatedAt": "2026-08-28T01:05:28Z"
     },
     {
       "id": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
@@ -58,15 +45,18 @@
       "title": "The Popular Girl Thinks You Hate Her (Mute POV)",
       "url": "https://spicychat.ai/chat/5d2df83e-1ee3-4654-8897-c280742a0fe2",
       "visibility": "public",
-      "messages": 830,
-      "messagesDisplay": "830",
+      "messages": 843,
+      "messagesDisplay": "843",
       "messagesApproximate": false,
       "tokens": 1867,
       "tokensDisplay": "1867",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/f6795cc1-8dbf-46df-bcd7-0adec3544ba3.jpg?class=avatar256x256",
-      "rawMessages": "830",
-      "rawTokens": "1867"
+      "rawMessages": "843",
+      "rawTokens": "1867",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "statsUpdatedAt": "2026-08-28T01:05:28Z"
     },
     {
       "id": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
@@ -250,15 +240,18 @@
       "title": "The Singer You Never Heard (deaf POV)",
       "url": "https://spicychat.ai/chat/2d0a994a-65cd-4f94-accd-ffed0c45230e",
       "visibility": "public",
-      "messages": 215,
-      "messagesDisplay": "215",
+      "messages": 226,
+      "messagesDisplay": "226",
       "messagesApproximate": false,
       "tokens": 2073,
       "tokensDisplay": "2073",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/0f6b9387-a114-45bf-b4ba-893512ebfef9.jpg?class=avatar256x256",
-      "rawMessages": "215",
-      "rawTokens": "2073"
+      "rawMessages": "226",
+      "rawTokens": "2073",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/2d0a994a-65cd-4f94-accd-ffed0c45230e",
+      "statsUpdatedAt": "2026-08-28T01:05:28Z"
     },
     {
       "id": "81c1380f-7f02-472c-93c2-5d230032cdf9",
@@ -378,15 +371,18 @@
       "title": "The Popular Girl Thinks You're Ignoring Her (blind POV)",
       "url": "https://spicychat.ai/chat/a04bc9a5-952e-4870-ac90-0a267f695374",
       "visibility": "public",
-      "messages": 278,
-      "messagesDisplay": "278",
+      "messages": 287,
+      "messagesDisplay": "287",
       "messagesApproximate": false,
       "tokens": 1746,
       "tokensDisplay": "1746",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/ab3a99c7-f000-4704-a35f-beaa2860348d.png?class=avatar256x256",
-      "rawMessages": "278",
-      "rawTokens": "1746"
+      "rawMessages": "287",
+      "rawTokens": "1746",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/a04bc9a5-952e-4870-ac90-0a267f695374",
+      "statsUpdatedAt": "2026-08-28T01:05:28Z"
     },
     {
       "id": "1a4b74a8-2f2a-4a47-a63d-3ea89155e85a",
@@ -691,6 +687,22 @@
       "image": "https://cdn.nd-api.com/avatars/2ffeb058-92b1-4f84-a86b-bf887e97d142.jpg?class=avatar256x256",
       "rawMessages": "32",
       "rawTokens": "2056"
+    },
+    {
+      "id": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "name": "UPRUSH",
+      "title": "Your Energy Supplement Has a Very Unexpected Reputation",
+      "url": "https://spicychat.ai/chat/9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "visibility": "unlisted",
+      "messages": 135,
+      "messagesDisplay": "135",
+      "messagesApproximate": false,
+      "tokens": 1709,
+      "tokensDisplay": "1709",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/f85c31d4-3443-424f-b3cf-7da6c59841a0.jpg?class=avatar256x256",
+      "rawMessages": "135",
+      "rawTokens": "1709"
     }
   ]
 }

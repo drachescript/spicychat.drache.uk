@@ -701,15 +701,6 @@
       "source": "spicychat-approval-email"
     },
     {
-      "at": "2026-08-27T15:26:00Z",
-      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
-      "botName": "Seren Vale",
-      "type": "milestone",
-      "value": 1000,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
       "at": "2026-08-27T14:10:59-04:00",
       "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
       "botName": "The Crooked Flask",
@@ -721,6 +712,15 @@
       "botName": "UPRUSH",
       "type": "origin",
       "value": "personal"
+    },
+    {
+      "at": "2026-08-27T15:26:00Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
     }
   ]
 }
