@@ -808,6 +808,15 @@
       "botName": "Cass Rowan",
       "type": "new",
       "source": "user-supplied-screenshot"
+    },
+    {
+      "at": "2026-08-29T13:59:12Z",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
