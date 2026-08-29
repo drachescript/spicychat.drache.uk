@@ -730,6 +730,33 @@
       "value": 250,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-29T07:18:51Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-29T07:18:51Z",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-29T07:18:51Z",
+      "botId": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
+      "botName": "Raven Cole",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
