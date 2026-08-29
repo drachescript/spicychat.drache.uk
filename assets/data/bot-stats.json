@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-08-29T17:51:41Z",
+  "capturedAt": "2026-08-29T21:06:37Z",
   "source": "github-public-updater",
   "label": "Automatic update",
   "bots": [
@@ -13,15 +13,15 @@
       "messages": 0,
       "messagesDisplay": "0",
       "messagesApproximate": false,
-      "tokens": 1819,
-      "tokensDisplay": "1819",
+      "tokens": 1116,
+      "tokensDisplay": "1116",
       "tokensApproximate": false,
       "image": null,
       "rawMessages": "0",
-      "rawTokens": "1,819",
+      "rawTokens": "1,116",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
-      "statsUpdatedAt": "2026-08-29T13:59:12Z"
+      "statsUpdatedAt": "2026-08-29T21:06:37Z"
     },
     {
       "id": "6fc193e7-25b5-4e11-b533-22a88d001b26",
@@ -32,15 +32,15 @@
       "messages": 0,
       "messagesDisplay": "0",
       "messagesApproximate": false,
-      "tokens": 1577,
-      "tokensDisplay": "1577",
+      "tokens": 1480,
+      "tokensDisplay": "1480",
       "tokensApproximate": false,
       "image": null,
       "rawMessages": "0",
-      "rawTokens": "1,577",
+      "rawTokens": "1,480",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "statsUpdatedAt": "2026-08-29T13:59:12Z"
+      "statsUpdatedAt": "2026-08-29T21:06:37Z"
     },
     {
       "id": "72b90b87-3d31-40be-ba07-37bd47c43a52",
@@ -51,15 +51,15 @@
       "messages": 0,
       "messagesDisplay": "0",
       "messagesApproximate": false,
-      "tokens": 1620,
-      "tokensDisplay": "1620",
+      "tokens": 1517,
+      "tokensDisplay": "1517",
       "tokensApproximate": false,
       "image": null,
       "rawMessages": "0",
-      "rawTokens": "1,620",
+      "rawTokens": "1,517",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/72b90b87-3d31-40be-ba07-37bd47c43a52",
-      "statsUpdatedAt": "2026-08-29T13:59:12Z"
+      "statsUpdatedAt": "2026-08-29T21:06:37Z"
     },
     {
       "id": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
@@ -70,15 +70,15 @@
       "messages": 8,
       "messagesDisplay": "8",
       "messagesApproximate": false,
-      "tokens": 1513,
-      "tokensDisplay": "1513",
+      "tokens": 1520,
+      "tokensDisplay": "1520",
       "tokensApproximate": false,
       "image": null,
       "rawMessages": "8",
-      "rawTokens": "1,513",
+      "rawTokens": "1,520",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
-      "statsUpdatedAt": "2026-08-29T17:51:41Z"
+      "statsUpdatedAt": "2026-08-29T21:06:37Z"
     },
     {
       "id": "03988822-692f-48ad-b158-8e152bb6dc20",
@@ -89,15 +89,15 @@
       "messages": 7,
       "messagesDisplay": "7",
       "messagesApproximate": false,
-      "tokens": 1733,
-      "tokensDisplay": "1733",
+      "tokens": 1586,
+      "tokensDisplay": "1586",
       "tokensApproximate": false,
       "image": null,
       "rawMessages": "7",
-      "rawTokens": "1,733",
+      "rawTokens": "1,586",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/03988822-692f-48ad-b158-8e152bb6dc20",
-      "statsUpdatedAt": "2026-08-29T17:51:41Z"
+      "statsUpdatedAt": "2026-08-29T21:06:37Z"
     },
     {
       "id": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
@@ -105,18 +105,18 @@
       "title": "You Tailor Potions for Adventurers Before Their Dungeon Runs (Potion Seller POV)",
       "url": "https://spicychat.ai/chat/f766afe6-5b8f-4220-b389-475e4c6d2b9f",
       "visibility": "unlisted",
-      "messages": 222,
-      "messagesDisplay": "222",
+      "messages": 228,
+      "messagesDisplay": "228",
       "messagesApproximate": false,
       "tokens": 2411,
       "tokensDisplay": "2411",
       "tokensApproximate": false,
       "image": null,
-      "rawMessages": "222",
+      "rawMessages": "228",
       "rawTokens": "2411",
       "statsSource": "direct-profile",
       "profileUrl": "https://spicychat.ai/chatbot/f766afe6-5b8f-4220-b389-475e4c6d2b9f",
-      "statsUpdatedAt": "2026-08-29T17:51:41Z"
+      "statsUpdatedAt": "2026-08-29T21:06:37Z"
     },
     {
       "id": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
@@ -143,18 +143,18 @@
       "title": "The Knight Hunting the Dragon Doesn't Know You're Him (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
       "visibility": "public",
-      "messages": 2300,
-      "messagesDisplay": "2.3k",
+      "messages": 2500,
+      "messagesDisplay": "2.5k",
       "messagesApproximate": true,
       "tokens": 1520,
       "tokensDisplay": "1520",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/5bd18c54-9535-451e-8f65-99dd297a2ab4.jpg?class=avatar256x256",
-      "rawMessages": "2.3k",
+      "rawMessages": "2.5k",
       "rawTokens": "1520",
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
-      "statsUpdatedAt": "2026-08-29T17:51:41Z"
+      "statsUpdatedAt": "2026-08-29T21:06:37Z"
     },
     {
       "id": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
@@ -464,15 +464,18 @@
       "title": "You Keep Coming Back to Her Café (Inui Toko / Nijisanji)",
       "url": "https://spicychat.ai/chat/f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
       "visibility": "public",
-      "messages": 200,
-      "messagesDisplay": "200",
+      "messages": 219,
+      "messagesDisplay": "219",
       "messagesApproximate": false,
       "tokens": 1894,
       "tokensDisplay": "1894",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/52af9e91-f013-4d24-847b-a824246792ab.webp?class=avatar256x256",
-      "rawMessages": "200",
-      "rawTokens": "1894"
+      "rawMessages": "219",
+      "rawTokens": "1894",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
+      "statsUpdatedAt": "2026-08-29T21:06:37Z"
     },
     {
       "id": "691a385e-a7f0-43d2-8d55-e121f0fdb82a",
@@ -834,15 +837,18 @@
       "title": "The Samurai Who Finds You After the Shipwreck (Young Samurai AU)",
       "url": "https://spicychat.ai/chat/926c92a3-856c-4fa8-aa81-3d05dccf77fa",
       "visibility": "public",
-      "messages": 32,
-      "messagesDisplay": "32",
+      "messages": 125,
+      "messagesDisplay": "125",
       "messagesApproximate": false,
       "tokens": 2056,
       "tokensDisplay": "2056",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/2ffeb058-92b1-4f84-a86b-bf887e97d142.jpg?class=avatar256x256",
-      "rawMessages": "32",
-      "rawTokens": "2056"
+      "rawMessages": "125",
+      "rawTokens": "2056",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/926c92a3-856c-4fa8-aa81-3d05dccf77fa",
+      "statsUpdatedAt": "2026-08-29T21:06:37Z"
     }
   ]
 }
