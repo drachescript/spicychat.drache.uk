@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.9 — August 29, 2026
+
+- added a JSON-driven Planned view to Chatbots with lightweight working titles, premises and planning status only
+- added Naomi Vance, Erin Walsh, Tessa Morgan, Lena Foster and Cass Rowan as new unlisted bots
+- filled in the missing approval metadata for The Crooked Flask and UPRUSH while keeping both correctly marked unlisted
+- cleared the stale review flags for The Crooked Flask and UPRUSH
+- bot detail pages now show the SpicyChat approval time when an unlisted bot has one
+
 ## v0.6.8 — August 27, 2026
 
 - added the new `/requests/` character-request page and a Requests button to the main navigation

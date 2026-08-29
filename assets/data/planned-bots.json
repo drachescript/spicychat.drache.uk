@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-29T08:17:00-04:00",
+  "note": "Lightweight public backlog only: working title, short premise, type/origin and current planning status. Full bot definitions stay private.",
+  "ideas": [
+    {
+      "id": "suicidal-male-pov-girl",
+      "title": "Suicidal Male POV × Girl",
+      "premise": "Adult male {{user}} POV centered on suicidality and a female character; the exact setup is still undeveloped.",
+      "type": "Mental Health / POV",
+      "origin": "personal",
+      "status": "Idea"
+    },
+    {
+      "id": "did-coworker-distinct-relationships",
+      "title": "Coworker With Different Relationships for Different Alters (DID POV)",
+      "premise": "A coworker gradually forms different relationships with different alters instead of treating the system like one interchangeable person.",
+      "type": "DID",
+      "origin": "personal",
+      "status": "Planned"
+    },
+    {
+      "id": "did-own-online-life",
+      "title": "An Alter Has Their Own Online Life (DID POV)",
+      "premise": "One alter has built an online life of their own; the exact version of the setup still needs choosing.",
+      "type": "DID",
+      "origin": "personal",
+      "status": "Needs expansion"
+    },
+    {
+      "id": "ocd-she-thought-you-were-just-careful",
+      "title": "She Thought You Were Just Careful (OCD POV)",
+      "premise": "She initially reads the routines, checking and hesitation as simple carefulness before realizing there is more behind it.",
+      "type": "OCD / POV",
+      "origin": "personal",
+      "status": "Planned"
+    },
+    {
+      "id": "ptsd-roommate-nightmare",
+      "title": "The Roommate Who Never Asks What the Nightmare Was (PTSD POV)",
+      "premise": "A roommate responds to the aftermath of nightmares without demanding an explanation of what happened in them.",
+      "type": "PTSD / POV",
+      "origin": "personal",
+      "status": "Planned"
+    },
+    {
+      "id": "bpd-going-to-work-not-leaving",
+      "title": "She's Going to Work, Not Leaving You (BPD POV)",
+      "premise": "A relationship scene built around the difference between someone leaving for normal life and emotionally abandoning {{user}}.",
+      "type": "BPD / POV",
+      "origin": "personal",
+      "status": "Planned"
+    },
+    {
+      "id": "infinite-hijacked-commercial",
+      "title": "Infinite / Hijacked Commercial",
+      "premise": "An experimental concept built around an endless or hijacked commercial; the exact scenario is still unresolved.",
+      "type": "Experimental",
+      "origin": "personal",
+      "status": "Idea"
+    },
+    {
+      "id": "did-tattoo-artist-stops-switch",
+      "title": "The Tattoo Artist Stops the Second You Switch (DID POV)",
+      "premise": "{{user}} consented to a tattoo, but a different alter fronts mid-session and does not; the tattoo artist immediately stops.",
+      "type": "DID",
+      "origin": "personal",
+      "status": "Planned"
+    },
+    {
+      "id": "did-roommate-notes",
+      "title": "Your Roommate Leaves Notes for Whoever Wakes Up (DID POV)",
+      "premise": "Generic household notes gradually become alter-specific as a roommate learns who is likely to see them.",
+      "type": "DID",
+      "origin": "personal",
+      "status": "Needs expansion"
+    },
+    {
+      "id": "did-new-boss-yesterday",
+      "title": "Your New Boss Thinks You're Lying About Yesterday (DID POV)",
+      "premise": "A boss personally explained a task yesterday; today {{user}} genuinely does not remember her, the conversation or the assignment.",
+      "type": "DID",
+      "origin": "personal",
+      "status": "Planned"
+    },
+    {
+      "id": "did-neighbor-different-alter",
+      "title": "Your Neighbor Knows You're Not the Same One She Met Yesterday (DID POV)",
+      "premise": "A neighbor notices that the person in front of her is not behaving like the one she met the day before.",
+      "type": "DID",
+      "origin": "personal",
+      "status": "Needs redesign"
+    }
+  ]
+}

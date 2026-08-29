@@ -723,6 +723,22 @@
       "source": "creator-profile"
     },
     {
+      "at": "2026-08-27T22:23:00-04:00",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "approval",
+      "visibility": "unlisted",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-08-27T23:40:00-04:00",
+      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "botName": "UPRUSH",
+      "type": "approval",
+      "visibility": "unlisted",
+      "source": "SpicyChat approval email"
+    },
+    {
       "at": "2026-08-28T23:39:28Z",
       "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
       "botName": "UPRUSH",
@@ -757,6 +773,41 @@
       "value": 250,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-29T08:17:00-04:00",
+      "botId": "ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
+      "botName": "Naomi Vance",
+      "type": "new",
+      "source": "user-supplied-screenshot"
+    },
+    {
+      "at": "2026-08-29T08:17:00-04:00",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "new",
+      "source": "user-supplied-screenshot"
+    },
+    {
+      "at": "2026-08-29T08:17:00-04:00",
+      "botId": "72b90b87-3d31-40be-ba07-37bd47c43a52",
+      "botName": "Tessa Morgan",
+      "type": "new",
+      "source": "user-supplied-screenshot"
+    },
+    {
+      "at": "2026-08-29T08:17:00-04:00",
+      "botId": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
+      "botName": "Lena Foster",
+      "type": "new",
+      "source": "user-supplied-screenshot"
+    },
+    {
+      "at": "2026-08-29T08:17:00-04:00",
+      "botId": "03988822-692f-48ad-b158-8e152bb6dc20",
+      "botName": "Cass Rowan",
+      "type": "new",
+      "source": "user-supplied-screenshot"
     }
   ]
 }
