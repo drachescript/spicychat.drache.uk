@@ -1,16 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-29T08:17:00-04:00",
+  "updatedAt": "2026-08-30T15:45:00-04:00",
   "note": "Lightweight public backlog only: working title, short premise, type/origin and current planning status. Full bot definitions stay private.",
   "ideas": [
-    {
-      "id": "suicidal-male-pov-girl",
-      "title": "Suicidal Male POV × Girl",
-      "premise": "Adult male {{user}} POV centered on suicidality and a female character; the exact setup is still undeveloped.",
-      "type": "Mental Health / POV",
-      "origin": "personal",
-      "status": "Idea"
-    },
     {
       "id": "did-coworker-distinct-relationships",
       "title": "Coworker With Different Relationships for Different Alters (DID POV)",
@@ -74,14 +66,6 @@
       "type": "DID",
       "origin": "personal",
       "status": "Needs expansion"
-    },
-    {
-      "id": "did-new-boss-yesterday",
-      "title": "Your New Boss Thinks You're Lying About Yesterday (DID POV)",
-      "premise": "A boss personally explained a task yesterday; today {{user}} genuinely does not remember her, the conversation or the assignment.",
-      "type": "DID",
-      "origin": "personal",
-      "status": "Planned"
     },
     {
       "id": "did-neighbor-different-alter",

@@ -891,6 +891,100 @@
       "source": "creator-profile"
     },
     {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "botName": "Serena Ward",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "botName": "Maya Bennett",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
+      "botName": "A Jurassic TF — Chas",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "botName": "UPRUSH",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "botName": "Serena Ward",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "botName": "Maya Bennett",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
+      "botName": "A Jurassic TF — Chas",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
       "at": "2026-08-30T16:56:21Z",
       "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
       "botName": "The Crooked Flask",

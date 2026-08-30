@@ -780,6 +780,42 @@
       "accuracy": "confirmed",
       "source": "spicychat-approval-email",
       "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
+    },
+    {
+      "id": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "name": "The Crooked Flask",
+      "publicSinceAt": "2026-08-30T15:44:04-04:00",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "saved-my-creations",
+      "firstPublicObservedAt": "2026-08-30T15:44:04-04:00",
+      "previousNonPublicObservedAt": "2026-08-30T16:56:21Z",
+      "baselineAt": "2026-08-30T15:44:04-04:00",
+      "messagesAtBaseline": 579,
+      "messagesDisplayAtBaseline": "579",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "saved-my-creations",
+      "accuracy": "first-observed",
+      "source": "saved-my-creations"
+    },
+    {
+      "id": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "name": "UPRUSH",
+      "publicSinceAt": "2026-08-30T15:44:04-04:00",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "saved-my-creations",
+      "firstPublicObservedAt": "2026-08-30T15:44:04-04:00",
+      "previousNonPublicObservedAt": "2026-08-30T16:56:21Z",
+      "baselineAt": "2026-08-30T15:44:04-04:00",
+      "messagesAtBaseline": 499,
+      "messagesDisplayAtBaseline": "499",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "saved-my-creations",
+      "accuracy": "first-observed",
+      "source": "saved-my-creations"
     }
   ]
 }
