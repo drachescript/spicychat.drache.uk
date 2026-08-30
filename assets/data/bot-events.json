@@ -889,6 +889,15 @@
       "value": 250,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T16:56:21Z",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
