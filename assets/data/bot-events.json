@@ -862,6 +862,15 @@
       "value": 100,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T05:45:38Z",
+      "botId": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
+      "botName": "Raven Cole",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
