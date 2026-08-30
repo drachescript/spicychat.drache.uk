@@ -992,6 +992,70 @@
       "value": 500,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-30T21:27:53Z",
+      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "botName": "UPRUSH",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-30T21:27:53Z",
+      "botId": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "botName": "Mara",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T21:27:53Z",
+      "botId": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "botName": "Mara",
+      "type": "new",
+      "source": "automatic-check"
+    },
+    {
+      "at": "2026-08-30T21:27:53Z",
+      "botId": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
+      "botName": "Dragon",
+      "type": "new",
+      "source": "automatic-check"
+    },
+    {
+      "at": "2026-08-30T21:27:53Z",
+      "botId": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
+      "botName": "Mira",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T21:27:53Z",
+      "botId": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
+      "botName": "Mira",
+      "type": "new",
+      "source": "automatic-check"
+    },
+    {
+      "at": "2026-08-30T21:27:53Z",
+      "botId": "c1fe4367-501f-472c-967c-275c71d38378",
+      "botName": "Rhea Mercer",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T21:27:53Z",
+      "botId": "c1fe4367-501f-472c-967c-275c71d38378",
+      "botName": "Rhea Mercer",
+      "type": "new",
+      "source": "automatic-check"
     }
   ]
 }
