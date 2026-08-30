@@ -871,6 +871,24 @@
       "value": 500,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T12:10:49Z",
+      "botId": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "botName": "Sable Hart",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T12:10:49Z",
+      "botId": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
+      "botName": "Nova",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
