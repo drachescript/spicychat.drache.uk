@@ -835,6 +835,33 @@
       "value": 100,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T00:37:03Z",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-30T00:37:03Z",
+      "botId": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
+      "botName": "Inui Toko",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T00:37:03Z",
+      "botId": "be449df2-b6f7-48b4-831d-d309eaf04f27",
+      "botName": "Celia Maren",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
