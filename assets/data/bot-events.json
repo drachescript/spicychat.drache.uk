@@ -1083,6 +1083,24 @@
       "value": 100,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-31T23:00:50Z",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-31T23:00:50Z",
+      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
+      "botName": "Dr. Yara Vale",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
