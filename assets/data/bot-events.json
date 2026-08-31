@@ -1065,6 +1065,24 @@
       "value": 250,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-31T17:42:16Z",
+      "botId": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
+      "botName": "Erin Blake",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-31T17:42:16Z",
+      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
+      "botName": "Dr. Yara Vale",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
