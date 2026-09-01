@@ -928,22 +928,6 @@
     },
     {
       "at": "2026-08-30T15:44:04-04:00",
-      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
-      "botName": "The Crooked Flask",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
-      "botName": "UPRUSH",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
       "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
       "botName": "Serena Ward",
       "type": "origin",
@@ -994,122 +978,31 @@
       "source": "direct-profile"
     },
     {
-      "at": "2026-08-30T21:27:53Z",
-      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
-      "botName": "UPRUSH",
-      "type": "milestone",
-      "value": 500,
-      "approximate": false,
-      "source": "direct-profile"
-    },
-    {
-      "at": "2026-08-30T21:27:53Z",
-      "botId": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
-      "botName": "Mara",
+      "at": "2026-08-31T16:06:00-04:00",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
       "type": "visibility",
-      "from": "unknown",
+      "from": "unlisted",
       "to": "public",
-      "source": "creator-profile"
+      "source": "spicychat-approval-email"
     },
     {
-      "at": "2026-08-30T21:27:53Z",
-      "botId": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
-      "botName": "Mara",
-      "type": "new",
-      "source": "automatic-check"
+      "at": "2026-09-01T06:37:28-04:00",
+      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "botName": "Nyra",
+      "type": "new"
     },
     {
-      "at": "2026-08-30T21:27:53Z",
-      "botId": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
-      "botName": "Dragon",
-      "type": "new",
-      "source": "automatic-check"
+      "at": "2026-09-01T06:37:28-04:00",
+      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "botName": "Rhea Ripley",
+      "type": "new"
     },
     {
-      "at": "2026-08-30T21:27:53Z",
-      "botId": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
-      "botName": "Mira",
-      "type": "visibility",
-      "from": "unknown",
-      "to": "public",
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-08-30T21:27:53Z",
-      "botId": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
-      "botName": "Mira",
-      "type": "new",
-      "source": "automatic-check"
-    },
-    {
-      "at": "2026-08-30T21:27:53Z",
-      "botId": "c1fe4367-501f-472c-967c-275c71d38378",
-      "botName": "Rhea Mercer",
-      "type": "visibility",
-      "from": "unknown",
-      "to": "public",
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-08-30T21:27:53Z",
-      "botId": "c1fe4367-501f-472c-967c-275c71d38378",
-      "botName": "Rhea Mercer",
-      "type": "new",
-      "source": "automatic-check"
-    },
-    {
-      "at": "2026-08-31T00:48:22Z",
-      "botId": "be449df2-b6f7-48b4-831d-d309eaf04f27",
-      "botName": "Celia Maren",
-      "type": "milestone",
-      "value": 250,
-      "approximate": false,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-08-31T17:42:16Z",
-      "botId": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
-      "botName": "Erin Blake",
-      "type": "milestone",
-      "value": 250,
-      "approximate": false,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-08-31T17:42:16Z",
-      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
-      "botName": "Dr. Yara Vale",
-      "type": "milestone",
-      "value": 100,
-      "approximate": false,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-08-31T23:00:50Z",
-      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
-      "botName": "A Jurassic TF",
-      "type": "milestone",
-      "value": 100,
-      "approximate": false,
-      "source": "direct-profile"
-    },
-    {
-      "at": "2026-08-31T23:00:50Z",
-      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
-      "botName": "Dr. Yara Vale",
-      "type": "milestone",
-      "value": 250,
-      "approximate": false,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-01T05:33:14Z",
-      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
-      "botName": "A Jurassic TF",
-      "type": "milestone",
-      "value": 250,
-      "approximate": false,
-      "source": "direct-profile"
+      "at": "2026-09-01T06:37:28-04:00",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "new"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30",
+  "updatedAt": "2026-09-01",
   "newBadgeDays": 7,
   "categories": [
     {
@@ -199,7 +199,13 @@
       "createdAt": "2026-08-30",
       "createdAtSource": "first-import",
       "missingFromLatest": false,
-      "needsReview": false
+      "needsReview": false,
+      "visibility": "public",
+      "approvedAt": "2026-08-31T16:06:00-04:00",
+      "approvedAtSource": "SpicyChat approval email",
+      "publicSinceAt": "2026-08-31T16:06:00-04:00",
+      "publicSinceAccuracy": "confirmed",
+      "publicSinceSource": "spicychat-approval-email"
     },
     {
       "id": "ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
@@ -359,7 +365,8 @@
       "missingFromLatest": false,
       "needsReview": false,
       "approvedAt": "2026-08-27T22:23:00-04:00",
-      "approvedAtSource": "SpicyChat approval email"
+      "approvedAtSource": "SpicyChat approval email",
+      "visibility": "unlisted"
     },
     {
       "id": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
@@ -382,7 +389,8 @@
       "missingFromLatest": false,
       "needsReview": false,
       "approvedAt": "2026-08-27T23:40:00-04:00",
-      "approvedAtSource": "SpicyChat approval email"
+      "approvedAtSource": "SpicyChat approval email",
+      "visibility": "unlisted"
     },
     {
       "id": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
@@ -1401,6 +1409,86 @@
       "missingFromLatest": true,
       "createdAt": "2026-08-07",
       "createdAtSource": "saved-chat"
+    },
+    {
+      "id": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "name": "Nyra",
+      "category": "other",
+      "tags": [
+        "Nocturne Hive",
+        "drone",
+        "transformation",
+        "mind control"
+      ],
+      "title": "Twenty-Four Hours Until You're Her Drone",
+      "blurb": "Twenty-Four Hours Until You're Her Drone",
+      "url": "https://spicychat.ai/chat/6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "origin": "personal",
+      "order": 0.1,
+      "image": "https://cdn.nd-api.com/avatars/6585c5b8-bb40-427b-917c-7e5e9965fb1e.webp?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-01",
+      "knownSince": "2026-09-01T06:37:28-04:00",
+      "knownSinceSource": "saved-my-creations",
+      "firstSeenAt": "2026-09-01T06:37:28-04:00",
+      "createdAt": "2026-08-31",
+      "createdAtSource": "creation-form",
+      "missingFromLatest": false,
+      "needsReview": false,
+      "visibility": "unlisted"
+    },
+    {
+      "id": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "name": "Rhea Ripley",
+      "category": "fandom",
+      "tags": [
+        "Rhea Ripley",
+        "WWE",
+        "fandom"
+      ],
+      "title": "The Meet-and-Greet Was Supposed to Last Two Minutes",
+      "blurb": "The Meet-and-Greet Was Supposed to Last Two Minutes",
+      "url": "https://spicychat.ai/chat/e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "origin": "personal",
+      "order": 0.2,
+      "image": "https://cdn.nd-api.com/avatars/9c40f40e-4d11-452f-aa57-4d6101a0a7fe.webp?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-01",
+      "knownSince": "2026-09-01T06:37:28-04:00",
+      "knownSinceSource": "saved-my-creations",
+      "firstSeenAt": "2026-09-01T06:37:28-04:00",
+      "createdAt": "2026-09-01",
+      "createdAtSource": "first-import",
+      "missingFromLatest": false,
+      "needsReview": false,
+      "visibility": "unlisted"
+    },
+    {
+      "id": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "name": "Veyr",
+      "category": "other",
+      "tags": [
+        "Nocturne Hive",
+        "drone",
+        "transformation",
+        "mind control"
+      ],
+      "title": "Twenty-Four Hours Until You're His Drone",
+      "blurb": "Twenty-Four Hours Until You're His Drone",
+      "url": "https://spicychat.ai/chat/14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "origin": "personal",
+      "order": 0.3,
+      "image": "https://cdn.nd-api.com/avatars/caf4aced-498f-4d04-9145-a0bd0c6bb0f2.jpg?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-01",
+      "knownSince": "2026-09-01T06:37:28-04:00",
+      "knownSinceSource": "saved-my-creations",
+      "firstSeenAt": "2026-09-01T06:37:28-04:00",
+      "createdAt": "2026-08-31",
+      "createdAtSource": "profile-edit-capture",
+      "missingFromLatest": false,
+      "needsReview": false,
+      "visibility": "unlisted"
     }
   ],
   "schemaVersion": 3,
