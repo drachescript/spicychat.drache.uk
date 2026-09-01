@@ -1003,6 +1003,67 @@
       "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
       "botName": "Veyr",
       "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
+      "botName": "Kinky Delivery",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "botName": "Nyra",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "botName": "Rhea Ripley",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "b5964f5b-b916-439e-9537-6ba2247799bd",
+      "botName": "Tessa Ward",
+      "type": "milestone",
+      "value": 100
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
+      "botName": "Dragon",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public"
     }
   ]
 }
