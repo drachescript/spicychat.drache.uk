@@ -1064,6 +1064,14 @@
       "type": "visibility",
       "from": "unknown",
       "to": "public"
+    },
+    {
+      "at": "2026-09-01T07:56:12-04:00",
+      "botId": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
+      "botName": "A Jurassic TF Chase",
+      "type": "rename",
+      "from": "A Jurassic TF — Chas",
+      "to": "A Jurassic TF Chase"
     }
   ]
 }

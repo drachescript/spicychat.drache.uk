@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-09-01T07:19:13-04:00",
+  "capturedAt": "2026-09-01T07:56:12-04:00",
   "source": "All Your Chatbot Characters In One Place _ Spicychat.html",
-  "sourceSha256": "2c2bbd8a1d27e5eb1364d8ce04f11e0b03056e5d1d9411b48aacc61d1c201df1",
+  "sourceSha256": "5eb5ab32d35a0992c304d0c8c997f822971105a626508f673349c8f65dff56dd",
   "label": "Imported export",
   "bots": [
     {
@@ -11,47 +11,16 @@
       "title": "The App Says You Have to Test It",
       "url": "https://spicychat.ai/chat/e53b778e-9f38-4a72-b805-a4aec2295ff4",
       "visibility": "unlisted",
-      "messages": 0,
-      "messagesDisplay": "0",
+      "messages": 3,
+      "messagesDisplay": "3",
       "messagesApproximate": false,
       "tokens": 1962,
       "tokensDisplay": "1962",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/934821ec-cde9-48f6-b97e-3a66bfd34e44.jpg?class=avatar256x256",
-      "rawMessages": "0",
-      "rawTokens": "1962"
-    },
-    {
-      "id": "73ac8972-cd7e-445f-b916-0d8821934d68",
-      "name": "Rogue Amendiares",
-      "title": "The Queen of Fixers Doesn't Like Sharing",
-      "url": "https://spicychat.ai/chat/73ac8972-cd7e-445f-b916-0d8821934d68",
-      "visibility": "unlisted",
-      "messages": 45,
-      "messagesDisplay": "45",
-      "messagesApproximate": false,
-      "tokens": 1966,
-      "tokensDisplay": "1966",
-      "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/29e9ea66-6fbb-4a45-870a-45beddf64c25.jpg?class=avatar256x256",
-      "rawMessages": "45",
-      "rawTokens": "1966"
-    },
-    {
-      "id": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
-      "name": "Nyra",
-      "title": "Twenty-Four Hours Until You're Her Drone",
-      "url": "https://spicychat.ai/chat/6f439a04-51b2-4e31-b5da-f635aa3b9e24",
-      "visibility": "unlisted",
-      "messages": 0,
-      "messagesDisplay": "0",
-      "messagesApproximate": false,
-      "tokens": 1787,
-      "tokensDisplay": "1787",
-      "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/6585c5b8-bb40-427b-917c-7e5e9965fb1e.webp?class=avatar256x256",
-      "rawMessages": "0",
-      "rawTokens": "1787"
+      "rawMessages": "3",
+      "rawTokens": "1962",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "e7b48989-6847-400a-9a72-719a64bc5bf4",
@@ -67,23 +36,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9c40f40e-4d11-452f-aa57-4d6101a0a7fe.webp?class=avatar256x256",
       "rawMessages": "10",
-      "rawTokens": "1634"
-    },
-    {
-      "id": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
-      "name": "Veyr",
-      "title": "Twenty-Four Hours Until You're His Drone",
-      "url": "https://spicychat.ai/chat/14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
-      "visibility": "unlisted",
-      "messages": 155,
-      "messagesDisplay": "155",
-      "messagesApproximate": false,
-      "tokens": 2102,
-      "tokensDisplay": "2102",
-      "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/caf4aced-498f-4d04-9145-a0bd0c6bb0f2.jpg?class=avatar256x256",
-      "rawMessages": "155",
-      "rawTokens": "2102"
+      "rawTokens": "1634",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "edd37295-26d2-4a29-8951-8771b1fa3088",
@@ -99,11 +53,12 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9cb88eff-5f70-4507-a351-32e26b9ded72.png?class=avatar256x256",
       "rawMessages": "499",
-      "rawTokens": "1826"
+      "rawTokens": "1826",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
-      "name": "A Jurassic TF — Chas",
+      "name": "A Jurassic TF Chase",
       "title": "The experiment worked. The story kept going.",
       "url": "https://spicychat.ai/chat/24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
       "visibility": "unlisted",
@@ -115,7 +70,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/335e5c94-04dd-4758-adb4-c8a9e0842fa3.png?class=avatar256x256",
       "rawMessages": "0",
-      "rawTokens": "1733"
+      "rawTokens": "1733",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
@@ -131,7 +87,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/970a7063-9185-4e07-b072-e8836ae01e7a.png?class=avatar256x256",
       "rawMessages": "58",
-      "rawTokens": "1858"
+      "rawTokens": "1858",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
@@ -147,7 +104,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c179fe74-5319-4945-8e00-82d650547df5.jpg?class=avatar256x256",
       "rawMessages": "10",
-      "rawTokens": "1955"
+      "rawTokens": "1955",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "6fc193e7-25b5-4e11-b533-22a88d001b26",
@@ -163,7 +121,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/0ad547c2-79d4-4f13-8cc1-967cf8d959d1.png?class=avatar256x256",
       "rawMessages": "0",
-      "rawTokens": "1480"
+      "rawTokens": "1480",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "72b90b87-3d31-40be-ba07-37bd47c43a52",
@@ -179,7 +138,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/8019ade2-ead6-471d-b3a1-9a272366f19e.jpg?class=avatar256x256",
       "rawMessages": "19",
-      "rawTokens": "1693"
+      "rawTokens": "1693",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
@@ -195,7 +155,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/245721e5-60fd-4bd3-a443-576aafbe2e0d.png?class=avatar256x256",
       "rawMessages": "647",
-      "rawTokens": "2411"
+      "rawTokens": "2411",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
@@ -211,7 +172,25 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/6fc1e42b-ee33-403c-9e4b-0c799501e4df.webp?class=avatar256x256",
       "rawMessages": "514",
-      "rawTokens": "1709"
+      "rawTokens": "1709",
+      "observedAt": "2026-09-01T07:56:12-04:00"
+    },
+    {
+      "id": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "name": "Piper QoL",
+      "title": "She's Upset You Still Don't Use SpicyChat QoL",
+      "url": "https://spicychat.ai/chat/98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "visibility": "public",
+      "messages": 95,
+      "messagesDisplay": "95",
+      "messagesApproximate": false,
+      "tokens": 2248,
+      "tokensDisplay": "2248",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/c9af6731-6ff1-4048-abb0-bcaf92a5b178.jpg?class=avatar256x256",
+      "rawMessages": "95",
+      "rawTokens": "2248",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
@@ -227,7 +206,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/2a740411-8dcf-4c53-9e66-d8e0e36c780d.jpg?class=avatar256x256",
       "rawMessages": "236",
-      "rawTokens": "1664"
+      "rawTokens": "1664",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
@@ -243,7 +223,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/b730df26-a15a-44c8-9cc3-c5e12b26c23c.jpg?class=avatar256x256",
       "rawMessages": "36",
-      "rawTokens": "1605"
+      "rawTokens": "1605",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
@@ -259,7 +240,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/714ca673-a377-4b49-80f0-cea10f923206.webp?class=avatar256x256",
       "rawMessages": "457",
-      "rawTokens": "1978"
+      "rawTokens": "1978",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
@@ -275,7 +257,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/72660d08-26e1-456c-ad48-d23c128ae3e0.webp?class=avatar256x256",
       "rawMessages": "143",
-      "rawTokens": "1835"
+      "rawTokens": "1835",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "435e0b77-68cc-4d4f-bbe8-417208124b07",
@@ -291,7 +274,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/5e0735d1-d253-4e42-88b7-01309c67d0ff.png?class=avatar256x256",
       "rawMessages": "22",
-      "rawTokens": "1773"
+      "rawTokens": "1773",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "8fdfe8d4-5b03-49c5-9e50-b505222e2d45",
@@ -307,7 +291,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/2059e32b-21a2-4819-907f-cfa7fd5f5d60.png?class=avatar256x256",
       "rawMessages": "14",
-      "rawTokens": "1876"
+      "rawTokens": "1876",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "1a4b74a8-2f2a-4a47-a63d-3ea89155e85a",
@@ -323,7 +308,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/7dd3eedf-669d-4b00-a8ef-03eae4ba2c8c.png?class=avatar256x256",
       "rawMessages": "37",
-      "rawTokens": "1664"
+      "rawTokens": "1664",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "691a385e-a7f0-43d2-8d55-e121f0fdb82a",
@@ -339,7 +325,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/5a7c27ba-49d8-4dc7-971a-3647fdc47ba2.jpg?class=avatar256x256",
       "rawMessages": "83",
-      "rawTokens": "2351"
+      "rawTokens": "2351",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
@@ -355,7 +342,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/2ffeb058-92b1-4f84-a86b-bf887e97d142.jpg?class=avatar256x256",
       "rawMessages": "125",
-      "rawTokens": "2056"
+      "rawTokens": "2056",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
@@ -371,7 +359,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/4f2f7941-6f36-4366-a283-de3c7b93371f.jpg?class=avatar256x256",
       "rawMessages": "333",
-      "rawTokens": "1953"
+      "rawTokens": "1953",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "db30675a-4626-49bf-8048-43c6fda034da",
@@ -387,7 +376,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/0f21509a-35c3-466f-8a1a-4168429a4985.jpg?class=avatar256x256",
       "rawMessages": "208",
-      "rawTokens": "1883"
+      "rawTokens": "1883",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "b322238d-4847-40ed-a896-6d6f44f55192",
@@ -403,7 +393,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/a6ec053a-21fd-4e49-9a46-b3624e5117bd.jpg?class=avatar256x256",
       "rawMessages": "0",
-      "rawTokens": "1999"
+      "rawTokens": "1999",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "f55dad9d-8339-46ac-a11d-dce0afd98660",
@@ -419,7 +410,8 @@
       "tokensApproximate": false,
       "image": null,
       "rawMessages": "185",
-      "rawTokens": "1553"
+      "rawTokens": "1553",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
@@ -435,7 +427,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/ed0a77bb-3188-4851-a8c2-6c172109144c.png?class=avatar256x256",
       "rawMessages": "956",
-      "rawTokens": "1860"
+      "rawTokens": "1860",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "fbfad622-eea2-493b-8894-6d6f877441de",
@@ -451,7 +444,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/6fc7a43b-7486-4b59-ae68-592cac0319ea.png?class=avatar256x256",
       "rawMessages": "330",
-      "rawTokens": "2054"
+      "rawTokens": "2054",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "a04bc9a5-952e-4870-ac90-0a267f695374",
@@ -467,7 +461,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/ab3a99c7-f000-4704-a35f-beaa2860348d.png?class=avatar256x256",
       "rawMessages": "336",
-      "rawTokens": "1746"
+      "rawTokens": "1746",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
@@ -475,15 +470,16 @@
       "title": "The Spider Lady Keeps Finding You (Silent Hill)",
       "url": "https://spicychat.ai/chat/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
       "visibility": "public",
-      "messages": 1300,
-      "messagesDisplay": "1.3k",
+      "messages": 1400,
+      "messagesDisplay": "1.4k",
       "messagesApproximate": true,
       "tokens": 2294,
       "tokensDisplay": "2294",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256",
-      "rawMessages": "1.3k",
-      "rawTokens": "2294"
+      "rawMessages": "1.4k",
+      "rawTokens": "2294",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "9831d4b3-5cca-4425-95cb-44d72bb87937",
@@ -499,7 +495,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/3ed6889c-6808-4b8c-b18e-f32984ac6999.webp?class=avatar256x256",
       "rawMessages": "385",
-      "rawTokens": "1734"
+      "rawTokens": "1734",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "43c73c72-432d-4eeb-8615-a0a519cf7683",
@@ -515,7 +512,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/68598edd-e76a-4d7c-85cf-6eaac2eb89c1.jpg?class=avatar256x256",
       "rawMessages": "97",
-      "rawTokens": "1895"
+      "rawTokens": "1895",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "a1cf80af-e406-4a57-9cd4-547c736c9683",
@@ -531,7 +529,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/eafe5264-f760-49b7-af3e-ba3d00579563.jpg?class=avatar256x256",
       "rawMessages": "152",
-      "rawTokens": "2292"
+      "rawTokens": "2292",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
@@ -547,7 +546,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/52af9e91-f013-4d24-847b-a824246792ab.webp?class=avatar256x256",
       "rawMessages": "283",
-      "rawTokens": "1894"
+      "rawTokens": "1894",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "9e005568-3419-4717-9d31-d7dd70104a7f",
@@ -563,7 +563,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9f8d64f6-c2c9-4e4d-81fe-301aa82dba42.png?class=avatar256x256",
       "rawMessages": "1.4k",
-      "rawTokens": "1648"
+      "rawTokens": "1648",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "be449df2-b6f7-48b4-831d-d309eaf04f27",
@@ -579,7 +580,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/aca6239e-dc79-413f-ae35-7371331dc2d2.png?class=avatar256x256",
       "rawMessages": "338",
-      "rawTokens": "1495"
+      "rawTokens": "1495",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
@@ -595,7 +597,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/5bd18c54-9535-451e-8f65-99dd297a2ab4.jpg?class=avatar256x256",
       "rawMessages": "4.6k",
-      "rawTokens": "1520"
+      "rawTokens": "1520",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "57fc84b4-cb36-464f-9b87-49b30057e093",
@@ -611,7 +614,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/4c1ae9d0-5640-453b-9102-60dc6c07a331.jpg?class=avatar256x256",
       "rawMessages": "19",
-      "rawTokens": "1505"
+      "rawTokens": "1505",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "c8c96422-d782-438d-999c-79e785f635de",
@@ -627,7 +631,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/ed4b4f9b-16e6-4abd-ad77-fc83aa865a5d.jpg?class=avatar256x256",
       "rawMessages": "68",
-      "rawTokens": "1679"
+      "rawTokens": "1679",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "97533fef-f306-4d71-8c5c-4eb98fecf040",
@@ -643,7 +648,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/bc9d6d70-0de6-4ede-9ab9-f38e819dc9c4.jpg?class=avatar256x256",
       "rawMessages": "244",
-      "rawTokens": "1688"
+      "rawTokens": "1688",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "b5964f5b-b916-439e-9537-6ba2247799bd",
@@ -659,7 +665,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/e84616d8-f986-49fd-8ce0-5ad794dc6784.jpg?class=avatar256x256",
       "rawMessages": "203",
-      "rawTokens": "1658"
+      "rawTokens": "1658",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "615e3b47-93d7-4b56-855e-6129db0529f3",
@@ -675,7 +682,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/746ad0cf-92db-4416-a4d1-79443062557c.jpg?class=avatar256x256",
       "rawMessages": "35",
-      "rawTokens": "1734"
+      "rawTokens": "1734",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "e28727e4-3475-4aa3-acc8-54f039626243",
@@ -691,7 +699,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/24cd7e08-7ef6-4f82-bccd-3a676e0b5b66.jpg?class=avatar256x256",
       "rawMessages": "392",
-      "rawTokens": "1547"
+      "rawTokens": "1547",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
@@ -707,7 +716,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/0f6b9387-a114-45bf-b4ba-893512ebfef9.jpg?class=avatar256x256",
       "rawMessages": "250",
-      "rawTokens": "2073"
+      "rawTokens": "2073",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
@@ -723,7 +733,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/f6795cc1-8dbf-46df-bcd7-0adec3544ba3.jpg?class=avatar256x256",
       "rawMessages": "1.1k",
-      "rawTokens": "1867"
+      "rawTokens": "1867",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
@@ -739,7 +750,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/b1bef66a-57df-417d-8ee6-1a04f6e61b1b.jpg?class=avatar256x256",
       "rawMessages": "24",
-      "rawTokens": "1743"
+      "rawTokens": "1743",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "b376faf0-8c37-4b37-8861-8ca68cdd64b6",
@@ -755,7 +767,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/0fb19108-bfb0-453e-85f3-3b5a2655ce29.png?class=avatar256x256",
       "rawMessages": "417",
-      "rawTokens": "1876"
+      "rawTokens": "1876",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
@@ -771,7 +784,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/e06387e9-1532-4851-8b49-2f5d0c77bbf1.jpg?class=avatar256x256",
       "rawMessages": "2.1k",
-      "rawTokens": "2104"
+      "rawTokens": "2104",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "c1fe4367-501f-472c-967c-275c71d38378",
@@ -787,7 +801,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/1433aa28-b509-43b3-902f-32058a1e4fc4.jpg?class=avatar256x256",
       "rawMessages": "159",
-      "rawTokens": "2001"
+      "rawTokens": "2001",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
@@ -803,7 +818,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/223307ed-49df-451b-b4fe-48ec587b8ce9.jpg?class=avatar256x256",
       "rawMessages": "452",
-      "rawTokens": "1718"
+      "rawTokens": "1718",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
@@ -819,7 +835,8 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/0bab1000-4754-4fab-8674-0e5bc4f50406.jpg?class=avatar256x256",
       "rawMessages": "14",
-      "rawTokens": "1670"
+      "rawTokens": "1670",
+      "observedAt": "2026-09-01T07:56:12-04:00"
     },
     {
       "id": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
@@ -835,7 +852,170 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9f665292-e81f-43d6-8467-e86c7658da51.jpg?class=avatar256x256",
       "rawMessages": "145",
-      "rawTokens": "1998"
+      "rawTokens": "1998",
+      "observedAt": "2026-09-01T07:56:12-04:00"
+    },
+    {
+      "id": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "name": "Rogue Amendiares",
+      "title": "The Queen of Fixers Doesn't Like Sharing",
+      "url": "https://spicychat.ai/chat/73ac8972-cd7e-445f-b916-0d8821934d68",
+      "visibility": "unlisted",
+      "messages": 45,
+      "messagesDisplay": "45",
+      "messagesApproximate": false,
+      "tokens": 1966,
+      "tokensDisplay": "1966",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/29e9ea66-6fbb-4a45-870a-45beddf64c25.jpg?class=avatar256x256",
+      "rawMessages": "45",
+      "rawTokens": "1966",
+      "observedAt": "2026-09-01T07:19:13-04:00",
+      "carriedForward": true
+    },
+    {
+      "id": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "name": "Serena Ward",
+      "title": "I Explained This to You Yesterday (DID POV)",
+      "url": "https://spicychat.ai/chat/d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "visibility": "unlisted",
+      "messages": 47,
+      "messagesDisplay": "47",
+      "messagesApproximate": false,
+      "tokens": 1818,
+      "tokensDisplay": "1818",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/e7e4840a-3b71-4b7e-b7cf-b0aade6e5191.jpg?class=avatar256x256",
+      "rawMessages": "47",
+      "rawTokens": "1,818",
+      "observedAt": "2026-09-01T05:33:14Z",
+      "carriedForward": true
+    },
+    {
+      "id": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "name": "Maya Bennett",
+      "title": "You Disappeared Mid-Shift (Panic Disorder POV)",
+      "url": "https://spicychat.ai/chat/cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "visibility": "unlisted",
+      "messages": 8,
+      "messagesDisplay": "8",
+      "messagesApproximate": false,
+      "tokens": 1433,
+      "tokensDisplay": "1433",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/83cdfb06-b7d9-4f9a-948b-4766d6bfa465.jpg?class=avatar256x256",
+      "rawMessages": "8",
+      "rawTokens": "1,433",
+      "observedAt": "2026-09-01T05:33:14Z",
+      "carriedForward": true
+    },
+    {
+      "id": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "name": "Elise Hart",
+      "title": "She Found the Note You Never Meant Her to Read (Suicidal POV)",
+      "url": "https://spicychat.ai/chat/dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "visibility": "unlisted",
+      "messages": 36,
+      "messagesDisplay": "36",
+      "messagesApproximate": false,
+      "tokens": 1443,
+      "tokensDisplay": "1443",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/4c98437a-635f-44ca-a558-b2a4c0bf9601.jpg?class=avatar256x256",
+      "rawMessages": "36",
+      "rawTokens": "1443",
+      "observedAt": "2026-09-01T05:33:14Z",
+      "carriedForward": true
+    },
+    {
+      "id": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
+      "name": "Lena Foster",
+      "title": "The Invitation Is Still Open (Depression POV)",
+      "url": "https://spicychat.ai/chat/2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
+      "visibility": "unlisted",
+      "messages": 8,
+      "messagesDisplay": "8",
+      "messagesApproximate": false,
+      "tokens": 1520,
+      "tokensDisplay": "1520",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/3690d9ca-3f39-4cf2-9c92-c81100a2242d.jpg?class=avatar256x256",
+      "rawMessages": "8",
+      "rawTokens": "1520",
+      "observedAt": "2026-09-01T05:33:14Z",
+      "carriedForward": true
+    },
+    {
+      "id": "03988822-692f-48ad-b158-8e152bb6dc20",
+      "name": "Cass Rowan",
+      "title": "The Room Still Doesn't Feel Real (Derealization POV)",
+      "url": "https://spicychat.ai/chat/03988822-692f-48ad-b158-8e152bb6dc20",
+      "visibility": "unlisted",
+      "messages": 7,
+      "messagesDisplay": "7",
+      "messagesApproximate": false,
+      "tokens": 1586,
+      "tokensDisplay": "1586",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/19d66b0e-1802-4156-9772-8b751dddad25.jpg?class=avatar256x256",
+      "rawMessages": "7",
+      "rawTokens": "1586",
+      "observedAt": "2026-09-01T05:33:14Z",
+      "carriedForward": true
+    },
+    {
+      "id": "81c1380f-7f02-472c-93c2-5d230032cdf9",
+      "name": "Riley Stone",
+      "title": "The System's Friend Likes You Better (DID POV)",
+      "url": "https://spicychat.ai/chat/81c1380f-7f02-472c-93c2-5d230032cdf9",
+      "visibility": "public",
+      "messages": 75,
+      "messagesDisplay": "75",
+      "messagesApproximate": false,
+      "tokens": 1425,
+      "tokensDisplay": "1425",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/f52b548a-08be-44e2-98ff-b17525c89efd.jpg?class=avatar256x256",
+      "rawMessages": "75",
+      "rawTokens": "1425",
+      "observedAt": "2026-09-01T05:33:14Z",
+      "carriedForward": true
+    },
+    {
+      "id": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "name": "Nyra",
+      "title": "Twenty-Four Hours Until You're Her Drone",
+      "url": "https://spicychat.ai/chat/6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "visibility": "unlisted",
+      "messages": 0,
+      "messagesDisplay": "0",
+      "messagesApproximate": false,
+      "tokens": 1787,
+      "tokensDisplay": "1787",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/6585c5b8-bb40-427b-917c-7e5e9965fb1e.webp?class=avatar256x256",
+      "rawMessages": "0",
+      "rawTokens": "1787",
+      "observedAt": "2026-09-01T07:19:13-04:00",
+      "carriedForward": true
+    },
+    {
+      "id": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "name": "Veyr",
+      "title": "Twenty-Four Hours Until You're His Drone",
+      "url": "https://spicychat.ai/chat/14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "visibility": "unlisted",
+      "messages": 155,
+      "messagesDisplay": "155",
+      "messagesApproximate": false,
+      "tokens": 2102,
+      "tokensDisplay": "2102",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/caf4aced-498f-4d04-9145-a0bd0c6bb0f2.jpg?class=avatar256x256",
+      "rawMessages": "155",
+      "rawTokens": "2102",
+      "observedAt": "2026-09-01T07:19:13-04:00",
+      "carriedForward": true
     }
   ]
 }
