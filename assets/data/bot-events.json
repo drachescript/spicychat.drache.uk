@@ -1126,6 +1126,24 @@
       "value": 100,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-01T21:16:33Z",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T21:16:33Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": true,
+      "source": "creator-profile"
     }
   ]
 }
