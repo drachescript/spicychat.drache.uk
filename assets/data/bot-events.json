@@ -1081,6 +1081,51 @@
       "value": 500,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-01T16:52:29Z",
+      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "botName": "Serena Ward",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T16:52:29Z",
+      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "botName": "Maya Bennett",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T16:52:29Z",
+      "botId": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
+      "botName": "Lena Foster",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T16:52:29Z",
+      "botId": "03988822-692f-48ad-b158-8e152bb6dc20",
+      "botName": "Cass Rowan",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T16:52:29Z",
+      "botId": "43c73c72-432d-4eeb-8615-a0a519cf7683",
+      "botName": "Zenin Clan",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
