@@ -67,7 +67,6 @@
       "firstSeenAt": "2026-08-30T15:44:04-04:00",
       "createdAt": "2026-08-30",
       "createdAtSource": "first-import",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -94,7 +93,6 @@
       "firstSeenAt": "2026-08-30T15:44:04-04:00",
       "createdAt": "2026-08-30",
       "createdAtSource": "first-import",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -119,7 +117,6 @@
       "firstSeenAt": "2026-08-30T15:44:04-04:00",
       "createdAt": "2026-08-30",
       "createdAtSource": "first-import",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -145,7 +142,6 @@
       "firstSeenAt": "2026-08-30T15:44:04-04:00",
       "createdAt": "2026-08-30",
       "createdAtSource": "first-import",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -171,7 +167,6 @@
       "firstSeenAt": "2026-08-30T15:44:04-04:00",
       "createdAt": "2026-08-30",
       "createdAtSource": "first-import",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -198,7 +193,6 @@
       "firstSeenAt": "2026-08-30T15:44:04-04:00",
       "createdAt": "2026-08-30",
       "createdAtSource": "first-import",
-      "missingFromLatest": false,
       "needsReview": false,
       "visibility": "public",
       "approvedAt": "2026-08-31T16:06:00-04:00",
@@ -232,7 +226,6 @@
       "unlistedAtApproxStart": "2026-08-29T06:17:00-04:00",
       "unlistedAtApproxEnd": "2026-08-29T07:17:00-04:00",
       "unlistedAtSource": "user-estimated-1-to-2-hours-before-08:17",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -260,7 +253,6 @@
       "unlistedAtApproxStart": "2026-08-29T06:17:00-04:00",
       "unlistedAtApproxEnd": "2026-08-29T07:17:00-04:00",
       "unlistedAtSource": "user-estimated-1-to-2-hours-before-08:17",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -287,7 +279,6 @@
       "unlistedAtApproxStart": "2026-08-29T06:17:00-04:00",
       "unlistedAtApproxEnd": "2026-08-29T07:17:00-04:00",
       "unlistedAtSource": "user-estimated-1-to-2-hours-before-08:17",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -314,7 +305,6 @@
       "unlistedAtApproxStart": "2026-08-29T06:17:00-04:00",
       "unlistedAtApproxEnd": "2026-08-29T07:17:00-04:00",
       "unlistedAtSource": "user-estimated-1-to-2-hours-before-08:17",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -341,7 +331,6 @@
       "unlistedAtApproxStart": "2026-08-29T06:17:00-04:00",
       "unlistedAtApproxEnd": "2026-08-29T07:17:00-04:00",
       "unlistedAtSource": "user-estimated-1-to-2-hours-before-08:17",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -362,7 +351,6 @@
       "firstSeenAt": "2026-08-27T14:10:59-04:00",
       "createdAt": "2026-08-27T12:10:00-04:00",
       "createdAtSource": "user-estimated-about-2h-before-14:11",
-      "missingFromLatest": false,
       "needsReview": false,
       "approvedAt": "2026-08-27T22:23:00-04:00",
       "approvedAtSource": "SpicyChat approval email",
@@ -386,7 +374,6 @@
       "firstSeenAt": "2026-08-27T01:53:04-04:00",
       "createdAt": "2026-08-27T01:15:00-04:00",
       "createdAtSource": "user-confirmed",
-      "missingFromLatest": false,
       "needsReview": false,
       "approvedAt": "2026-08-27T23:40:00-04:00",
       "approvedAtSource": "SpicyChat approval email",
@@ -410,7 +397,6 @@
       "firstSeenAt": "2026-08-25T02:23:52-04:00",
       "createdAt": "2026-08-25",
       "createdAtSource": "first-import",
-      "missingFromLatest": false,
       "needsReview": false
     },
     {
@@ -434,7 +420,6 @@
       "knownSince": "2026-08-23T19:08:25-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T19:08:25-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-23",
       "createdAtSource": "first-snapshot"
     },
@@ -460,7 +445,6 @@
       "knownSince": "2026-08-23T19:08:25-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T19:08:25-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-23",
       "createdAtSource": "first-snapshot"
     },
@@ -486,7 +470,6 @@
       "knownSince": "2026-08-23T19:08:25-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T19:08:25-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-23",
       "createdAtSource": "first-snapshot"
     },
@@ -512,7 +495,6 @@
       "knownSince": "2026-08-23T02:19:23-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-23",
       "createdAtSource": "first-snapshot"
     },
@@ -537,7 +519,6 @@
       "knownSince": "2026-08-23T02:19:23-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-23",
       "createdAtSource": "first-snapshot"
     },
@@ -562,7 +543,6 @@
       "knownSince": "2026-08-21T07:28:02Z",
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-21",
       "createdAtSource": "saved-profile"
     },
@@ -588,7 +568,6 @@
       "knownSince": "2026-08-21T07:26:31Z",
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-21",
       "createdAtSource": "saved-profile"
     },
@@ -613,7 +592,6 @@
       "knownSince": "2026-08-23T02:19:23-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-23",
       "createdAtSource": "first-snapshot"
     },
@@ -638,7 +616,6 @@
       "knownSince": "2026-08-23T02:19:23-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-23",
       "createdAtSource": "first-snapshot"
     },
@@ -664,7 +641,6 @@
       "knownSince": "2026-08-15T18:48:20-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-15",
       "createdAtSource": "first-snapshot"
     },
@@ -691,7 +667,6 @@
       "knownSince": "2026-08-14T21:08:56Z",
       "knownSinceSource": "creation-chat",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-14",
       "createdAtSource": "creation-chat"
     },
@@ -718,7 +693,6 @@
       "knownSince": "2026-08-14T21:08:56Z",
       "knownSinceSource": "creation-chat",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-14",
       "createdAtSource": "creation-chat"
     },
@@ -743,7 +717,6 @@
       "knownSince": "2026-08-15T18:48:20-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-15",
       "createdAtSource": "first-snapshot"
     },
@@ -768,7 +741,6 @@
       "knownSince": "2026-08-15T18:48:20-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-15",
       "createdAtSource": "first-snapshot"
     },
@@ -795,7 +767,6 @@
       "knownSince": "2026-08-14T03:57:55Z",
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-14",
       "createdAtSource": "saved-profile"
     },
@@ -819,7 +790,6 @@
       "knownSince": "2026-08-14T04:01:19Z",
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-14",
       "createdAtSource": "saved-profile"
     },
@@ -843,7 +813,6 @@
       "knownSince": "2026-08-15T18:48:20-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-15",
       "createdAtSource": "first-snapshot"
     },
@@ -868,7 +837,6 @@
       "knownSince": "2026-08-12T18:10:23-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T18:10:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-12",
       "createdAtSource": "first-snapshot"
     },
@@ -891,7 +859,6 @@
       "knownSince": "2026-08-12T18:10:23-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T18:10:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-12",
       "createdAtSource": "first-snapshot"
     },
@@ -915,7 +882,6 @@
       "knownSince": "2026-08-12T18:10:23-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T18:10:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-12",
       "createdAtSource": "first-snapshot"
     },
@@ -939,7 +905,6 @@
       "knownSince": "2026-08-12T18:10:23-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T18:10:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-12",
       "createdAtSource": "first-snapshot"
     },
@@ -963,7 +928,6 @@
       "knownSince": "2026-08-12T18:10:23-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T18:10:23-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-12",
       "createdAtSource": "first-snapshot"
     },
@@ -988,7 +952,6 @@
       "knownSince": "2026-08-10T23:15:52Z",
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-10",
       "createdAtSource": "saved-chat"
     },
@@ -1012,7 +975,6 @@
       "knownSince": "2026-08-10T23:35:10Z",
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-10",
       "createdAtSource": "saved-profile"
     },
@@ -1037,7 +999,6 @@
       "knownSince": "2026-08-10T23:35:10Z",
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-10",
       "createdAtSource": "saved-profile"
     },
@@ -1061,7 +1022,6 @@
       "knownSince": "2026-08-10T23:35:10Z",
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-10",
       "createdAtSource": "saved-profile"
     },
@@ -1086,7 +1046,6 @@
       "knownSince": "2026-08-12T17:32:06-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-12",
       "createdAtSource": "first-snapshot"
     },
@@ -1110,7 +1069,6 @@
       "knownSince": "2026-08-08T23:11:22Z",
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-08",
       "createdAtSource": "saved-chat"
     },
@@ -1134,7 +1092,6 @@
       "knownSince": "2026-08-10T01:05:35Z",
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-10",
       "createdAtSource": "saved-chat"
     },
@@ -1158,7 +1115,6 @@
       "knownSince": "2026-08-12T17:32:06-04:00",
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-12",
       "createdAtSource": "first-snapshot"
     },
@@ -1180,7 +1136,6 @@
       "knownSince": "2026-08-08T23:11:22Z",
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-08",
       "createdAtSource": "saved-chat"
     },
@@ -1205,7 +1160,6 @@
       "knownSince": "2026-08-08T19:58:30Z",
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-08",
       "createdAtSource": "saved-chat"
     },
@@ -1228,7 +1182,6 @@
       "knownSince": "2026-07-19T00:36:21Z",
       "knownSinceSource": "creation-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-07-19",
       "createdAtSource": "creation-chat"
     },
@@ -1252,7 +1205,6 @@
       "knownSince": "2026-08-06T23:13:26Z",
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-06",
       "createdAtSource": "saved-chat"
     },
@@ -1280,7 +1232,6 @@
       "knownSince": "2026-08-05T22:46:43Z",
       "knownSinceSource": "creation-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-05",
       "createdAtSource": "creation-chat"
     },
@@ -1306,7 +1257,6 @@
       "knownSince": "2026-08-06T23:15:00Z",
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": false,
       "createdAt": "2026-08-08",
       "createdAtSource": "user-confirmed"
     },
@@ -1330,7 +1280,6 @@
       "knownSince": "2026-08-05T08:25:59Z",
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": true,
       "createdAt": "2026-08-05",
       "createdAtSource": "saved-chat"
     },
@@ -1355,7 +1304,6 @@
       "knownSince": "2026-07-21T02:07:43Z",
       "knownSinceSource": "creation-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": true,
       "createdAt": "2026-07-21",
       "createdAtSource": "creation-chat"
     },
@@ -1381,7 +1329,6 @@
       "knownSince": "2026-07-18T22:13:50Z",
       "knownSinceSource": "creation-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": true,
       "createdAt": "2026-07-18",
       "createdAtSource": "creation-chat"
     },
@@ -1406,7 +1353,6 @@
       "knownSince": "2026-08-07T01:33:27Z",
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "missingFromLatest": true,
       "createdAt": "2026-08-07",
       "createdAtSource": "saved-chat"
     },
@@ -1433,7 +1379,6 @@
       "firstSeenAt": "2026-09-01T06:37:28-04:00",
       "createdAt": "2026-08-31",
       "createdAtSource": "creation-form",
-      "missingFromLatest": false,
       "needsReview": false,
       "visibility": "unlisted"
     },
@@ -1459,7 +1404,6 @@
       "firstSeenAt": "2026-09-01T06:37:28-04:00",
       "createdAt": "2026-09-01",
       "createdAtSource": "first-import",
-      "missingFromLatest": false,
       "needsReview": false,
       "visibility": "unlisted"
     },
@@ -1486,7 +1430,6 @@
       "firstSeenAt": "2026-09-01T06:37:28-04:00",
       "createdAt": "2026-08-31",
       "createdAtSource": "profile-edit-capture",
-      "missingFromLatest": false,
       "needsReview": false,
       "visibility": "unlisted"
     }
