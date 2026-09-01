@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-09-01T07:56:12-04:00",
-  "source": "All Your Chatbot Characters In One Place _ Spicychat.html",
+  "capturedAt": "2026-09-01T11:58:48Z",
+  "source": "github-public-updater",
   "sourceSha256": "5eb5ab32d35a0992c304d0c8c997f822971105a626508f673349c8f65dff56dd",
-  "label": "Imported export",
+  "label": "Automatic update",
   "bots": [
     {
       "id": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
@@ -45,16 +45,19 @@
       "title": "She turned you into Jurassic World's first human-raptor hybrid.",
       "url": "https://spicychat.ai/chat/edd37295-26d2-4a29-8951-8771b1fa3088",
       "visibility": "public",
-      "messages": 499,
-      "messagesDisplay": "499",
+      "messages": 511,
+      "messagesDisplay": "511",
       "messagesApproximate": false,
       "tokens": 1826,
       "tokensDisplay": "1826",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9cb88eff-5f70-4507-a351-32e26b9ded72.png?class=avatar256x256",
-      "rawMessages": "499",
+      "rawMessages": "511",
       "rawTokens": "1826",
-      "observedAt": "2026-09-01T07:56:12-04:00"
+      "observedAt": "2026-09-01T07:56:12-04:00",
+      "statsSource": "direct-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/edd37295-26d2-4a29-8951-8771b1fa3088",
+      "statsUpdatedAt": "2026-09-01T11:58:48Z"
     },
     {
       "id": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
@@ -861,17 +864,20 @@
       "title": "The Queen of Fixers Doesn't Like Sharing",
       "url": "https://spicychat.ai/chat/73ac8972-cd7e-445f-b916-0d8821934d68",
       "visibility": "unlisted",
-      "messages": 45,
-      "messagesDisplay": "45",
+      "messages": 60,
+      "messagesDisplay": "60",
       "messagesApproximate": false,
       "tokens": 1966,
       "tokensDisplay": "1966",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/29e9ea66-6fbb-4a45-870a-45beddf64c25.jpg?class=avatar256x256",
-      "rawMessages": "45",
+      "rawMessages": "60",
       "rawTokens": "1966",
       "observedAt": "2026-09-01T07:19:13-04:00",
-      "carriedForward": true
+      "carriedForward": true,
+      "statsSource": "direct-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/73ac8972-cd7e-445f-b916-0d8821934d68",
+      "statsUpdatedAt": "2026-09-01T11:58:48Z"
     },
     {
       "id": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
