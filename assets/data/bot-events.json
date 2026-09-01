@@ -1101,6 +1101,15 @@
       "value": 250,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T05:33:14Z",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
