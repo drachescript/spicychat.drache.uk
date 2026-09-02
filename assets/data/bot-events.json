@@ -1198,6 +1198,42 @@
       "value": 250,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T11:40:04Z",
+      "botId": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
+      "botName": "Kinky Delivery",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T11:40:04Z",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T11:40:04Z",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T11:40:04Z",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
