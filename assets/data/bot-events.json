@@ -1144,6 +1144,33 @@
       "value": 5000,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T00:27:39Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T00:27:39Z",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T00:27:39Z",
+      "botId": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
+      "botName": "Raven Cole",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
     }
   ]
 }
