@@ -1171,6 +1171,33 @@
       "value": 1000,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T04:58:41Z",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T04:58:41Z",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T04:58:41Z",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
