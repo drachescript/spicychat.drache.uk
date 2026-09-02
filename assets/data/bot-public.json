@@ -942,6 +942,24 @@
       "baselineSource": "creator-profile",
       "accuracy": "first-observed",
       "source": "creator-profile"
+    },
+    {
+      "id": "ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
+      "name": "Naomi Vance",
+      "publicSinceAt": "2026-09-02T16:49:51Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "creator-profile",
+      "firstPublicObservedAt": "2026-09-02T16:49:51Z",
+      "previousNonPublicObservedAt": "2026-09-02T11:40:04Z",
+      "baselineAt": "2026-09-02T16:49:51Z",
+      "messagesAtBaseline": 10,
+      "messagesDisplayAtBaseline": "10",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "creator-profile",
+      "accuracy": "first-observed",
+      "source": "creator-profile"
     }
   ]
 }

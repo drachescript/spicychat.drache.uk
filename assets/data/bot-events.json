@@ -1234,6 +1234,24 @@
       "value": 500,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T16:49:51Z",
+      "botId": "ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
+      "botName": "Naomi Vance",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T16:49:51Z",
+      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
+      "botName": "Dr. Yara Vale",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
