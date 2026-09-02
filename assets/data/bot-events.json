@@ -1252,6 +1252,24 @@
       "value": 500,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T21:14:04Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T21:14:04Z",
+      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "botName": "Rhea Ripley",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
     }
   ]
 }

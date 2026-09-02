@@ -960,6 +960,24 @@
       "baselineSource": "creator-profile",
       "accuracy": "first-observed",
       "source": "creator-profile"
+    },
+    {
+      "id": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "name": "Rhea Ripley",
+      "publicSinceAt": "2026-09-02T21:14:04Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "creator-profile",
+      "firstPublicObservedAt": "2026-09-02T21:14:04Z",
+      "previousNonPublicObservedAt": "2026-09-02T16:49:51Z",
+      "baselineAt": "2026-09-02T21:14:04Z",
+      "messagesAtBaseline": 13,
+      "messagesDisplayAtBaseline": "13",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "creator-profile",
+      "accuracy": "first-observed",
+      "source": "creator-profile"
     }
   ]
 }
