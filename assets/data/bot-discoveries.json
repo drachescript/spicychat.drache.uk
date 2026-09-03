@@ -1,14 +1,4 @@
 {
   "schemaVersion": 1,
-  "discoveries": [
-    {
-      "id": "978e6fae-ff58-4abc-b849-321c09833843",
-      "name": "Raptor Pack Handler",
-      "profileUrl": "https://spicychat.ai/chatbot/978e6fae-ff58-4abc-b849-321c09833843",
-      "chatUrl": "https://spicychat.ai/chat/978e6fae-ff58-4abc-b849-321c09833843",
-      "firstSeenAt": "2026-09-02T21:14:04Z",
-      "messagesDisplay": "52",
-      "tokensDisplay": "1993"
-    }
-  ]
+  "discoveries": []
 }

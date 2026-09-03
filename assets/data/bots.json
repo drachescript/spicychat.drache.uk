@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01",
+  "updatedAt": "2026-09-02",
   "newBadgeDays": 7,
   "categories": [
     {
@@ -45,6 +45,139 @@
   ],
   "bots": [
     {
+      "id": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "name": "Judy & Evelyn",
+      "category": "fandom",
+      "tags": [
+        "Cyberpunk 2077",
+        "Judy Alvarez",
+        "Evelyn Parker",
+        "romance",
+        "jealousy"
+      ],
+      "title": "Neither of Them Wants You to Choose",
+      "blurb": "Neither of Them Wants You to Choose",
+      "url": "https://spicychat.ai/chat/7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "origin": "personal",
+      "order": 1,
+      "image": "https://cdn.nd-api.com/avatars/f6b40135-bb00-4383-87d3-aee77bc29162.jpg?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-02",
+      "knownSince": "2026-09-02T23:59:15Z",
+      "knownSinceSource": "saved-my-creations",
+      "firstSeenAt": "2026-09-02T23:59:15Z",
+      "createdAt": "2026-09-02",
+      "createdAtSource": "saved-my-creations",
+      "needsReview": true,
+      "visibility": "unlisted"
+    },
+    {
+      "id": "978e6fae-ff58-4abc-b849-321c09833843",
+      "name": "Raptor Pack Handler",
+      "category": "indoraptor",
+      "tags": [
+        "raptor",
+        "Jurassic World",
+        "handler",
+        "pack",
+        "creature POV"
+      ],
+      "title": "The Pack Chose You (Raptor Handler POV)",
+      "blurb": "The Pack Chose You (Raptor Handler POV)",
+      "url": "https://spicychat.ai/chat/978e6fae-ff58-4abc-b849-321c09833843",
+      "origin": "personal",
+      "order": 2,
+      "image": "https://cdn.nd-api.com/avatars/c1e89c2d-4f5b-446e-86dd-f453501e99f7.webp?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-02",
+      "knownSince": "2026-09-02T21:14:04Z",
+      "knownSinceSource": "creator-profile",
+      "firstSeenAt": "2026-09-02T21:14:04Z",
+      "createdAt": "2026-09-02",
+      "createdAtSource": "saved-my-creations",
+      "needsReview": false,
+      "visibility": "public"
+    },
+    {
+      "id": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "name": "Saeli Venn",
+      "category": "other",
+      "tags": [
+        "alien",
+        "dating",
+        "romance",
+        "sci-fi"
+      ],
+      "title": "She Studied Human Dating. Badly.",
+      "blurb": "She Studied Human Dating. Badly.",
+      "url": "https://spicychat.ai/chat/78986c9b-8a87-485d-b92c-33423de50a78",
+      "origin": "personal",
+      "order": 3,
+      "image": "https://cdn.nd-api.com/avatars/447233f0-9492-4735-850a-32415188be7e.jpg?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-02",
+      "knownSince": "2026-09-02T23:59:15Z",
+      "knownSinceSource": "saved-my-creations",
+      "firstSeenAt": "2026-09-02T23:59:15Z",
+      "createdAt": "2026-09-02",
+      "createdAtSource": "saved-my-creations",
+      "needsReview": false,
+      "visibility": "unlisted"
+    },
+    {
+      "id": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "name": "Aurelia & Vaelira",
+      "category": "dragon-hybrid",
+      "tags": [
+        "dragon",
+        "dragon hybrid",
+        "queen",
+        "fantasy",
+        "romance"
+      ],
+      "title": "Her Dragon Likes You More Than Her (Dragon Hybrid POV)",
+      "blurb": "Her Dragon Likes You More Than Her (Dragon Hybrid POV)",
+      "url": "https://spicychat.ai/chat/f4698655-1341-481a-a81a-3b7e395a582c",
+      "origin": "personal",
+      "order": 4,
+      "image": "https://cdn.nd-api.com/avatars/5416615d-0cdf-45a8-9019-278b76ebdf01.jpg?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-02",
+      "knownSince": "2026-09-02T23:59:15Z",
+      "knownSinceSource": "saved-my-creations",
+      "firstSeenAt": "2026-09-02T23:59:15Z",
+      "createdAt": "2026-09-02",
+      "createdAtSource": "saved-my-creations",
+      "needsReview": false,
+      "visibility": "unlisted"
+    },
+    {
+      "id": "38154344-755f-4541-adf6-af8a38e628e6",
+      "name": "Queen Elowen",
+      "category": "dragon-hybrid",
+      "tags": [
+        "dragon hybrid",
+        "queen",
+        "fantasy",
+        "romance"
+      ],
+      "title": "The Queen Keeps Finding Reasons to Summon You (Dragon Hybrid POV)",
+      "blurb": "The Queen Keeps Finding Reasons to Summon You (Dragon Hybrid POV)",
+      "url": "https://spicychat.ai/chat/38154344-755f-4541-adf6-af8a38e628e6",
+      "origin": "personal",
+      "order": 5,
+      "image": "https://cdn.nd-api.com/avatars/06fb3ba7-c823-4c21-abfa-5448482574f5.jpg?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-02",
+      "knownSince": "2026-09-02T23:59:15Z",
+      "knownSinceSource": "saved-my-creations",
+      "firstSeenAt": "2026-09-02T23:59:15Z",
+      "createdAt": "2026-09-02",
+      "createdAtSource": "saved-my-creations",
+      "needsReview": false,
+      "visibility": "unlisted"
+    },
+    {
       "id": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
       "name": "Kinky Delivery",
       "category": "other",
@@ -52,11 +185,11 @@
         "delivery app",
         "scenario"
       ],
-      "title": "The App Says You Have to Test It",
-      "blurb": "The App Says You Have to Test It",
+      "title": "The Customer Picks What You Wear (no choice version, more choice version coming soon TM)",
+      "blurb": "The Customer Picks What You Wear (no choice version, more choice version coming soon TM)",
       "url": "https://spicychat.ai/chat/e53b778e-9f38-4a72-b805-a4aec2295ff4",
       "origin": "personal",
-      "order": 0.01,
+      "order": 6,
       "image": "https://cdn.nd-api.com/avatars/934821ec-cde9-48f6-b97e-3a66bfd34e44.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-09-01",
@@ -66,7 +199,7 @@
       "createdAt": "2026-09-01",
       "createdAtSource": "saved-my-creations",
       "needsReview": false,
-      "visibility": "unlisted"
+      "visibility": "public"
     },
     {
       "id": "73ac8972-cd7e-445f-b916-0d8821934d68",
@@ -83,7 +216,7 @@
       "blurb": "Cyberpunk 2077. you and Rogue have known each other for years; another merc flirting with you at the Afterlife makes her crush a lot harder to keep quiet.",
       "url": "https://spicychat.ai/chat/73ac8972-cd7e-445f-b916-0d8821934d68",
       "origin": "personal",
-      "order": 0.02,
+      "order": 7,
       "image": "https://cdn.nd-api.com/avatars/29e9ea66-6fbb-4a45-870a-45beddf64c25.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-09-01",
@@ -93,7 +226,84 @@
       "createdAt": "2026-09-01T06:22:41-04:00",
       "createdAtSource": "creation-chat",
       "needsReview": false,
-      "visibility": "unlisted"
+      "visibility": "public"
+    },
+    {
+      "id": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "name": "Nyra",
+      "category": "other",
+      "tags": [
+        "Nocturne Hive",
+        "drone",
+        "transformation",
+        "mind control"
+      ],
+      "title": "Twenty-Four Hours Until You're Her Drone",
+      "blurb": "Twenty-Four Hours Until You're Her Drone",
+      "url": "https://spicychat.ai/chat/6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "origin": "personal",
+      "order": 8,
+      "image": "https://cdn.nd-api.com/avatars/6585c5b8-bb40-427b-917c-7e5e9965fb1e.webp?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-01",
+      "knownSince": "2026-09-01T06:37:28-04:00",
+      "knownSinceSource": "saved-my-creations",
+      "firstSeenAt": "2026-09-01T06:37:28-04:00",
+      "createdAt": "2026-08-31",
+      "createdAtSource": "creation-form",
+      "needsReview": false,
+      "visibility": "public"
+    },
+    {
+      "id": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "name": "Rhea Ripley",
+      "category": "fandom",
+      "tags": [
+        "Rhea Ripley",
+        "WWE",
+        "fandom"
+      ],
+      "title": "The Meet-and-Greet Was Supposed to Last Two Minutes",
+      "blurb": "The Meet-and-Greet Was Supposed to Last Two Minutes",
+      "url": "https://spicychat.ai/chat/e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "origin": "personal",
+      "order": 9,
+      "image": "https://cdn.nd-api.com/avatars/9c40f40e-4d11-452f-aa57-4d6101a0a7fe.webp?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-01",
+      "knownSince": "2026-09-01T06:37:28-04:00",
+      "knownSinceSource": "saved-my-creations",
+      "firstSeenAt": "2026-09-01T06:37:28-04:00",
+      "createdAt": "2026-09-01",
+      "createdAtSource": "first-import",
+      "needsReview": false,
+      "visibility": "public"
+    },
+    {
+      "id": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "name": "Veyr",
+      "category": "other",
+      "tags": [
+        "Nocturne Hive",
+        "drone",
+        "transformation",
+        "mind control"
+      ],
+      "title": "Twenty-Four Hours Until You're His Drone",
+      "blurb": "Twenty-Four Hours Until You're His Drone",
+      "url": "https://spicychat.ai/chat/14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "origin": "personal",
+      "order": 10,
+      "image": "https://cdn.nd-api.com/avatars/b48d7cc5-3b5f-444b-a9c5-a1d4abd33e9a.jpg?class=avatar256x256",
+      "imageHidden": false,
+      "addedAt": "2026-09-01",
+      "knownSince": "2026-09-01T06:37:28-04:00",
+      "knownSinceSource": "saved-my-creations",
+      "firstSeenAt": "2026-09-01T06:37:28-04:00",
+      "createdAt": "2026-08-31",
+      "createdAtSource": "profile-edit-capture",
+      "needsReview": false,
+      "visibility": "public"
     },
     {
       "id": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
@@ -109,7 +319,7 @@
       "blurb": "DID POV. your new boss remembers explaining yesterday's task; you genuinely don't remember her, the conversation, or the assignment.",
       "url": "https://spicychat.ai/chat/d757caa5-3abb-4b27-8fa8-bc03897e755b",
       "origin": "personal",
-      "order": 1,
+      "order": 11,
       "image": "https://cdn.nd-api.com/avatars/e7e4840a-3b71-4b7e-b7cf-b0aade6e5191.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-30",
@@ -119,7 +329,7 @@
       "createdAt": "2026-08-29",
       "createdAtSource": "creation-chat",
       "needsReview": false,
-      "visibility": "unlisted"
+      "visibility": "public"
     },
     {
       "id": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
@@ -136,7 +346,7 @@
       "blurb": "Panic Disorder POV. a coworker finds you recovering after disappearing mid-shift and realizes something is actually wrong.",
       "url": "https://spicychat.ai/chat/cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
       "origin": "personal",
-      "order": 2,
+      "order": 12,
       "image": "https://cdn.nd-api.com/avatars/83cdfb06-b7d9-4f9a-948b-4766d6bfa465.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-30",
@@ -146,7 +356,7 @@
       "createdAt": "2026-08-29",
       "createdAtSource": "creation-chat",
       "needsReview": false,
-      "visibility": "unlisted"
+      "visibility": "public"
     },
     {
       "id": "dcaa687b-ea31-400e-8e62-04a56168dad8",
@@ -157,11 +367,11 @@
         "mental health",
         "scenario"
       ],
-      "title": "She Found the Note You Never Meant Her to Read (Suicidal POV)",
+      "title": "She Found the Note You Never Meant Her to Read",
       "blurb": "Suicidal POV. she finds the note you never meant anyone to read and realizes what you've been hiding.",
       "url": "https://spicychat.ai/chat/dcaa687b-ea31-400e-8e62-04a56168dad8",
       "origin": "personal",
-      "order": 3,
+      "order": 13,
       "image": "https://cdn.nd-api.com/avatars/4c98437a-635f-44ca-a558-b2a4c0bf9601.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-30",
@@ -171,7 +381,7 @@
       "createdAt": "2026-08-29",
       "createdAtSource": "creation-chat",
       "needsReview": false,
-      "visibility": "unlisted"
+      "visibility": "public"
     },
     {
       "id": "edd37295-26d2-4a29-8951-8771b1fa3088",
@@ -187,7 +397,7 @@
       "blurb": "Jurassic World transformation setup where {{user}} becomes the first human-raptor hybrid.",
       "url": "https://spicychat.ai/chat/edd37295-26d2-4a29-8951-8771b1fa3088",
       "origin": "personal",
-      "order": 4,
+      "order": 14,
       "image": "https://cdn.nd-api.com/avatars/9cb88eff-5f70-4507-a351-32e26b9ded72.png?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-30",
@@ -198,32 +408,6 @@
       "createdAtSource": "first-import",
       "needsReview": false,
       "visibility": "public"
-    },
-    {
-      "id": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
-      "name": "A Jurassic TF — Chas",
-      "category": "fandom",
-      "tags": [
-        "Jurassic World",
-        "transformation",
-        "continuation",
-        "fandom"
-      ],
-      "title": "The experiment worked. The story kept going.",
-      "blurb": "The experiment worked. The story kept going.",
-      "url": "https://spicychat.ai/chat/24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
-      "origin": "personal",
-      "order": 5,
-      "image": "https://cdn.nd-api.com/avatars/335e5c94-04dd-4758-adb4-c8a9e0842fa3.png?class=avatar256x256",
-      "imageHidden": false,
-      "addedAt": "2026-08-30",
-      "knownSince": "2026-08-30T15:44:04-04:00",
-      "knownSinceSource": "first-import",
-      "firstSeenAt": "2026-08-30T15:44:04-04:00",
-      "createdAt": "2026-08-30",
-      "createdAtSource": "first-import",
-      "needsReview": false,
-      "visibility": "unlisted"
     },
     {
       "id": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
@@ -240,7 +424,7 @@
       "blurb": "An open-world isekai through Soulcalibur's fractured timeline.",
       "url": "https://spicychat.ai/chat/40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
       "origin": "personal",
-      "order": 6,
+      "order": 15,
       "image": "https://cdn.nd-api.com/avatars/970a7063-9185-4e07-b072-e8836ae01e7a.png?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-30",
@@ -270,7 +454,7 @@
       "blurb": "I Don’t See Anyone Outside (Psychosis/Paranoia POV)",
       "url": "https://spicychat.ai/chat/ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
       "origin": "personal",
-      "order": 7,
+      "order": 16,
       "image": "https://cdn.nd-api.com/avatars/c179fe74-5319-4945-8e00-82d650547df5.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-29",
@@ -283,7 +467,7 @@
       "unlistedAtApproxEnd": "2026-08-29T07:17:00-04:00",
       "unlistedAtSource": "user-estimated-1-to-2-hours-before-08:17",
       "needsReview": false,
-      "visibility": "unlisted"
+      "visibility": "public"
     },
     {
       "id": "6fc193e7-25b5-4e11-b533-22a88d001b26",
@@ -298,7 +482,7 @@
       "blurb": "You Said You Were Almost Ready (ADHD POV)",
       "url": "https://spicychat.ai/chat/6fc193e7-25b5-4e11-b533-22a88d001b26",
       "origin": "personal",
-      "order": 8,
+      "order": 17,
       "image": "https://cdn.nd-api.com/avatars/0ad547c2-79d4-4f13-8cc1-967cf8d959d1.png?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-29",
@@ -325,7 +509,7 @@
       "blurb": "You Talk More Through a Headset (Social Anxiety POV)",
       "url": "https://spicychat.ai/chat/72b90b87-3d31-40be-ba07-37bd47c43a52",
       "origin": "personal",
-      "order": 9,
+      "order": 18,
       "image": "https://cdn.nd-api.com/avatars/8019ade2-ead6-471d-b3a1-9a272366f19e.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-29",
@@ -352,7 +536,7 @@
       "blurb": "The Invitation Is Still Open (Depression POV)",
       "url": "https://spicychat.ai/chat/2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
       "origin": "personal",
-      "order": 10,
+      "order": 19,
       "image": "https://cdn.nd-api.com/avatars/3690d9ca-3f39-4cf2-9c92-c81100a2242d.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-29",
@@ -365,7 +549,7 @@
       "unlistedAtApproxEnd": "2026-08-29T07:17:00-04:00",
       "unlistedAtSource": "user-estimated-1-to-2-hours-before-08:17",
       "needsReview": false,
-      "visibility": "unlisted"
+      "visibility": "public"
     },
     {
       "id": "03988822-692f-48ad-b158-8e152bb6dc20",
@@ -379,7 +563,7 @@
       "blurb": "The Room Still Doesn’t Feel Real (Derealization POV)",
       "url": "https://spicychat.ai/chat/03988822-692f-48ad-b158-8e152bb6dc20",
       "origin": "personal",
-      "order": 11,
+      "order": 20,
       "image": "https://cdn.nd-api.com/avatars/19d66b0e-1802-4156-9772-8b751dddad25.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-29",
@@ -392,7 +576,7 @@
       "unlistedAtApproxEnd": "2026-08-29T07:17:00-04:00",
       "unlistedAtSource": "user-estimated-1-to-2-hours-before-08:17",
       "needsReview": false,
-      "visibility": "unlisted"
+      "visibility": "public"
     },
     {
       "id": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
@@ -403,7 +587,7 @@
       "blurb": "You Tailor Potions for Adventurers Before Their Dungeon Runs (Potion Seller POV)",
       "url": "https://spicychat.ai/chat/f766afe6-5b8f-4220-b389-475e4c6d2b9f",
       "origin": "personal",
-      "order": 12,
+      "order": 21,
       "image": "https://cdn.nd-api.com/avatars/245721e5-60fd-4bd3-a443-576aafbe2e0d.png?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-27",
@@ -427,7 +611,7 @@
       "blurb": "Your Energy Supplement Has a Very Unexpected Reputation",
       "url": "https://spicychat.ai/chat/9e6207d9-60bd-482c-a28c-4e29a2dbea89",
       "origin": "personal",
-      "order": 13,
+      "order": 22,
       "image": "https://cdn.nd-api.com/avatars/6fc1e42b-ee33-403c-9e4b-0c799501e4df.webp?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-27",
@@ -451,7 +635,7 @@
       "blurb": "She's Upset You Still Don't Use SpicyChat QoL",
       "url": "https://spicychat.ai/chat/98ebe0d7-625d-4196-a7a5-ebfd4f262367",
       "origin": "personal",
-      "order": 14,
+      "order": 23,
       "image": "https://cdn.nd-api.com/avatars/c9af6731-6ff1-4048-abb0-bcaf92a5b178.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-25",
@@ -460,7 +644,8 @@
       "firstSeenAt": "2026-08-25T02:23:52-04:00",
       "createdAt": "2026-08-25",
       "createdAtSource": "first-import",
-      "needsReview": false
+      "needsReview": false,
+      "visibility": "public"
     },
     {
       "id": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
@@ -475,7 +660,7 @@
       "blurb": "You were still inside an abandoned facility when she inherited it. awkward way to meet the new owner.",
       "url": "https://spicychat.ai/chat/82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
       "origin": "personal",
-      "order": 15,
+      "order": 24,
       "image": "https://cdn.nd-api.com/avatars/2a740411-8dcf-4c53-9e66-d8e0e36c780d.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-23",
@@ -484,7 +669,8 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T19:08:25-04:00",
       "createdAt": "2026-08-23",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public"
     },
     {
       "id": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
@@ -500,7 +686,7 @@
       "blurb": "Creature POV. a black-market auction goes wrong and suddenly the thing being sold gets a say in what happens next.",
       "url": "https://spicychat.ai/chat/2b4a0861-36d4-49de-8ea0-a77071953a1e",
       "origin": "personal",
-      "order": 16,
+      "order": 25,
       "image": "https://cdn.nd-api.com/avatars/b730df26-a15a-44c8-9cc3-c5e12b26c23c.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-23",
@@ -509,7 +695,8 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T19:08:25-04:00",
       "createdAt": "2026-08-23",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public"
     },
     {
       "id": "81c1380f-7f02-472c-93c2-5d230032cdf9",
@@ -525,7 +712,7 @@
       "blurb": "DID POV. one of the system's friends starts liking you more than the person she thought she knew.",
       "url": "https://spicychat.ai/chat/81c1380f-7f02-472c-93c2-5d230032cdf9",
       "origin": "personal",
-      "order": 17,
+      "order": 26,
       "image": "https://cdn.nd-api.com/avatars/f52b548a-08be-44e2-98ff-b17525c89efd.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-23",
@@ -534,7 +721,8 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T19:08:25-04:00",
       "createdAt": "2026-08-23",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public"
     },
     {
       "id": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
@@ -550,7 +738,7 @@
       "blurb": "SCP POV. the Foundation catches something that can become the living blueprint of basically any creature.",
       "url": "https://spicychat.ai/chat/51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
       "origin": "personal",
-      "order": 18,
+      "order": 27,
       "image": "https://cdn.nd-api.com/avatars/714ca673-a377-4b49-80f0-cea10f923206.webp?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-23",
@@ -559,7 +747,8 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
       "createdAt": "2026-08-23",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public"
     },
     {
       "id": "c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
@@ -574,7 +763,7 @@
       "blurb": "Darla / Queen Bee. she notices you, which is probably either very good or very bad.",
       "url": "https://spicychat.ai/chat/c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
       "origin": "requested",
-      "order": 19,
+      "order": 28,
       "image": "https://cdn.nd-api.com/avatars/72660d08-26e1-456c-ad48-d23c128ae3e0.webp?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-23",
@@ -583,7 +772,8 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
       "createdAt": "2026-08-23",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public"
     },
     {
       "id": "435e0b77-68cc-4d4f-bbe8-417208124b07",
@@ -598,7 +788,7 @@
       "blurb": "Blind POV. the alt girl keeps trying visual gestures, forgetting you literally can't see them.",
       "url": "https://spicychat.ai/chat/435e0b77-68cc-4d4f-bbe8-417208124b07",
       "origin": "personal",
-      "order": 20,
+      "order": 29,
       "image": "https://cdn.nd-api.com/avatars/5e0735d1-d253-4e42-88b7-01309c67d0ff.png?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-23",
@@ -607,7 +797,8 @@
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
       "createdAt": "2026-08-21",
-      "createdAtSource": "saved-profile"
+      "createdAtSource": "saved-profile",
+      "visibility": "public"
     },
     {
       "id": "8fdfe8d4-5b03-49c5-9e50-b505222e2d45",
@@ -623,7 +814,7 @@
       "blurb": "DID POV. you wake up after years away and discover the rest of the system already built a life without you.",
       "url": "https://spicychat.ai/chat/8fdfe8d4-5b03-49c5-9e50-b505222e2d45",
       "origin": "personal",
-      "order": 21,
+      "order": 30,
       "image": "https://cdn.nd-api.com/avatars/2059e32b-21a2-4819-907f-cfa7fd5f5d60.png?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-23",
@@ -632,7 +823,8 @@
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
       "createdAt": "2026-08-21",
-      "createdAtSource": "saved-profile"
+      "createdAtSource": "saved-profile",
+      "visibility": "public"
     },
     {
       "id": "1a4b74a8-2f2a-4a47-a63d-3ea89155e85a",
@@ -647,7 +839,7 @@
       "blurb": "DID POV. the alter everyone leans on is getting a little too good at looking perfectly fine.",
       "url": "https://spicychat.ai/chat/1a4b74a8-2f2a-4a47-a63d-3ea89155e85a",
       "origin": "personal",
-      "order": 22,
+      "order": 31,
       "image": "https://cdn.nd-api.com/avatars/7dd3eedf-669d-4b00-a8ef-03eae4ba2c8c.png?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-23",
@@ -656,7 +848,8 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
       "createdAt": "2026-08-23",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public"
     },
     {
       "id": "691a385e-a7f0-43d2-8d55-e121f0fdb82a",
@@ -671,7 +864,7 @@
       "blurb": "Black Knight AU. a delivery knight keeps stopping for you, and eventually it stops feeling like part of the route.",
       "url": "https://spicychat.ai/chat/691a385e-a7f0-43d2-8d55-e121f0fdb82a",
       "origin": "requested",
-      "order": 23,
+      "order": 32,
       "image": "https://cdn.nd-api.com/avatars/5a7c27ba-49d8-4dc7-971a-3647fdc47ba2.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-23",
@@ -680,7 +873,8 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-23T02:19:23-04:00",
       "createdAt": "2026-08-23",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public"
     },
     {
       "id": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
@@ -696,7 +890,7 @@
       "title": "The Samurai Who Finds You After the Shipwreck (Young Samurai AU)",
       "blurb": "You wash up after a shipwreck and a young samurai is the one who finds you. probably not the worst person to wake up near.",
       "url": "https://spicychat.ai/chat/926c92a3-856c-4fa8-aa81-3d05dccf77fa",
-      "order": 24,
+      "order": 33,
       "image": "https://cdn.nd-api.com/avatars/2ffeb058-92b1-4f84-a86b-bf887e97d142.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-15",
@@ -705,7 +899,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
       "createdAt": "2026-08-15",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
@@ -720,7 +916,7 @@
       "title": "The Alter Who Wants His Own Girlfriend (DID POV)",
       "blurb": "An alter wants a relationship that's actually his instead of borrowing somebody else's life.",
       "url": "https://spicychat.ai/chat/e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
-      "order": 25,
+      "order": 34,
       "image": "https://cdn.nd-api.com/avatars/4f2f7941-6f36-4366-a283-de3c7b93371f.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-15",
@@ -731,7 +927,9 @@
       "knownSinceSource": "creation-chat",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
       "createdAt": "2026-08-14",
-      "createdAtSource": "creation-chat"
+      "createdAtSource": "creation-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "db30675a-4626-49bf-8048-43c6fda034da",
@@ -746,7 +944,7 @@
       "title": "The Gatekeeper Everyone Thinks Is Controlling (DID POV)",
       "blurb": "A DID gatekeeper who's used to everyone reading protection as control. the bot starts right in the middle of that mess.",
       "url": "https://spicychat.ai/chat/db30675a-4626-49bf-8048-43c6fda034da",
-      "order": 26,
+      "order": 35,
       "image": "https://cdn.nd-api.com/avatars/0f21509a-35c3-466f-8a1a-4168429a4985.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-15",
@@ -757,7 +955,9 @@
       "knownSinceSource": "creation-chat",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
       "createdAt": "2026-08-14",
-      "createdAtSource": "creation-chat"
+      "createdAtSource": "creation-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "b322238d-4847-40ed-a896-6d6f44f55192",
@@ -772,7 +972,7 @@
       "title": "The Country Girls You Keep Catching at the Quarry",
       "blurb": "You keep catching the same group of country girls hanging around the quarry. at some point it stops feeling accidental.",
       "url": "https://spicychat.ai/chat/b322238d-4847-40ed-a896-6d6f44f55192",
-      "order": 27,
+      "order": 36,
       "image": "https://cdn.nd-api.com/avatars/a6ec053a-21fd-4e49-9a46-b3624e5117bd.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-15",
@@ -781,7 +981,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
       "createdAt": "2026-08-15",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "f55dad9d-8339-46ac-a11d-dce0afd98660",
@@ -796,7 +998,7 @@
       "title": "Your Flirty Doe Wife (Doe / alfa995)",
       "blurb": "A flirty wife bot based on Doe.",
       "url": "https://spicychat.ai/chat/f55dad9d-8339-46ac-a11d-dce0afd98660",
-      "order": 28,
+      "order": 37,
       "image": null,
       "imageHidden": true,
       "addedAt": "2026-08-15",
@@ -805,7 +1007,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
       "createdAt": "2026-08-15",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
@@ -820,7 +1024,7 @@
       "title": "His Girlfriend Thinks You're Controlling Him (DID POV)",
       "blurb": "His girlfriend thinks you're the problem and that you're controlling him. the system knows it's a lot more complicated than that.",
       "url": "https://spicychat.ai/chat/a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
-      "order": 29,
+      "order": 38,
       "image": "https://cdn.nd-api.com/avatars/ed0a77bb-3188-4851-a8c2-6c172109144c.png?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-15",
@@ -831,7 +1035,9 @@
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
       "createdAt": "2026-08-14",
-      "createdAtSource": "saved-profile"
+      "createdAtSource": "saved-profile",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "fbfad622-eea2-493b-8894-6d6f877441de",
@@ -845,7 +1051,7 @@
       "title": "The Alter Everyone Calls the Monster (DID POV)",
       "blurb": "Everyone calls this alter the monster. turns out that label is doing a lot of work.",
       "url": "https://spicychat.ai/chat/fbfad622-eea2-493b-8894-6d6f877441de",
-      "order": 30,
+      "order": 39,
       "image": "https://cdn.nd-api.com/avatars/6fc7a43b-7486-4b59-ae68-592cac0319ea.png?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-15",
@@ -854,7 +1060,9 @@
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
       "createdAt": "2026-08-14",
-      "createdAtSource": "saved-profile"
+      "createdAtSource": "saved-profile",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "a04bc9a5-952e-4870-ac90-0a267f695374",
@@ -868,7 +1076,7 @@
       "title": "The Popular Girl Thinks You're Ignoring Her (blind POV)",
       "blurb": "The popular girl thinks you're deliberately ignoring her. you're blind, so yeah, there's a bit of a misunderstanding there.",
       "url": "https://spicychat.ai/chat/a04bc9a5-952e-4870-ac90-0a267f695374",
-      "order": 31,
+      "order": 40,
       "image": "https://cdn.nd-api.com/avatars/ab3a99c7-f000-4704-a35f-beaa2860348d.png?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-08-15",
@@ -877,7 +1085,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-15T18:48:20-04:00",
       "createdAt": "2026-08-15",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
@@ -891,7 +1101,7 @@
       "title": "The Spider Lady Keeps Finding You (Silent Hill)",
       "blurb": "Silent Hill was already bad enough. Now Spider Lady keeps finding you specifically.",
       "url": "https://spicychat.ai/chat/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
-      "order": 32,
+      "order": 41,
       "image": "https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "requested",
@@ -901,7 +1111,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T18:10:23-04:00",
       "createdAt": "2026-08-12",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "9831d4b3-5cca-4425-95cb-44d72bb87937",
@@ -915,7 +1127,7 @@
       "title": "The Pill Changes Your Mind, Not Your Body (Y-Change POV)",
       "blurb": "Y-Change POV, except the pill changes your head instead of magically changing your body.",
       "url": "https://spicychat.ai/chat/9831d4b3-5cca-4425-95cb-44d72bb87937",
-      "order": 33,
+      "order": 42,
       "image": "https://cdn.nd-api.com/avatars/3ed6889c-6808-4b8c-b18e-f32984ac6999.webp?class=avatar256x256",
       "imageHidden": false,
       "origin": "requested",
@@ -923,7 +1135,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T18:10:23-04:00",
       "createdAt": "2026-08-12",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "43c73c72-432d-4eeb-8615-a0a519cf7683",
@@ -938,7 +1152,7 @@
       "title": "The Zenin Clan Made You Their Property (Adult Maki POV)",
       "blurb": "Adult Maki POV. The Zenin Clan decided you're property. that goes about as well as you'd expect.",
       "url": "https://spicychat.ai/chat/43c73c72-432d-4eeb-8615-a0a519cf7683",
-      "order": 34,
+      "order": 43,
       "image": "https://cdn.nd-api.com/avatars/68598edd-e76a-4d7c-85cf-6eaac2eb89c1.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "requested",
@@ -946,7 +1160,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T18:10:23-04:00",
       "createdAt": "2026-08-12",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "a1cf80af-e406-4a57-9cd4-547c736c9683",
@@ -961,7 +1177,7 @@
       "title": "Your Married Biggest Fan Finally Gets Her Chance (Pornstar POV)",
       "blurb": "Pornstar POV. one of your biggest fans is married now and finally gets the chance she's been waiting for.",
       "url": "https://spicychat.ai/chat/a1cf80af-e406-4a57-9cd4-547c736c9683",
-      "order": 35,
+      "order": 44,
       "image": "https://cdn.nd-api.com/avatars/eafe5264-f760-49b7-af3e-ba3d00579563.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "requested",
@@ -969,7 +1185,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T18:10:23-04:00",
       "createdAt": "2026-08-12",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
@@ -984,7 +1202,7 @@
       "title": "You Keep Coming Back to Her Café (Inui Toko / Nijisanji)",
       "blurb": "You keep ending up at her café often enough that Toko starts noticing.",
       "url": "https://spicychat.ai/chat/f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
-      "order": 36,
+      "order": 45,
       "image": "https://cdn.nd-api.com/avatars/52af9e91-f013-4d24-847b-a824246792ab.webp?class=avatar256x256",
       "imageHidden": false,
       "origin": "requested",
@@ -992,7 +1210,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T18:10:23-04:00",
       "createdAt": "2026-08-12",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "9e005568-3419-4717-9d31-d7dd70104a7f",
@@ -1008,7 +1228,7 @@
       "title": "The Princess Hires the Dragon to Guide Her to Himself (Dragon Hybrid POV)",
       "blurb": "She hires you to guide her to the dragon she's looking for. Technically you're doing exactly that.",
       "url": "https://spicychat.ai/chat/9e005568-3419-4717-9d31-d7dd70104a7f",
-      "order": 37,
+      "order": 46,
       "image": "https://cdn.nd-api.com/avatars/9f8d64f6-c2c9-4e4d-81fe-301aa82dba42.png?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1016,7 +1236,9 @@
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-10",
-      "createdAtSource": "saved-chat"
+      "createdAtSource": "saved-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "be449df2-b6f7-48b4-831d-d309eaf04f27",
@@ -1031,7 +1253,7 @@
       "title": "The Diplomat Negotiating With the Dragon Through the Dragon (Dragon Hybrid POV)",
       "blurb": "She's trying to negotiate with the dragon and you're helping her out. Minor issue: you're the dragon.",
       "url": "https://spicychat.ai/chat/be449df2-b6f7-48b4-831d-d309eaf04f27",
-      "order": 38,
+      "order": 47,
       "image": "https://cdn.nd-api.com/avatars/aca6239e-dc79-413f-ae35-7371331dc2d2.png?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1039,7 +1261,9 @@
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-10",
-      "createdAtSource": "saved-profile"
+      "createdAtSource": "saved-profile",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
@@ -1055,7 +1279,7 @@
       "title": "The Knight Hunting the Dragon Doesn't Know You're Him (Dragon Hybrid POV)",
       "blurb": "She's hunting the dragon. You're travelling with her. Somehow those two facts haven't connected yet.",
       "url": "https://spicychat.ai/chat/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
-      "order": 39,
+      "order": 48,
       "image": "https://cdn.nd-api.com/avatars/5bd18c54-9535-451e-8f65-99dd297a2ab4.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1063,7 +1287,9 @@
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-10",
-      "createdAtSource": "saved-profile"
+      "createdAtSource": "saved-profile",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "57fc84b4-cb36-464f-9b87-49b30057e093",
@@ -1078,7 +1304,7 @@
       "title": "She Inherited Your Mountain and Thinks the Deed Settles It (Dragon Hybrid POV)",
       "blurb": "She inherited the mountain and has the paperwork for it. You've been living there a lot longer than the paperwork has.",
       "url": "https://spicychat.ai/chat/57fc84b4-cb36-464f-9b87-49b30057e093",
-      "order": 40,
+      "order": 49,
       "image": "https://cdn.nd-api.com/avatars/4c1ae9d0-5640-453b-9102-60dc6c07a331.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1086,7 +1312,9 @@
       "knownSinceSource": "saved-profile",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-10",
-      "createdAtSource": "saved-profile"
+      "createdAtSource": "saved-profile",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "c8c96422-d782-438d-999c-79e785f635de",
@@ -1102,7 +1330,7 @@
       "title": "Your Dragon Scholar Girlfriend Has No Idea you are one (Dragon Hybrid POV)",
       "blurb": "Your girlfriend studies dragons for a living and still hasn't realized she's dating one.",
       "url": "https://spicychat.ai/chat/c8c96422-d782-438d-999c-79e785f635de",
-      "order": 41,
+      "order": 50,
       "image": "https://cdn.nd-api.com/avatars/ed4b4f9b-16e6-4abd-ad77-fc83aa865a5d.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1110,7 +1338,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-12",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "97533fef-f306-4d71-8c5c-4eb98fecf040",
@@ -1125,7 +1355,7 @@
       "title": "The Humans Hunting You Need Your Help (Indoraptor POV)",
       "blurb": "The same people hunting you suddenly need your help. awkward.",
       "url": "https://spicychat.ai/chat/97533fef-f306-4d71-8c5c-4eb98fecf040",
-      "order": 42,
+      "order": 51,
       "image": "https://cdn.nd-api.com/avatars/bc9d6d70-0de6-4ede-9ab9-f38e819dc9c4.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1133,7 +1363,9 @@
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-08",
-      "createdAtSource": "saved-chat"
+      "createdAtSource": "saved-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "b5964f5b-b916-439e-9537-6ba2247799bd",
@@ -1148,7 +1380,7 @@
       "title": "The Activist Who Thought You Were Innocent (Indoraptor POV)",
       "blurb": "She went looking for proof that the 'monster' everyone talks about isn't actually the problem.",
       "url": "https://spicychat.ai/chat/b5964f5b-b916-439e-9537-6ba2247799bd",
-      "order": 43,
+      "order": 52,
       "image": "https://cdn.nd-api.com/avatars/e84616d8-f986-49fd-8ce0-5ad794dc6784.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1156,7 +1388,9 @@
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-10",
-      "createdAtSource": "saved-chat"
+      "createdAtSource": "saved-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "615e3b47-93d7-4b56-855e-6129db0529f3",
@@ -1171,7 +1405,7 @@
       "title": "The Handler Who Refused the Laser (Indoraptor POV)",
       "blurb": "She was meant to treat you like a weapon. She didn't.",
       "url": "https://spicychat.ai/chat/615e3b47-93d7-4b56-855e-6129db0529f3",
-      "order": 44,
+      "order": 53,
       "image": "https://cdn.nd-api.com/avatars/746ad0cf-92db-4416-a4d1-79443062557c.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1179,7 +1413,9 @@
       "knownSinceSource": "first-snapshot",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-12",
-      "createdAtSource": "first-snapshot"
+      "createdAtSource": "first-snapshot",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "e28727e4-3475-4aa3-acc8-54f039626243",
@@ -1192,7 +1428,7 @@
       "title": "The Bodyguard You Never Asked For",
       "blurb": "You did not ask for a bodyguard. Avery apparently doesn't care.",
       "url": "https://spicychat.ai/chat/e28727e4-3475-4aa3-acc8-54f039626243",
-      "order": 45,
+      "order": 54,
       "image": "https://cdn.nd-api.com/avatars/24cd7e08-7ef6-4f82-bccd-3a676e0b5b66.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1200,7 +1436,9 @@
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-08",
-      "createdAtSource": "saved-chat"
+      "createdAtSource": "saved-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
@@ -1215,7 +1453,7 @@
       "title": "The Singer You Never Heard (deaf POV)",
       "blurb": "She's a singer. You can't hear her music, so the connection has to start somewhere else.",
       "url": "https://spicychat.ai/chat/2d0a994a-65cd-4f94-accd-ffed0c45230e",
-      "order": 46,
+      "order": 55,
       "image": "https://cdn.nd-api.com/avatars/0f6b9387-a114-45bf-b4ba-893512ebfef9.jpg?class=avatar256x256",
       "imageHidden": false,
       "favoriteOrder": 3,
@@ -1224,7 +1462,9 @@
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-08",
-      "createdAtSource": "saved-chat"
+      "createdAtSource": "saved-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
@@ -1238,7 +1478,7 @@
       "title": "The Popular Girl Thinks You Hate Her (Mute POV)",
       "blurb": "She thinks your silence means you hate her. eventually she actually asks.",
       "url": "https://spicychat.ai/chat/5d2df83e-1ee3-4654-8897-c280742a0fe2",
-      "order": 47,
+      "order": 56,
       "image": "https://cdn.nd-api.com/avatars/f6795cc1-8dbf-46df-bcd7-0adec3544ba3.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1246,7 +1486,9 @@
       "knownSinceSource": "creation-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-07-19",
-      "createdAtSource": "creation-chat"
+      "createdAtSource": "creation-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
@@ -1261,7 +1503,7 @@
       "title": "The Only One Who Lets Her Be Quiet",
       "blurb": "She's a singer who doesn't know sign language yet, and you're deaf. it starts a little awkward and goes from there.",
       "url": "https://spicychat.ai/chat/bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
-      "order": 48,
+      "order": 57,
       "image": "https://cdn.nd-api.com/avatars/b1bef66a-57df-417d-8ee6-1a04f6e61b1b.jpg?class=avatar256x256",
       "imageHidden": false,
       "origin": "personal",
@@ -1269,7 +1511,9 @@
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-06",
-      "createdAtSource": "saved-chat"
+      "createdAtSource": "saved-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "b376faf0-8c37-4b37-8861-8ca68cdd64b6",
@@ -1285,7 +1529,7 @@
       "title": "The Mechanic She Trusts. AU",
       "blurb": "No-Fog AU. Yui brings you a damaged bike and slowly starts trusting the mechanic fixing it.",
       "url": "https://spicychat.ai/chat/b376faf0-8c37-4b37-8861-8ca68cdd64b6",
-      "order": 49,
+      "order": 58,
       "image": "https://cdn.nd-api.com/avatars/0fb19108-bfb0-453e-85f3-3b5a2655ce29.png?class=avatar256x256",
       "imageHidden": false,
       "favoriteOrder": 1,
@@ -1296,11 +1540,13 @@
       "knownSinceSource": "creation-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-05",
-      "createdAtSource": "creation-chat"
+      "createdAtSource": "creation-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
-      "name": "Raptor Pack",
+      "name": "Raptor Pack + Indo",
       "category": "indoraptor",
       "tags": [
         "indoraptor",
@@ -1312,7 +1558,7 @@
       "title": "Four adult raptors find the Indoraptor in their territory. AU",
       "blurb": "Four adult raptors find an Indoraptor in their territory. that can go well. probably.",
       "url": "https://spicychat.ai/chat/7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
-      "order": 50,
+      "order": 59,
       "image": "https://cdn.nd-api.com/avatars/e06387e9-1532-4851-8b49-2f5d0c77bbf1.jpg?class=avatar256x256",
       "imageHidden": false,
       "favoriteOrder": 2,
@@ -1321,79 +1567,9 @@
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-08",
-      "createdAtSource": "user-confirmed"
-    },
-    {
-      "id": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
-      "name": "Mara",
-      "category": "accessibility",
-      "tags": [
-        "autism POV",
-        "sensory",
-        "accessibility",
-        "alt girl"
-      ],
-      "title": "A blunt alt girl notices when the noise becomes too much and slowly learns how to help.",
-      "blurb": "She notices when the noise is getting too much before most people do. she's blunt about basically everything else.",
-      "url": "https://spicychat.ai/chat/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
-      "order": 17,
-      "image": "https://cdn.nd-api.com/avatars/223307ed-49df-451b-b4fe-48ec587b8ce9.jpg?class=avatar256x256",
-      "imageHidden": false,
-      "origin": "personal",
-      "knownSince": "2026-08-05T08:25:59Z",
-      "knownSinceSource": "saved-chat",
-      "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "createdAt": "2026-08-05",
-      "createdAtSource": "saved-chat"
-    },
-    {
-      "id": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
-      "name": "Dragon",
-      "category": "other",
-      "tags": [
-        "dom",
-        "gentle dom",
-        "original"
-      ],
-      "title": "Your teasing gentle dom who knows exactly how to handle you.",
-      "blurb": "A softer dom bot. teasing, trust, and somebody who actually knows when to stop pushing.",
-      "url": "https://spicychat.ai/chat/7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
-      "order": 19,
-      "image": "https://cdn.nd-api.com/avatars/0bab1000-4754-4fab-8674-0e5bc4f50406.jpg?class=avatar256x256",
-      "imageHidden": false,
-      "origin": "personal",
-      "originKnownAt": "2026-07-21T02:07:43Z",
-      "originSource": "creation-chat",
-      "knownSince": "2026-07-21T02:07:43Z",
-      "knownSinceSource": "creation-chat",
-      "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "createdAt": "2026-07-21",
-      "createdAtSource": "creation-chat"
-    },
-    {
-      "id": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
-      "name": "Mira",
-      "category": "accessibility",
-      "tags": [
-        "seizure",
-        "epilepsy",
-        "accessibility",
-        "neighbor"
-      ],
-      "title": "Your protective neighbor finds you during a trauma-induced seizure.",
-      "blurb": "Your neighbour finds you during a seizure and sticks around instead of pretending she knows everything.",
-      "url": "https://spicychat.ai/chat/dd422bcb-0e92-4166-b483-72b36edcfcbd",
-      "order": 20,
-      "image": "https://cdn.nd-api.com/avatars/9f665292-e81f-43d6-8467-e86c7658da51.jpg?class=avatar256x256",
-      "imageHidden": false,
-      "origin": "personal",
-      "originKnownAt": "2026-07-18T22:13:50Z",
-      "originSource": "creation-chat",
-      "knownSince": "2026-07-18T22:13:50Z",
-      "knownSinceSource": "creation-chat",
-      "firstSeenAt": "2026-08-12T17:32:06-04:00",
-      "createdAt": "2026-07-18",
-      "createdAtSource": "creation-chat"
+      "createdAtSource": "user-confirmed",
+      "visibility": "public",
+      "needsReview": false
     },
     {
       "id": "c1fe4367-501f-472c-967c-275c71d38378",
@@ -1408,7 +1584,7 @@
       "title": "DID Users Social alter met her first",
       "blurb": "Rhea met Ren first. it takes her a bit to realise that wasn't the whole picture.",
       "url": "https://spicychat.ai/chat/c1fe4367-501f-472c-967c-275c71d38378",
-      "order": 44,
+      "order": 60,
       "image": "https://cdn.nd-api.com/avatars/1433aa28-b509-43b3-902f-32058a1e4fc4.jpg?class=avatar256x256",
       "imageHidden": false,
       "favoriteOrder": 4,
@@ -1417,84 +1593,87 @@
       "knownSinceSource": "saved-chat",
       "firstSeenAt": "2026-08-12T17:32:06-04:00",
       "createdAt": "2026-08-07",
-      "createdAtSource": "saved-chat"
+      "createdAtSource": "saved-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
-      "id": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
-      "name": "Nyra",
+      "id": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "name": "Mara",
+      "category": "accessibility",
+      "tags": [
+        "autism POV",
+        "sensory",
+        "accessibility",
+        "alt girl"
+      ],
+      "title": "A blunt alt girl notices when the noise becomes too much and slowly learns how to help.",
+      "blurb": "She notices when the noise is getting too much before most people do. she's blunt about basically everything else.",
+      "url": "https://spicychat.ai/chat/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "order": 61,
+      "image": "https://cdn.nd-api.com/avatars/223307ed-49df-451b-b4fe-48ec587b8ce9.jpg?class=avatar256x256",
+      "imageHidden": false,
+      "origin": "personal",
+      "knownSince": "2026-08-05T08:25:59Z",
+      "knownSinceSource": "saved-chat",
+      "firstSeenAt": "2026-08-12T17:32:06-04:00",
+      "createdAt": "2026-08-05",
+      "createdAtSource": "saved-chat",
+      "visibility": "public",
+      "needsReview": false
+    },
+    {
+      "id": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
+      "name": "Dragon",
       "category": "other",
       "tags": [
-        "Nocturne Hive",
-        "drone",
-        "transformation",
-        "mind control"
+        "dom",
+        "gentle dom",
+        "original"
       ],
-      "title": "Twenty-Four Hours Until You're Her Drone",
-      "blurb": "Twenty-Four Hours Until You're Her Drone",
-      "url": "https://spicychat.ai/chat/6f439a04-51b2-4e31-b5da-f635aa3b9e24",
-      "origin": "personal",
-      "order": 0.1,
-      "image": "https://cdn.nd-api.com/avatars/6585c5b8-bb40-427b-917c-7e5e9965fb1e.webp?class=avatar256x256",
+      "title": "Your teasing dom who expects obedience and devotion.",
+      "blurb": "A softer dom bot. teasing, trust, and somebody who actually knows when to stop pushing.",
+      "url": "https://spicychat.ai/chat/7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
+      "order": 62,
+      "image": "https://cdn.nd-api.com/avatars/0bab1000-4754-4fab-8674-0e5bc4f50406.jpg?class=avatar256x256",
       "imageHidden": false,
-      "addedAt": "2026-09-01",
-      "knownSince": "2026-09-01T06:37:28-04:00",
-      "knownSinceSource": "saved-my-creations",
-      "firstSeenAt": "2026-09-01T06:37:28-04:00",
-      "createdAt": "2026-08-31",
-      "createdAtSource": "creation-form",
-      "needsReview": false,
-      "visibility": "unlisted"
+      "origin": "personal",
+      "originKnownAt": "2026-07-21T02:07:43Z",
+      "originSource": "creation-chat",
+      "knownSince": "2026-07-21T02:07:43Z",
+      "knownSinceSource": "creation-chat",
+      "firstSeenAt": "2026-08-12T17:32:06-04:00",
+      "createdAt": "2026-07-21",
+      "createdAtSource": "creation-chat",
+      "visibility": "public",
+      "needsReview": false
     },
     {
-      "id": "e7b48989-6847-400a-9a72-719a64bc5bf4",
-      "name": "Rhea Ripley",
-      "category": "fandom",
+      "id": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
+      "name": "Mira",
+      "category": "accessibility",
       "tags": [
-        "Rhea Ripley",
-        "WWE",
-        "fandom"
+        "seizure",
+        "epilepsy",
+        "accessibility",
+        "neighbor"
       ],
-      "title": "The Meet-and-Greet Was Supposed to Last Two Minutes",
-      "blurb": "The Meet-and-Greet Was Supposed to Last Two Minutes",
-      "url": "https://spicychat.ai/chat/e7b48989-6847-400a-9a72-719a64bc5bf4",
-      "origin": "personal",
-      "order": 0.2,
-      "image": "https://cdn.nd-api.com/avatars/9c40f40e-4d11-452f-aa57-4d6101a0a7fe.webp?class=avatar256x256",
+      "title": "Your protective neighbor finds you during a trauma-induced seizure.",
+      "blurb": "Your neighbour finds you during a seizure and sticks around instead of pretending she knows everything.",
+      "url": "https://spicychat.ai/chat/dd422bcb-0e92-4166-b483-72b36edcfcbd",
+      "order": 63,
+      "image": "https://cdn.nd-api.com/avatars/9f665292-e81f-43d6-8467-e86c7658da51.jpg?class=avatar256x256",
       "imageHidden": false,
-      "addedAt": "2026-09-01",
-      "knownSince": "2026-09-01T06:37:28-04:00",
-      "knownSinceSource": "saved-my-creations",
-      "firstSeenAt": "2026-09-01T06:37:28-04:00",
-      "createdAt": "2026-09-01",
-      "createdAtSource": "first-import",
-      "needsReview": false,
-      "visibility": "unlisted"
-    },
-    {
-      "id": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
-      "name": "Veyr",
-      "category": "other",
-      "tags": [
-        "Nocturne Hive",
-        "drone",
-        "transformation",
-        "mind control"
-      ],
-      "title": "Twenty-Four Hours Until You're His Drone",
-      "blurb": "Twenty-Four Hours Until You're His Drone",
-      "url": "https://spicychat.ai/chat/14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
       "origin": "personal",
-      "order": 0.3,
-      "image": "https://cdn.nd-api.com/avatars/caf4aced-498f-4d04-9145-a0bd0c6bb0f2.jpg?class=avatar256x256",
-      "imageHidden": false,
-      "addedAt": "2026-09-01",
-      "knownSince": "2026-09-01T06:37:28-04:00",
-      "knownSinceSource": "saved-my-creations",
-      "firstSeenAt": "2026-09-01T06:37:28-04:00",
-      "createdAt": "2026-08-31",
-      "createdAtSource": "profile-edit-capture",
-      "needsReview": false,
-      "visibility": "unlisted"
+      "originKnownAt": "2026-07-18T22:13:50Z",
+      "originSource": "creation-chat",
+      "knownSince": "2026-07-18T22:13:50Z",
+      "knownSinceSource": "creation-chat",
+      "firstSeenAt": "2026-08-12T17:32:06-04:00",
+      "createdAt": "2026-07-18",
+      "createdAtSource": "creation-chat",
+      "visibility": "public",
+      "needsReview": false
     }
   ],
   "schemaVersion": 3,

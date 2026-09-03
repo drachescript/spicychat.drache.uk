@@ -987,6 +987,14 @@
       "source": "spicychat-approval-email"
     },
     {
+      "at": "2026-08-31T16:06:00-04:00",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "approval",
+      "visibility": "unlisted",
+      "source": "SpicyChat approval email"
+    },
+    {
       "at": "2026-09-01T06:37:28-04:00",
       "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
       "botName": "Nyra",
@@ -1081,6 +1089,14 @@
       "value": 500,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-01T12:22:00-04:00",
+      "botId": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
+      "botName": "Lena Foster",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
     },
     {
       "at": "2026-09-01T16:52:29Z",
@@ -1270,6 +1286,135 @@
       "from": "unlisted",
       "to": "public",
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T21:14:04Z",
+      "botId": "978e6fae-ff58-4abc-b849-321c09833843",
+      "botName": "Raptor Pack Handler",
+      "type": "new",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T21:14:04Z",
+      "botId": "978e6fae-ff58-4abc-b849-321c09833843",
+      "botName": "Raptor Pack Handler",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T21:14:04Z",
+      "botId": "978e6fae-ff58-4abc-b849-321c09833843",
+      "botName": "Raptor Pack Handler",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "botName": "Aurelia & Vaelira",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "botName": "Aurelia & Vaelira",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T00:07:55Z",
+      "botId": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
+      "botName": "Raptor Pack + Indo",
+      "type": "rename",
+      "from": "Raptor Pack",
+      "to": "Raptor Pack + Indo",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T00:07:55Z",
+      "botId": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
+      "botName": "Kinky Delivery",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T00:07:55Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T00:07:55Z",
+      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "botName": "Nyra",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T00:07:55Z",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
     }
   ]
 }
