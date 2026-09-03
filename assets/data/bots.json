@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02",
+  "updatedAt": "2026-09-03",
   "newBadgeDays": 7,
   "categories": [
     {
@@ -84,7 +84,7 @@
       "blurb": "Your Dragon Bodyguard Calls This \"Security\"",
       "url": "https://spicychat.ai/chat/e3dec212-835d-4f2e-aebd-006e0ae011a3",
       "origin": "personal",
-      "image": "https://cdn.nd-api.com/avatars/035949ac-d3f6-437e-a6d7-fa3fe8dd8a34.jpg?class=avatar256x256",
+      "image": "https://cdn.nd-api.com/avatars/9b055618-c3ef-4f8c-9f9d-5edbf0f45618.jpg?class=avatar256x256",
       "imageHidden": false,
       "addedAt": "2026-09-02",
       "knownSince": "2026-09-03T03:16:08Z",
@@ -1789,6 +1789,7 @@
     "createdAt": "Best known date the bot was made/published. Some older entries fall back to the earliest saved creation evidence.",
     "origin": "Curated origin. Values are requested or personal; unknown is used only until creation context is confirmed.",
     "approvedAt": "SpicyChat moderation approval time. Unlisted bots can be approved without becoming public.",
-    "unlistedAtApproxStart/unlistedAtApproxEnd": "Approximate time range supplied by the creator when an exact creation/unlist time was not available."
+    "unlistedAtApproxStart/unlistedAtApproxEnd": "Approximate time range supplied by the creator when an exact creation/unlist time was not available.",
+    "underReview": "Temporary SpicyChat Under Review status is ignored for bots already known public: keep them public, continue collecting messages/tokens, and preserve the established public image until review finishes."
   }
 }
