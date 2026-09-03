@@ -1566,6 +1566,24 @@
       "value": 100,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-03T11:38:37Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-03T11:38:37Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": true,
+      "source": "creator-profile"
     }
   ]
 }
