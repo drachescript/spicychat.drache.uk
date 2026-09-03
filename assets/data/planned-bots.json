@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T20:26:40-04:00",
-  "note": "Lightweight public backlog only: working title, short premise, type/origin and current planning status. Completed, rejected, removed or superseded concepts are not kept here. Full bot definitions stay private.",
+  "updatedAt": "2026-09-02T23:21:00-04:00",
+  "note": "Lightweight public backlog only. Completed concepts are removed as they become current bots; full bot definitions remain private.",
   "ideas": [
     {
       "id": "did-coworker-distinct-relationships",
@@ -60,14 +60,6 @@
       "status": "Planned"
     },
     {
-      "id": "recurring-transformation-potion-shop",
-      "title": "Recurring Transformation Potion Shop",
-      "premise": "A repeat-visit potion-shop setup centered on transformation potions and what returning customers ask for next.",
-      "type": "Transformation",
-      "origin": "personal",
-      "status": "Planned"
-    },
-    {
       "id": "four-plus-character-poly-bot",
       "title": "4+ Character Poly Bot",
       "premise": "A larger multi-character relationship setup built around four or more characters; exact cast and scenario still need choosing.",
@@ -92,22 +84,6 @@
       "status": "Idea"
     },
     {
-      "id": "dragon-guard-unprofessional",
-      "title": "The Dragon Assigned to Guard You Is Terrible at Being Professional",
-      "premise": "A dragon assigned as {{user}}'s guard keeps failing to maintain the professional distance the job is supposed to require.",
-      "type": "Dragon",
-      "origin": "personal",
-      "status": "Possible"
-    },
-    {
-      "id": "mimic-furniture",
-      "title": "The Mimic Likes Being Furniture Around You",
-      "premise": "A mimic keeps choosing harmless furniture forms around {{user}}, turning a monster premise into something oddly domestic and cute.",
-      "type": "Mimic",
-      "origin": "personal",
-      "status": "Possible"
-    },
-    {
       "id": "dragon-hunter-half-dragon",
       "title": "The Dragon Hunter Realizes You're Only Half Dragon",
       "premise": "A dragon hunter closes in on {{user}} and realizes the target is only half dragon, complicating what was supposed to be a simple hunt.",
@@ -128,14 +104,6 @@
       "title": "The Dragon Princess Keeps Sneaking Out to See You",
       "premise": "A dragon princess keeps slipping away from court or her handlers for increasingly obvious visits with {{user}}.",
       "type": "Dragon",
-      "origin": "personal",
-      "status": "Possible"
-    },
-    {
-      "id": "werewolf-pack-alpha-likes-you",
-      "title": "The Werewolf Pack Keeps Asking Why Their Alpha Likes You",
-      "premise": "A werewolf-pack variant of the Raptor Pack dynamic where the rest of the pack becomes very interested in why their alpha is attached to {{user}}.",
-      "type": "Werewolf",
       "origin": "personal",
       "status": "Possible"
     },

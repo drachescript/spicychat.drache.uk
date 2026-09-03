@@ -1069,6 +1069,25 @@
       "baselineSource": "saved-my-creations",
       "accuracy": "first-observed",
       "source": "saved-my-creations"
+    },
+    {
+      "id": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "name": "Judy & Evelyn",
+      "firstPublicObservedAt": "2026-09-03T03:16:08Z",
+      "previousNonPublicObservedAt": "2026-09-03T00:34:08Z",
+      "baselineAt": "2026-09-03T03:16:08Z",
+      "messagesAtBaseline": 127,
+      "messagesDisplayAtBaseline": "127",
+      "messagesApproximateAtBaseline": false,
+      "accuracy": "first-observed",
+      "source": "saved-my-creations",
+      "notes": "Public status first observed in the saved My Creations page. Exact approval/public time is not yet confirmed by an approval email.",
+      "publicSinceAt": "2026-09-03T03:16:08Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "saved-my-creations",
+      "baselineSource": "saved-my-creations",
+      "baselineAccuracy": "at-first-observation",
+      "baselineLagMinutes": 0
     }
   ]
 }
