@@ -1620,6 +1620,15 @@
       "value": 100,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T11:39:55Z",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "direct-profile"
     }
   ]
 }
