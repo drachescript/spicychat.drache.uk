@@ -1656,6 +1656,15 @@
       "value": 250,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T22:31:04Z",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
