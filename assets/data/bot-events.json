@@ -1629,6 +1629,33 @@
       "value": 1000,
       "approximate": true,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-04T16:35:01Z",
+      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
+      "botName": "Dr. Yara Vale",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T16:35:01Z",
+      "botId": "c8c96422-d782-438d-999c-79e785f635de",
+      "botName": "Elara Voss",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T16:35:01Z",
+      "botId": "c8c96422-d782-438d-999c-79e785f635de",
+      "botName": "Elara Voss",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
