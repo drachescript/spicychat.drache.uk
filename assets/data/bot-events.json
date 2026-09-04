@@ -1593,6 +1593,33 @@
       "value": 500,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T05:01:05Z",
+      "botId": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
+      "botName": "Kinky Delivery",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-04T05:01:05Z",
+      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "botName": "Nyra",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-04T05:01:05Z",
+      "botId": "57fc84b4-cb36-464f-9b87-49b30057e093",
+      "botName": "Maeve Calder",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
