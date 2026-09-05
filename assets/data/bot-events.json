@@ -1665,6 +1665,15 @@
       "value": 500,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T00:20:19Z",
+      "botId": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "botName": "Mara",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
