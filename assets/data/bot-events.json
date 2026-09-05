@@ -1701,6 +1701,15 @@
       "value": 100,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T15:30:10Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
