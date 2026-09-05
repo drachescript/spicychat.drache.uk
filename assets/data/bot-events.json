@@ -1658,6 +1658,16 @@
       "source": "creator-profile"
     },
     {
+      "at": "2026-09-04T17:27:00-04:00",
+      "botId": "978e6fae-ff58-4abc-b849-321c09833843",
+      "botName": "Raptor Pack Handler",
+      "type": "archive",
+      "from": "public",
+      "to": "archived",
+      "source": "SpicyChat deletion email",
+      "detail": "Removed from the active collection after SpicyChat deletion notice."
+    },
+    {
       "at": "2026-09-04T22:31:04Z",
       "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
       "botName": "Elise Carver",
@@ -1703,6 +1713,62 @@
       "source": "creator-profile"
     },
     {
+      "at": "2026-09-05T14:51:00-04:00",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:51:00-04:00",
+      "botId": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "botName": "Aurelia & Vaelira",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:51:00-04:00",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:56:00-04:00",
+      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
+      "botName": "Vessa",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:56:00-04:00",
+      "botId": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
+      "botName": "Seryth",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:56:00-04:00",
+      "botId": "3c719d70-7e67-4562-962a-2906a33cbf08",
+      "botName": "Alpha Chooses You",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:56:00-04:00",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
       "at": "2026-09-05T15:30:10Z",
       "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
       "botName": "Rogue Amendiares",
@@ -1719,6 +1785,78 @@
       "value": 100,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "review-treated-public"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
+      "botName": "Vessa",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
+      "botName": "Seryth",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "3c719d70-7e67-4562-962a-2906a33cbf08",
+      "botName": "Alpha Chooses You",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "botName": "Aurelia & Vaelira",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-09-05T20:40:27Z",
-  "source": "github-public-updater",
-  "sourceSha256": "a0bb40267795f08c1ec301da5517d23ca50ffcd98046ca68a66408439bec7205",
-  "label": "Automatic update",
+  "capturedAt": "2026-09-05T20:52:28Z",
+  "source": "saved-my-creations",
+  "sourceSha256": "2421493f94b6c79fbfca408926bdcbbec2ef5ed950e2bb42926c3222c02ac097",
+  "label": "Saved My Creations refresh",
   "bots": [
     {
       "id": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
       "name": "Vessa",
       "title": "The Mimic Keeps Turning Into Your Furniture",
       "url": "https://spicychat.ai/chat/4999f8d3-8d88-4391-a7d9-6e29a941f560",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 7,
       "messagesDisplay": "7",
       "messagesApproximate": false,
@@ -20,17 +20,17 @@
       "image": "https://cdn.nd-api.com/avatars/85a2937c-cd98-4cde-af3a-fb704c675caf.jpg?class=avatar256x256",
       "rawMessages": "7",
       "rawTokens": "1604",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/4999f8d3-8d88-4391-a7d9-6e29a941f560",
-      "statsUpdatedAt": "2026-09-03T11:38:37Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
       "name": "Seryth",
       "title": "Your Dragon Bodyguard Calls This \"Security\"",
       "url": "https://spicychat.ai/chat/e3dec212-835d-4f2e-aebd-006e0ae011a3",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 3,
       "messagesDisplay": "3",
       "messagesApproximate": false,
@@ -40,17 +40,17 @@
       "image": "https://cdn.nd-api.com/avatars/9b055618-c3ef-4f8c-9f9d-5edbf0f45618.jpg?class=avatar256x256",
       "rawMessages": "3",
       "rawTokens": "1437",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/e3dec212-835d-4f2e-aebd-006e0ae011a3",
-      "statsUpdatedAt": "2026-09-03T11:38:37Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "3c719d70-7e67-4562-962a-2906a33cbf08",
       "name": "Alpha Chooses You",
       "title": "The Werewolf Pack Keeps Asking Why Their Alpha Likes You (Werewolf Pack)",
       "url": "https://spicychat.ai/chat/3c719d70-7e67-4562-962a-2906a33cbf08",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 29,
       "messagesDisplay": "29",
       "messagesApproximate": false,
@@ -59,18 +59,18 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/8d330a1d-466f-47bc-bf86-191bec11e779.jpg?class=avatar256x256",
       "rawMessages": "29",
-      "rawTokens": "1,690",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "rawTokens": "1690",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/3c719d70-7e67-4562-962a-2906a33cbf08",
-      "statsUpdatedAt": "2026-09-03T21:17:44Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
       "name": "Cly Kullervo",
       "title": "Zero Company's Infamous Mandalorian",
       "url": "https://spicychat.ai/chat/b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 102,
       "messagesDisplay": "102",
       "messagesApproximate": false,
@@ -79,16 +79,16 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c8bccf47-ffc1-414c-a0d5-a1900b5983b6.jpg?class=avatar256x256",
       "rawMessages": "102",
-      "rawTokens": "1,669",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "rawTokens": "1669",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
-      "statsUpdatedAt": "2026-09-03T21:17:44Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
       "name": "Judy & Evelyn",
-      "title": "Neither of Them Wants You to Choose",
+      "title": "Neither of Them Wants You to Choose (Cyberpunk 2077)",
       "url": "https://spicychat.ai/chat/7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
       "visibility": "public",
       "messages": 209,
@@ -100,37 +100,17 @@
       "image": "https://cdn.nd-api.com/avatars/f6b40135-bb00-4383-87d3-aee77bc29162.jpg?class=avatar256x256",
       "rawMessages": "209",
       "rawTokens": "1918",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
-      "profileUrl": "https://spicychat.ai/chatbot/7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
-      "statsUpdatedAt": "2026-09-05T18:32:50Z"
-    },
-    {
-      "id": "978e6fae-ff58-4abc-b849-321c09833843",
-      "name": "Raptor Pack Handler",
-      "title": "The Pack Chose You (Raptor Handler POV)",
-      "url": "https://spicychat.ai/chat/978e6fae-ff58-4abc-b849-321c09833843",
-      "visibility": "public",
-      "messages": 52,
-      "messagesDisplay": "52",
-      "messagesApproximate": false,
-      "tokens": 1993,
-      "tokensDisplay": "1993",
-      "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/c1e89c2d-4f5b-446e-86dd-f453501e99f7.webp?class=avatar256x256",
-      "rawMessages": "52",
-      "rawTokens": "1993",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
-      "profileUrl": "https://spicychat.ai/chatbot/978e6fae-ff58-4abc-b849-321c09833843",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "profileUrl": "https://spicychat.ai/chatbot/7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "78986c9b-8a87-485d-b92c-33423de50a78",
       "name": "Saeli Venn",
-      "title": "She Studied Human Dating. Badly.",
+      "title": "She Studied Human Dating. Badly. (Alien Bot)",
       "url": "https://spicychat.ai/chat/78986c9b-8a87-485d-b92c-33423de50a78",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 38,
       "messagesDisplay": "38",
       "messagesApproximate": false,
@@ -139,18 +119,18 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/447233f0-9492-4735-850a-32415188be7e.jpg?class=avatar256x256",
       "rawMessages": "38",
-      "rawTokens": "2,089",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "rawTokens": "2089",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/78986c9b-8a87-485d-b92c-33423de50a78",
-      "statsUpdatedAt": "2026-09-04T00:19:28Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "f4698655-1341-481a-a81a-3b7e395a582c",
       "name": "Aurelia & Vaelira",
       "title": "Her Dragon Likes You More Than Her (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/f4698655-1341-481a-a81a-3b7e395a582c",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 30,
       "messagesDisplay": "30",
       "messagesApproximate": false,
@@ -160,17 +140,17 @@
       "image": "https://cdn.nd-api.com/avatars/5416615d-0cdf-45a8-9019-278b76ebdf01.jpg?class=avatar256x256",
       "rawMessages": "30",
       "rawTokens": "2143",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/f4698655-1341-481a-a81a-3b7e395a582c",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "38154344-755f-4541-adf6-af8a38e628e6",
       "name": "Queen Elowen",
       "title": "The Queen Keeps Finding Reasons to Summon You (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/38154344-755f-4541-adf6-af8a38e628e6",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 3,
       "messagesDisplay": "3",
       "messagesApproximate": false,
@@ -180,10 +160,10 @@
       "image": "https://cdn.nd-api.com/avatars/06fb3ba7-c823-4c21-abfa-5448482574f5.jpg?class=avatar256x256",
       "rawMessages": "3",
       "rawTokens": "1931",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/38154344-755f-4541-adf6-af8a38e628e6",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
@@ -200,15 +180,15 @@
       "image": "https://cdn.nd-api.com/avatars/934821ec-cde9-48f6-b97e-3a66bfd34e44.jpg?class=avatar256x256",
       "rawMessages": "280",
       "rawTokens": "1857",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/e53b778e-9f38-4a72-b805-a4aec2295ff4",
-      "statsUpdatedAt": "2026-09-05T18:32:50Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "73ac8972-cd7e-445f-b916-0d8821934d68",
       "name": "Rogue Amendiares",
-      "title": "The Queen of Fixers Doesn't Like Sharing",
+      "title": "The Queen of Fixers Doesn't Like Sharing (Cyberpunk 2077)",
       "url": "https://spicychat.ai/chat/73ac8972-cd7e-445f-b916-0d8821934d68",
       "visibility": "public",
       "messages": 568,
@@ -220,10 +200,10 @@
       "image": "https://cdn.nd-api.com/avatars/29e9ea66-6fbb-4a45-870a-45beddf64c25.jpg?class=avatar256x256",
       "rawMessages": "568",
       "rawTokens": "1966",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/73ac8972-cd7e-445f-b916-0d8821934d68",
-      "statsUpdatedAt": "2026-09-05T20:40:27Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
@@ -240,10 +220,10 @@
       "image": "https://cdn.nd-api.com/avatars/6585c5b8-bb40-427b-917c-7e5e9965fb1e.webp?class=avatar256x256",
       "rawMessages": "165",
       "rawTokens": "1787",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/6f439a04-51b2-4e31-b5da-f635aa3b9e24",
-      "statsUpdatedAt": "2026-09-05T10:53:47Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "e7b48989-6847-400a-9a72-719a64bc5bf4",
@@ -260,10 +240,10 @@
       "image": "https://cdn.nd-api.com/avatars/9c40f40e-4d11-452f-aa57-4d6101a0a7fe.webp?class=avatar256x256",
       "rawMessages": "56",
       "rawTokens": "1634",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/e7b48989-6847-400a-9a72-719a64bc5bf4",
-      "statsUpdatedAt": "2026-09-04T16:35:01Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
@@ -280,10 +260,10 @@
       "image": "https://cdn.nd-api.com/avatars/b48d7cc5-3b5f-444b-a9c5-a1d4abd33e9a.jpg?class=avatar256x256",
       "rawMessages": "776",
       "rawTokens": "2102",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
-      "statsUpdatedAt": "2026-09-04T16:35:01Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
@@ -297,13 +277,13 @@
       "tokens": 1818,
       "tokensDisplay": "1818",
       "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/e7e4840a-3b71-4b7e-b7cf-b0aade6e5191.jpg?class=avatar256x256",
+      "image": "https://cdn.nd-api.com/avatars/b14fa1c6-00bc-4ac0-86be-671c3cb2fabb.jpg?class=avatar256x256",
       "rawMessages": "47",
       "rawTokens": "1818",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/d757caa5-3abb-4b27-8fa8-bc03897e755b",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
@@ -317,13 +297,13 @@
       "tokens": 1433,
       "tokensDisplay": "1433",
       "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/83cdfb06-b7d9-4f9a-948b-4766d6bfa465.jpg?class=avatar256x256",
+      "image": "https://cdn.nd-api.com/avatars/e70796fb-8036-4023-8f97-75ae4fcee72f.jpg?class=avatar256x256",
       "rawMessages": "8",
       "rawTokens": "1433",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "dcaa687b-ea31-400e-8e62-04a56168dad8",
@@ -340,10 +320,10 @@
       "image": "https://cdn.nd-api.com/avatars/4c98437a-635f-44ca-a558-b2a4c0bf9601.jpg?class=avatar256x256",
       "rawMessages": "102",
       "rawTokens": "1555",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/dcaa687b-ea31-400e-8e62-04a56168dad8",
-      "statsUpdatedAt": "2026-09-05T20:40:27Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "edd37295-26d2-4a29-8951-8771b1fa3088",
@@ -360,10 +340,10 @@
       "image": "https://cdn.nd-api.com/avatars/9cb88eff-5f70-4507-a351-32e26b9ded72.png?class=avatar256x256",
       "rawMessages": "2.3k",
       "rawTokens": "1826",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/edd37295-26d2-4a29-8951-8771b1fa3088",
-      "statsUpdatedAt": "2026-09-05T15:30:10Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
@@ -380,10 +360,10 @@
       "image": "https://cdn.nd-api.com/avatars/970a7063-9185-4e07-b072-e8836ae01e7a.png?class=avatar256x256",
       "rawMessages": "58",
       "rawTokens": "1858",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
@@ -400,17 +380,17 @@
       "image": "https://cdn.nd-api.com/avatars/c179fe74-5319-4945-8e00-82d650547df5.jpg?class=avatar256x256",
       "rawMessages": "10",
       "rawTokens": "1955",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "6fc193e7-25b5-4e11-b533-22a88d001b26",
       "name": "Erin Walsh",
       "title": "You Said You Were Almost Ready (ADHD POV)",
       "url": "https://spicychat.ai/chat/6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "visibility": "unlisted",
+      "visibility": "public",
       "messages": 0,
       "messagesDisplay": "0",
       "messagesApproximate": false,
@@ -420,10 +400,10 @@
       "image": "https://cdn.nd-api.com/avatars/0ad547c2-79d4-4f13-8cc1-967cf8d959d1.png?class=avatar256x256",
       "rawMessages": "0",
       "rawTokens": "1480",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "72b90b87-3d31-40be-ba07-37bd47c43a52",
@@ -439,11 +419,11 @@
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/8019ade2-ead6-471d-b3a1-9a272366f19e.jpg?class=avatar256x256",
       "rawMessages": "22",
-      "rawTokens": "1,826",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "rawTokens": "1826",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/72b90b87-3d31-40be-ba07-37bd47c43a52",
-      "statsUpdatedAt": "2026-09-04T05:01:05Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
@@ -457,13 +437,13 @@
       "tokens": 1520,
       "tokensDisplay": "1520",
       "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/3690d9ca-3f39-4cf2-9c92-c81100a2242d.jpg?class=avatar256x256",
+      "image": "https://cdn.nd-api.com/avatars/50cb2581-d8a1-4339-b494-09fb6830cbec.jpg?class=avatar256x256",
       "rawMessages": "8",
       "rawTokens": "1520",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "03988822-692f-48ad-b158-8e152bb6dc20",
@@ -477,13 +457,13 @@
       "tokens": 1586,
       "tokensDisplay": "1586",
       "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/19d66b0e-1802-4156-9772-8b751dddad25.jpg?class=avatar256x256",
+      "image": "https://cdn.nd-api.com/avatars/3b4b3732-f196-4e49-95c2-604f6832c467.jpg?class=avatar256x256",
       "rawMessages": "26",
       "rawTokens": "1586",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/03988822-692f-48ad-b158-8e152bb6dc20",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
@@ -500,10 +480,10 @@
       "image": "https://cdn.nd-api.com/avatars/245721e5-60fd-4bd3-a443-576aafbe2e0d.png?class=avatar256x256",
       "rawMessages": "803",
       "rawTokens": "2411",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/f766afe6-5b8f-4220-b389-475e4c6d2b9f",
-      "statsUpdatedAt": "2026-09-05T18:32:50Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
@@ -520,10 +500,10 @@
       "image": "https://cdn.nd-api.com/avatars/6fc1e42b-ee33-403c-9e4b-0c799501e4df.webp?class=avatar256x256",
       "rawMessages": "728",
       "rawTokens": "1709",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/9e6207d9-60bd-482c-a28c-4e29a2dbea89",
-      "statsUpdatedAt": "2026-09-05T10:53:47Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
@@ -540,10 +520,10 @@
       "image": "https://cdn.nd-api.com/avatars/c9af6731-6ff1-4048-abb0-bcaf92a5b178.jpg?class=avatar256x256",
       "rawMessages": "98",
       "rawTokens": "2248",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/98ebe0d7-625d-4196-a7a5-ebfd4f262367",
-      "statsUpdatedAt": "2026-09-05T15:30:10Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
@@ -557,13 +537,13 @@
       "tokens": 1664,
       "tokensDisplay": "1664",
       "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/2a740411-8dcf-4c53-9e66-d8e0e36c780d.jpg?class=avatar256x256",
+      "image": "https://cdn.nd-api.com/avatars/3a01b14a-5294-49b0-a538-447220bd6779.jpg?class=avatar256x256",
       "rawMessages": "598",
       "rawTokens": "1664",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
-      "statsUpdatedAt": "2026-09-05T10:53:47Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
@@ -577,13 +557,13 @@
       "tokens": 1605,
       "tokensDisplay": "1605",
       "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/b730df26-a15a-44c8-9cc3-c5e12b26c23c.jpg?class=avatar256x256",
+      "image": "https://cdn.nd-api.com/avatars/b98cea2e-da59-4c13-8472-bfe22b86b177.jpg?class=avatar256x256",
       "rawMessages": "1.6k",
       "rawTokens": "1605",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/2b4a0861-36d4-49de-8ea0-a77071953a1e",
-      "statsUpdatedAt": "2026-09-05T15:30:10Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "81c1380f-7f02-472c-93c2-5d230032cdf9",
@@ -597,13 +577,13 @@
       "tokens": 1516,
       "tokensDisplay": "1516",
       "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/f52b548a-08be-44e2-98ff-b17525c89efd.jpg?class=avatar256x256",
+      "image": "https://cdn.nd-api.com/avatars/710545a1-8176-4811-8271-5132e912ca70.jpg?class=avatar256x256",
       "rawMessages": "78",
       "rawTokens": "1516",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/81c1380f-7f02-472c-93c2-5d230032cdf9",
-      "statsUpdatedAt": "2026-09-05T04:53:29Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
@@ -620,10 +600,10 @@
       "image": "https://cdn.nd-api.com/avatars/714ca673-a377-4b49-80f0-cea10f923206.webp?class=avatar256x256",
       "rawMessages": "815",
       "rawTokens": "1978",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
-      "statsUpdatedAt": "2026-09-05T04:53:29Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
@@ -640,10 +620,10 @@
       "image": "https://cdn.nd-api.com/avatars/72660d08-26e1-456c-ad48-d23c128ae3e0.webp?class=avatar256x256",
       "rawMessages": "143",
       "rawTokens": "1835",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "435e0b77-68cc-4d4f-bbe8-417208124b07",
@@ -660,10 +640,10 @@
       "image": "https://cdn.nd-api.com/avatars/5e0735d1-d253-4e42-88b7-01309c67d0ff.png?class=avatar256x256",
       "rawMessages": "22",
       "rawTokens": "1773",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/435e0b77-68cc-4d4f-bbe8-417208124b07",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "8fdfe8d4-5b03-49c5-9e50-b505222e2d45",
@@ -680,10 +660,10 @@
       "image": "https://cdn.nd-api.com/avatars/2059e32b-21a2-4819-907f-cfa7fd5f5d60.png?class=avatar256x256",
       "rawMessages": "20",
       "rawTokens": "1876",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/8fdfe8d4-5b03-49c5-9e50-b505222e2d45",
-      "statsUpdatedAt": "2026-09-05T10:53:47Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "1a4b74a8-2f2a-4a47-a63d-3ea89155e85a",
@@ -700,10 +680,10 @@
       "image": "https://cdn.nd-api.com/avatars/7dd3eedf-669d-4b00-a8ef-03eae4ba2c8c.png?class=avatar256x256",
       "rawMessages": "37",
       "rawTokens": "1664",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/1a4b74a8-2f2a-4a47-a63d-3ea89155e85a",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "691a385e-a7f0-43d2-8d55-e121f0fdb82a",
@@ -720,10 +700,10 @@
       "image": "https://cdn.nd-api.com/avatars/5a7c27ba-49d8-4dc7-971a-3647fdc47ba2.jpg?class=avatar256x256",
       "rawMessages": "86",
       "rawTokens": "2351",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/691a385e-a7f0-43d2-8d55-e121f0fdb82a",
-      "statsUpdatedAt": "2026-09-05T18:32:50Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
@@ -740,10 +720,10 @@
       "image": "https://cdn.nd-api.com/avatars/2ffeb058-92b1-4f84-a86b-bf887e97d142.jpg?class=avatar256x256",
       "rawMessages": "152",
       "rawTokens": "2056",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/926c92a3-856c-4fa8-aa81-3d05dccf77fa",
-      "statsUpdatedAt": "2026-09-05T20:40:27Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
@@ -751,19 +731,19 @@
       "title": "The Alter Who Wants His Own Girlfriend (DID POV)",
       "url": "https://spicychat.ai/chat/e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
       "visibility": "public",
-      "messages": 450,
-      "messagesDisplay": "450",
+      "messages": 470,
+      "messagesDisplay": "470",
       "messagesApproximate": false,
       "tokens": 1953,
       "tokensDisplay": "1953",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/4f2f7941-6f36-4366-a283-de3c7b93371f.jpg?class=avatar256x256",
-      "rawMessages": "450",
+      "rawMessages": "470",
       "rawTokens": "1953",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
-      "statsUpdatedAt": "2026-09-05T04:53:29Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "db30675a-4626-49bf-8048-43c6fda034da",
@@ -780,10 +760,10 @@
       "image": "https://cdn.nd-api.com/avatars/0f21509a-35c3-466f-8a1a-4168429a4985.jpg?class=avatar256x256",
       "rawMessages": "208",
       "rawTokens": "1883",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/db30675a-4626-49bf-8048-43c6fda034da",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "b322238d-4847-40ed-a896-6d6f44f55192",
@@ -800,10 +780,10 @@
       "image": "https://cdn.nd-api.com/avatars/a6ec053a-21fd-4e49-9a46-b3624e5117bd.jpg?class=avatar256x256",
       "rawMessages": "42",
       "rawTokens": "1999",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/b322238d-4847-40ed-a896-6d6f44f55192",
-      "statsUpdatedAt": "2026-09-04T05:01:05Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "f55dad9d-8339-46ac-a11d-dce0afd98660",
@@ -817,13 +797,13 @@
       "tokens": 1553,
       "tokensDisplay": "1553",
       "tokensApproximate": false,
-      "image": null,
+      "image": "https://cdn.nd-api.com/avatars/ee4cbc9b-74ce-47dc-90ed-587c333fc777.jpg?class=avatar256x256",
       "rawMessages": "185",
       "rawTokens": "1553",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/f55dad9d-8339-46ac-a11d-dce0afd98660",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
@@ -837,13 +817,13 @@
       "tokens": 1860,
       "tokensDisplay": "1860",
       "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/ed0a77bb-3188-4851-a8c2-6c172109144c.png?class=avatar256x256",
+      "image": "https://cdn.nd-api.com/avatars/294e7050-bc90-474f-a0fb-64535d917796.jpg?class=avatar256x256",
       "rawMessages": "1.4k",
       "rawTokens": "1860",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
-      "statsUpdatedAt": "2026-09-05T00:20:19Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "fbfad622-eea2-493b-8894-6d6f877441de",
@@ -860,10 +840,10 @@
       "image": "https://cdn.nd-api.com/avatars/6fc7a43b-7486-4b59-ae68-592cac0319ea.png?class=avatar256x256",
       "rawMessages": "427",
       "rawTokens": "2054",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/fbfad622-eea2-493b-8894-6d6f877441de",
-      "statsUpdatedAt": "2026-09-05T10:53:47Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "a04bc9a5-952e-4870-ac90-0a267f695374",
@@ -880,10 +860,10 @@
       "image": "https://cdn.nd-api.com/avatars/ab3a99c7-f000-4704-a35f-beaa2860348d.png?class=avatar256x256",
       "rawMessages": "435",
       "rawTokens": "1746",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/a04bc9a5-952e-4870-ac90-0a267f695374",
-      "statsUpdatedAt": "2026-09-05T20:40:27Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
@@ -900,10 +880,10 @@
       "image": "https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256",
       "rawMessages": "1.6k",
       "rawTokens": "2294",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
-      "statsUpdatedAt": "2026-09-05T04:53:29Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "9831d4b3-5cca-4425-95cb-44d72bb87937",
@@ -920,10 +900,10 @@
       "image": "https://cdn.nd-api.com/avatars/3ed6889c-6808-4b8c-b18e-f32984ac6999.webp?class=avatar256x256",
       "rawMessages": "1.2k",
       "rawTokens": "1734",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/9831d4b3-5cca-4425-95cb-44d72bb87937",
-      "statsUpdatedAt": "2026-09-04T22:31:04Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "43c73c72-432d-4eeb-8615-a0a519cf7683",
@@ -940,10 +920,10 @@
       "image": "https://cdn.nd-api.com/avatars/68598edd-e76a-4d7c-85cf-6eaac2eb89c1.jpg?class=avatar256x256",
       "rawMessages": "216",
       "rawTokens": "1895",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/43c73c72-432d-4eeb-8615-a0a519cf7683",
-      "statsUpdatedAt": "2026-09-05T00:20:19Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "a1cf80af-e406-4a57-9cd4-547c736c9683",
@@ -960,10 +940,10 @@
       "image": "https://cdn.nd-api.com/avatars/eafe5264-f760-49b7-af3e-ba3d00579563.jpg?class=avatar256x256",
       "rawMessages": "155",
       "rawTokens": "2292",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "direct-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/a1cf80af-e406-4a57-9cd4-547c736c9683",
-      "statsUpdatedAt": "2026-09-03T21:17:44Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
@@ -980,10 +960,10 @@
       "image": "https://cdn.nd-api.com/avatars/52af9e91-f013-4d24-847b-a824246792ab.webp?class=avatar256x256",
       "rawMessages": "301",
       "rawTokens": "1894",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
-      "statsUpdatedAt": "2026-09-04T05:01:05Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "9e005568-3419-4717-9d31-d7dd70104a7f",
@@ -1000,10 +980,10 @@
       "image": "https://cdn.nd-api.com/avatars/9f8d64f6-c2c9-4e4d-81fe-301aa82dba42.png?class=avatar256x256",
       "rawMessages": "3.1k",
       "rawTokens": "1648",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/9e005568-3419-4717-9d31-d7dd70104a7f",
-      "statsUpdatedAt": "2026-09-05T20:40:27Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "be449df2-b6f7-48b4-831d-d309eaf04f27",
@@ -1020,10 +1000,10 @@
       "image": "https://cdn.nd-api.com/avatars/aca6239e-dc79-413f-ae35-7371331dc2d2.png?class=avatar256x256",
       "rawMessages": "617",
       "rawTokens": "1495",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/be449df2-b6f7-48b4-831d-d309eaf04f27",
-      "statsUpdatedAt": "2026-09-05T10:53:47Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
@@ -1031,19 +1011,19 @@
       "title": "The Knight Hunting the Dragon Doesn't Know You're Him (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
       "visibility": "public",
-      "messages": 155500,
-      "messagesDisplay": "155.5k",
+      "messages": 156000,
+      "messagesDisplay": "156.0k",
       "messagesApproximate": true,
       "tokens": 1520,
       "tokensDisplay": "1520",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/5bd18c54-9535-451e-8f65-99dd297a2ab4.jpg?class=avatar256x256",
-      "rawMessages": "155.5k",
+      "rawMessages": "156.0k",
       "rawTokens": "1520",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
-      "statsUpdatedAt": "2026-09-05T20:40:27Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "57fc84b4-cb36-464f-9b87-49b30057e093",
@@ -1060,10 +1040,10 @@
       "image": "https://cdn.nd-api.com/avatars/4c1ae9d0-5640-453b-9102-60dc6c07a331.jpg?class=avatar256x256",
       "rawMessages": "171",
       "rawTokens": "1505",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/57fc84b4-cb36-464f-9b87-49b30057e093",
-      "statsUpdatedAt": "2026-09-05T15:30:10Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "c8c96422-d782-438d-999c-79e785f635de",
@@ -1080,10 +1060,10 @@
       "image": "https://cdn.nd-api.com/avatars/ed4b4f9b-16e6-4abd-ad77-fc83aa865a5d.jpg?class=avatar256x256",
       "rawMessages": "944",
       "rawTokens": "1679",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/c8c96422-d782-438d-999c-79e785f635de",
-      "statsUpdatedAt": "2026-09-05T20:40:27Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "97533fef-f306-4d71-8c5c-4eb98fecf040",
@@ -1100,10 +1080,10 @@
       "image": "https://cdn.nd-api.com/avatars/bc9d6d70-0de6-4ede-9ab9-f38e819dc9c4.jpg?class=avatar256x256",
       "rawMessages": "247",
       "rawTokens": "1688",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/97533fef-f306-4d71-8c5c-4eb98fecf040",
-      "statsUpdatedAt": "2026-09-04T19:06:42Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "b5964f5b-b916-439e-9537-6ba2247799bd",
@@ -1120,10 +1100,10 @@
       "image": "https://cdn.nd-api.com/avatars/e84616d8-f986-49fd-8ce0-5ad794dc6784.jpg?class=avatar256x256",
       "rawMessages": "224",
       "rawTokens": "1658",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/b5964f5b-b916-439e-9537-6ba2247799bd",
-      "statsUpdatedAt": "2026-09-04T22:31:04Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "615e3b47-93d7-4b56-855e-6129db0529f3",
@@ -1140,10 +1120,10 @@
       "image": "https://cdn.nd-api.com/avatars/746ad0cf-92db-4416-a4d1-79443062557c.jpg?class=avatar256x256",
       "rawMessages": "186",
       "rawTokens": "1734",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/615e3b47-93d7-4b56-855e-6129db0529f3",
-      "statsUpdatedAt": "2026-09-05T10:53:47Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "e28727e4-3475-4aa3-acc8-54f039626243",
@@ -1160,10 +1140,10 @@
       "image": "https://cdn.nd-api.com/avatars/24cd7e08-7ef6-4f82-bccd-3a676e0b5b66.jpg?class=avatar256x256",
       "rawMessages": "392",
       "rawTokens": "1547",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/e28727e4-3475-4aa3-acc8-54f039626243",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
@@ -1180,10 +1160,10 @@
       "image": "https://cdn.nd-api.com/avatars/0f6b9387-a114-45bf-b4ba-893512ebfef9.jpg?class=avatar256x256",
       "rawMessages": "363",
       "rawTokens": "2073",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/2d0a994a-65cd-4f94-accd-ffed0c45230e",
-      "statsUpdatedAt": "2026-09-05T20:40:27Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
@@ -1200,10 +1180,10 @@
       "image": "https://cdn.nd-api.com/avatars/f6795cc1-8dbf-46df-bcd7-0adec3544ba3.jpg?class=avatar256x256",
       "rawMessages": "1.6k",
       "rawTokens": "1867",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/5d2df83e-1ee3-4654-8897-c280742a0fe2",
-      "statsUpdatedAt": "2026-09-05T20:40:27Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
@@ -1220,10 +1200,10 @@
       "image": "https://cdn.nd-api.com/avatars/b1bef66a-57df-417d-8ee6-1a04f6e61b1b.jpg?class=avatar256x256",
       "rawMessages": "33",
       "rawTokens": "1743",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
-      "statsUpdatedAt": "2026-09-04T00:19:28Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "b376faf0-8c37-4b37-8861-8ca68cdd64b6",
@@ -1240,10 +1220,10 @@
       "image": "https://cdn.nd-api.com/avatars/0fb19108-bfb0-453e-85f3-3b5a2655ce29.png?class=avatar256x256",
       "rawMessages": "417",
       "rawTokens": "1876",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/b376faf0-8c37-4b37-8861-8ca68cdd64b6",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
@@ -1260,10 +1240,10 @@
       "image": "https://cdn.nd-api.com/avatars/e06387e9-1532-4851-8b49-2f5d0c77bbf1.jpg?class=avatar256x256",
       "rawMessages": "2.3k",
       "rawTokens": "2104",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
-      "statsUpdatedAt": "2026-09-04T16:35:01Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "c1fe4367-501f-472c-967c-275c71d38378",
@@ -1280,10 +1260,10 @@
       "image": "https://cdn.nd-api.com/avatars/1433aa28-b509-43b3-902f-32058a1e4fc4.jpg?class=avatar256x256",
       "rawMessages": "159",
       "rawTokens": "2001",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/c1fe4367-501f-472c-967c-275c71d38378",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
@@ -1291,19 +1271,19 @@
       "title": "A blunt alt girl notices when the noise becomes too much and slowly learns how to help.",
       "url": "https://spicychat.ai/chat/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
       "visibility": "public",
-      "messages": 716,
-      "messagesDisplay": "716",
+      "messages": 739,
+      "messagesDisplay": "739",
       "messagesApproximate": false,
       "tokens": 1718,
       "tokensDisplay": "1718",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/223307ed-49df-451b-b4fe-48ec587b8ce9.jpg?class=avatar256x256",
-      "rawMessages": "716",
+      "rawMessages": "739",
       "rawTokens": "1718",
-      "observedAt": "2026-09-03T07:04:51Z",
-      "statsSource": "creator-profile",
+      "observedAt": "2026-09-05T20:52:28Z",
+      "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
-      "statsUpdatedAt": "2026-09-05T18:32:50Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
@@ -1320,10 +1300,10 @@
       "image": "https://cdn.nd-api.com/avatars/0bab1000-4754-4fab-8674-0e5bc4f50406.jpg?class=avatar256x256",
       "rawMessages": "120",
       "rawTokens": "1828",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     },
     {
       "id": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
@@ -1340,10 +1320,10 @@
       "image": "https://cdn.nd-api.com/avatars/9f665292-e81f-43d6-8467-e86c7658da51.jpg?class=avatar256x256",
       "rawMessages": "145",
       "rawTokens": "1998",
-      "observedAt": "2026-09-03T07:04:51Z",
+      "observedAt": "2026-09-05T20:52:28Z",
       "statsSource": "saved-my-creations",
       "profileUrl": "https://spicychat.ai/chatbot/dd422bcb-0e92-4166-b483-72b36edcfcbd",
-      "statsUpdatedAt": "2026-09-03T07:04:51Z"
+      "statsUpdatedAt": "2026-09-05T20:52:28Z"
     }
   ]
 }
