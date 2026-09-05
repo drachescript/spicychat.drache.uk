@@ -1710,6 +1710,15 @@
       "value": 500,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-05T20:40:27Z",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
