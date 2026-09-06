@@ -1778,6 +1778,13 @@
       "source": "direct-profile"
     },
     {
+      "at": "2026-09-05T20:40:00-04:00",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "approval",
+      "source": "user-supplied-approval-email-screenshot"
+    },
+    {
       "at": "2026-09-05T20:40:27Z",
       "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
       "botName": "Elise Hart",
@@ -1790,10 +1797,9 @@
       "at": "2026-09-05T20:52:28Z",
       "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
       "botName": "Erin Walsh",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public",
-      "source": "review-treated-public"
+      "type": "review",
+      "source": "saved-my-creations",
+      "detail": "Shown Under Review on SpicyChat; kept Public on this site per archive/visibility policy."
     },
     {
       "at": "2026-09-05T20:52:28Z",

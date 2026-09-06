@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.7.0 — September 5, 2026
+
+- moved archived bots into their own `archived-bots.json` so deleted bots can no longer reset active stats
+- local and automatic updaters now ignore archived IDs so old pages or profile checks cannot re-add them
+- Raptor Pack Handler now keeps its final 52 messages, 1,993 tokens, final rank and old history in the Archive
+- archived bot cards now open a preserved stats detail page instead of being dead cards
+- active rankings now ignore archived bots and use consistent alphabetical tie-breaking, so rank numbers stay in display order
+- zero-baseline growth now shows `new` instead of a blank percentage, including A Jurassic TF
+- refreshed Activity into grouped daily cards with clearer event types, summaries, approval filtering and archive events
+- Erin Walsh publication time is now confirmed from the approval email instead of using the earlier Under Review observation
+
 ## v0.6.9 — August 29, 2026
 
 - added a JSON-driven Planned view to Chatbots with lightweight working titles, premises and planning status only

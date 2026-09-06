@@ -23,6 +23,7 @@ HISTORY_PATH = DATA_DIR / "bot-history.json"
 EVENTS_PATH = DATA_DIR / "bot-events.json"
 DISCOVERIES_PATH = DATA_DIR / "bot-discoveries.json"
 PUBLIC_PATH = DATA_DIR / "bot-public.json"
+ARCHIVED_PATH = DATA_DIR / "archived-bots.json"
 
 PROFILE_RE = re.compile(r"/chatbot/([^/?#]+)")
 CHAT_RE = re.compile(r"/chat/([^/?#]+)")
@@ -369,12 +370,14 @@ def process_updates(
     events_doc: dict,
     discoveries_doc: dict,
     public_doc: dict,
+    archived_doc: dict,
     creator_entries: dict[str, dict],
     direct_entries: dict[str, dict],
     now: str,
 ):
     curated_bots = bots_doc.get("bots", [])
-    known_ids = {bot["id"] for bot in curated_bots}
+    archived_ids = {bot.get("id") for bot in archived_doc.get("bots", []) if bot.get("id")}
+    known_ids = {bot["id"] for bot in curated_bots} | archived_ids
     old_rows = {row["id"]: row for row in stats_doc.get("bots", []) if row.get("id")}
     warnings: list[str] = []
     changed_bot_ids: set[str] = set()
@@ -426,6 +429,30 @@ def process_updates(
 
             # Save the first public message baseline once. Direct chatbot pages can also
             # belong to unlisted bots, so only the creator listing confirms public status.
+            # If publication was confirmed separately (for example by an approval email)
+            # before we had a post-public message snapshot, fill that baseline on the
+            # first observation at/after the confirmed publication time.
+            existing_public = public_by_id.get(bot_id)
+            if existing_public and existing_public.get("messagesAtBaseline") is None and row.get("messages") is not None:
+                try:
+                    public_at = datetime.fromisoformat(str(existing_public.get("publicSinceAt", "")).replace("Z", "+00:00"))
+                    observed_at = datetime.fromisoformat(str(now).replace("Z", "+00:00"))
+                except ValueError:
+                    public_at = observed_at = None
+                if public_at is not None and observed_at is not None and observed_at >= public_at:
+                    lag_minutes = max(0, int(round((observed_at - public_at).total_seconds() / 60)))
+                    existing_public.update({
+                        "baselineAt": now,
+                        "messagesAtBaseline": row.get("messages"),
+                        "messagesDisplayAtBaseline": row.get("messagesDisplay") or str(row.get("messages")),
+                        "messagesApproximateAtBaseline": bool(row.get("messagesApproximate")),
+                        "baselineAccuracy": "first-post-public-observation",
+                        "baselineLagMinutes": lag_minutes,
+                        "baselineSource": observed["source"],
+                    })
+                    public_baselines_added.append(existing_public.get("name") or row.get("name", bot_id))
+                    public_changed = True
+
             if observed["source"] == "creator-profile" and bot_id not in public_by_id and row.get("messages") is not None:
                 was_non_public = old_visibility not in {None, "", "unknown", "public"}
                 baseline = {
@@ -622,6 +649,7 @@ def main() -> int:
     events_doc = read_json(EVENTS_PATH, {"schemaVersion": 1, "milestones": MILESTONES_DEFAULT, "events": []})
     discoveries_doc = read_json(DISCOVERIES_PATH, {"schemaVersion": 1, "discoveries": []})
     public_doc = read_json(PUBLIC_PATH, {"schemaVersion": 1, "bots": []})
+    archived_doc = read_json(ARCHIVED_PATH, {"schemaVersion": 1, "bots": []})
 
     known_ids = {bot["id"] for bot in bots_doc.get("bots", [])}
     creator_url = f"https://spicychat.ai/creator/{args.creator}"
@@ -674,6 +702,7 @@ def main() -> int:
             events_doc,
             discoveries_doc,
             public_doc,
+            archived_doc,
             creator_entries,
             direct_entries,
             now,

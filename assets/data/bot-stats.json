@@ -1324,22 +1324,6 @@
       "statsSource": "creator-profile",
       "profileUrl": "https://spicychat.ai/chatbot/dd422bcb-0e92-4166-b483-72b36edcfcbd",
       "statsUpdatedAt": "2026-09-06T00:11:26Z"
-    },
-    {
-      "id": "978e6fae-ff58-4abc-b849-321c09833843",
-      "name": "Raptor Pack Handler",
-      "title": "The Pack Chose You (Raptor Handler POV)",
-      "url": "https://spicychat.ai/chat/978e6fae-ff58-4abc-b849-321c09833843",
-      "visibility": "unknown",
-      "messages": null,
-      "messagesDisplay": null,
-      "messagesApproximate": false,
-      "tokens": null,
-      "tokensDisplay": null,
-      "tokensApproximate": false,
-      "image": "https://cdn.nd-api.com/avatars/c1e89c2d-4f5b-446e-86dd-f453501e99f7.webp?class=avatar256x256",
-      "rawMessages": null,
-      "rawTokens": null
     }
   ]
 }
