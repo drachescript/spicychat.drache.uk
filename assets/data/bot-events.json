@@ -1872,6 +1872,78 @@
       "value": 500,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T05:01:06Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 100,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T05:01:06Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 250,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T05:01:06Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 500,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T05:01:06Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T05:01:06Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T05:01:06Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T05:01:06Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T05:01:06Z",
+      "botId": "72b90b87-3d31-40be-ba07-37bd47c43a52",
+      "botName": "Tessa Morgan",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
     }
   ]
 }
