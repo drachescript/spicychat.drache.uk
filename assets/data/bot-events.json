@@ -1944,6 +1944,15 @@
       "from": "unlisted",
       "to": "public",
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T11:18:03Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
