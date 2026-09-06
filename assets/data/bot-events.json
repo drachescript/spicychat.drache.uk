@@ -1857,6 +1857,15 @@
       "from": "unlisted",
       "to": "public",
       "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-06T00:11:26Z",
+      "botId": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
+      "botName": "Erin Blake",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
