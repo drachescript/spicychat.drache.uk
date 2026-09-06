@@ -572,7 +572,22 @@
       "unlistedAtApproxEnd": "2026-08-29T07:17:00-04:00",
       "unlistedAtSource": "user-estimated-1-to-2-hours-before-08:17",
       "needsReview": false,
-      "visibility": "public"
+      "visibility": "public",
+      "statsGuard": {
+        "type": "reject-mirrored-stats",
+        "mirrorBotId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+        "fallback": {
+          "messages": 0,
+          "messagesDisplay": "0",
+          "messagesApproximate": false,
+          "rawMessages": "0",
+          "tokens": 1480,
+          "tokensDisplay": "1480",
+          "tokensApproximate": false,
+          "rawTokens": "1480"
+        },
+        "reason": "Automatic creator-profile updater incorrectly mirrored Seren Vale stats onto Erin Walsh after publication."
+      }
     },
     {
       "id": "72b90b87-3d31-40be-ba07-37bd47c43a52",
@@ -1764,6 +1779,7 @@
     "unlistedAtApproxStart/unlistedAtApproxEnd": "Approximate time range supplied by the creator when an exact creation/unlist time was not available.",
     "underReview": "Temporary SpicyChat Under Review status is ignored for bots already known public: keep them public, continue collecting messages/tokens, and preserve the established public image until review finishes.",
     "archive": "Bots marked archived stay in the data for history/publication records but are excluded from the active collection and current stats.",
-    "reviewVisibility": "Under Review cards are treated as public for site visibility and stats. Review-only image changes are ignored."
+    "reviewVisibility": "Under Review cards are treated as public for site visibility and stats. Review-only image changes are ignored.",
+    "statsGuard": "Optional defensive rule used only when an updater row exactly mirrors another bot. The site falls back to the last known-good/manual values instead of displaying the mirrored stats."
   }
 }
