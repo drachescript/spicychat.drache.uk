@@ -2045,6 +2045,87 @@
       "value": 5000,
       "approximate": true,
       "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 100,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 250,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 500,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": true,
+      "source": "creator-profile"
     }
   ]
 }
