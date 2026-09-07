@@ -2025,6 +2025,42 @@
       "value": 1000,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T18:51:15Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-07T18:51:15Z",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T18:51:15Z",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-07T18:51:15Z",
+      "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
+      "botName": "Maya Serrano",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
