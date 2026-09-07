@@ -1989,6 +1989,15 @@
       "value": 1000,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T00:16:43Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
