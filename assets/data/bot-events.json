@@ -1998,6 +1998,33 @@
       "value": 500,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-07T12:59:04Z",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T12:59:04Z",
+      "botId": "a04bc9a5-952e-4870-ac90-0a267f695374",
+      "botName": "Kaia Sterling",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T12:59:04Z",
+      "botId": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "botName": "Mara",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
     }
   ]
 }
