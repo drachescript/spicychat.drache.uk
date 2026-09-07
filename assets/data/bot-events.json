@@ -1865,6 +1865,14 @@
       "source": "saved-my-creations"
     },
     {
+      "at": "2026-09-05T23:16:00-04:00",
+      "botId": "72b90b87-3d31-40be-ba07-37bd47c43a52",
+      "botName": "Tessa Morgan",
+      "type": "approval",
+      "visibility": "public",
+      "source": "user-supplied-approval-email-screenshot"
+    },
+    {
       "at": "2026-09-06T00:11:26Z",
       "botId": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
       "botName": "Erin Blake",
@@ -1890,69 +1898,6 @@
       "value": 250,
       "approximate": false,
       "source": "direct-profile"
-    },
-    {
-      "at": "2026-09-06T18:36:35Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 100,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-06T18:36:35Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 250,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-06T18:36:35Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 500,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-06T18:36:35Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 1000,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-06T18:36:35Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 2500,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-06T18:36:35Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 5000,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-06T18:36:35Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 10000,
-      "approximate": true,
-      "source": "creator-profile"
     },
     {
       "at": "2026-09-06T20:46:37Z",
@@ -2061,6 +2006,45 @@
       "value": 250,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": true,
+      "source": "saved-my-creations"
     }
   ]
 }

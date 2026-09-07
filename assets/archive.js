@@ -5,7 +5,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const slug=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
 const date=v=>{if(!v)return 'Unknown';const d=new Date(v);return Number.isNaN(d.getTime())?v:d.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})};
 const num=v=>v==null?'—':Number(v).toLocaleString('en-GB');
-const detailUrl=b=>`/chatbots/stats/bot/?bot=${encodeURIComponent(slug(b.name))}`;
+const detailUrl=b=>`/chatbots/stats/bot/?id=${encodeURIComponent(b.id)}`;
 function bindCards(){
   grid.addEventListener('click',e=>{const card=e.target.closest('[data-bot-url]');if(!card||e.target.closest('a,button'))return;location.href=card.dataset.botUrl});
   grid.addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const card=e.target.closest('[data-bot-url]');if(!card)return;e.preventDefault();location.href=card.dataset.botUrl});

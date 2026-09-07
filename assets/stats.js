@@ -6,7 +6,7 @@ const $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=n=>Number.isFinite(Number(n))?Number(n).toLocaleString():'—';
 const slug=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
-const botUrl=r=>`/chatbots/stats/bot/?bot=${encodeURIComponent(slug(r.name))}`;
+const botUrl=r=>`/chatbots/stats/bot/?id=${encodeURIComponent(r.id)}`;
 const windows={"6h":{ms:6*3600e3,label:'last 6 hours'},"12h":{ms:12*3600e3,label:'last 12 hours'},"24h":{ms:24*3600e3,label:'last 24 hours'},"3d":{ms:3*86400e3,label:'last 3 days'},"7d":{ms:7*86400e3,label:'last 7 days'},"14d":{ms:14*86400e3,label:'last 14 days'},"30d":{ms:30*86400e3,label:'last 30 days'},all:{ms:null,label:'all tracked history'}};
 let history={snapshots:[]},events={events:[]},publicDoc={bots:[]},archiveDoc={bots:[]},categories=[],rows=[],archivedRows=[],latest=null,previous=null,sortKey='messages',sortDir=-1,trendWindow='24h',quietWindow='24h',activityFilter='all',activeIdSet=null;
 let publicMap=new Map();

@@ -1250,20 +1250,24 @@
     {
       "id": "72b90b87-3d31-40be-ba07-37bd47c43a52",
       "name": "Tessa Morgan",
-      "publicSinceAt": "2026-09-06T05:01:06Z",
-      "publicSinceAccuracy": "first-observed",
-      "publicSinceSource": "creator-profile",
+      "publicSinceAt": "2026-09-05T23:16:00-04:00",
+      "publicSinceAccuracy": "confirmed",
+      "publicSinceSource": "user-supplied-approval-email-screenshot",
       "firstPublicObservedAt": "2026-09-06T05:01:06Z",
       "previousNonPublicObservedAt": "2026-09-06T00:11:26Z",
       "baselineAt": "2026-09-06T05:01:06Z",
       "messagesAtBaseline": 22,
       "messagesDisplayAtBaseline": "22",
       "messagesApproximateAtBaseline": false,
-      "baselineAccuracy": "same-observation",
-      "baselineLagMinutes": 0,
+      "baselineAccuracy": "first-post-public-observation",
+      "baselineLagMinutes": 105,
       "baselineSource": "creator-profile",
-      "accuracy": "first-observed",
-      "source": "creator-profile"
+      "accuracy": "confirmed",
+      "source": "user-supplied-approval-email-screenshot",
+      "approvalEmailAt": "2026-09-05T23:16:00-04:00",
+      "approvalEmailSource": "user-supplied-approval-email-screenshot",
+      "approvalEmailConfirmed": true,
+      "notes": "SpicyChat approval email confirms Tessa Morgan was live on 5 Sept 2026 at 23:16 local time. This falls after the last known non-public observation and before the first public creator-profile observation."
     }
   ]
 }
