@@ -2207,6 +2207,15 @@
       "value": 10000,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T11:40:58Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
