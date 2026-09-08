@@ -97,12 +97,32 @@ def parse_creator_html(html: str, creator_url: str) -> dict[str, dict]:
         for ancestor in profile_link.parents:
             if getattr(ancestor, "name", None) != "div":
                 continue
-            if ancestor.select_one("svg.lucide-message-square-text") and ancestor.select_one(
-                f'a[href*="/chat/{bot_id}"]'
-            ):
+
+            # A real bot card has exactly one character-info link.  The old
+            # code could keep climbing into the entire creator grid when a
+            # review/loading card did not expose its normal chat link.  At
+            # that level select_one() returned the FIRST message counter in
+            # the grid, which could mirror another bot's stats.
+            profile_links = ancestor.select('a[aria-label="character-info"][href*="/chatbot/"]')
+            if len(profile_links) != 1:
+                continue
+            own_profile = PROFILE_RE.search(profile_links[0].get("href", ""))
+            if not own_profile or own_profile.group(1) != bot_id:
+                continue
+
+            matching_chat_link = None
+            for candidate in ancestor.select('a[href*="/chat/"]'):
+                chat_match = CHAT_RE.search(candidate.get("href", ""))
+                if chat_match and chat_match.group(1) == bot_id:
+                    matching_chat_link = candidate
+                    break
+
+            if ancestor.select_one("svg.lucide-message-square-text") and matching_chat_link:
                 card = ancestor
                 break
         if card is None:
+            # Never guess across card boundaries.  A missing/odd public card
+            # can be checked by the direct-profile fallback later instead.
             continue
 
         name_el = card.select_one(f'a[href*="/chat/{bot_id}"][title]')
@@ -344,6 +364,60 @@ def update_token_metric(row: dict, observed: dict) -> bool:
     return changed
 
 
+
+def apply_stats_guard(
+    bot: dict,
+    row: dict,
+    observed: dict,
+    creator_entries: dict[str, dict],
+    direct_entries: dict[str, dict],
+    warnings: list[str],
+) -> bool:
+    """Reject a known mirrored scrape and restore the curated fallback."""
+    guard = bot.get("statsGuard") or {}
+    if guard.get("type") != "reject-mirrored-stats":
+        return False
+
+    mirror_id = guard.get("mirrorBotId")
+    fallback = guard.get("fallback") or {}
+    mirror = creator_entries.get(mirror_id) or direct_entries.get(mirror_id)
+    if not mirror:
+        return False
+
+    observed_messages = (observed.get("messages") or {}).get("value")
+    observed_tokens = (observed.get("tokens") or {}).get("value")
+    mirror_messages = (mirror.get("messages") or {}).get("value")
+    mirror_tokens = (mirror.get("tokens") or {}).get("value")
+    fallback_messages = fallback.get("messages")
+
+    if observed_messages is None or mirror_messages is None or fallback_messages is None:
+        return False
+    if observed_messages != mirror_messages:
+        return False
+    if observed_tokens is not None and mirror_tokens is not None and observed_tokens != mirror_tokens:
+        return False
+    if int(observed_messages) <= int(fallback_messages):
+        return False
+
+    for key in (
+        "messages",
+        "messagesDisplay",
+        "messagesApproximate",
+        "rawMessages",
+        "tokens",
+        "tokensDisplay",
+        "tokensApproximate",
+        "rawTokens",
+    ):
+        if key in fallback:
+            row[key] = fallback[key]
+
+    warnings.append(
+        f"{bot.get('name', bot.get('id'))}: rejected mirrored stats "
+        f"matching {mirror.get('name') or mirror_id}; restored curated fallback"
+    )
+    return True
+
 def make_base_stat(bot: dict) -> dict:
     return {
         "id": bot["id"],
@@ -404,8 +478,23 @@ def process_updates(
 
         if observed:
             old_messages = previous.get("messages")
-            row, message_changed = safe_message_update(row, observed, warnings)
-            token_changed = update_token_metric(row, observed)
+            guard_changed = apply_stats_guard(
+                bot, row, observed, creator_entries, direct_entries, warnings
+            )
+            if guard_changed:
+                message_changed = (
+                    row.get("messages") != previous.get("messages")
+                    or row.get("messagesDisplay") != previous.get("messagesDisplay")
+                    or bool(row.get("messagesApproximate")) != bool(previous.get("messagesApproximate"))
+                )
+                token_changed = (
+                    row.get("tokens") != previous.get("tokens")
+                    or row.get("tokensDisplay") != previous.get("tokensDisplay")
+                    or bool(row.get("tokensApproximate")) != bool(previous.get("tokensApproximate"))
+                )
+            else:
+                row, message_changed = safe_message_update(row, observed, warnings)
+                token_changed = update_token_metric(row, observed)
 
             # Appearing on the public creator profile is enough to confirm public visibility.
             visibility_changed = False
@@ -514,7 +603,7 @@ def process_updates(
                 warnings.append(f"{curated_name}: SpicyChat currently shows the name '{scraped_name}'")
 
             if message_changed or token_changed or visibility_changed:
-                row["statsSource"] = observed["source"]
+                row["statsSource"] = "stats-guard" if guard_changed else observed["source"]
                 row["profileUrl"] = observed.get("profileUrl") or f"https://spicychat.ai/chatbot/{bot_id}"
                 row["statsUpdatedAt"] = now
                 changed_bot_ids.add(bot_id)

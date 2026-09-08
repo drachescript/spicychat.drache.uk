@@ -2065,69 +2065,6 @@
       "source": "creator-profile"
     },
     {
-      "at": "2026-09-07T22:59:24Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 100,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-07T22:59:24Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 250,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-07T22:59:24Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 500,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-07T22:59:24Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 1000,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-07T22:59:24Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 2500,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-07T22:59:24Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 5000,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-07T22:59:24Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "milestone",
-      "value": 10000,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
       "at": "2026-09-08T05:06:43Z",
       "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
       "botName": "Raptor Pack Handler",
@@ -2143,69 +2080,6 @@
       "type": "visibility",
       "from": "unlisted",
       "to": "public",
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-08T05:06:43Z",
-      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
-      "botName": "Raptor Pack Handler",
-      "type": "milestone",
-      "value": 100,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-08T05:06:43Z",
-      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
-      "botName": "Raptor Pack Handler",
-      "type": "milestone",
-      "value": 250,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-08T05:06:43Z",
-      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
-      "botName": "Raptor Pack Handler",
-      "type": "milestone",
-      "value": 500,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-08T05:06:43Z",
-      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
-      "botName": "Raptor Pack Handler",
-      "type": "milestone",
-      "value": 1000,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-08T05:06:43Z",
-      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
-      "botName": "Raptor Pack Handler",
-      "type": "milestone",
-      "value": 2500,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-08T05:06:43Z",
-      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
-      "botName": "Raptor Pack Handler",
-      "type": "milestone",
-      "value": 5000,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-08T05:06:43Z",
-      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
-      "botName": "Raptor Pack Handler",
-      "type": "milestone",
-      "value": 10000,
-      "approximate": true,
       "source": "creator-profile"
     },
     {
@@ -2225,6 +2099,30 @@
       "value": 250,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T20:22:04Z",
+      "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
+      "botName": "Ice Queen",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-08T20:22:04Z",
+      "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
+      "botName": "Ice Queen",
+      "type": "origin",
+      "value": "requested",
+      "source": "user-confirmed"
+    },
+    {
+      "at": "2026-09-08T20:22:04Z",
+      "botId": "03988822-692f-48ad-b158-8e152bb6dc20",
+      "botName": "Cass Rowan",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "saved-my-creations"
     }
   ]
 }
