@@ -2126,6 +2126,87 @@
       "value": 10000,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 100,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 250,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 500,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": true,
+      "source": "creator-profile"
     }
   ]
 }

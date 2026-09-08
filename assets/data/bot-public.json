@@ -1268,6 +1268,42 @@
       "approvalEmailSource": "user-supplied-approval-email-screenshot",
       "approvalEmailConfirmed": true,
       "notes": "SpicyChat approval email confirms Tessa Morgan was live on 5 Sept 2026 at 23:16 local time. This falls after the last known non-public observation and before the first public creator-profile observation."
+    },
+    {
+      "id": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "name": "Raptor Pack Handler",
+      "publicSinceAt": "2026-09-08T05:06:43Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "creator-profile",
+      "firstPublicObservedAt": "2026-09-08T05:06:43Z",
+      "previousNonPublicObservedAt": "2026-09-07T22:59:24Z",
+      "baselineAt": "2026-09-08T05:06:43Z",
+      "messagesAtBaseline": 51,
+      "messagesDisplayAtBaseline": "51",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "creator-profile",
+      "accuracy": "first-observed",
+      "source": "creator-profile"
+    },
+    {
+      "id": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "name": "Raptor Pack Handler",
+      "publicSinceAt": "2026-09-08T05:06:43Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "creator-profile",
+      "firstPublicObservedAt": "2026-09-08T05:06:43Z",
+      "previousNonPublicObservedAt": "2026-09-07T22:59:24Z",
+      "baselineAt": "2026-09-08T05:06:43Z",
+      "messagesAtBaseline": 220500,
+      "messagesDisplayAtBaseline": "220.5k",
+      "messagesApproximateAtBaseline": true,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "creator-profile",
+      "accuracy": "first-observed",
+      "source": "creator-profile"
     }
   ]
 }
