@@ -2141,6 +2141,15 @@
       "value": 1000,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-09T11:46:59Z",
+      "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
+      "botName": "Ice Queen",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
