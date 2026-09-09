@@ -2150,6 +2150,15 @@
       "value": 100,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-09T16:52:17Z",
+      "botId": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
+      "botName": "Takeda Reina",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
