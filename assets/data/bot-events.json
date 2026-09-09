@@ -2159,6 +2159,15 @@
       "value": 250,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-09T21:08:12Z",
+      "botId": "b322238d-4847-40ed-a896-6d6f44f55192",
+      "botName": "Cassidy & Crew",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
