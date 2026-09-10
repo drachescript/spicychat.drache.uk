@@ -2186,6 +2186,15 @@
       "value": 10000,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-10T16:40:20Z",
+      "botId": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "botName": "Sable Hart",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
     }
   ]
 }
