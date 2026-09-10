@@ -2195,6 +2195,24 @@
       "value": 2500,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-10T21:08:29Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-10T21:08:29Z",
+      "botId": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
+      "botName": "Raptor Pack + Indo",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
     }
   ]
 }
