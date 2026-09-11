@@ -2242,6 +2242,24 @@
       "value": 250,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-11T05:06:15Z",
+      "botId": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
+      "botName": "Crimson Licker POV",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-11T05:06:15Z",
+      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
+      "botName": "Vessa",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
