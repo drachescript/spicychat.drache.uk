@@ -2260,6 +2260,24 @@
       "value": 100,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-11T11:45:06Z",
+      "botId": "eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
+      "botName": "Crimson Licker",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-11T11:45:06Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
