@@ -2233,6 +2233,15 @@
       "value": 2500,
       "approximate": true,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-11T00:28:22Z",
+      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "botName": "Nyra",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
