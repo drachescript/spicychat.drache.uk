@@ -2278,6 +2278,15 @@
       "value": 500,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-11T21:13:13Z",
+      "botId": "eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
+      "botName": "Crimson Licker",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
     }
   ]
 }
