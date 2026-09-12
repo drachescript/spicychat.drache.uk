@@ -2314,6 +2314,37 @@
       "value": 500,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-12T04:56:18Z",
+      "botId": "3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
+      "botName": "The Wayfarer's Shrin",
+      "type": "new",
+      "source": "automatic-check"
+    },
+    {
+      "at": "2026-09-12T05:09:00Z",
+      "botId": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
+      "botName": "Crimson Licker POV",
+      "type": "origin",
+      "value": "personal",
+      "source": "user-confirmed"
+    },
+    {
+      "at": "2026-09-12T05:09:00Z",
+      "botId": "eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
+      "botName": "Crimson Licker",
+      "type": "origin",
+      "value": "requested",
+      "source": "user-confirmed"
+    },
+    {
+      "at": "2026-09-12T05:09:00Z",
+      "botId": "3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
+      "botName": "The Wayfarer's Shrin",
+      "type": "origin",
+      "value": "requested",
+      "source": "user-confirmed"
     }
   ]
 }

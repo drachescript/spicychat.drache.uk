@@ -26,6 +26,18 @@ def load_json(path,default):
     try:return json.loads(path.read_text(encoding='utf-8'))
     except FileNotFoundError:return default
 
+def pending_override_for(doc,name):
+    normalized=(name or '').strip().casefold()
+    if not normalized:return {}
+    for item in doc.get('pendingBotOverrides',[]) or []:
+        if str(item.get('name','')).strip().casefold()==normalized:return item
+    return {}
+
+def image_hidden(bot):
+    value=bot.get('imageHidden')
+    if isinstance(value,bool):return value
+    return bool(bot.get('nsfw'))
+
 def json_bytes(obj):
     raw=(json.dumps(obj,indent=2,ensure_ascii=False)+'\n').encode('utf-8')
     json.loads(raw.decode('utf-8'))
@@ -213,6 +225,15 @@ def merge_stat_row(incoming,bid,curated,old_map,hist_map,public_by_id,visibility
     if fallback:
         for key in ('messages','messagesDisplay','messagesApproximate','rawMessages','tokens','tokensDisplay','tokensApproximate','rawTokens'):
             if row.get(key) is None:row[key]=fallback.get(key)
+        # Saved My Creations pages can be older than the automatic worker's latest
+        # snapshot. Message totals are monotonic, so never let a later local import
+        # roll an individual bot backwards just because the HTML was saved earlier.
+        old_messages=fallback.get('messages');new_messages=row.get('messages')
+        if isinstance(old_messages,int) and isinstance(new_messages,int) and new_messages<old_messages:
+            allow_more_precise=bool(fallback.get('messagesApproximate')) and not bool(row.get('messagesApproximate')) and new_messages>=int(old_messages*.9)
+            if not allow_more_precise:
+                for key in ('messages','messagesDisplay','messagesApproximate','rawMessages'):
+                    row[key]=fallback.get(key)
     row['visibility']=effective_visibility(incoming,bid,curated,old_map,hist_map,public_by_id,visibility_events)
     row['observedAt']=observed_at
     row['seenInLatestExport']=True
@@ -273,6 +294,7 @@ def main():
     except Exception as e:
         print(f'Import aborted: {e}');return 3
     now=datetime.now().astimezone();stamp=now.strftime('%Y%m%d-%H%M%S');iso=now.isoformat(timespec='seconds');sha=hashlib.sha256(source.read_bytes()).hexdigest()
+    page_has_review=bool(re.search(r'\bUnder\s+Review\b',source.read_text(encoding='utf-8',errors='ignore'),re.I))
     old_map={x['id']:x for x in old_stats.get('bots',[]) if x.get('id')};curated={x['id']:x for x in bots_doc.get('bots',[]) if x.get('id')};incoming={x['id'] for x in data}
     new_ids=[x['id'] for x in data if x['id'] not in curated];missing=[x['id'] for x in bots_doc.get('bots',[]) if x['id'] not in incoming]
     visibility=[];renames=[];message_changes=[];token_changes=[];public_baselines=[]
@@ -288,14 +310,25 @@ def main():
     # Curate newly discovered identities first; current saved-export data may then
     # update only safe live fields (name/title/url/image/order).
     order={x['id']:i for i,x in enumerate(data,1)}
+    next_safe_order=max([int(b.get('order') or 0) for b in curated.values()] or [0])+1
     for x in data:
         b=curated.get(x['id'])
         if b is None:
             initial_visibility=effective_visibility(x,x['id'],curated,old_map,hist_map,public_by_id,visibility_events)
-            b={'id':x['id'],'name':x['name'],'category':'other','tags':[],'title':x['title'],'blurb':x['title'],'url':x['url'],'origin':'unknown','order':order[x['id']],'image':x.get('image'),'imageHidden':False,'addedAt':now.date().isoformat(),'knownSince':iso,'knownSinceSource':'first-import','firstSeenAt':iso,'createdAt':now.date().isoformat(),'createdAtSource':'first-import','needsReview':True}
+            override=pending_override_for(bots_doc,x.get('name'))
+            origin=override.get('origin') if override.get('origin') in ('requested','personal') else 'unknown'
+            assigned_order=next_safe_order if page_has_review else order[x['id']]
+            if page_has_review:next_safe_order+=1
+            b={'id':x['id'],'name':x['name'],'category':'other','tags':[],'title':x['title'],'blurb':x['title'],'url':x['url'],'origin':origin,'order':assigned_order,'image':x.get('image'),'addedAt':now.date().isoformat(),'knownSince':iso,'knownSinceSource':'first-import','firstSeenAt':iso,'createdAt':now.date().isoformat(),'createdAtSource':'first-import','needsReview':True}
+            if override.get('origin') in ('requested','personal'):b['originSource']=override.get('source') or 'pending-override'
             if initial_visibility in ('public','unlisted','private'):b['visibility']=initial_visibility
             curated[x['id']]=b
-        b['name']=x['name'];b['title']=x['title'];b['url']=x['url'];b['order']=order[x['id']];b.pop('missingFromLatest',None)
+        b['name']=x['name'];b['title']=x['title'];b['url']=x['url'];
+        if not page_has_review:b['order']=order[x['id']]
+        b.pop('missingFromLatest',None)
+        override=pending_override_for(bots_doc,x.get('name'))
+        if b.get('origin') in (None,'','unknown') and override.get('origin') in ('requested','personal'):
+            b['origin']=override['origin'];b['originSource']=override.get('source') or 'pending-override'
         resolved_visibility=effective_visibility(x,x['id'],curated,old_map,hist_map,public_by_id,visibility_events)
         if resolved_visibility in ('public','unlisted','private'):
             # Real badges update the stored state. During review, resolved_visibility
@@ -305,8 +338,9 @@ def main():
                 b['visibilitySource']='saved-my-creations'
             elif x.get('underReview'):
                 b.setdefault('visibilitySource','preserved-during-review')
+            if resolved_visibility=='public':b['needsReview']=False
         b.setdefault('knownSince',iso);b.setdefault('knownSinceSource','first-import');b.setdefault('firstSeenAt',b.get('knownSince') or iso);b.setdefault('createdAt',(b.get('knownSince') or iso)[:10]);b.setdefault('createdAtSource',b.get('knownSinceSource') or 'first-import')
-        if not b.get('imageHidden'):b['image']=x.get('image') or b.get('image')
+        if not image_hidden(b):b['image']=x.get('image') or b.get('image')
         if b.get('name')=='Doe':b['image']=None;b['imageHidden']=True
 
     # Recalculate history fallback now that brand-new bot IDs are known curated IDs.
@@ -324,7 +358,7 @@ def main():
     rows=[];history_rows=[]
     current_ids=[x['id'] for x in data]
     tail=[b for b in bots_doc.get('bots',[]) if b['id'] not in current_ids]
-    bots_doc['bots']=[curated[x['id']] for x in data]+tail;bots_doc['schemaVersion']=3;bots_doc['updatedAt']=now.date().isoformat()
+    bots_doc['bots']=[curated[x['id']] for x in data]+tail;bots_doc['schemaVersion']=max(4,int(bots_doc.get('schemaVersion') or 1));bots_doc['updatedAt']=now.date().isoformat()
 
     for b in bots_doc.get('bots',[]):
         bid=b['id']
@@ -336,14 +370,14 @@ def main():
             row={k:fallback.get(k) for k in STAT_KEYS}
             for key in ('name','title','url'):
                 if b.get(key):row[key]=b.get(key)
-            if not b.get('imageHidden') and b.get('image'):row['image']=b.get('image')
+            if not image_hidden(b) and b.get('image'):row['image']=b.get('image')
             # Curated/confirmed status wins over an old scraped status.
             kv=known_visibility(bid,curated,old_map,hist_map,public_by_id,visibility_events)
             if kv:row['visibility']=kv
             row['observedAt']=observed_at or old_stats.get('capturedAt')
             row['seenInLatestExport']=False
             hrow=dict(row);hrow.pop('seenInLatestExport',None);hrow['carriedForward']=True
-        if b.get('imageHidden'):row['image']=None;hrow['image']=None
+        if image_hidden(b):row['image']=None;hrow['image']=None
         rows.append(row);history_rows.append(hrow)
 
     current_map={x['id']:x for x in rows}

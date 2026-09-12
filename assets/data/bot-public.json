@@ -1367,6 +1367,25 @@
       "baselineSource": "saved-my-creations",
       "accuracy": "first-observed",
       "source": "saved-my-creations"
+    },
+    {
+      "id": "3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
+      "name": "The Wayfarer's Shrin",
+      "publicSinceAt": "2026-09-12T04:56:18Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "creator-profile",
+      "firstPublicObservedAt": "2026-09-12T04:56:18Z",
+      "previousNonPublicObservedAt": null,
+      "baselineAt": "2026-09-12T04:56:18Z",
+      "messagesAtBaseline": 10,
+      "messagesDisplayAtBaseline": "10",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "creator-profile",
+      "accuracy": "first-observed",
+      "source": "creator-profile",
+      "notes": "First public creator-profile observation is preserved even if a later edit temporarily puts the bot back under review."
     }
   ]
 }

@@ -1,14 +1,4 @@
 {
-  "schemaVersion": 1,
-  "discoveries": [
-    {
-      "id": "3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
-      "name": "The Wayfarer's Shrin",
-      "profileUrl": "https://spicychat.ai/chatbot/3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
-      "chatUrl": "https://spicychat.ai/chat/3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
-      "firstSeenAt": "2026-09-12T04:56:18Z",
-      "messagesDisplay": "10",
-      "tokensDisplay": "1924"
-    }
-  ]
+  "schemaVersion": 2,
+  "discoveries": []
 }

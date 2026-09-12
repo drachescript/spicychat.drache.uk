@@ -6,12 +6,15 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import os
 import re
 import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qs, urljoin, urlparse
+from urllib.error import HTTPError, URLError
+from urllib.parse import parse_qs, urlencode, urljoin, urlparse
+from urllib.request import Request, urlopen
 
 from bs4 import BeautifulSoup
 
@@ -29,6 +32,18 @@ PROFILE_RE = re.compile(r"/chatbot/([^/?#]+)")
 CHAT_RE = re.compile(r"/chat/([^/?#]+)")
 NUMBER_RE = re.compile(r"([0-9][0-9,.]*)(?:\s*)([kmb])?", re.I)
 MILESTONES_DEFAULT = [100, 250, 500, 1000, 2500, 5000, 10000]
+
+TYPESENSE_HOST_DEFAULT = "etmzpxgvnid370fyp.a1.typesense.net"
+TYPESENSE_COLLECTION_DEFAULT = "public_characters_alias"
+TYPESENSE_QUERY_BY = "name,title,tags,creator_username,character_id,type"
+TYPESENSE_INCLUDE_FIELDS = ",".join([
+    "name", "title", "tags", "creator_username", "character_id",
+    "avatar_is_nsfw", "avatar_url", "visibility", "definition_visible",
+    "num_messages", "token_count", "rating_score", "lora_status",
+    "creator_user_id", "is_nsfw", "type", "sub_characters_count",
+    "group_size_category", "has_lorebooks", "voice_id", "group_addable",
+])
+PUBLIC_DISCOVERY_SOURCES = {"creator-profile", "typesense"}
 
 
 def utc_now() -> str:
@@ -70,6 +85,145 @@ def normalize_metric(text: str | None):
         "display": match.group(0).strip(),
         "approximate": bool(suffix),
     }
+
+
+def metric_from_value(value):
+    if value is None or value == "":
+        return None
+    if isinstance(value, bool):
+        return None
+    if isinstance(value, (int, float)):
+        numeric = int(round(float(value)))
+        return {"value": numeric, "display": str(numeric), "approximate": False}
+    return normalize_metric(str(value))
+
+
+def bool_value(value):
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return bool(value)
+    if isinstance(value, str):
+        cleaned = value.strip().lower()
+        if cleaned in {"true", "1", "yes"}:
+            return True
+        if cleaned in {"false", "0", "no"}:
+            return False
+    return None
+
+
+def bot_image_hidden(bot: dict) -> bool:
+    # imageHidden is a manual override. If it is absent, NSFW supplies the default.
+    if isinstance(bot.get("imageHidden"), bool):
+        return bot["imageHidden"]
+    return bool(bot.get("nsfw"))
+
+
+def pending_override_for(bots_doc: dict, name: str | None) -> dict:
+    normalized = (name or "").strip().casefold()
+    if not normalized:
+        return {}
+    for item in bots_doc.get("pendingBotOverrides", []) or []:
+        if str(item.get("name", "")).strip().casefold() == normalized:
+            return item
+    return {}
+
+
+def typesense_entry(document: dict, creator: str) -> dict | None:
+    bot_id = str(document.get("character_id") or document.get("id") or "").strip()
+    if not bot_id:
+        return None
+    creator_name = str(document.get("creator_username") or "").strip()
+    if creator_name and creator_name.casefold() != creator.casefold():
+        return None
+    visibility = str(document.get("visibility") or "public").strip().lower()
+    if visibility and visibility not in {"public", "published"}:
+        return None
+    nsfw = bool_value(document.get("is_nsfw"))
+    avatar_nsfw = bool_value(document.get("avatar_is_nsfw"))
+    image = document.get("avatar_url") or None
+    return {
+        "id": bot_id,
+        "name": str(document.get("name") or "").strip(),
+        "title": str(document.get("title") or "").strip(),
+        "tags": document.get("tags") if isinstance(document.get("tags"), list) else [],
+        "chatUrl": f"https://spicychat.ai/chat/{bot_id}",
+        "profileUrl": f"https://spicychat.ai/chatbot/{bot_id}",
+        "messages": metric_from_value(document.get("num_messages")),
+        "tokens": metric_from_value(document.get("token_count")),
+        "image": image,
+        "nsfw": nsfw,
+        "avatarIsNsfw": avatar_nsfw,
+        "visibility": "public",
+        "source": "typesense",
+    }
+
+
+def load_typesense_creator(
+    creator: str,
+    api_key: str,
+    host: str = TYPESENSE_HOST_DEFAULT,
+    collection: str = TYPESENSE_COLLECTION_DEFAULT,
+) -> tuple[dict[str, dict], int]:
+    """Read the same public Typesense creator index used by the SpicyChat frontend.
+
+    Deliberately does NOT add the frontend's optional ``is_nsfw:false`` filter,
+    so public NSFW bots remain discoverable.
+    """
+    host = host.strip().rstrip("/")
+    if not host.startswith(("http://", "https://")):
+        host = "https://" + host
+    base = f"{host}/collections/{collection}/documents/search"
+    entries: dict[str, dict] = {}
+    page = 1
+    pages_checked = 0
+    per_page = 48  # Matches the captured SpicyChat frontend creator search.
+
+    while page <= 20:
+        params = {
+            "q": "*",
+            "query_by": TYPESENSE_QUERY_BY,
+            "filter_by": f"creator_username:={creator} && application_ids:=spicychat",
+            "include_fields": TYPESENSE_INCLUDE_FIELDS,
+            "page": page,
+            "per_page": per_page,
+            "sort_by": "_text_match(buckets: 3):desc,num_messages_24h:desc",
+        }
+        request = Request(
+            base + "?" + urlencode(params),
+            headers={
+                "X-TYPESENSE-API-KEY": api_key,
+                "Accept": "application/json",
+                "User-Agent": "spicychat.drache.uk-stats-worker/1.0",
+            },
+        )
+        try:
+            with urlopen(request, timeout=25) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+        except HTTPError as exc:
+            detail = exc.read().decode("utf-8", errors="replace")[:500]
+            raise RuntimeError(f"Typesense HTTP {exc.code}: {detail}") from exc
+        except URLError as exc:
+            raise RuntimeError(f"Typesense request failed: {exc.reason}") from exc
+
+        hits = payload.get("hits") or []
+        pages_checked += 1
+        for hit in hits:
+            document = hit.get("document") if isinstance(hit, dict) else None
+            if not isinstance(document, dict):
+                continue
+            item = typesense_entry(document, creator)
+            if item:
+                entries[item["id"]] = item
+
+        found = payload.get("found")
+        if len(hits) < per_page:
+            break
+        if isinstance(found, int) and page * per_page >= found:
+            break
+        page += 1
+
+    return entries, pages_checked
 
 
 def metric_text_from_svg(svg) -> str | None:
@@ -431,7 +585,7 @@ def make_base_stat(bot: dict) -> dict:
         "tokens": None,
         "tokensDisplay": None,
         "tokensApproximate": False,
-        "image": None if bot.get("imageHidden") else bot.get("image"),
+        "image": None if bot_image_hidden(bot) else bot.get("image"),
         "rawMessages": None,
         "rawTokens": None,
     }
@@ -459,6 +613,8 @@ def process_updates(
     visibility_changes: list[str] = []
     public_baselines_added: list[str] = []
     public_changed = False
+    bots_changed = False
+    nsfw_updates: list[str] = []
     public_doc["schemaVersion"] = max(2, int(public_doc.get("schemaVersion") or 1))
     public_doc["note"] = (
         "Public dates are confirmed from SpicyChat approval emails when publicSinceAccuracy is confirmed. "
@@ -475,6 +631,12 @@ def process_updates(
         previous = copy.deepcopy(old_rows.get(bot_id) or make_base_stat(bot))
         row = copy.deepcopy(previous)
         observed = creator_entries.get(bot_id) or direct_entries.get(bot_id)
+
+        if observed and isinstance(observed.get("nsfw"), bool):
+            if bot.get("nsfw") != observed["nsfw"]:
+                bot["nsfw"] = observed["nsfw"]
+                bots_changed = True
+                nsfw_updates.append(f"{bot.get('name', bot_id)}: {'NSFW' if observed['nsfw'] else 'SFW'}")
 
         if observed:
             old_messages = previous.get("messages")
@@ -499,7 +661,7 @@ def process_updates(
             # Appearing on the public creator profile is enough to confirm public visibility.
             visibility_changed = False
             old_visibility = row.get("visibility", "unknown")
-            if observed["source"] == "creator-profile" and old_visibility != "public":
+            if observed["source"] in PUBLIC_DISCOVERY_SOURCES and old_visibility != "public":
                 row["visibility"] = "public"
                 visibility_changed = True
                 visibility_changes.append(f"{row.get('name')}: {old_visibility} -> public")
@@ -512,7 +674,7 @@ def process_updates(
                         "type": "visibility",
                         "from": old_visibility,
                         "to": "public",
-                        "source": "creator-profile",
+                        "source": observed["source"],
                     },
                 )
 
@@ -542,14 +704,14 @@ def process_updates(
                     public_baselines_added.append(existing_public.get("name") or row.get("name", bot_id))
                     public_changed = True
 
-            if observed["source"] == "creator-profile" and bot_id not in public_by_id and row.get("messages") is not None:
+            if observed["source"] in PUBLIC_DISCOVERY_SOURCES and bot_id not in public_by_id and row.get("messages") is not None:
                 was_non_public = old_visibility not in {None, "", "unknown", "public"}
                 baseline = {
                     "id": bot_id,
                     "name": bot.get("name", row.get("name", bot_id)),
                     "publicSinceAt": now,
                     "publicSinceAccuracy": "first-observed",
-                    "publicSinceSource": "creator-profile",
+                    "publicSinceSource": observed["source"],
                     "firstPublicObservedAt": now,
                     "previousNonPublicObservedAt": stats_doc.get("capturedAt") if was_non_public else None,
                     "baselineAt": now,
@@ -558,9 +720,9 @@ def process_updates(
                     "messagesApproximateAtBaseline": bool(row.get("messagesApproximate")),
                     "baselineAccuracy": "same-observation",
                     "baselineLagMinutes": 0,
-                    "baselineSource": "creator-profile",
+                    "baselineSource": observed["source"],
                     "accuracy": "first-observed",
-                    "source": "creator-profile",
+                    "source": observed["source"],
                 }
                 public_entries.append(baseline)
                 public_by_id[bot_id] = baseline
@@ -613,7 +775,7 @@ def process_updates(
         row["name"] = bot.get("name", row.get("name", bot_id))
         row["title"] = bot.get("title", row.get("title", ""))
         row["url"] = bot.get("url", row.get("url", f"https://spicychat.ai/chat/{bot_id}"))
-        row["image"] = None if bot.get("imageHidden") else row.get("image", bot.get("image"))
+        row["image"] = None if bot_image_hidden(bot) else row.get("image", bot.get("image"))
         new_rows.append(row)
 
     # New public bots are only noted. They are never added to bots.json automatically.
@@ -627,18 +789,43 @@ def process_updates(
     discoveries_doc["discoveries"] = cleaned_discoveries
     by_id = {item.get("id"): item for item in cleaned_discoveries if item.get("id")}
 
+    discoveries_doc["schemaVersion"] = max(2, int(discoveries_doc.get("schemaVersion") or 1))
     for bot_id, observed in sorted(creator_entries.items()):
-        if bot_id in known_ids or bot_id in by_id:
+        if bot_id in known_ids:
             continue
-        item = {
+        existing = by_id.get(bot_id)
+        override = pending_override_for(bots_doc, observed.get("name"))
+        derived_hidden = bool(observed.get("nsfw"))
+        patch = {
             "id": bot_id,
             "name": observed.get("name") or "Unknown bot",
+            "title": observed.get("title") or None,
             "profileUrl": observed.get("profileUrl"),
             "chatUrl": observed.get("chatUrl"),
-            "firstSeenAt": now,
-            "messagesDisplay": observed.get("messages", {}).get("display"),
+            "messagesDisplay": observed.get("messages", {}).get("display") if observed.get("messages") else None,
             "tokensDisplay": observed.get("tokens", {}).get("display") if observed.get("tokens") else None,
+            "image": observed.get("image"),
+            "nsfw": observed.get("nsfw") if isinstance(observed.get("nsfw"), bool) else None,
+            "avatarIsNsfw": observed.get("avatarIsNsfw") if isinstance(observed.get("avatarIsNsfw"), bool) else None,
+            "imageHiddenDefault": derived_hidden,
+            "source": observed.get("source"),
         }
+        if override.get("origin") in {"requested", "personal"}:
+            patch["origin"] = override["origin"]
+            patch["originSource"] = override.get("source") or "pending-override"
+        patch = {key: value for key, value in patch.items() if value is not None}
+
+        if existing:
+            changed = False
+            for key, value in patch.items():
+                if existing.get(key) != value:
+                    existing[key] = value
+                    changed = True
+            if changed:
+                discoveries_changed = True
+            continue
+
+        item = {"firstSeenAt": now, **patch}
         discoveries_doc["discoveries"].append(item)
         by_id[bot_id] = item
         new_discoveries.append(item)
@@ -669,6 +856,8 @@ def process_updates(
 
     return {
         "statsChanged": meaningful_stats_change,
+        "botsChanged": bots_changed,
+        "nsfwUpdates": nsfw_updates,
         "discoveriesChanged": discoveries_changed,
         "publicChanged": public_changed,
         "publicBaselines": public_baselines_added,
@@ -691,11 +880,21 @@ def parse_fixture_profiles(values: list[str]) -> dict[str, Path]:
     return result
 
 
-def build_summary(result: dict, creator_count: int, pages_checked: int, direct_checked: int, unavailable: list[str]) -> str:
+def build_summary(
+    result: dict,
+    creator_count: int,
+    pages_checked: int,
+    direct_checked: int,
+    unavailable: list[str],
+    typesense_count: int = 0,
+    typesense_pages: int = 0,
+    typesense_status: str = "not configured",
+) -> str:
     lines = [
         "## Bot stats update",
         "",
-        f"- Creator bots seen: **{creator_count}** across **{pages_checked}** page(s)",
+        f"- Creator-page bots seen: **{creator_count}** across **{pages_checked}** page(s)",
+        f"- Typesense public bots seen: **{typesense_count}** across **{typesense_pages}** page(s) ({typesense_status})",
         f"- Direct profiles checked: **{direct_checked}**",
         f"- Known bots updated: **{len(result['changedBotIds'])}**",
         f"- New public bots found: **{len(result['newDiscoveries'])}**",
@@ -704,6 +903,8 @@ def build_summary(result: dict, creator_count: int, pages_checked: int, direct_c
         names = {row.get("id"): row.get("name", row.get("id")) for row in result.get("newRows", [])}
         changed_names = [names.get(bot_id, bot_id) for bot_id in result["changedBotIds"]]
         lines.append(f"- Updated: **{', '.join(changed_names)}**")
+    if result.get("nsfwUpdates"):
+        lines.append(f"- NSFW metadata refreshed: **{', '.join(result['nsfwUpdates'])}**")
     if result["milestones"]:
         lines.append(f"- Milestones: **{', '.join(result['milestones'])}**")
     if result["visibilityChanges"]:
@@ -716,9 +917,10 @@ def build_summary(result: dict, creator_count: int, pages_checked: int, direct_c
         lines += ["", "### Warnings"] + [f"- {item}" for item in result["warnings"]]
     if result["newDiscoveries"]:
         lines += ["", "### Needs site info"] + [
-            f"- {item['name']} (`{item['id']}`)" for item in result["newDiscoveries"]
+            f"- {item['name']} (`{item['id']}`){' · NSFW' if item.get('nsfw') else ''}"
+            for item in result["newDiscoveries"]
         ]
-    if not result["statsChanged"] and not result["discoveriesChanged"] and not result.get("publicChanged"):
+    if not result["statsChanged"] and not result["discoveriesChanged"] and not result.get("publicChanged") and not result.get("botsChanged"):
         lines += ["", "No repository data changed this run."]
     return "\n".join(lines) + "\n"
 
@@ -730,6 +932,9 @@ def main() -> int:
     parser.add_argument("--summary-file")
     parser.add_argument("--fixture-creator", type=Path)
     parser.add_argument("--fixture-profile", action="append", default=[])
+    parser.add_argument("--disable-typesense", action="store_true")
+    parser.add_argument("--typesense-host", default=os.environ.get("SPICYCHAT_TYPESENSE_HOST", TYPESENSE_HOST_DEFAULT))
+    parser.add_argument("--typesense-collection", default=os.environ.get("SPICYCHAT_TYPESENSE_COLLECTION", TYPESENSE_COLLECTION_DEFAULT))
     args = parser.parse_args()
 
     bots_doc = read_json(BOTS_PATH)
@@ -745,15 +950,72 @@ def main() -> int:
     playwright = browser = None
 
     try:
+        creator_warning = None
         if args.fixture_creator:
             html = args.fixture_creator.read_text(encoding="utf-8", errors="ignore")
-            creator_entries = parse_creator_html(html, creator_url)
+            page_creator_entries = parse_creator_html(html, creator_url)
             pages_checked = 1
-            if len(creator_entries) < 5:
-                raise RuntimeError(f"Fixture creator page only contained {len(creator_entries)} bots")
+            if len(page_creator_entries) < 5:
+                raise RuntimeError(f"Fixture creator page only contained {len(page_creator_entries)} bots")
         else:
             playwright, browser = launch_browser()
-            creator_entries, pages_checked = load_live_creator(args.creator, browser)
+            try:
+                page_creator_entries, pages_checked = load_live_creator(args.creator, browser)
+            except Exception as exc:
+                # Typesense is a fully independent public source. If the creator
+                # page has a temporary rendering/login problem, the worker can
+                # still continue from Typesense instead of losing the whole run.
+                page_creator_entries = {}
+                pages_checked = 0
+                creator_warning = str(exc)
+
+        typesense_entries: dict[str, dict] = {}
+        typesense_pages = 0
+        typesense_status = "disabled" if args.disable_typesense else "not configured"
+        typesense_warning = None
+        typesense_key = os.environ.get("SPICYCHAT_TYPESENSE_API_KEY", "").strip()
+        if not args.disable_typesense and typesense_key and not args.fixture_creator:
+            try:
+                typesense_entries, typesense_pages = load_typesense_creator(
+                    args.creator, typesense_key, args.typesense_host, args.typesense_collection
+                )
+                typesense_status = "ok"
+            except Exception as exc:
+                typesense_status = "failed; creator-page fallback used"
+                typesense_warning = str(exc)
+
+        if not args.fixture_creator and not page_creator_entries and not typesense_entries:
+            details = []
+            if creator_warning:
+                details.append(f"creator page: {creator_warning}")
+            if typesense_warning:
+                details.append(f"Typesense: {typesense_warning}")
+            if not typesense_key and not args.disable_typesense:
+                details.append("Typesense key is not configured")
+            raise RuntimeError("No public discovery source succeeded. " + "; ".join(details))
+
+        # Typesense is the discovery source because it includes public NSFW bots.
+        # Normal creator-page rows remain a fallback and can fill anything the index omits.
+        creator_entries = dict(page_creator_entries)
+        for bot_id, item in typesense_entries.items():
+            if bot_id in creator_entries:
+                # Keep the best public message observation if the search index lags
+                # behind the creator page. Typesense still supplies exact NSFW/image
+                # metadata and acts as public-discovery evidence.
+                creator_item = creator_entries[bot_id]
+                merged = {**creator_item, **item}
+                creator_messages = creator_item.get("messages")
+                typesense_messages = item.get("messages")
+                if creator_messages and (
+                    not typesense_messages
+                    or creator_messages.get("value", -1) > typesense_messages.get("value", -1)
+                ):
+                    merged["messages"] = creator_messages
+                if not item.get("tokens") and creator_item.get("tokens"):
+                    merged["tokens"] = creator_item["tokens"]
+                creator_entries[bot_id] = merged
+            else:
+                creator_entries[bot_id] = item
 
         missing_ids = sorted(known_ids - set(creator_entries))
         direct_entries: dict[str, dict] = {}
@@ -797,7 +1059,15 @@ def main() -> int:
             now,
         )
 
-        summary = build_summary(result, len(creator_entries), pages_checked, direct_checked, unavailable)
+        if creator_warning:
+            result["warnings"].append(f"Creator page: {creator_warning}; Typesense data used where available")
+        if typesense_warning:
+            result["warnings"].append(f"Typesense: {typesense_warning}")
+
+        summary = build_summary(
+            result, len(page_creator_entries), pages_checked, direct_checked, unavailable,
+            len(typesense_entries), typesense_pages, typesense_status,
+        )
         print(summary)
         for warning in result["warnings"]:
             print(f"::warning::{warning}")
@@ -808,6 +1078,8 @@ def main() -> int:
             Path(args.summary_file).write_text(summary, encoding="utf-8")
 
         if not args.dry_run:
+            if result.get("botsChanged"):
+                write_json(BOTS_PATH, bots_doc)
             if result["statsChanged"]:
                 write_json(STATS_PATH, stats_doc)
                 write_json(HISTORY_PATH, history_doc)

@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.7.1 — September 12, 2026
+
+- approval-email dates can now sync automatically through the Gmail worker instead of relying on manual saved-email scans
+- added Typesense discovery so public NSFW bots can be found and tracked along with the normal public creator listing
+- NSFW bot images are hidden by default, while a manually set image visibility always takes priority
+- fixed Data Check showing a missing review status for bots that are already confirmed public
+- corrected Crimson Licker POV to Made for Myself and Crimson Licker to Requested
+- added The Wayfarer's Shrin as Requested and kept it Public while its latest edit is temporarily Under Review
+- saved My Creations imports now keep newer automatic message totals and avoid reordering the collection just because temporary Under Review cards moved to the top
+- added extra validation before automatic stat updates are committed, including archive, duplicate-ID and mirrored-stat checks
+
 ## v0.7.0 — September 5, 2026
 
 - moved archived bots into their own `archived-bots.json` so deleted bots can no longer reset active stats

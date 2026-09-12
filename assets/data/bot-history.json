@@ -92809,6 +92809,19 @@
       "label": "Automatic update",
       "bots": [
         {
+          "id": "3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
+          "name": "The Wayfarer's Shrin",
+          "visibility": "public",
+          "messages": 10,
+          "messagesDisplay": "10",
+          "messagesApproximate": false,
+          "tokens": 1924,
+          "tokensDisplay": "1924",
+          "tokensApproximate": false,
+          "rawMessages": "10",
+          "rawTokens": "1924"
+        },
+        {
           "id": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
           "name": "Crimson Licker POV",
           "visibility": "public",

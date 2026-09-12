@@ -6,6 +6,25 @@
   "label": "Automatic update",
   "bots": [
     {
+      "id": "3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
+      "name": "The Wayfarer's Shrin",
+      "title": "Six Strangers, Six Races, One Unexpected Night",
+      "url": "https://spicychat.ai/chat/3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
+      "visibility": "public",
+      "messages": 10,
+      "messagesDisplay": "10",
+      "messagesApproximate": false,
+      "tokens": 1924,
+      "tokensDisplay": "1924",
+      "tokensApproximate": false,
+      "image": "https://cdn.nd-api.com/avatars/aee510bd-7ec0-4d38-b3ee-58a670ca8584.webp?class=avatar256x256",
+      "rawMessages": "10",
+      "rawTokens": "1924",
+      "statsSource": "creator-profile",
+      "profileUrl": "https://spicychat.ai/chatbot/3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
+      "statsUpdatedAt": "2026-09-12T04:56:18Z"
+    },
+    {
       "id": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
       "name": "Crimson Licker POV",
       "title": "They Thought You Were Just Another Monster (Licker POV)",
