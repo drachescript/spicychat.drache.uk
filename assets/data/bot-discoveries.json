@@ -1,4 +1,22 @@
 {
   "schemaVersion": 2,
-  "discoveries": []
+  "discoveries": [
+    {
+      "firstSeenAt": "2026-09-12T18:38:36Z",
+      "id": "143db585-b684-40ba-a63f-cbd7f165bc81",
+      "name": "Kairo",
+      "title": "The Smaller One Is in Charge",
+      "profileUrl": "https://spicychat.ai/chatbot/143db585-b684-40ba-a63f-cbd7f165bc81",
+      "chatUrl": "https://spicychat.ai/chat/143db585-b684-40ba-a63f-cbd7f165bc81",
+      "messagesDisplay": "0",
+      "tokensDisplay": "1770",
+      "image": "avatars/8a0c05c5-b687-42ae-acbd-bb20dcac5590.jpg",
+      "nsfw": true,
+      "avatarIsNsfw": false,
+      "imageHiddenDefault": true,
+      "source": "typesense",
+      "origin": "requested",
+      "originSource": "user-confirmed"
+    }
+  ]
 }
