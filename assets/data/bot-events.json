@@ -2345,6 +2345,15 @@
       "type": "origin",
       "value": "requested",
       "source": "user-confirmed"
+    },
+    {
+      "at": "2026-09-12T22:29:56Z",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
