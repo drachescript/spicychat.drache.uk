@@ -7,5 +7,9 @@ tools/backups/*
 !tools/backups/.gitkeep
 tools/reports/*.txt
 !tools/reports/.gitkeep
-/tools
 *.zip
+tools/GMAIL_PUBLIC_DATE_SCANNER_README.txt
+tools/setup_gmail_api.py
+tools/setup_gmail_api.bat
+tools/gmail-oauth/README.md
+tools/README.md

@@ -1,0 +1,25 @@
+SpicyChat bot update - 2026-08-27T01:53:04-04:00
+Source: D:\Download\All Your Chatbot Characters In One Place _ Spicychat.html
+Extracted: 42 bots
+New: 1
+Missing from export: 0
+Renames: 0
+Visibility changes: 0
+Public baselines added: 0
+Message changes: 2
+Token changes: 0
+History snapshot: added
+Dry run: no
+
+NEW / NEEDS MANUAL INFO
+- UPRUSH (9e6207d9-60bd-482c-a28c-4e29a2dbea89)
+
+MESSAGES
+- Sable Hart: 735 -> 803 (+68 / +9.3%)
+- Seren Vale: 779 -> 782 (+3 / +0.4%)
+
+Updated: assets/data/bots.json
+Updated: assets/data/bot-stats.json
+Updated: assets/data/bot-history.json
+Updated: assets/data/bot-events.json
+Public baselines unchanged

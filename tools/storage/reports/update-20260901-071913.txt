@@ -1,0 +1,50 @@
+SpicyChat bot update - 2026-09-01T07:19:13-04:00
+Source: D:\Download\All Your Chatbot Characters In One Place _ Spicychat.html
+Extracted: 52 bots
+New: 2
+Missing from export: 7
+Renames: 0
+Visibility changes: 3
+Public baselines added: 2
+Message changes: 5
+Token changes: 1
+History snapshot: added
+Dry run: no
+
+NEW / NEEDS MANUAL INFO
+- Kinky Delivery (e53b778e-9f38-4a72-b805-a4aec2295ff4)
+- Rogue Amendiares (73ac8972-cd7e-445f-b916-0d8821934d68)
+
+MISSING FROM EXPORT (not deleted)
+- Serena Ward (d757caa5-3abb-4b27-8fa8-bc03897e755b)
+- Maya Bennett (cb67109b-cdd7-48e9-a49b-da36cc97b7c3)
+- Elise Hart (dcaa687b-ea31-400e-8e62-04a56168dad8)
+- Lena Foster (2cb6b2a6-481d-4f0e-8da6-9123b33c5714)
+- Cass Rowan (03988822-692f-48ad-b158-8e152bb6dc20)
+- Piper QoL (98ebe0d7-625d-4196-a7a5-ebfd4f262367)
+- Riley Stone (81c1380f-7f02-472c-93c2-5d230032cdf9)
+
+VISIBILITY
+- A Jurassic TF: unlisted -> public
+- Soulcalibur RPG: unlisted -> public
+- Dragon: unknown -> public
+
+PUBLIC BASELINES
+- A Jurassic TF
+- Soulcalibur RPG
+
+MESSAGES
+- Seren Vale: 4200 -> 4600 (+400 / +9.5%)
+- A Jurassic TF: 293 -> 499 (+206 / +70.3%)
+- Tessa Ward: 88 -> 203 (+115 / +130.7%)
+- Dr. Yara Vale: 363 -> 385 (+22 / +6.1%)
+- Kaia Sterling: 326 -> 336 (+10 / +3.1%)
+
+TOKENS
+- A Jurassic TF — Chas: 1757 -> 1733
+
+Updated: assets/data/bots.json
+Updated: assets/data/bot-stats.json
+Updated: assets/data/bot-history.json
+Updated: assets/data/bot-events.json
+Updated: assets/data/bot-public.json

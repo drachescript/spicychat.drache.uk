@@ -1,0 +1,46 @@
+SpicyChat bot update - 2026-08-30T15:44:04-04:00
+Source: D:\Download\All Your Chatbot Characters In One Place _ Spicychat.html
+Extracted: 50 bots
+New: 6
+Missing from export: 4
+Renames: 0
+Visibility changes: 2
+Public baselines added: 2
+Message changes: 4
+Token changes: 0
+History snapshot: added
+Dry run: no
+
+NEW / NEEDS MANUAL INFO
+- Serena Ward (d757caa5-3abb-4b27-8fa8-bc03897e755b)
+- Maya Bennett (cb67109b-cdd7-48e9-a49b-da36cc97b7c3)
+- Elise Hart (dcaa687b-ea31-400e-8e62-04a56168dad8)
+- A Jurassic TF (edd37295-26d2-4a29-8951-8771b1fa3088)
+- A Jurassic TF — Chas (24e9e8b0-5786-4bba-8a8f-95f37ad1869c)
+- Soulcalibur RPG (40eaf4cc-6f88-483d-a9b5-0837bac79ccc)
+
+MISSING FROM EXPORT (not deleted)
+- Mara (6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb)
+- Dragon (7b755ef4-9032-4e9f-84ea-6812f25ce8ac)
+- Mira (dd422bcb-0e92-4166-b483-72b36edcfcbd)
+- Rhea Mercer (c1fe4367-501f-472c-967c-275c71d38378)
+
+VISIBILITY
+- The Crooked Flask: unlisted -> public
+- UPRUSH: unlisted -> public
+
+PUBLIC BASELINES
+- The Crooked Flask
+- UPRUSH
+
+MESSAGES
+- Princess Lyra Veyne: 1300 -> 1400 (+100 / +7.7%)
+- Seren Vale: 3100 -> 3200 (+100 / +3.2%)
+- The Crooked Flask: 533 -> 579 (+46 / +8.6%)
+- Raven Cole: 949 -> 956 (+7 / +0.7%)
+
+Updated: assets/data/bots.json
+Updated: assets/data/bot-stats.json
+Updated: assets/data/bot-history.json
+Updated: assets/data/bot-events.json
+Updated: assets/data/bot-public.json

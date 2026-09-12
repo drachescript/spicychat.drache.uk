@@ -1,0 +1,23 @@
+SpicyChat bot update - 2026-08-23T20:38:48-04:00
+Source: D:\Documents\GitHub\spicychat.drache.uk\tools\All Your Chatbot Characters In One Place _ Spicychat.html
+Extracted: 40 bots
+New: 0
+Missing from export: 0
+Renames: 0
+Visibility changes: 0
+Message changes: 5
+Token changes: 0
+History snapshot: added
+Dry run: no
+
+MESSAGES
+- Elise Carver: 47 -> 99 (+52 / +110.6%)
+- Sable Hart: 513 -> 548 (+35 / +6.8%)
+- Spider Lady: 473 -> 488 (+15 / +3.2%)
+- Dragon: 5 -> 9 (+4 / +80.0%)
+- Vivian Kade: 22 -> 25 (+3 / +13.6%)
+
+Updated: assets/data/bots.json
+Updated: assets/data/bot-stats.json
+Updated: assets/data/bot-history.json
+Updated: assets/data/bot-events.json

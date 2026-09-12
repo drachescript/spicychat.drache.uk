@@ -1,0 +1,38 @@
+SpicyChat bot update - 2026-09-10T18:37:13-04:00
+Source: D:\Download\All Your Chatbot Characters In One Place _ Spicychat.html
+Extracted: 71 bots
+New: 2
+Missing from export: 0
+Renames: 0
+Visibility changes: 1
+Public baselines added: 3
+Message changes: 5
+Token changes: 0
+History snapshot: added
+Partial history repaired: yes
+Dry run: no
+
+NEW / NEEDS MANUAL INFO
+- Crimson Licker POV (a35fdf55-2344-4e8e-9747-0dcec38bbe7f)
+- Crimson Licker (eebd2f11-c0b6-4e71-85c8-e7c663dda85a)
+
+VISIBILITY
+- Ice Queen: unlisted -> public
+
+PUBLIC BASELINES
+- Crimson Licker POV
+- Crimson Licker
+- Ice Queen
+
+MESSAGES
+- Seren Vale: 240500 -> 241000 (+500 / +0.2%)
+- Princess Lyra Veyne: 12000 -> 12400 (+400 / +3.3%)
+- Lena Foster: 8 -> 41 (+33 / +412.5%)
+- Queen Elowen: 141 -> 144 (+3 / +2.1%)
+- Celia Maren: 876 -> 879 (+3 / +0.3%)
+
+Updated: assets/data/bots.json
+Updated: assets/data/bot-stats.json
+Updated: assets/data/bot-history.json
+Updated: assets/data/bot-events.json
+Updated: assets/data/bot-public.json

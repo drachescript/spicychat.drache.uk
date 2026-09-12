@@ -1,0 +1,2218 @@
+{
+  "schemaVersion": 1,
+  "milestones": [
+    100,
+    250,
+    500,
+    1000,
+    2500,
+    5000,
+    10000
+  ],
+  "events": [
+    {
+      "at": "2026-07-18T22:13:50Z",
+      "botId": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
+      "botName": "Mira",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-07-21T02:07:43Z",
+      "botId": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
+      "botName": "Dragon",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-05T22:46:43Z",
+      "botId": "b376faf0-8c37-4b37-8861-8ca68cdd64b6",
+      "botName": "Yui Kimura",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-12T18:10:23-04:00",
+      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
+      "botName": "Dr. Yara Vale",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-12T18:10:23-04:00",
+      "botId": "a1cf80af-e406-4a57-9cd4-547c736c9683",
+      "botName": "Felicia Mercer",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-12T18:10:23-04:00",
+      "botId": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
+      "botName": "Inui Toko",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-12T18:10:23-04:00",
+      "botId": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "botName": "Spider Lady",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-12T18:10:23-04:00",
+      "botId": "43c73c72-432d-4eeb-8615-a0a519cf7683",
+      "botName": "Zenin Clan",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-13T15:16:13Z",
+      "botId": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "botName": "Spider Lady",
+      "type": "origin",
+      "value": "requested"
+    },
+    {
+      "at": "2026-08-14T21:08:56Z",
+      "botId": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
+      "botName": "Erin Blake",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-14T21:08:56Z",
+      "botId": "db30675a-4626-49bf-8048-43c6fda034da",
+      "botName": "Hale System",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-14T21:08:56Z",
+      "botId": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
+      "botName": "Raven Cole",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-15T18:48:20-04:00",
+      "botId": "b322238d-4847-40ed-a896-6d6f44f55192",
+      "botName": "Cassidy & Crew",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-15T18:48:20-04:00",
+      "botId": "f55dad9d-8339-46ac-a11d-dce0afd98660",
+      "botName": "Doe",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-15T18:48:20-04:00",
+      "botId": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
+      "botName": "Erin Blake",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-15T18:48:20-04:00",
+      "botId": "db30675a-4626-49bf-8048-43c6fda034da",
+      "botName": "Hale System",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-15T18:48:20-04:00",
+      "botId": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
+      "botName": "Inui Toko",
+      "type": "milestone",
+      "value": 100
+    },
+    {
+      "at": "2026-08-15T18:48:20-04:00",
+      "botId": "a04bc9a5-952e-4870-ac90-0a267f695374",
+      "botName": "Kaia Sterling",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-15T18:48:20-04:00",
+      "botId": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
+      "botName": "Raven Cole",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-15T18:48:20-04:00",
+      "botId": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "botName": "Spider Lady",
+      "type": "milestone",
+      "value": 100
+    },
+    {
+      "at": "2026-08-15T18:48:20-04:00",
+      "botId": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
+      "botName": "Takeda Reina",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-15T18:48:20-04:00",
+      "botId": "fbfad622-eea2-493b-8894-6d6f877441de",
+      "botName": "Vesper System",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "1a4b74a8-2f2a-4a47-a63d-3ea89155e85a",
+      "botName": "Aster System",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "b322238d-4847-40ed-a896-6d6f44f55192",
+      "botName": "Cassidy & Crew",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
+      "botName": "Darla Yoo",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "f55dad9d-8339-46ac-a11d-dce0afd98660",
+      "botName": "Doe",
+      "type": "milestone",
+      "value": 100
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "f55dad9d-8339-46ac-a11d-dce0afd98660",
+      "botName": "Doe",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
+      "botName": "Dr. Yara Vale",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
+      "botName": "Erin Blake",
+      "type": "milestone",
+      "value": 100
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "a1cf80af-e406-4a57-9cd4-547c736c9683",
+      "botName": "Felicia Mercer",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "691a385e-a7f0-43d2-8d55-e121f0fdb82a",
+      "botName": "Han Ji-won",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "8fdfe8d4-5b03-49c5-9e50-b505222e2d45",
+      "botName": "Harbor System",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
+      "botName": "Inui Toko",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "435e0b77-68cc-4d4f-bbe8-417208124b07",
+      "botName": "Jade Marlowe",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "botName": "Mara",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
+      "botName": "Mira",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
+      "botName": "Nadia Cross",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
+      "botName": "Nova",
+      "type": "milestone",
+      "value": 100
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
+      "botName": "Nova",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
+      "botName": "Raptor Pack",
+      "type": "milestone",
+      "value": 1000
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
+      "botName": "Raptor Pack",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "c1fe4367-501f-472c-967c-275c71d38378",
+      "botName": "Rhea Mercer",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "botName": "Sable Hart",
+      "type": "milestone",
+      "value": 100
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "botName": "Sable Hart",
+      "type": "milestone",
+      "value": 250
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "botName": "Sable Hart",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "botName": "Spider Lady",
+      "type": "milestone",
+      "value": 250
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "botName": "Spider Lady",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
+      "botName": "Takeda Reina",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "b376faf0-8c37-4b37-8861-8ca68cdd64b6",
+      "botName": "Yui Kimura",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "43c73c72-432d-4eeb-8615-a0a519cf7683",
+      "botName": "Zenin Clan",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "e28727e4-3475-4aa3-acc8-54f039626243",
+      "botName": "Avery Knox",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "be449df2-b6f7-48b4-831d-d309eaf04f27",
+      "botName": "Celia Maren",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
+      "botName": "Dragon",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "c8c96422-d782-438d-999c-79e785f635de",
+      "botName": "Elara Voss",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
+      "botName": "Erin Blake",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "615e3b47-93d7-4b56-855e-6129db0529f3",
+      "botName": "Evelyn Rook",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "db30675a-4626-49bf-8048-43c6fda034da",
+      "botName": "Hale System",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "435e0b77-68cc-4d4f-bbe8-417208124b07",
+      "botName": "Jade Marlowe",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "a04bc9a5-952e-4870-ac90-0a267f695374",
+      "botName": "Kaia Sterling",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "57fc84b4-cb36-464f-9b87-49b30057e093",
+      "botName": "Maeve Calder",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
+      "botName": "Maya Serrano",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
+      "botName": "Raven Cole",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "81c1380f-7f02-472c-93c2-5d230032cdf9",
+      "botName": "Riley Stone",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "botName": "Sable Hart",
+      "type": "milestone",
+      "value": 500
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "b5964f5b-b916-439e-9537-6ba2247799bd",
+      "botName": "Tessa Ward",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "fbfad622-eea2-493b-8894-6d6f877441de",
+      "botName": "Vesper System",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-08-23T19:08:25-04:00",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-24T08:41:06Z",
+      "botId": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "botName": "Spider Lady",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-24T13:32:40Z",
+      "botId": "e28727e4-3475-4aa3-acc8-54f039626243",
+      "botName": "Avery Knox",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-24T13:32:40Z",
+      "botId": "e28727e4-3475-4aa3-acc8-54f039626243",
+      "botName": "Avery Knox",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-24T17:08:08Z",
+      "botId": "a04bc9a5-952e-4870-ac90-0a267f695374",
+      "botName": "Kaia Sterling",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-24T22:56:01Z",
+      "botId": "a1cf80af-e406-4a57-9cd4-547c736c9683",
+      "botName": "Felicia Mercer",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-25T02:23:52-04:00",
+      "botId": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "botName": "Piper QoL",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-25T13:30:23Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-25T22:58:11Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-26T02:11:09Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-26T07:28:54Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-26T07:28:54Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-26T16:03:13Z",
+      "botId": "a04bc9a5-952e-4870-ac90-0a267f695374",
+      "botName": "Kaia Sterling",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-26T16:03:13Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-26T18:19:26Z",
+      "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
+      "botName": "Maya Serrano",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-26T18:19:26Z",
+      "botId": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "botName": "Spider Lady",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-27T01:53:04-04:00",
+      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "botName": "UPRUSH",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-27T03:15:00-04:00",
+      "botId": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "botName": "Piper QoL",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "spicychat-approval-email"
+    },
+    {
+      "at": "2026-08-27T05:32:00-04:00",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "spicychat-approval-email"
+    },
+    {
+      "at": "2026-08-27T05:32:00-04:00",
+      "botId": "81c1380f-7f02-472c-93c2-5d230032cdf9",
+      "botName": "Riley Stone",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "spicychat-approval-email"
+    },
+    {
+      "at": "2026-08-27T05:32:00-04:00",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "spicychat-approval-email"
+    },
+    {
+      "at": "2026-08-27T05:32:00-04:00",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "spicychat-approval-email"
+    },
+    {
+      "at": "2026-08-27T14:10:59-04:00",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-27T14:10:59-04:00",
+      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "botName": "UPRUSH",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-27T15:26:00Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-27T22:23:00-04:00",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "approval",
+      "visibility": "unlisted",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-08-27T23:40:00-04:00",
+      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "botName": "UPRUSH",
+      "type": "approval",
+      "visibility": "unlisted",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-08-28T23:39:28Z",
+      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "botName": "UPRUSH",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-29T07:18:51Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-29T07:18:51Z",
+      "botId": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
+      "botName": "Raven Cole",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-29T07:18:51Z",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-29T08:17:00-04:00",
+      "botId": "03988822-692f-48ad-b158-8e152bb6dc20",
+      "botName": "Cass Rowan",
+      "type": "new",
+      "source": "user-supplied-screenshot"
+    },
+    {
+      "at": "2026-08-29T08:17:00-04:00",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "new",
+      "source": "user-supplied-screenshot"
+    },
+    {
+      "at": "2026-08-29T08:17:00-04:00",
+      "botId": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
+      "botName": "Lena Foster",
+      "type": "new",
+      "source": "user-supplied-screenshot"
+    },
+    {
+      "at": "2026-08-29T08:17:00-04:00",
+      "botId": "ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
+      "botName": "Naomi Vance",
+      "type": "new",
+      "source": "user-supplied-screenshot"
+    },
+    {
+      "at": "2026-08-29T08:17:00-04:00",
+      "botId": "72b90b87-3d31-40be-ba07-37bd47c43a52",
+      "botName": "Tessa Morgan",
+      "type": "new",
+      "source": "user-supplied-screenshot"
+    },
+    {
+      "at": "2026-08-29T13:59:12Z",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-29T21:06:37Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-29T21:06:37Z",
+      "botId": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
+      "botName": "Takeda Reina",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T00:37:03Z",
+      "botId": "be449df2-b6f7-48b4-831d-d309eaf04f27",
+      "botName": "Celia Maren",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T00:37:03Z",
+      "botId": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
+      "botName": "Inui Toko",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T00:37:03Z",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-30T05:45:38Z",
+      "botId": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
+      "botName": "Raven Cole",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T12:10:49Z",
+      "botId": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
+      "botName": "Nova",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T12:10:49Z",
+      "botId": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "botName": "Sable Hart",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
+      "botName": "A Jurassic TF — Chas",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
+      "botName": "A Jurassic TF — Chas",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "botName": "Maya Bennett",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "botName": "Maya Bennett",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "botName": "Serena Ward",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "botName": "Serena Ward",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T16:56:21Z",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-31T16:06:00-04:00",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "approval",
+      "visibility": "unlisted",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-08-31T16:06:00-04:00",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "spicychat-approval-email"
+    },
+    {
+      "at": "2026-09-01T06:37:28-04:00",
+      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "botName": "Nyra",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T06:37:28-04:00",
+      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "botName": "Rhea Ripley",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T06:37:28-04:00",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
+      "botName": "Dragon",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
+      "botName": "Kinky Delivery",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "botName": "Nyra",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "botName": "Rhea Ripley",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "b5964f5b-b916-439e-9537-6ba2247799bd",
+      "botName": "Tessa Ward",
+      "type": "milestone",
+      "value": 100
+    },
+    {
+      "at": "2026-09-01T07:19:13-04:00",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-01T07:56:12-04:00",
+      "botId": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
+      "botName": "A Jurassic TF Chase",
+      "type": "rename",
+      "from": "A Jurassic TF — Chas",
+      "to": "A Jurassic TF Chase"
+    },
+    {
+      "at": "2026-09-01T11:58:48Z",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-01T12:22:00-04:00",
+      "botId": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
+      "botName": "Lena Foster",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-01T16:52:29Z",
+      "botId": "03988822-692f-48ad-b158-8e152bb6dc20",
+      "botName": "Cass Rowan",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T16:52:29Z",
+      "botId": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
+      "botName": "Lena Foster",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T16:52:29Z",
+      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "botName": "Maya Bennett",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T16:52:29Z",
+      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "botName": "Serena Ward",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T16:52:29Z",
+      "botId": "43c73c72-432d-4eeb-8615-a0a519cf7683",
+      "botName": "Zenin Clan",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-01T21:16:33Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-01T21:16:33Z",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T00:27:39Z",
+      "botId": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
+      "botName": "Raven Cole",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T00:27:39Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T00:27:39Z",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T04:58:41Z",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T04:58:41Z",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T04:58:41Z",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T11:40:04Z",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T11:40:04Z",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T11:40:04Z",
+      "botId": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
+      "botName": "Kinky Delivery",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T11:40:04Z",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T16:49:51Z",
+      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
+      "botName": "Dr. Yara Vale",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T16:49:51Z",
+      "botId": "ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
+      "botName": "Naomi Vance",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T21:14:04Z",
+      "botId": "978e6fae-ff58-4abc-b849-321c09833843",
+      "botName": "Raptor Pack Handler",
+      "type": "new",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T21:14:04Z",
+      "botId": "978e6fae-ff58-4abc-b849-321c09833843",
+      "botName": "Raptor Pack Handler",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T21:14:04Z",
+      "botId": "978e6fae-ff58-4abc-b849-321c09833843",
+      "botName": "Raptor Pack Handler",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T21:14:04Z",
+      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "botName": "Rhea Ripley",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-02T21:14:04Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "botName": "Aurelia & Vaelira",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "botName": "Aurelia & Vaelira",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-02T23:59:15Z",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T00:07:55Z",
+      "botId": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
+      "botName": "Kinky Delivery",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T00:07:55Z",
+      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "botName": "Nyra",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T00:07:55Z",
+      "botId": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
+      "botName": "Raptor Pack + Indo",
+      "type": "rename",
+      "from": "Raptor Pack",
+      "to": "Raptor Pack + Indo",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T00:07:55Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T00:07:55Z",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "origin",
+      "value": "requested",
+      "source": "manual-correction"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "3c719d70-7e67-4562-962a-2906a33cbf08",
+      "botName": "Alpha Chooses You",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "3c719d70-7e67-4562-962a-2906a33cbf08",
+      "botName": "Alpha Chooses You",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "origin",
+      "value": "requested",
+      "source": "manual-correction"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
+      "botName": "Kinky Delivery",
+      "type": "origin",
+      "value": "requested",
+      "source": "manual-correction"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "botName": "Rhea Ripley",
+      "type": "origin",
+      "value": "requested",
+      "source": "manual-correction"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "origin",
+      "value": "requested",
+      "source": "manual-correction"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
+      "botName": "Seryth",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
+      "botName": "Seryth",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "origin",
+      "value": "requested",
+      "source": "manual-correction"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "origin",
+      "value": "requested",
+      "source": "manual-correction"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
+      "botName": "UPRUSH",
+      "type": "origin",
+      "value": "requested",
+      "source": "manual-correction"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
+      "botName": "Vessa",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
+      "botName": "Vessa",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "origin",
+      "value": "requested",
+      "source": "manual-correction"
+    },
+    {
+      "at": "2026-09-03T03:16:08Z",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-03T04:56:53Z",
+      "botId": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
+      "botName": "Dragon",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-03T11:38:37Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-03T11:38:37Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T00:19:28Z",
+      "botId": "be449df2-b6f7-48b4-831d-d309eaf04f27",
+      "botName": "Celia Maren",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T05:01:05Z",
+      "botId": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
+      "botName": "Kinky Delivery",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-04T05:01:05Z",
+      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "botName": "Nyra",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-04T05:01:05Z",
+      "botId": "57fc84b4-cb36-464f-9b87-49b30057e093",
+      "botName": "Maeve Calder",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T11:39:55Z",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-04T16:35:01Z",
+      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
+      "botName": "Dr. Yara Vale",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T16:35:01Z",
+      "botId": "c8c96422-d782-438d-999c-79e785f635de",
+      "botName": "Elara Voss",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T16:35:01Z",
+      "botId": "c8c96422-d782-438d-999c-79e785f635de",
+      "botName": "Elara Voss",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T17:27:00-04:00",
+      "botId": "978e6fae-ff58-4abc-b849-321c09833843",
+      "botName": "Raptor Pack Handler",
+      "type": "archive",
+      "from": "public",
+      "to": "archived",
+      "source": "SpicyChat deletion email",
+      "detail": "Removed from the active collection after SpicyChat deletion notice."
+    },
+    {
+      "at": "2026-09-04T22:31:04Z",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T00:20:19Z",
+      "botId": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "botName": "Mara",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T04:53:29Z",
+      "botId": "c8c96422-d782-438d-999c-79e785f635de",
+      "botName": "Elara Voss",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T10:53:47Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T10:53:47Z",
+      "botId": "615e3b47-93d7-4b56-855e-6129db0529f3",
+      "botName": "Evelyn Rook",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T14:51:00-04:00",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:51:00-04:00",
+      "botId": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "botName": "Aurelia & Vaelira",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:51:00-04:00",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:56:00-04:00",
+      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
+      "botName": "Vessa",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:56:00-04:00",
+      "botId": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
+      "botName": "Seryth",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:56:00-04:00",
+      "botId": "3c719d70-7e67-4562-962a-2906a33cbf08",
+      "botName": "Alpha Chooses You",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T14:56:00-04:00",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
+    },
+    {
+      "at": "2026-09-05T15:30:10Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-05T20:40:00-04:00",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "approval",
+      "source": "user-supplied-approval-email-screenshot"
+    },
+    {
+      "at": "2026-09-05T20:40:27Z",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "review",
+      "source": "saved-my-creations",
+      "detail": "Shown Under Review on SpicyChat; kept Public on this site per archive/visibility policy."
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
+      "botName": "Vessa",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
+      "botName": "Seryth",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "3c719d70-7e67-4562-962a-2906a33cbf08",
+      "botName": "Alpha Chooses You",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "botName": "Aurelia & Vaelira",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T23:16:00-04:00",
+      "botId": "72b90b87-3d31-40be-ba07-37bd47c43a52",
+      "botName": "Tessa Morgan",
+      "type": "approval",
+      "visibility": "public",
+      "source": "user-supplied-approval-email-screenshot"
+    },
+    {
+      "at": "2026-09-06T00:11:26Z",
+      "botId": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
+      "botName": "Erin Blake",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T05:01:06Z",
+      "botId": "72b90b87-3d31-40be-ba07-37bd47c43a52",
+      "botName": "Tessa Morgan",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T11:18:03Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-06T20:46:37Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-06T20:46:37Z",
+      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "botName": "Rhea Ripley",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T20:46:37Z",
+      "botId": "57fc84b4-cb36-464f-9b87-49b30057e093",
+      "botName": "Maeve Calder",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-06T20:46:37Z",
+      "botId": "c8c96422-d782-438d-999c-79e785f635de",
+      "botName": "Elara Voss",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T00:16:43Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-07T12:59:04Z",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T12:59:04Z",
+      "botId": "a04bc9a5-952e-4870-ac90-0a267f695374",
+      "botName": "Kaia Sterling",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T12:59:04Z",
+      "botId": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "botName": "Mara",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T18:51:15Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-07T18:51:15Z",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T18:51:15Z",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-07T18:51:15Z",
+      "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
+      "botName": "Maya Serrano",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": true,
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-07T22:59:24Z",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T05:06:43Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T11:40:58Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T16:50:02Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-08T20:22:04Z",
+      "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
+      "botName": "Ice Queen",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-08T20:22:04Z",
+      "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
+      "botName": "Ice Queen",
+      "type": "origin",
+      "value": "requested",
+      "source": "user-confirmed"
+    },
+    {
+      "at": "2026-09-08T20:22:04Z",
+      "botId": "03988822-692f-48ad-b158-8e152bb6dc20",
+      "botName": "Cass Rowan",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-09T00:30:28Z",
+      "botId": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "botName": "Piper QoL",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-09T05:05:49Z",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-09T11:46:59Z",
+      "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
+      "botName": "Ice Queen",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-09T16:52:17Z",
+      "botId": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
+      "botName": "Takeda Reina",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-09T21:08:12Z",
+      "botId": "b322238d-4847-40ed-a896-6d6f44f55192",
+      "botName": "Cassidy & Crew",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-10T05:08:17Z",
+      "botId": "691a385e-a7f0-43d2-8d55-e121f0fdb82a",
+      "botName": "Han Ji-won",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-10T11:45:06Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-10T16:40:20Z",
+      "botId": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "botName": "Sable Hart",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-10T21:08:29Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-10T21:08:29Z",
+      "botId": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
+      "botName": "Raptor Pack + Indo",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
+    }
+  ]
+}

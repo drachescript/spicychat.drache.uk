@@ -1,0 +1,40 @@
+SpicyChat bot update - 2026-09-01T07:56:12-04:00
+Source: D:\Download\All Your Chatbot Characters In One Place _ Spicychat.html
+Extracted: 50 bots
+New: 0
+Missing from export: 9
+Renames: 1
+Visibility changes: 0
+Public baselines added: 0
+Message changes: 2
+Token changes: 1
+History snapshot: added
+Partial history repaired: yes
+Dry run: no
+
+MISSING FROM EXPORT (not deleted)
+- Rogue Amendiares (73ac8972-cd7e-445f-b916-0d8821934d68)
+- Serena Ward (d757caa5-3abb-4b27-8fa8-bc03897e755b)
+- Maya Bennett (cb67109b-cdd7-48e9-a49b-da36cc97b7c3)
+- Elise Hart (dcaa687b-ea31-400e-8e62-04a56168dad8)
+- Lena Foster (2cb6b2a6-481d-4f0e-8da6-9123b33c5714)
+- Cass Rowan (03988822-692f-48ad-b158-8e152bb6dc20)
+- Riley Stone (81c1380f-7f02-472c-93c2-5d230032cdf9)
+- Nyra (6f439a04-51b2-4e31-b5da-f635aa3b9e24)
+- Veyr (14f39c11-eb1a-4ab8-a7af-3c0354d17c63)
+
+RENAMES
+- A Jurassic TF — Chas -> A Jurassic TF Chase (24e9e8b0-5786-4bba-8a8f-95f37ad1869c)
+
+MESSAGES
+- Spider Lady: 1300 -> 1400 (+100 / +7.7%)
+- Kinky Delivery: 0 -> 3 (+3)
+
+TOKENS
+- Piper QoL: 2292 -> 2248
+
+Updated: assets/data/bots.json
+Updated: assets/data/bot-stats.json
+Updated: assets/data/bot-history.json
+Updated: assets/data/bot-events.json
+Public baselines unchanged
