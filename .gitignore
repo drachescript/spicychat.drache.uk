@@ -13,3 +13,18 @@ tools/setup_gmail_api.py
 tools/setup_gmail_api.bat
 tools/gmail-oauth/README.md
 tools/README.md
+# Python junk
+__pycache__/
+*.pyc
+
+# Gmail OAuth secrets - extra protection
+tools/gmail-oauth/credentials.json
+tools/gmail-oauth/token.json
+
+# Generated Gmail scan reports
+tools/output/*.csv
+tools/output/*.json
+
+# Local folder listing
+folder_structure.txt
+path.bat
