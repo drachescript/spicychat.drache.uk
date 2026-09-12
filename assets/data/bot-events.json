@@ -2287,6 +2287,33 @@
       "value": 500,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-12T04:56:18Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-12T04:56:18Z",
+      "botId": "a1cf80af-e406-4a57-9cd4-547c736c9683",
+      "botName": "Felicia Mercer",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "direct-profile"
+    },
+    {
+      "at": "2026-09-12T04:56:18Z",
+      "botId": "57fc84b4-cb36-464f-9b87-49b30057e093",
+      "botName": "Maeve Calder",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "creator-profile"
     }
   ]
 }
