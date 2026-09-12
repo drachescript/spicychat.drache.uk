@@ -9,3 +9,4 @@ tools/reports/*.txt
 !tools/reports/.gitkeep
 /tools
 *.zip
+/scripts
