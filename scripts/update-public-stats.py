@@ -999,14 +999,19 @@ def main() -> int:
         creator_entries = dict(page_creator_entries)
         for bot_id, item in typesense_entries.items():
             if bot_id in creator_entries:
-                # Keep the best public message observation if the search index lags
-                # behind the creator page. Typesense still supplies exact NSFW/image
-                # metadata and acts as public-discovery evidence.
+                # Prefer Typesense's exact message total whenever it is available.
+                # The creator page often rounds values to strings such as 3.1k;
+                # keeping the rounded value just because 3100 is numerically above
+                # an exact 3097 would throw away the more precise observation.
+                # The normal regression guard below still protects against genuinely
+                # stale/lower exact values.
                 creator_item = creator_entries[bot_id]
                 merged = {**creator_item, **item}
                 creator_messages = creator_item.get("messages")
                 typesense_messages = item.get("messages")
-                if creator_messages and (
+                if typesense_messages and not typesense_messages.get("approximate"):
+                    merged["messages"] = typesense_messages
+                elif creator_messages and (
                     not typesense_messages
                     or creator_messages.get("value", -1) > typesense_messages.get("value", -1)
                 ):
