@@ -2354,6 +2354,15 @@
       "value": 2500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-13T00:11:10Z",
+      "botId": "be449df2-b6f7-48b4-831d-d309eaf04f27",
+      "botName": "Celia Maren",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
