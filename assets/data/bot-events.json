@@ -2381,6 +2381,24 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-13T12:13:57Z",
+      "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
+      "botName": "Ice Queen",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-13T12:13:57Z",
+      "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
+      "botName": "The Crooked Flask",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
