@@ -432,6 +432,73 @@ def launch_browser():
     return playwright, browser
 
 
+def rounded_metric_bounds(display: str | None):
+    """Return the numeric interval represented by a rounded k/m/b display."""
+    if not display:
+        return None
+    match = NUMBER_RE.search(str(display))
+    if not match or not match.group(2):
+        return None
+    raw = match.group(1).replace(",", "")
+    suffix = match.group(2).lower()
+    try:
+        numeric = float(raw)
+    except ValueError:
+        return None
+    decimals = len(raw.split(".", 1)[1]) if "." in raw else 0
+    multiplier = {"k": 1000, "m": 1_000_000, "b": 1_000_000_000}[suffix]
+    center = numeric * multiplier
+    quantum = multiplier / (10 ** decimals)
+    return (center - quantum / 2, center + quantum / 2)
+
+
+def latest_exact_history(history_doc: dict) -> dict[str, dict]:
+    """Recover the most recent non-rounded message count for each bot."""
+    recovered: dict[str, dict] = {}
+    snapshots = sorted(history_doc.get("snapshots", []), key=lambda s: s.get("capturedAt", ""))
+    for snapshot in snapshots:
+        for row in snapshot.get("bots", []):
+            bot_id = row.get("id")
+            if not bot_id or row.get("messages") is None or bool(row.get("messagesApproximate")):
+                continue
+            recovered[bot_id] = {
+                "value": int(row["messages"]),
+                "observedAt": row.get("exactMessagesObservedAt") or row.get("statsUpdatedAt") or snapshot.get("capturedAt"),
+                "source": row.get("exactMessagesSource") or row.get("statsSource") or snapshot.get("source") or "history",
+            }
+    return recovered
+
+
+def seed_exact_message(row: dict, recovered: dict | None = None) -> bool:
+    """Keep an exact total separate from the newest rounded public estimate."""
+    before = (row.get("exactMessages"), row.get("exactMessagesObservedAt"), row.get("exactMessagesSource"))
+    if row.get("exactMessages") is None:
+        if row.get("messages") is not None and not bool(row.get("messagesApproximate")):
+            row["exactMessages"] = int(row["messages"])
+            row["exactMessagesObservedAt"] = row.get("statsUpdatedAt") or row.get("observedAt")
+            row["exactMessagesSource"] = row.get("statsSource") or "exact-observation"
+        elif recovered:
+            row["exactMessages"] = int(recovered["value"])
+            row["exactMessagesObservedAt"] = recovered.get("observedAt")
+            row["exactMessagesSource"] = recovered.get("source") or "history"
+    after = (row.get("exactMessages"), row.get("exactMessagesObservedAt"), row.get("exactMessagesSource"))
+    return before != after
+
+
+def record_exact_observation(row: dict, observed: dict, now: str) -> bool:
+    metric = observed.get("messages")
+    if not metric or bool(metric.get("approximate")):
+        return False
+    if row.get("messages") != metric.get("value") or bool(row.get("messagesApproximate")):
+        return False
+    before = (row.get("exactMessages"), row.get("exactMessagesObservedAt"), row.get("exactMessagesSource"))
+    row["exactMessages"] = int(metric["value"])
+    row["exactMessagesObservedAt"] = now
+    row["exactMessagesSource"] = observed.get("source") or "exact-observation"
+    after = (row.get("exactMessages"), row.get("exactMessagesObservedAt"), row.get("exactMessagesSource"))
+    return before != after
+
+
 def history_row(row: dict) -> dict:
     keys = [
         "id",
@@ -440,6 +507,11 @@ def history_row(row: dict) -> dict:
         "messages",
         "messagesDisplay",
         "messagesApproximate",
+        "exactMessages",
+        "exactMessagesObservedAt",
+        "exactMessagesSource",
+        "statsSource",
+        "statsUpdatedAt",
         "tokens",
         "tokensDisplay",
         "tokensApproximate",
@@ -481,7 +553,8 @@ def safe_message_update(old_row: dict, observed: dict, warnings: list[str]) -> t
     # Message totals normally only move upward. Rounded public counts can be noisy,
     # so a lower observed value is ignored instead of rewriting history backwards.
     if old_value is not None and new_value < int(old_value):
-        allow_more_precise = old_approx and not new_approx and new_value >= int(old_value * 0.9)
+        bounds = rounded_metric_bounds(old_row.get("messagesDisplay")) if old_approx and not new_approx else None
+        allow_more_precise = bool(bounds and bounds[0] <= new_value < bounds[1])
         if not allow_more_precise:
             warnings.append(
                 f"{old_row.get('name', old_row.get('id'))}: ignored message regression "
@@ -582,6 +655,9 @@ def make_base_stat(bot: dict) -> dict:
         "messages": None,
         "messagesDisplay": None,
         "messagesApproximate": False,
+        "exactMessages": None,
+        "exactMessagesObservedAt": None,
+        "exactMessagesSource": None,
         "tokens": None,
         "tokensDisplay": None,
         "tokensApproximate": False,
@@ -607,6 +683,7 @@ def process_updates(
     archived_ids = {bot.get("id") for bot in archived_doc.get("bots", []) if bot.get("id")}
     known_ids = {bot["id"] for bot in curated_bots} | archived_ids
     old_rows = {row["id"]: row for row in stats_doc.get("bots", []) if row.get("id")}
+    recovered_exact = latest_exact_history(history_doc)
     warnings: list[str] = []
     changed_bot_ids: set[str] = set()
     milestones_added: list[str] = []
@@ -630,6 +707,7 @@ def process_updates(
         bot_id = bot["id"]
         previous = copy.deepcopy(old_rows.get(bot_id) or make_base_stat(bot))
         row = copy.deepcopy(previous)
+        exact_seeded = seed_exact_message(row, recovered_exact.get(bot_id))
         observed = creator_entries.get(bot_id) or direct_entries.get(bot_id)
 
         if observed and isinstance(observed.get("nsfw"), bool):
@@ -657,6 +735,8 @@ def process_updates(
             else:
                 row, message_changed = safe_message_update(row, observed, warnings)
                 token_changed = update_token_metric(row, observed)
+
+            exact_changed = record_exact_observation(row, observed, now)
 
             # Appearing on the public creator profile is enough to confirm public visibility.
             visibility_changed = False
@@ -764,7 +844,7 @@ def process_updates(
             if scraped_name and curated_name and scraped_name != curated_name:
                 warnings.append(f"{curated_name}: SpicyChat currently shows the name '{scraped_name}'")
 
-            if message_changed or token_changed or visibility_changed:
+            if message_changed or token_changed or visibility_changed or exact_changed or exact_seeded:
                 row["statsSource"] = "stats-guard" if guard_changed else observed["source"]
                 row["profileUrl"] = observed.get("profileUrl") or f"https://spicychat.ai/chatbot/{bot_id}"
                 row["statsUpdatedAt"] = now
