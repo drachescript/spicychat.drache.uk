@@ -2408,6 +2408,24 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-14T05:21:04Z",
+      "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
+      "botName": "Maya Serrano",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-14T05:21:04Z",
+      "botId": "615e3b47-93d7-4b56-855e-6129db0529f3",
+      "botName": "Evelyn Rook",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
