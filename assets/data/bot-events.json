@@ -2399,6 +2399,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-14T00:22:33Z",
+      "botId": "615e3b47-93d7-4b56-855e-6129db0529f3",
+      "botName": "Evelyn Rook",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
