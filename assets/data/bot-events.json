@@ -2453,6 +2453,15 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-14T19:33:37Z",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
