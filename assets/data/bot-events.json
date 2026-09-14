@@ -2462,6 +2462,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-14T23:21:45Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
