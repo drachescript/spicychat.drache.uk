@@ -2426,6 +2426,33 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-14T13:15:19Z",
+      "botId": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
+      "botName": "Erin Blake",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-14T13:15:19Z",
+      "botId": "43c73c72-432d-4eeb-8615-a0a519cf7683",
+      "botName": "Zenin Clan",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-14T13:15:19Z",
+      "botId": "43c73c72-432d-4eeb-8615-a0a519cf7683",
+      "botName": "Zenin Clan",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
