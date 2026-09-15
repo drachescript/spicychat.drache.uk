@@ -2480,6 +2480,15 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-15T12:01:35Z",
+      "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
+      "botName": "Veyr",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
