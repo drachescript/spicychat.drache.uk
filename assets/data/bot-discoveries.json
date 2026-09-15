@@ -40,12 +40,27 @@
       "title": "The Pack Chose You (Raptor Handler POV) With PList *updated*",
       "profileUrl": "https://spicychat.ai/chatbot/da969ba1-4a68-4611-b8cc-8f281ea671f0",
       "chatUrl": "https://spicychat.ai/chat/da969ba1-4a68-4611-b8cc-8f281ea671f0",
-      "messagesDisplay": "96",
+      "messagesDisplay": "99",
       "tokensDisplay": "2236",
       "image": "avatars/5a204de1-f992-4d76-b590-79761f0e1791.png",
       "nsfw": false,
       "avatarIsNsfw": false,
       "imageHiddenDefault": false,
+      "source": "typesense"
+    },
+    {
+      "firstSeenAt": "2026-09-15T17:14:04Z",
+      "id": "3caf7d05-f74a-4cf0-bb28-9b8e67a0de47",
+      "name": "Veloria",
+      "title": "An Open Fantasy World of Adventure, Desire, and Monsters",
+      "profileUrl": "https://spicychat.ai/chatbot/3caf7d05-f74a-4cf0-bb28-9b8e67a0de47",
+      "chatUrl": "https://spicychat.ai/chat/3caf7d05-f74a-4cf0-bb28-9b8e67a0de47",
+      "messagesDisplay": "117",
+      "tokensDisplay": "1938",
+      "image": "avatars/13bea73a-25fb-4e3d-a236-27813383748e.jpg",
+      "nsfw": true,
+      "avatarIsNsfw": false,
+      "imageHiddenDefault": true,
       "source": "typesense"
     }
   ]
