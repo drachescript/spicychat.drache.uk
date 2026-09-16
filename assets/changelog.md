@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.7.4 — September 16, 2026
+
+- archived Raptor Pack + Indo after its deletion instead of leaving it in the active collection
+- archived the older Wayfarer’s Shrin and Raptor Pack Handler With PList IDs after they disappeared, while keeping their old stats and publication history separate from the replacements
+- added the current Wayfarer’s Shrin and Raptor Pack Handler With PList IDs, plus Kairo and Veloria
+- refreshed the collection order, current artwork, titles and exact message totals from the latest My Creations save
+
 ## v0.7.3 — September 12, 2026
 
 - bot profiles now keep showing the most recent exact Typesense message total even when a later creator-page check only has a rounded value

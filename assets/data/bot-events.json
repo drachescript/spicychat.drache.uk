@@ -299,12 +299,6 @@
     },
     {
       "at": "2026-08-23T02:19:23-04:00",
-      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
-      "botName": "SCP Foundation",
-      "type": "new"
-    },
-    {
-      "at": "2026-08-23T02:19:23-04:00",
       "botId": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
       "botName": "Sable Hart",
       "type": "milestone",
@@ -324,6 +318,12 @@
       "type": "visibility",
       "from": "unlisted",
       "to": "public"
+    },
+    {
+      "at": "2026-08-23T02:19:23-04:00",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "new"
     },
     {
       "at": "2026-08-23T02:19:23-04:00",
@@ -701,6 +701,15 @@
       "source": "spicychat-approval-email"
     },
     {
+      "at": "2026-08-27T15:26:00Z",
+      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
+      "botName": "Seren Vale",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
       "at": "2026-08-27T14:10:59-04:00",
       "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
       "botName": "The Crooked Flask",
@@ -712,15 +721,6 @@
       "botName": "UPRUSH",
       "type": "origin",
       "value": "personal"
-    },
-    {
-      "at": "2026-08-27T15:26:00Z",
-      "botId": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
-      "botName": "Seren Vale",
-      "type": "milestone",
-      "value": 1000,
-      "approximate": true,
-      "source": "creator-profile"
     },
     {
       "at": "2026-08-27T22:23:00-04:00",
@@ -891,84 +891,6 @@
       "source": "creator-profile"
     },
     {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
-      "botName": "A Jurassic TF",
-      "type": "new"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
-      "botName": "A Jurassic TF",
-      "type": "origin",
-      "value": "personal"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
-      "botName": "A Jurassic TF — Chas",
-      "type": "new"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
-      "botName": "A Jurassic TF — Chas",
-      "type": "origin",
-      "value": "personal"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
-      "botName": "Elise Hart",
-      "type": "new"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
-      "botName": "Elise Hart",
-      "type": "origin",
-      "value": "personal"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
-      "botName": "Maya Bennett",
-      "type": "new"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
-      "botName": "Maya Bennett",
-      "type": "origin",
-      "value": "personal"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
-      "botName": "Serena Ward",
-      "type": "new"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
-      "botName": "Serena Ward",
-      "type": "origin",
-      "value": "personal"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
-      "botName": "Soulcalibur RPG",
-      "type": "new"
-    },
-    {
-      "at": "2026-08-30T15:44:04-04:00",
-      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
-      "botName": "Soulcalibur RPG",
-      "type": "origin",
-      "value": "personal"
-    },
-    {
       "at": "2026-08-30T16:56:21Z",
       "botId": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
       "botName": "The Crooked Flask",
@@ -976,6 +898,84 @@
       "value": 500,
       "approximate": false,
       "source": "direct-profile"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
+      "botName": "A Jurassic TF — Chas",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "24e9e8b0-5786-4bba-8a8f-95f37ad1869c",
+      "botName": "A Jurassic TF — Chas",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "botName": "Maya Bennett",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "botName": "Maya Bennett",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "botName": "Serena Ward",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "botName": "Serena Ward",
+      "type": "origin",
+      "value": "personal"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "new"
+    },
+    {
+      "at": "2026-08-30T15:44:04-04:00",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "origin",
+      "value": "personal"
     },
     {
       "at": "2026-08-31T16:06:00-04:00",
@@ -1605,21 +1605,21 @@
     },
     {
       "at": "2026-09-04T05:01:05Z",
-      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
-      "botName": "Nyra",
-      "type": "milestone",
-      "value": 100,
-      "approximate": false,
-      "source": "direct-profile"
-    },
-    {
-      "at": "2026-09-04T05:01:05Z",
       "botId": "57fc84b4-cb36-464f-9b87-49b30057e093",
       "botName": "Maeve Calder",
       "type": "milestone",
       "value": 100,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-04T05:01:05Z",
+      "botId": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
+      "botName": "Nyra",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
     },
     {
       "at": "2026-09-04T11:39:55Z",
@@ -1696,15 +1696,6 @@
     },
     {
       "at": "2026-09-05T10:53:47Z",
-      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
-      "botName": "Princess Lyra Veyne",
-      "type": "milestone",
-      "value": 2500,
-      "approximate": true,
-      "source": "creator-profile"
-    },
-    {
-      "at": "2026-09-05T10:53:47Z",
       "botId": "615e3b47-93d7-4b56-855e-6129db0529f3",
       "botName": "Evelyn Rook",
       "type": "milestone",
@@ -1713,12 +1704,22 @@
       "source": "creator-profile"
     },
     {
-      "at": "2026-09-05T14:51:00-04:00",
-      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
-      "botName": "Saeli Venn",
-      "type": "approval",
-      "visibility": "public",
-      "source": "SpicyChat approval email"
+      "at": "2026-09-05T10:53:47Z",
+      "botId": "9e005568-3419-4717-9d31-d7dd70104a7f",
+      "botName": "Princess Lyra Veyne",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T15:30:10Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "direct-profile"
     },
     {
       "at": "2026-09-05T14:51:00-04:00",
@@ -1737,17 +1738,9 @@
       "source": "SpicyChat approval email"
     },
     {
-      "at": "2026-09-05T14:56:00-04:00",
-      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
-      "botName": "Vessa",
-      "type": "approval",
-      "visibility": "public",
-      "source": "SpicyChat approval email"
-    },
-    {
-      "at": "2026-09-05T14:56:00-04:00",
-      "botId": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
-      "botName": "Seryth",
+      "at": "2026-09-05T14:51:00-04:00",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
       "type": "approval",
       "visibility": "public",
       "source": "SpicyChat approval email"
@@ -1769,20 +1762,20 @@
       "source": "SpicyChat approval email"
     },
     {
-      "at": "2026-09-05T15:30:10Z",
-      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
-      "botName": "Rogue Amendiares",
-      "type": "milestone",
-      "value": 500,
-      "approximate": false,
-      "source": "direct-profile"
+      "at": "2026-09-05T14:56:00-04:00",
+      "botId": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
+      "botName": "Seryth",
+      "type": "approval",
+      "visibility": "public",
+      "source": "SpicyChat approval email"
     },
     {
-      "at": "2026-09-05T20:40:00-04:00",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
+      "at": "2026-09-05T14:56:00-04:00",
+      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
+      "botName": "Vessa",
       "type": "approval",
-      "source": "user-supplied-approval-email-screenshot"
+      "visibility": "public",
+      "source": "SpicyChat approval email"
     },
     {
       "at": "2026-09-05T20:40:27Z",
@@ -1795,52 +1788,8 @@
     },
     {
       "at": "2026-09-05T20:52:28Z",
-      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "botName": "Erin Walsh",
-      "type": "review",
-      "source": "saved-my-creations",
-      "detail": "Shown Under Review on SpicyChat; kept Public on this site per archive/visibility policy."
-    },
-    {
-      "at": "2026-09-05T20:52:28Z",
-      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
-      "botName": "Vessa",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public",
-      "source": "saved-my-creations"
-    },
-    {
-      "at": "2026-09-05T20:52:28Z",
-      "botId": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
-      "botName": "Seryth",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public",
-      "source": "saved-my-creations"
-    },
-    {
-      "at": "2026-09-05T20:52:28Z",
       "botId": "3c719d70-7e67-4562-962a-2906a33cbf08",
       "botName": "Alpha Chooses You",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public",
-      "source": "saved-my-creations"
-    },
-    {
-      "at": "2026-09-05T20:52:28Z",
-      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
-      "botName": "Cly Kullervo",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public",
-      "source": "saved-my-creations"
-    },
-    {
-      "at": "2026-09-05T20:52:28Z",
-      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
-      "botName": "Saeli Venn",
       "type": "visibility",
       "from": "unlisted",
       "to": "public",
@@ -1857,6 +1806,23 @@
     },
     {
       "at": "2026-09-05T20:52:28Z",
+      "botId": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
+      "botName": "Cly Kullervo",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "review",
+      "source": "saved-my-creations",
+      "detail": "Shown Under Review on SpicyChat; kept Public on this site per archive/visibility policy."
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
       "botId": "38154344-755f-4541-adf6-af8a38e628e6",
       "botName": "Queen Elowen",
       "type": "visibility",
@@ -1865,12 +1831,31 @@
       "source": "saved-my-creations"
     },
     {
-      "at": "2026-09-05T23:16:00-04:00",
-      "botId": "72b90b87-3d31-40be-ba07-37bd47c43a52",
-      "botName": "Tessa Morgan",
-      "type": "approval",
-      "visibility": "public",
-      "source": "user-supplied-approval-email-screenshot"
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
+      "botName": "Seryth",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-05T20:52:28Z",
+      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
+      "botName": "Vessa",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "saved-my-creations"
     },
     {
       "at": "2026-09-06T00:11:26Z",
@@ -1880,6 +1865,21 @@
       "value": 500,
       "approximate": false,
       "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-05T20:40:00-04:00",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "approval",
+      "source": "user-supplied-approval-email-screenshot"
+    },
+    {
+      "at": "2026-09-05T23:16:00-04:00",
+      "botId": "72b90b87-3d31-40be-ba07-37bd47c43a52",
+      "botName": "Tessa Morgan",
+      "type": "approval",
+      "visibility": "public",
+      "source": "user-supplied-approval-email-screenshot"
     },
     {
       "at": "2026-09-06T05:01:06Z",
@@ -1910,11 +1910,11 @@
     },
     {
       "at": "2026-09-06T20:46:37Z",
-      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
-      "botName": "Rhea Ripley",
+      "botId": "c8c96422-d782-438d-999c-79e785f635de",
+      "botName": "Elara Voss",
       "type": "milestone",
-      "value": 100,
-      "approximate": false,
+      "value": 1000,
+      "approximate": true,
       "source": "creator-profile"
     },
     {
@@ -1928,11 +1928,11 @@
     },
     {
       "at": "2026-09-06T20:46:37Z",
-      "botId": "c8c96422-d782-438d-999c-79e785f635de",
-      "botName": "Elara Voss",
+      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "botName": "Rhea Ripley",
       "type": "milestone",
-      "value": 1000,
-      "approximate": true,
+      "value": 100,
+      "approximate": false,
       "source": "creator-profile"
     },
     {
@@ -1943,15 +1943,6 @@
       "value": 500,
       "approximate": false,
       "source": "direct-profile"
-    },
-    {
-      "at": "2026-09-07T12:59:04Z",
-      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
-      "botName": "SCP Foundation",
-      "type": "milestone",
-      "value": 1000,
-      "approximate": true,
-      "source": "creator-profile"
     },
     {
       "at": "2026-09-07T12:59:04Z",
@@ -1972,21 +1963,12 @@
       "source": "creator-profile"
     },
     {
-      "at": "2026-09-07T18:51:15Z",
-      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
-      "botName": "Queen Elowen",
+      "at": "2026-09-07T12:59:04Z",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
       "type": "milestone",
-      "value": 100,
-      "approximate": false,
-      "source": "direct-profile"
-    },
-    {
-      "at": "2026-09-07T18:51:15Z",
-      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
-      "botName": "Elise Hart",
-      "type": "milestone",
-      "value": 250,
-      "approximate": false,
+      "value": 1000,
+      "approximate": true,
       "source": "creator-profile"
     },
     {
@@ -2000,6 +1982,15 @@
     },
     {
       "at": "2026-09-07T18:51:15Z",
+      "botId": "dcaa687b-ea31-400e-8e62-04a56168dad8",
+      "botName": "Elise Hart",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "creator-profile"
+    },
+    {
+      "at": "2026-09-07T18:51:15Z",
       "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
       "botName": "Maya Serrano",
       "type": "milestone",
@@ -2008,34 +1999,13 @@
       "source": "creator-profile"
     },
     {
-      "at": "2026-09-07T20:33:26Z",
-      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
-      "botName": "Raptor Pack Handler",
-      "type": "new",
-      "source": "saved-my-creations"
-    },
-    {
-      "at": "2026-09-07T20:33:26Z",
-      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
-      "botName": "Raptor Pack Handler",
-      "type": "origin",
-      "value": "personal",
-      "source": "saved-my-creations"
-    },
-    {
-      "at": "2026-09-07T20:33:26Z",
-      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
-      "botName": "Raptor Pack Handler",
-      "type": "new",
-      "source": "saved-my-creations"
-    },
-    {
-      "at": "2026-09-07T20:33:26Z",
-      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
-      "botName": "Raptor Pack Handler",
-      "type": "origin",
-      "value": "personal",
-      "source": "saved-my-creations"
+      "at": "2026-09-07T18:51:15Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "direct-profile"
     },
     {
       "at": "2026-09-07T20:33:26Z",
@@ -2044,6 +2014,36 @@
       "type": "milestone",
       "value": 5000,
       "approximate": true,
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "new",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "origin",
+      "value": "personal",
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-07T20:33:26Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "origin",
+      "value": "personal",
       "source": "saved-my-creations"
     },
     {
@@ -2102,6 +2102,15 @@
     },
     {
       "at": "2026-09-08T20:22:04Z",
+      "botId": "03988822-692f-48ad-b158-8e152bb6dc20",
+      "botName": "Cass Rowan",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "saved-my-creations"
+    },
+    {
+      "at": "2026-09-08T20:22:04Z",
       "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
       "botName": "Ice Queen",
       "type": "new",
@@ -2114,15 +2123,6 @@
       "type": "origin",
       "value": "requested",
       "source": "user-confirmed"
-    },
-    {
-      "at": "2026-09-08T20:22:04Z",
-      "botId": "03988822-692f-48ad-b158-8e152bb6dc20",
-      "botName": "Cass Rowan",
-      "type": "milestone",
-      "value": 100,
-      "approximate": false,
-      "source": "saved-my-creations"
     },
     {
       "at": "2026-09-09T00:30:28Z",
@@ -2197,24 +2197,13 @@
       "source": "creator-profile"
     },
     {
-      "at": "2026-09-10T18:37:13-04:00",
-      "botId": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
-      "botName": "Crimson Licker POV",
-      "type": "new"
-    },
-    {
-      "at": "2026-09-10T18:37:13-04:00",
-      "botId": "eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
-      "botName": "Crimson Licker",
-      "type": "new"
-    },
-    {
-      "at": "2026-09-10T18:37:13-04:00",
-      "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
-      "botName": "Ice Queen",
-      "type": "visibility",
-      "from": "unlisted",
-      "to": "public"
+      "at": "2026-09-10T21:08:29Z",
+      "botId": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
+      "botName": "Raptor Pack + Indo",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": true,
+      "source": "creator-profile"
     },
     {
       "at": "2026-09-10T21:08:29Z",
@@ -2226,13 +2215,24 @@
       "source": "direct-profile"
     },
     {
-      "at": "2026-09-10T21:08:29Z",
-      "botId": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
-      "botName": "Raptor Pack + Indo",
-      "type": "milestone",
-      "value": 2500,
-      "approximate": true,
-      "source": "creator-profile"
+      "at": "2026-09-10T18:37:13-04:00",
+      "botId": "eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
+      "botName": "Crimson Licker",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-10T18:37:13-04:00",
+      "botId": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
+      "botName": "Crimson Licker POV",
+      "type": "new"
+    },
+    {
+      "at": "2026-09-10T18:37:13-04:00",
+      "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
+      "botName": "Ice Queen",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public"
     },
     {
       "at": "2026-09-11T00:28:22Z",
@@ -2324,18 +2324,18 @@
     },
     {
       "at": "2026-09-12T05:09:00Z",
-      "botId": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
-      "botName": "Crimson Licker POV",
-      "type": "origin",
-      "value": "personal",
-      "source": "user-confirmed"
-    },
-    {
-      "at": "2026-09-12T05:09:00Z",
       "botId": "eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
       "botName": "Crimson Licker",
       "type": "origin",
       "value": "requested",
+      "source": "user-confirmed"
+    },
+    {
+      "at": "2026-09-12T05:09:00Z",
+      "botId": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
+      "botName": "Crimson Licker POV",
+      "type": "origin",
+      "value": "personal",
       "source": "user-confirmed"
     },
     {
@@ -2345,6 +2345,30 @@
       "type": "origin",
       "value": "requested",
       "source": "user-confirmed"
+    },
+    {
+      "at": "2026-09-12T18:38:36Z",
+      "botId": "143db585-b684-40ba-a63f-cbd7f165bc81",
+      "botName": "Kairo",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-12T18:38:36Z",
+      "botId": "143db585-b684-40ba-a63f-cbd7f165bc81",
+      "botName": "Kairo",
+      "type": "origin",
+      "value": "requested",
+      "source": "user-confirmed"
+    },
+    {
+      "at": "2026-09-12T18:38:36Z",
+      "botId": "143db585-b684-40ba-a63f-cbd7f165bc81",
+      "botName": "Kairo",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
     },
     {
       "at": "2026-09-12T22:29:56Z",
@@ -2411,6 +2435,15 @@
     },
     {
       "at": "2026-09-14T05:21:04Z",
+      "botId": "615e3b47-93d7-4b56-855e-6129db0529f3",
+      "botName": "Evelyn Rook",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-14T05:21:04Z",
       "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
       "botName": "Maya Serrano",
       "type": "milestone",
@@ -2420,11 +2453,26 @@
     },
     {
       "at": "2026-09-14T05:21:04Z",
-      "botId": "615e3b47-93d7-4b56-855e-6129db0529f3",
-      "botName": "Evelyn Rook",
-      "type": "milestone",
-      "value": 500,
-      "approximate": false,
+      "botId": "ba64e17e-cc7c-4747-88af-efc9a2f361c4",
+      "botName": "The Wayfarer's Shrin",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-14T05:21:04Z",
+      "botId": "ba64e17e-cc7c-4747-88af-efc9a2f361c4",
+      "botName": "The Wayfarer's Shrin",
+      "type": "origin",
+      "value": "requested",
+      "source": "user-confirmed"
+    },
+    {
+      "at": "2026-09-14T05:21:04Z",
+      "botId": "ba64e17e-cc7c-4747-88af-efc9a2f361c4",
+      "botName": "The Wayfarer's Shrin",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
       "source": "typesense"
     },
     {
@@ -2482,12 +2530,60 @@
       "source": "typesense"
     },
     {
+      "at": "2026-09-15T05:12:24Z",
+      "botId": "da969ba1-4a68-4611-b8cc-8f281ea671f0",
+      "botName": "Raptor Pack Handler",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-15T05:12:24Z",
+      "botId": "da969ba1-4a68-4611-b8cc-8f281ea671f0",
+      "botName": "Raptor Pack Handler",
+      "type": "origin",
+      "value": "personal",
+      "source": "collection-lineage"
+    },
+    {
+      "at": "2026-09-15T05:12:24Z",
+      "botId": "da969ba1-4a68-4611-b8cc-8f281ea671f0",
+      "botName": "Raptor Pack Handler",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
       "at": "2026-09-15T12:01:35Z",
       "botId": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
       "botName": "Veyr",
       "type": "milestone",
       "value": 1000,
       "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-15T17:14:04Z",
+      "botId": "3caf7d05-f74a-4cf0-bb28-9b8e67a0de47",
+      "botName": "Veloria",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-15T17:14:04Z",
+      "botId": "3caf7d05-f74a-4cf0-bb28-9b8e67a0de47",
+      "botName": "Veloria",
+      "type": "origin",
+      "value": "requested",
+      "source": "user-confirmed"
+    },
+    {
+      "at": "2026-09-15T17:14:04Z",
+      "botId": "3caf7d05-f74a-4cf0-bb28-9b8e67a0de47",
+      "botName": "Veloria",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
       "source": "typesense"
     },
     {
@@ -2507,6 +2603,36 @@
       "value": 10000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-16T05:33:10Z",
+      "botId": "7a039b59-87c6-46a7-b4c3-ac4a0f38e325",
+      "botName": "Raptor Pack + Indo",
+      "type": "archive",
+      "from": "public",
+      "to": "archived",
+      "source": "user-confirmed-deletion",
+      "detail": "No longer present in the complete 16 Sept My Creations save; creator confirmed the bot was deleted."
+    },
+    {
+      "at": "2026-09-16T05:33:10Z",
+      "botId": "a877b6a9-9e4e-462a-996c-c202a9579b80",
+      "botName": "Raptor Pack Handler",
+      "type": "archive",
+      "from": "public",
+      "to": "archived",
+      "source": "saved-my-creations-missing",
+      "detail": "No longer present in the complete 16 Sept My Creations save. A newer With PList bot is active under a different ID."
+    },
+    {
+      "at": "2026-09-16T05:33:10Z",
+      "botId": "3d500bd1-83c6-4de3-8751-4ef3016cbf2a",
+      "botName": "The Wayfarer's Shrin",
+      "type": "archive",
+      "from": "public",
+      "to": "archived",
+      "source": "saved-my-creations-missing",
+      "detail": "No longer present in the complete 16 Sept My Creations save. A newer bot with the same name/title is active under a different ID."
     }
   ]
 }
