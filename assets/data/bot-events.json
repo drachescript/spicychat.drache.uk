@@ -2498,6 +2498,15 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-16T00:44:04Z",
+      "botId": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
+      "botName": "Sable Hart",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
