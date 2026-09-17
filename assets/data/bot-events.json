@@ -2687,6 +2687,15 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-17T00:49:43Z",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
