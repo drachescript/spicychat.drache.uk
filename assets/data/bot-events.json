@@ -2714,6 +2714,15 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-17T18:28:50Z",
+      "botId": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
+      "botName": "Mara",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
