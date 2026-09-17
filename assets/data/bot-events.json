@@ -2696,6 +2696,24 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-17T07:57:01Z",
+      "botId": "196fe6d2-c164-45d0-ae5c-c56229aac706",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-17T07:57:01Z",
+      "botId": "b5964f5b-b916-439e-9537-6ba2247799bd",
+      "botName": "Tessa Ward",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }

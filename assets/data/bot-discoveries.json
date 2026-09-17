@@ -1,4 +1,20 @@
 {
   "schemaVersion": 2,
-  "discoveries": []
+  "discoveries": [
+    {
+      "firstSeenAt": "2026-09-17T07:57:01Z",
+      "id": "5d2480a6-6344-43b5-9338-ae54644a4659",
+      "name": "Raptor Pack + Indo",
+      "title": "Four adult raptor women encounter an Indoraptor in their territory. AU",
+      "profileUrl": "https://spicychat.ai/chatbot/5d2480a6-6344-43b5-9338-ae54644a4659",
+      "chatUrl": "https://spicychat.ai/chat/5d2480a6-6344-43b5-9338-ae54644a4659",
+      "messagesDisplay": "21",
+      "tokensDisplay": "2163",
+      "image": "avatars/b580bd49-0b7f-4ea7-810d-5cfb1bec5392.png",
+      "nsfw": false,
+      "avatarIsNsfw": false,
+      "imageHiddenDefault": false,
+      "source": "typesense"
+    }
+  ]
 }
