@@ -2732,6 +2732,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-18T13:06:39Z",
+      "botId": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
+      "botName": "Lena Foster",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
