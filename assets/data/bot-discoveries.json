@@ -30,6 +30,21 @@
       "avatarIsNsfw": false,
       "imageHiddenDefault": true,
       "source": "typesense"
+    },
+    {
+      "firstSeenAt": "2026-09-19T22:26:28Z",
+      "id": "35a4788f-5e20-4a44-8ace-0c519f134a7f",
+      "name": "Game Night Crew",
+      "title": "Four Monster Girls, One Very Crowded Couch (AnyPOV) Avatar Swap Event Sept 26",
+      "profileUrl": "https://spicychat.ai/chatbot/35a4788f-5e20-4a44-8ace-0c519f134a7f",
+      "chatUrl": "https://spicychat.ai/chat/35a4788f-5e20-4a44-8ace-0c519f134a7f",
+      "messagesDisplay": "22",
+      "tokensDisplay": "2166",
+      "image": "avatars/affff219-d2fc-4468-aa42-2977f2737b69.png",
+      "nsfw": true,
+      "avatarIsNsfw": false,
+      "imageHiddenDefault": true,
+      "source": "typesense"
     }
   ]
 }
