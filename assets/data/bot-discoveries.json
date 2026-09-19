@@ -15,6 +15,21 @@
       "avatarIsNsfw": false,
       "imageHiddenDefault": false,
       "source": "typesense"
+    },
+    {
+      "firstSeenAt": "2026-09-19T18:46:41Z",
+      "id": "76c0d718-a6e6-4231-9582-cc6e2b9aa664",
+      "name": "Kara Blackwell",
+      "title": "Your Werewolf Roommate Lets You Feed (Vampire AnyPOV)",
+      "profileUrl": "https://spicychat.ai/chatbot/76c0d718-a6e6-4231-9582-cc6e2b9aa664",
+      "chatUrl": "https://spicychat.ai/chat/76c0d718-a6e6-4231-9582-cc6e2b9aa664",
+      "messagesDisplay": "14",
+      "tokensDisplay": "2159",
+      "image": "avatars/0b220ad0-a9b8-4243-802b-281dcabaec83.jpg",
+      "nsfw": true,
+      "avatarIsNsfw": false,
+      "imageHiddenDefault": true,
+      "source": "typesense"
     }
   ]
 }
