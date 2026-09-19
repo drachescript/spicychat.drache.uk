@@ -2768,6 +2768,33 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-19T16:01:16Z",
+      "botId": "fbfad622-eea2-493b-8894-6d6f877441de",
+      "botName": "Vesper System",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-19T16:01:16Z",
+      "botId": "9831d4b3-5cca-4425-95cb-44d72bb87937",
+      "botName": "Dr. Yara Vale",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-19T16:01:16Z",
+      "botId": "bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
+      "botName": "Nadia Cross",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
