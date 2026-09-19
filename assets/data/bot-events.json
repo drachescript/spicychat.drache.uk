@@ -2750,6 +2750,24 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-19T04:55:29Z",
+      "botId": "ba64e17e-cc7c-4747-88af-efc9a2f361c4",
+      "botName": "The Wayfarer's Shrin",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-19T04:55:29Z",
+      "botId": "615e3b47-93d7-4b56-855e-6129db0529f3",
+      "botName": "Evelyn Rook",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
