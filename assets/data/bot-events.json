@@ -2858,6 +2858,33 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-20T22:38:55Z",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-20T22:38:55Z",
+      "botId": "f55dad9d-8339-46ac-a11d-dce0afd98660",
+      "botName": "Doe",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-20T22:38:55Z",
+      "botId": "b5964f5b-b916-439e-9537-6ba2247799bd",
+      "botName": "Tessa Ward",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
