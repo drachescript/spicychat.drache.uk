@@ -8,7 +8,7 @@
       "title": "Four adult raptor women encounter an Indoraptor in their territory. AU",
       "profileUrl": "https://spicychat.ai/chatbot/5d2480a6-6344-43b5-9338-ae54644a4659",
       "chatUrl": "https://spicychat.ai/chat/5d2480a6-6344-43b5-9338-ae54644a4659",
-      "messagesDisplay": "43",
+      "messagesDisplay": "48",
       "tokensDisplay": "2163",
       "image": "avatars/b580bd49-0b7f-4ea7-810d-5cfb1bec5392.png",
       "nsfw": false,
@@ -38,12 +38,27 @@
       "title": "Four Monster Girls, One Very Crowded Couch (AnyPOV) Avatar Swap Event Sept 26",
       "profileUrl": "https://spicychat.ai/chatbot/35a4788f-5e20-4a44-8ace-0c519f134a7f",
       "chatUrl": "https://spicychat.ai/chat/35a4788f-5e20-4a44-8ace-0c519f134a7f",
-      "messagesDisplay": "47",
+      "messagesDisplay": "83",
       "tokensDisplay": "2166",
       "image": "avatars/affff219-d2fc-4468-aa42-2977f2737b69.png",
       "nsfw": true,
       "avatarIsNsfw": false,
       "imageHiddenDefault": true,
+      "source": "typesense"
+    },
+    {
+      "firstSeenAt": "2026-09-20T05:17:46Z",
+      "id": "cc8459ee-93e4-4e68-9478-410e96075dfa",
+      "name": "Sabine Crowe",
+      "title": "The Vampire Picked the Wrong Target (Immortal POV)",
+      "profileUrl": "https://spicychat.ai/chatbot/cc8459ee-93e4-4e68-9478-410e96075dfa",
+      "chatUrl": "https://spicychat.ai/chat/cc8459ee-93e4-4e68-9478-410e96075dfa",
+      "messagesDisplay": "37",
+      "tokensDisplay": "1941",
+      "image": "avatars/46ff0e1e-33e8-44f8-85f6-db38916bb55e.jpg",
+      "nsfw": false,
+      "avatarIsNsfw": false,
+      "imageHiddenDefault": false,
       "source": "typesense"
     }
   ]
