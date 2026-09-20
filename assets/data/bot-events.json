@@ -2840,6 +2840,24 @@
       "value": 10000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-20T16:25:36Z",
+      "botId": "3c719d70-7e67-4562-962a-2906a33cbf08",
+      "botName": "Alpha Chooses You",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-20T16:25:36Z",
+      "botId": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
+      "botName": "Nova",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
