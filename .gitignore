@@ -28,3 +28,4 @@ tools/output/*.json
 # Local folder listing
 folder_structure.txt
 path.bat
+PATCH-NOTES.txt

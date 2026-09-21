@@ -59,3 +59,11 @@ body.age-gate-open{overflow:hidden}.age-gate[hidden],#request-page-content[hidde
 .stats-pill.archived{color:#c7cad2;border-color:rgba(199,202,210,.2);background:rgba(199,202,210,.07)}.archived-title-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.archived-title-row h1{margin-right:2px}.archive-card-link{color:inherit;text-decoration:none}.archive-card-link:hover{text-decoration:underline}.archive-open-hint{margin:10px 0 0;color:var(--soft);font-size:9px;font-weight:800}.archive-card.bot-row-clickable{cursor:pointer}.archive-card.bot-row-clickable:hover{border-color:#343b49;background:#151821}.archive-publication-panel .bot-info-list dd{word-break:break-word}
 @media(max-width:800px){.activity-summary-grid{grid-template-columns:1fr 1fr}.activity-day-grid{grid-template-columns:1fr}}
 @media(max-width:460px){.activity-summary-grid{grid-template-columns:1fr}.activity-filter-tabs{position:static}.activity-event.activity-card{grid-template-columns:30px minmax(0,1fr);padding:10px}.activity-event-icon{width:28px;height:28px}.activity-event-top{align-items:flex-start;flex-direction:column;gap:2px}}
+
+/* Native full-card stats link: keeps normal click behavior while enabling Ctrl/middle/right-click open-in-new-tab. */
+.bot-card-clickable{position:relative;cursor:pointer}
+.bot-card-stats-link{position:absolute;inset:0;z-index:1;border-radius:inherit;text-decoration:none}
+.bot-card-stats-link:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.bot-card-clickable .chat-button{position:relative;z-index:4}
+.bot-card-clickable .bot-card-stats-hint{z-index:3;pointer-events:none}
+.bot-card-clickable:focus-within .bot-card-stats-hint{color:var(--blue);opacity:1;transform:translateY(0)}

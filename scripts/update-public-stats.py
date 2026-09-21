@@ -42,6 +42,7 @@ TYPESENSE_INCLUDE_FIELDS = ",".join([
     "num_messages", "token_count", "rating_score", "lora_status",
     "creator_user_id", "is_nsfw", "type", "sub_characters_count",
     "group_size_category", "has_lorebooks", "voice_id", "group_addable",
+    "createdAt", "updatedAt", "greeting", "language",
 ])
 PUBLIC_DISCOVERY_SOURCES = {"creator-profile", "typesense"}
 
@@ -94,7 +95,7 @@ def metric_from_value(value):
         return None
     if isinstance(value, (int, float)):
         numeric = int(round(float(value)))
-        return {"value": numeric, "display": str(numeric), "approximate": False}
+        return {"value": numeric, "display": f"{numeric:,}", "approximate": False}
     return normalize_metric(str(value))
 
 
@@ -129,6 +130,135 @@ def pending_override_for(bots_doc: dict, name: str | None) -> dict:
     return {}
 
 
+def normalize_avatar_url(value) -> str | None:
+    if not value:
+        return None
+    text = str(value).strip()
+    if not text:
+        return None
+    if text.startswith(("https://", "http://")):
+        return text
+    text = text.lstrip("/")
+    if text.startswith("avatars/"):
+        suffix = "" if "?" in text else "?class=avatar256x256"
+        return f"https://cdn.nd-api.com/{text}{suffix}"
+    return text
+
+
+def date_only(value: str | None, fallback: str) -> str:
+    raw = str(value or fallback).strip()
+    try:
+        parsed = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        return parsed.date().isoformat()
+    except ValueError:
+        return raw[:10] if re.match(r"^\d{4}-\d{2}-\d{2}", raw) else fallback[:10]
+
+
+def auto_add_public_bots(
+    bots_doc: dict,
+    archived_doc: dict,
+    creator_entries: dict[str, dict],
+    now: str,
+) -> list[dict]:
+    """Promote newly discovered public creator bots into the live site automatically.
+
+    Typesense/creator-profile discovery is already restricted to the configured
+    creator and public visibility.  New records use safe defaults for fields that
+    cannot be inferred (origin remains unknown; category falls back to Other) and
+    can be curated later without blocking stats/public-date tracking.
+    """
+    active = list(bots_doc.get("bots") or [])
+    active_ids = {str(bot.get("id")) for bot in active if bot.get("id")}
+    archived_ids = {str(bot.get("id")) for bot in archived_doc.get("bots", []) if bot.get("id")}
+    category_ids = {
+        str(item.get("id")) for item in bots_doc.get("categories", [])
+        if isinstance(item, dict) and item.get("id")
+    }
+    fallback_category = "other" if "other" in category_ids else (sorted(category_ids)[0] if category_ids else None)
+
+    candidates: list[tuple[str, dict]] = []
+    for bot_id, observed in creator_entries.items():
+        if bot_id in active_ids or bot_id in archived_ids:
+            continue
+        if observed.get("source") not in PUBLIC_DISCOVERY_SOURCES:
+            continue
+        if str(observed.get("visibility") or "public").lower() != "public":
+            continue
+        if not str(observed.get("name") or "").strip():
+            continue
+        candidates.append((bot_id, observed))
+
+    if not candidates:
+        return []
+
+    candidates.sort(
+        key=lambda pair: (str(pair[1].get("createdAt") or now), str(pair[1].get("name") or "")),
+        reverse=True,
+    )
+
+    shift = len(candidates)
+    for index, bot in enumerate(active, start=1):
+        try:
+            bot["order"] = int(bot.get("order", index)) + shift
+        except (TypeError, ValueError):
+            bot["order"] = index + shift
+
+    added: list[dict] = []
+    matched_override_names: set[str] = set()
+    for order, (bot_id, observed) in enumerate(candidates, start=1):
+        name = str(observed.get("name") or "").strip()
+        override = pending_override_for(bots_doc, name)
+        category = override.get("category") if override.get("category") in category_ids else fallback_category
+        origin = override.get("origin") if override.get("origin") in {"requested", "personal"} else "unknown"
+        created_full = str(observed.get("createdAt") or now)
+        image = normalize_avatar_url(observed.get("image"))
+        tags = [str(tag).strip() for tag in (observed.get("tags") or []) if str(tag).strip()]
+
+        bot = {
+            "id": bot_id,
+            "name": name,
+            "category": category,
+            "tags": tags,
+            "title": str(observed.get("title") or name).strip(),
+            "url": observed.get("chatUrl") or f"https://spicychat.ai/chat/{bot_id}",
+            "order": order,
+            "image": image,
+            "origin": origin,
+            "knownSince": created_full,
+            "knownSinceSource": "typesense-created-at" if observed.get("createdAt") else f"{observed.get('source')}-first-seen",
+            "firstSeenAt": now,
+            "createdAt": date_only(observed.get("createdAt"), now),
+            "createdAtSource": "typesense" if observed.get("source") == "typesense" and observed.get("createdAt") else "automatic-discovery",
+            "visibility": "public",
+            "needsReview": False,
+            "visibilitySource": observed.get("source") or "automatic-discovery",
+            "autoDiscoveredAt": now,
+            "autoDiscoveredSource": observed.get("source") or "automatic-discovery",
+        }
+        if isinstance(observed.get("nsfw"), bool):
+            bot["nsfw"] = observed["nsfw"]
+        if isinstance(override.get("imageHidden"), bool):
+            bot["imageHidden"] = override["imageHidden"]
+        if origin != "unknown":
+            bot["originSource"] = override.get("source") or "pending-override"
+        if image is None:
+            bot.pop("image", None)
+        if category is None:
+            bot.pop("category", None)
+
+        added.append(bot)
+        matched_override_names.add(name.casefold())
+
+    bots_doc["bots"] = added + active
+    bots_doc["updatedAt"] = now
+    if matched_override_names and isinstance(bots_doc.get("pendingBotOverrides"), list):
+        bots_doc["pendingBotOverrides"] = [
+            item for item in bots_doc["pendingBotOverrides"]
+            if str(item.get("name") or "").strip().casefold() not in matched_override_names
+        ]
+    return added
+
+
 def typesense_entry(document: dict, creator: str) -> dict | None:
     bot_id = str(document.get("character_id") or document.get("id") or "").strip()
     if not bot_id:
@@ -141,7 +271,7 @@ def typesense_entry(document: dict, creator: str) -> dict | None:
         return None
     nsfw = bool_value(document.get("is_nsfw"))
     avatar_nsfw = bool_value(document.get("avatar_is_nsfw"))
-    image = document.get("avatar_url") or None
+    image = normalize_avatar_url(document.get("avatar_url"))
     return {
         "id": bot_id,
         "name": str(document.get("name") or "").strip(),
@@ -155,6 +285,10 @@ def typesense_entry(document: dict, creator: str) -> dict | None:
         "nsfw": nsfw,
         "avatarIsNsfw": avatar_nsfw,
         "visibility": "public",
+        "createdAt": document.get("createdAt") or None,
+        "updatedAt": document.get("updatedAt") or None,
+        "greeting": document.get("greeting") or None,
+        "language": document.get("language") or None,
         "source": "typesense",
     }
 
@@ -187,7 +321,9 @@ def load_typesense_creator(
             "include_fields": TYPESENSE_INCLUDE_FIELDS,
             "page": page,
             "per_page": per_page,
-            "sort_by": "_text_match(buckets: 3):desc,num_messages_24h:desc",
+            # Latest-first makes new-bot discovery deterministic and mirrors
+            # SpicyChat's public Latest/creator-follow behavior.
+            "sort_by": "createdAt:desc",
         }
         request = Request(
             base + "?" + urlencode(params),
@@ -679,8 +815,10 @@ def process_updates(
     direct_entries: dict[str, dict],
     now: str,
 ):
-    curated_bots = bots_doc.get("bots", [])
     archived_ids = {bot.get("id") for bot in archived_doc.get("bots", []) if bot.get("id")}
+    auto_added_bots = auto_add_public_bots(bots_doc, archived_doc, creator_entries, now)
+    auto_added_ids = {bot["id"] for bot in auto_added_bots}
+    curated_bots = bots_doc.get("bots", [])
     known_ids = {bot["id"] for bot in curated_bots} | archived_ids
     old_rows = {row["id"]: row for row in stats_doc.get("bots", []) if row.get("id")}
     recovered_exact = latest_exact_history(history_doc)
@@ -690,7 +828,7 @@ def process_updates(
     visibility_changes: list[str] = []
     public_baselines_added: list[str] = []
     public_changed = False
-    bots_changed = False
+    bots_changed = bool(auto_added_bots)
     nsfw_updates: list[str] = []
     public_doc["schemaVersion"] = max(2, int(public_doc.get("schemaVersion") or 1))
     public_doc["note"] = (
@@ -784,8 +922,9 @@ def process_updates(
                     public_baselines_added.append(existing_public.get("name") or row.get("name", bot_id))
                     public_changed = True
 
-            if observed["source"] in PUBLIC_DISCOVERY_SOURCES and bot_id not in public_by_id and row.get("messages") is not None:
+            if observed["source"] in PUBLIC_DISCOVERY_SOURCES and bot_id not in public_by_id:
                 was_non_public = old_visibility not in {None, "", "unknown", "public"}
+                has_baseline = row.get("messages") is not None
                 baseline = {
                     "id": bot_id,
                     "name": bot.get("name", row.get("name", bot_id)),
@@ -794,13 +933,13 @@ def process_updates(
                     "publicSinceSource": observed["source"],
                     "firstPublicObservedAt": now,
                     "previousNonPublicObservedAt": stats_doc.get("capturedAt") if was_non_public else None,
-                    "baselineAt": now,
-                    "messagesAtBaseline": row.get("messages"),
-                    "messagesDisplayAtBaseline": row.get("messagesDisplay") or str(row.get("messages")),
-                    "messagesApproximateAtBaseline": bool(row.get("messagesApproximate")),
-                    "baselineAccuracy": "same-observation",
-                    "baselineLagMinutes": 0,
-                    "baselineSource": observed["source"],
+                    "baselineAt": now if has_baseline else None,
+                    "messagesAtBaseline": row.get("messages") if has_baseline else None,
+                    "messagesDisplayAtBaseline": (row.get("messagesDisplay") or str(row.get("messages"))) if has_baseline else None,
+                    "messagesApproximateAtBaseline": bool(row.get("messagesApproximate")) if has_baseline else False,
+                    "baselineAccuracy": "same-observation" if has_baseline else "pending-first-post-public-observation",
+                    "baselineLagMinutes": 0 if has_baseline else None,
+                    "baselineSource": observed["source"] if has_baseline else None,
                     "accuracy": "first-observed",
                     "source": observed["source"],
                 }
@@ -809,7 +948,7 @@ def process_updates(
                 public_baselines_added.append(baseline["name"])
                 public_changed = True
 
-            if old_messages is None and row.get("messages") is not None:
+            if bot_id in auto_added_ids or (old_messages is None and row.get("messages") is not None):
                 add_event(
                     events_doc,
                     {
@@ -817,7 +956,7 @@ def process_updates(
                         "botId": bot_id,
                         "botName": row.get("name", bot.get("name")),
                         "type": "new",
-                        "source": "automatic-check",
+                        "source": observed.get("source") or "automatic-check",
                     },
                 )
 
@@ -858,7 +997,8 @@ def process_updates(
         row["image"] = None if bot_image_hidden(bot) else row.get("image", bot.get("image"))
         new_rows.append(row)
 
-    # New public bots are only noted. They are never added to bots.json automatically.
+    # Any public bot with enough identity data is auto-added above.  Keep a
+    # discovery queue only for records that could not be promoted safely.
     discoveries = discoveries_doc.setdefault("discoveries", [])
     by_id = {item.get("id"): item for item in discoveries if item.get("id")}
     new_discoveries = []
@@ -911,7 +1051,7 @@ def process_updates(
         new_discoveries.append(item)
         discoveries_changed = True
 
-    meaningful_stats_change = bool(changed_bot_ids)
+    meaningful_stats_change = bool(changed_bot_ids or auto_added_bots)
     if meaningful_stats_change:
         stats_doc["schemaVersion"] = max(int(stats_doc.get("schemaVersion", 2)), 2)
         stats_doc["capturedAt"] = now
@@ -943,6 +1083,7 @@ def process_updates(
         "publicBaselines": public_baselines_added,
         "changedBotIds": sorted(changed_bot_ids),
         "newDiscoveries": new_discoveries,
+        "autoAddedBots": auto_added_bots,
         "milestones": milestones_added,
         "visibilityChanges": visibility_changes,
         "warnings": warnings,
@@ -977,7 +1118,8 @@ def build_summary(
         f"- Typesense public bots seen: **{typesense_count}** across **{typesense_pages}** page(s) ({typesense_status})",
         f"- Direct profiles checked: **{direct_checked}**",
         f"- Known bots updated: **{len(result['changedBotIds'])}**",
-        f"- New public bots found: **{len(result['newDiscoveries'])}**",
+        f"- New public bots auto-added: **{len(result.get('autoAddedBots', []))}**",
+        f"- Discovery items still needing metadata: **{len(result['newDiscoveries'])}**",
     ]
     if result["changedBotIds"]:
         names = {row.get("id"): row.get("name", row.get("id")) for row in result.get("newRows", [])}
@@ -995,8 +1137,13 @@ def build_summary(
         lines.append(f"- Direct profiles unavailable: **{len(unavailable)}**")
     if result["warnings"]:
         lines += ["", "### Warnings"] + [f"- {item}" for item in result["warnings"]]
+    if result.get("autoAddedBots"):
+        lines += ["", "### Auto-added public bots"] + [
+            f"- {item['name']} (`{item['id']}`){' · NSFW image hidden by default' if item.get('nsfw') else ''}"
+            for item in result["autoAddedBots"]
+        ]
     if result["newDiscoveries"]:
-        lines += ["", "### Needs site info"] + [
+        lines += ["", "### Discovery items still needing metadata"] + [
             f"- {item['name']} (`{item['id']}`){' · NSFW' if item.get('nsfw') else ''}"
             for item in result["newDiscoveries"]
         ]
