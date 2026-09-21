@@ -3003,6 +3003,24 @@
       "value": 10000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T19:40:42Z",
+      "botId": "cc8459ee-93e4-4e68-9478-410e96075dfa",
+      "botName": "Sabine Crowe",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T19:40:42Z",
+      "botId": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
+      "botName": "Serena Ward",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
