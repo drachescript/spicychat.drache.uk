@@ -2912,6 +2912,97 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "35a4788f-5e20-4a44-8ace-0c519f134a7f",
+      "botName": "Game Night Crew",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "35a4788f-5e20-4a44-8ace-0c519f134a7f",
+      "botName": "Game Night Crew",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "cc8459ee-93e4-4e68-9478-410e96075dfa",
+      "botName": "Sabine Crowe",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "cc8459ee-93e4-4e68-9478-410e96075dfa",
+      "botName": "Sabine Crowe",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "76c0d718-a6e6-4231-9582-cc6e2b9aa664",
+      "botName": "Kara Blackwell",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "76c0d718-a6e6-4231-9582-cc6e2b9aa664",
+      "botName": "Kara Blackwell",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "5d2480a6-6344-43b5-9338-ae54644a4659",
+      "botName": "Raptor Pack + Indo",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "5d2480a6-6344-43b5-9338-ae54644a4659",
+      "botName": "Raptor Pack + Indo",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "a1cf80af-e406-4a57-9cd4-547c736c9683",
+      "botName": "Felicia Mercer",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T13:13:51Z",
+      "botId": "b5964f5b-b916-439e-9537-6ba2247799bd",
+      "botName": "Tessa Ward",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
