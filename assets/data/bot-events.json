@@ -3021,6 +3021,33 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T23:31:12Z",
+      "botId": "435e0b77-68cc-4d4f-bbe8-417208124b07",
+      "botName": "Jade Marlowe",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T23:31:12Z",
+      "botId": "b322238d-4847-40ed-a896-6d6f44f55192",
+      "botName": "Cassidy & Crew",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T23:31:12Z",
+      "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
+      "botName": "Maya Serrano",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
