@@ -2885,6 +2885,33 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T05:20:19Z",
+      "botId": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
+      "botName": "Vessa",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T05:20:19Z",
+      "botId": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
+      "botName": "Vivian Kade",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-21T05:20:19Z",
+      "botId": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
+      "botName": "Mira",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
