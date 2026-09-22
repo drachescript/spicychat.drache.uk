@@ -3066,6 +3066,24 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-22T21:37:10Z",
+      "botId": "5d2480a6-6344-43b5-9338-ae54644a4659",
+      "botName": "Raptor Pack + Indo",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-22T21:37:10Z",
+      "botId": "b322238d-4847-40ed-a896-6d6f44f55192",
+      "botName": "Cassidy & Crew",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
