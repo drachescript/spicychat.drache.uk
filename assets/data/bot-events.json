@@ -3048,6 +3048,15 @@
       "value": 2500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-22T11:59:54Z",
+      "botId": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
+      "botName": "Crimson Licker POV",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
