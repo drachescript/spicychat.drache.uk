@@ -3057,6 +3057,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-22T17:12:06Z",
+      "botId": "c8c96422-d782-438d-999c-79e785f635de",
+      "botName": "Elara Voss",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
