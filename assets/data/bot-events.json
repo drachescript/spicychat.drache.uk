@@ -3084,6 +3084,42 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-23T00:52:31Z",
+      "botId": "5d2480a6-6344-43b5-9338-ae54644a4659",
+      "botName": "Raptor Pack + Indo",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-23T00:52:31Z",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-23T00:52:31Z",
+      "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
+      "botName": "Maya Serrano",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-23T00:52:31Z",
+      "botId": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
+      "botName": "Nova",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
