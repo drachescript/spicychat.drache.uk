@@ -3226,6 +3226,42 @@
       "value": 10000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T21:45:14Z",
+      "botId": "435e0b77-68cc-4d4f-bbe8-417208124b07",
+      "botName": "Jade Marlowe",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T21:45:14Z",
+      "botId": "a04bc9a5-952e-4870-ac90-0a267f695374",
+      "botName": "Kaia Sterling",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T21:45:14Z",
+      "botId": "57fc84b4-cb36-464f-9b87-49b30057e093",
+      "botName": "Maeve Calder",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T21:45:14Z",
+      "botId": "c8c96422-d782-438d-999c-79e785f635de",
+      "botName": "Elara Voss",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
