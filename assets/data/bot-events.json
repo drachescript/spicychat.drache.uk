@@ -3181,6 +3181,33 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T07:46:21Z",
+      "botId": "cc8459ee-93e4-4e68-9478-410e96075dfa",
+      "botName": "Sabine Crowe",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T07:46:21Z",
+      "botId": "da969ba1-4a68-4611-b8cc-8f281ea671f0",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T07:46:21Z",
+      "botId": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
+      "botName": "Nova",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
