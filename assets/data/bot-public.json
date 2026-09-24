@@ -1486,20 +1486,21 @@
     {
       "id": "12cd6561-8d61-4c26-87c0-bd237a8c8c2d",
       "name": "Butch Cramer",
-      "publicSinceAt": "2026-09-24T00:48:06Z",
-      "publicSinceAccuracy": "first-observed",
-      "publicSinceSource": "typesense",
+      "publicSinceAt": "2026-09-23T22:18:32+00:00",
+      "publicSinceAccuracy": "confirmed",
+      "publicSinceSource": "spicychat-approval-email",
       "firstPublicObservedAt": "2026-09-24T00:48:06Z",
       "previousNonPublicObservedAt": null,
       "baselineAt": "2026-09-24T00:48:06Z",
       "messagesAtBaseline": 23,
       "messagesDisplayAtBaseline": "23",
       "messagesApproximateAtBaseline": false,
-      "baselineAccuracy": "same-observation",
-      "baselineLagMinutes": 0,
+      "baselineAccuracy": "after-public",
+      "baselineLagMinutes": 150,
       "baselineSource": "typesense",
-      "accuracy": "first-observed",
-      "source": "typesense"
+      "accuracy": "confirmed",
+      "source": "spicychat-approval-email",
+      "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
     }
   ]
 }
