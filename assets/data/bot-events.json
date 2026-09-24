@@ -3208,6 +3208,24 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T13:43:58Z",
+      "botId": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
+      "botName": "Elise Carver",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T13:43:58Z",
+      "botId": "97533fef-f306-4d71-8c5c-4eb98fecf040",
+      "botName": "Maya Serrano",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
