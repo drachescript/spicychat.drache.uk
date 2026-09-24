@@ -1482,6 +1482,24 @@
       "accuracy": "confirmed",
       "source": "spicychat-approval-email",
       "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
+    },
+    {
+      "id": "12cd6561-8d61-4c26-87c0-bd237a8c8c2d",
+      "name": "Butch Cramer",
+      "publicSinceAt": "2026-09-24T00:48:06Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-09-24T00:48:06Z",
+      "previousNonPublicObservedAt": null,
+      "baselineAt": "2026-09-24T00:48:06Z",
+      "messagesAtBaseline": 23,
+      "messagesDisplayAtBaseline": "23",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
     }
   ]
 }

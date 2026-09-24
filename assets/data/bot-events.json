@@ -3156,6 +3156,31 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T00:48:06Z",
+      "botId": "12cd6561-8d61-4c26-87c0-bd237a8c8c2d",
+      "botName": "Butch Cramer",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T00:48:06Z",
+      "botId": "12cd6561-8d61-4c26-87c0-bd237a8c8c2d",
+      "botName": "Butch Cramer",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-24T00:48:06Z",
+      "botId": "3caf7d05-f74a-4cf0-bb28-9b8e67a0de47",
+      "botName": "Veloria",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
