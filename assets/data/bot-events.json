@@ -3262,6 +3262,15 @@
       "value": 10000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-25T00:43:54Z",
+      "botId": "76c0d718-a6e6-4231-9582-cc6e2b9aa664",
+      "botName": "Kara Blackwell",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
