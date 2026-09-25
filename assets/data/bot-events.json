@@ -3271,6 +3271,15 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-25T08:07:37Z",
+      "botId": "35a4788f-5e20-4a44-8ace-0c519f134a7f",
+      "botName": "Game Night Crew",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
