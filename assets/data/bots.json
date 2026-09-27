@@ -61,7 +61,7 @@
       "firstSeenAt": "2026-09-27T14:01:16-04:00",
       "createdAt": "2026-09-27",
       "createdAtSource": "first-import",
-      "needsReview": true,
+      "needsReview": false,
       "visibility": "unlisted",
       "visibilitySource": "saved-my-creations"
     },
@@ -146,7 +146,7 @@
       "firstSeenAt": "2026-09-27T14:01:16-04:00",
       "createdAt": "2026-09-27",
       "createdAtSource": "first-import",
-      "needsReview": true,
+      "needsReview": false,
       "visibility": "unlisted",
       "visibilitySource": "saved-my-creations"
     },
