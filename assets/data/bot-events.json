@@ -3316,6 +3316,47 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-27T08:30:53Z",
+      "botId": "bab26e74-f1b1-40f8-b128-8dced36db375",
+      "botName": "Stewart",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-27T08:30:53Z",
+      "botId": "bab26e74-f1b1-40f8-b128-8dced36db375",
+      "botName": "Stewart",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-27T08:30:53Z",
+      "botId": "fee9a583-d3b6-4043-9300-fd7be8505111",
+      "botName": "Katy",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-27T08:30:53Z",
+      "botId": "fee9a583-d3b6-4043-9300-fd7be8505111",
+      "botName": "Katy",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-27T08:30:53Z",
+      "botId": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
+      "botName": "Mira",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
