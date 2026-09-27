@@ -3385,6 +3385,31 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-27T21:34:37Z",
+      "botId": "88e43337-cde4-49ec-9f82-7e2f587233ae",
+      "botName": "Anthony",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-27T21:34:37Z",
+      "botId": "88e43337-cde4-49ec-9f82-7e2f587233ae",
+      "botName": "Anthony",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-27T21:34:37Z",
+      "botId": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
+      "botName": "Ice Queen",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
