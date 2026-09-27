@@ -19,6 +19,7 @@ EVENTS=DATA/'bot-events.json'
 PUBLIC=DATA/'bot-public.json'
 ARCHIVED=DATA/'archived-bots.json'
 MILESTONES=[100,250,500,1000,2500,5000,10000]
+IMAGE_HIDDEN_NAMES={name.casefold() for name in ('Zenin Clan','Doe','Ice Queen')}
 
 STAT_KEYS=('id','name','title','url','visibility','messages','messagesDisplay','messagesApproximate','tokens','tokensDisplay','tokensApproximate','image','rawMessages','rawTokens')
 
@@ -34,9 +35,17 @@ def pending_override_for(doc,name):
     return {}
 
 def image_hidden(bot):
-    value=bot.get('imageHidden')
-    if isinstance(value,bool):return value
-    return bool(bot.get('nsfw'))
+    return str(bot.get('name') or '').strip().casefold() in IMAGE_HIDDEN_NAMES
+
+def normalize_image_hidden_flags(bots_doc):
+    changed=False
+    for bot in bots_doc.get('bots',[]) or []:
+        if image_hidden(bot):
+            if bot.get('imageHidden') is not True:
+                bot['imageHidden']=True;changed=True
+        elif 'imageHidden' in bot:
+            bot.pop('imageHidden',None);changed=True
+    return changed
 
 def json_bytes(obj):
     raw=(json.dumps(obj,indent=2,ensure_ascii=False)+'\n').encode('utf-8')
@@ -59,6 +68,19 @@ def parse_count(text):
     if suf=='k':v*=1000
     elif suf=='m':v*=1000000
     return int(round(v)),raw,approx
+
+def approximate_bucket(display):
+    """Return the numeric interval represented by a rounded k/m display."""
+    if not display:return None
+    raw=str(display).strip().lower().replace(',','')
+    m=re.fullmatch(r'([0-9]*\.?[0-9]+)\s*([km])',raw)
+    if not m:return None
+    number=m.group(1);suffix=m.group(2)
+    decimals=len(number.split('.',1)[1]) if '.' in number else 0
+    multiplier=1000 if suffix=='k' else 1000000
+    center=float(number)*multiplier
+    step=multiplier*(10**(-decimals))
+    return center-step/2,center+step/2
 
 def extract(path:Path):
     soup=BeautifulSoup(path.read_text(encoding='utf-8',errors='ignore'),'html.parser');found={}
@@ -222,20 +244,34 @@ def merge_stat_row(incoming,bid,curated,old_map,hist_map,public_by_id,visibility
     row=comparable(incoming)
     # If a saved layout failed to expose one numeric field, retain the last known
     # value for that field rather than replacing it with null.
+    preserved_stale_messages=False
     if fallback:
         for key in ('messages','messagesDisplay','messagesApproximate','rawMessages','tokens','tokensDisplay','tokensApproximate','rawTokens'):
             if row.get(key) is None:row[key]=fallback.get(key)
-        # Saved My Creations pages can be older than the automatic worker's latest
-        # snapshot. Message totals are monotonic, so never let a later local import
-        # roll an individual bot backwards just because the HTML was saved earlier.
+        # The automatic GitHub worker can be newer than a locally saved My Creations
+        # page. Message totals are monotonic, so a stale HTML save must never roll
+        # an existing bot backwards. Exact data may replace a nearby rounded value.
         old_messages=fallback.get('messages');new_messages=row.get('messages')
-        if isinstance(old_messages,int) and isinstance(new_messages,int) and new_messages<old_messages:
-            allow_more_precise=bool(fallback.get('messagesApproximate')) and not bool(row.get('messagesApproximate')) and new_messages>=int(old_messages*.9)
-            if not allow_more_precise:
-                for key in ('messages','messagesDisplay','messagesApproximate','rawMessages'):
-                    row[key]=fallback.get(key)
+        old_approx=bool(fallback.get('messagesApproximate'));new_approx=bool(row.get('messagesApproximate'))
+        preserve_messages=False
+        if isinstance(old_messages,int) and isinstance(new_messages,int):
+            # Do not throw away a current exact Typesense count just because the
+            # saved My Creations card rounded the same value (for example 256.9k).
+            # Only accept the rounded value once its bucket proves the exact count
+            # is outside that displayed range.
+            if not old_approx and new_approx:
+                bucket=approximate_bucket(row.get('messagesDisplay') or row.get('rawMessages'))
+                if bucket and bucket[0] <= old_messages < bucket[1]:
+                    preserve_messages=True
+            if new_messages<old_messages:
+                allow_more_precise=old_approx and not new_approx and new_messages>=int(old_messages*.9)
+                if not allow_more_precise:preserve_messages=True
+        if preserve_messages:
+            for key in ('messages','messagesDisplay','messagesApproximate','rawMessages'):
+                row[key]=fallback.get(key)
+            preserved_stale_messages=True
     row['visibility']=effective_visibility(incoming,bid,curated,old_map,hist_map,public_by_id,visibility_events)
-    row['observedAt']=observed_at
+    row['observedAt']=(fallback_at if preserved_stale_messages and fallback_at else observed_at)
     row['seenInLatestExport']=True
     return row
 
@@ -282,15 +318,25 @@ def main():
     if not source or not source.exists():
         print(r'No HTML found. Put a saved My Creations page in tools\storage\imports or drag it onto update-chatbots.bat.');return 2
     bots_doc=load_json(BOTS,{'schemaVersion':3,'updatedAt':datetime.now().date().isoformat(),'newBadgeDays':14,'categories':[],'bots':[]});old_stats=load_json(STATS,{'schemaVersion':2,'bots':[]});history=load_json(HISTORY,{'schemaVersion':2,'snapshots':[]});events=load_json(EVENTS,{'schemaVersion':1,'milestones':MILESTONES,'events':[]});public_doc=load_json(PUBLIC,{'schemaVersion':1,'bots':[]});archived_doc=load_json(ARCHIVED,{'schemaVersion':1,'bots':[]});archived_ids={x.get('id') for x in archived_doc.get('bots',[]) if x.get('id')}
+    stale_warning=None;skipped_private=[]
     try:
-        data=[x for x in extract(source) if x.get('id') not in archived_ids];validate_extraction(data,bots_doc,old_stats,args.force)
-        if not args.force and old_stats.get('bots'):
+        raw_data=[x for x in extract(source) if x.get('id') not in archived_ids]
+        existing_curated_ids={x.get('id') for x in bots_doc.get('bots',[]) if x.get('id')}
+        # Private test/sandbox bots are not auto-added to the public collection.
+        # If a private bot is already curated, keep allowing its record to update.
+        skipped_private=[x for x in raw_data if x.get('visibility')=='private' and x.get('id') not in existing_curated_ids]
+        data=[x for x in raw_data if x not in skipped_private]
+        validate_extraction(data,bots_doc,old_stats,args.force)
+        if old_stats.get('bots'):
             om={x['id']:x for x in old_stats.get('bots',[])}
             pairs=[(om[x['id']],x) for x in data if x['id'] in om and isinstance(om[x['id']].get('messages'),int) and isinstance(x.get('messages'),int)]
             declines=[(a,b) for a,b in pairs if b['messages']<a['messages']]
             old_total=sum(a['messages'] for a,b in pairs);new_total=sum(b['messages'] for a,b in pairs)
-            if pairs and (len(declines)>=max(3,int(len(pairs)*.10)) or (old_total and new_total<old_total*.95)):
-                raise ValueError(f'{len(declines)} existing bots have lower message counts and comparable total fell from {old_total} to {new_total}. This looks like an older/stale export. Use --force only if the regression is intentional.')
+            suspicious=bool(pairs) and (len(declines)>=max(3,int(len(pairs)*.10)) or (old_total and new_total<old_total*.95))
+            if suspicious:
+                stale_warning=(f'{len(declines)} existing bots have lower message counts in this saved HTML. '
+                               f'Current comparable total: {old_total:,}; saved export total: {new_total:,}. '
+                               'Newer stored counts will be preserved bot-by-bot instead of aborting the import.')
     except Exception as e:
         print(f'Import aborted: {e}');return 3
     now=datetime.now().astimezone();stamp=now.strftime('%Y%m%d-%H%M%S');iso=now.isoformat(timespec='seconds');sha=hashlib.sha256(source.read_bytes()).hexdigest()
@@ -323,7 +369,8 @@ def main():
             if override.get('origin') in ('requested','personal'):b['originSource']=override.get('source') or 'pending-override'
             if initial_visibility in ('public','unlisted','private'):b['visibility']=initial_visibility
             curated[x['id']]=b
-        b['name']=x['name'];b['title']=x['title'];b['url']=x['url'];
+        b['name']=x['name'];b['title']=x['title'];b['url']=x['url']
+        if not b.get('blurb'):b['blurb']=x['title'] or x['name']
         if not page_has_review:b['order']=order[x['id']]
         b.pop('missingFromLatest',None)
         override=pending_override_for(bots_doc,x.get('name'))
@@ -341,7 +388,8 @@ def main():
             if resolved_visibility=='public':b['needsReview']=False
         b.setdefault('knownSince',iso);b.setdefault('knownSinceSource','first-import');b.setdefault('firstSeenAt',b.get('knownSince') or iso);b.setdefault('createdAt',(b.get('knownSince') or iso)[:10]);b.setdefault('createdAtSource',b.get('knownSinceSource') or 'first-import')
         if not image_hidden(b):b['image']=x.get('image') or b.get('image')
-        if b.get('name')=='Doe':b['image']=None;b['imageHidden']=True
+        if image_hidden(b):b['imageHidden']=True
+        else:b.pop('imageHidden',None)
 
     # Recalculate history fallback now that brand-new bot IDs are known curated IDs.
     if new_ids:
@@ -359,6 +407,7 @@ def main():
     current_ids=[x['id'] for x in data]
     tail=[b for b in bots_doc.get('bots',[]) if b['id'] not in current_ids]
     bots_doc['bots']=[curated[x['id']] for x in data]+tail;bots_doc['schemaVersion']=max(4,int(bots_doc.get('schemaVersion') or 1));bots_doc['updatedAt']=now.date().isoformat()
+    normalize_image_hidden_flags(bots_doc)
 
     for b in bots_doc.get('bots',[]):
         bid=b['id']
@@ -441,7 +490,9 @@ def main():
     latest_snapshot=snaps[-1] if snaps else snapshot
     stats_doc={'schemaVersion':2,**latest_snapshot}
     public_doc['bots'].sort(key=lambda x:(x.get('firstPublicObservedAt') or '',x.get('name') or ''))
-    report_lines=[f'SpicyChat bot update - {iso}',f'Source: {source}',f'Extracted: {len(data)} bots',f'New: {len(new_ids)}',f'Missing from export: {len(missing)}',f'Renames: {len(renames)}',f'Visibility changes: {len(visibility)}',f'Public baselines added: {len(public_baselines)}',f'Message changes: {len(message_changes)}',f'Token changes: {len(token_changes)}',f'History snapshot: {"skipped (no stat changes)" if same else "added"}',f'Partial history repaired: {"yes" if history_repaired else "no"}',f'Dry run: {"yes" if args.dry_run else "no"}','']
+    report_lines=[f'SpicyChat bot update - {iso}',f'Source: {source}',f'Extracted: {len(data)} usable bots',f'Skipped new private bots: {len(skipped_private)}',f'New: {len(new_ids)}',f'Missing from export: {len(missing)}',f'Renames: {len(renames)}',f'Visibility changes: {len(visibility)}',f'Public baselines added: {len(public_baselines)}',f'Message changes: {len(message_changes)}',f'Token changes: {len(token_changes)}',f'History snapshot: {"skipped (no stat changes)" if same else "added"}',f'Partial history repaired: {"yes" if history_repaired else "no"}',f'Dry run: {"yes" if args.dry_run else "no"}','']
+    if stale_warning:report_lines+=['STALE SAVED COUNTS PRESERVED',f'- {stale_warning}','']
+    if skipped_private:report_lines+=['SKIPPED NEW PRIVATE BOTS']+[f"- {x['name']} ({x['id']})" for x in skipped_private]+['']
     if new_ids:report_lines+=['NEW / NEEDS MANUAL INFO']+[f'- {curated[i]["name"]} ({i})' for i in new_ids]+['']
     if missing:report_lines+=['MISSING FROM EXPORT (not deleted)']+[f'- {curated[i]["name"]} ({i})' for i in missing if i in curated]+['']
     if renames:report_lines+=['RENAMES']+[f'- {a} -> {b} ({i})' for a,b,i in renames]+['']

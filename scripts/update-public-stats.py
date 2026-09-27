@@ -32,6 +32,7 @@ PROFILE_RE = re.compile(r"/chatbot/([^/?#]+)")
 CHAT_RE = re.compile(r"/chat/([^/?#]+)")
 NUMBER_RE = re.compile(r"([0-9][0-9,.]*)(?:\s*)([kmb])?", re.I)
 MILESTONES_DEFAULT = [100, 250, 500, 1000, 2500, 5000, 10000]
+IMAGE_HIDDEN_NAMES = {name.casefold() for name in ("Zenin Clan", "Doe", "Ice Queen")}
 
 TYPESENSE_HOST_DEFAULT = "etmzpxgvnid370fyp.a1.typesense.net"
 TYPESENSE_COLLECTION_DEFAULT = "public_characters_alias"
@@ -114,10 +115,22 @@ def bool_value(value):
 
 
 def bot_image_hidden(bot: dict) -> bool:
-    # imageHidden is a manual override. If it is absent, NSFW supplies the default.
-    if isinstance(bot.get("imageHidden"), bool):
-        return bot["imageHidden"]
-    return bool(bot.get("nsfw"))
+    # Artwork is shown by default, including for NSFW bots. Only the three
+    # explicitly blocked bots hide artwork on this site.
+    return str(bot.get("name") or "").strip().casefold() in IMAGE_HIDDEN_NAMES
+
+
+def normalize_image_hidden_flags(bots: list[dict]) -> bool:
+    changed = False
+    for bot in bots:
+        if bot_image_hidden(bot):
+            if bot.get("imageHidden") is not True:
+                bot["imageHidden"] = True
+                changed = True
+        elif "imageHidden" in bot:
+            bot.pop("imageHidden", None)
+            changed = True
+    return changed
 
 
 def pending_override_for(bots_doc: dict, name: str | None) -> dict:
@@ -239,8 +252,8 @@ def auto_add_public_bots(
         }
         if isinstance(observed.get("nsfw"), bool):
             bot["nsfw"] = observed["nsfw"]
-        if isinstance(override.get("imageHidden"), bool):
-            bot["imageHidden"] = override["imageHidden"]
+        if bot_image_hidden(bot):
+            bot["imageHidden"] = True
         if origin != "unknown":
             bot["originSource"] = override.get("source") or "pending-override"
         if image is None:
@@ -831,6 +844,8 @@ def process_updates(
     public_baselines_added: list[str] = []
     public_changed = False
     bots_changed = bool(auto_added_bots)
+    if normalize_image_hidden_flags(curated_bots):
+        bots_changed = True
 
     # A blurb is optional curation. By default, use the bot's actual title.
     # This also repairs older auto-discovered records that predate this rule,
@@ -1028,7 +1043,7 @@ def process_updates(
             continue
         existing = by_id.get(bot_id)
         override = pending_override_for(bots_doc, observed.get("name"))
-        derived_hidden = bool(observed.get("nsfw"))
+        derived_hidden = str(observed.get("name") or "").strip().casefold() in IMAGE_HIDDEN_NAMES
         patch = {
             "id": bot_id,
             "name": observed.get("name") or "Unknown bot",
@@ -1152,7 +1167,7 @@ def build_summary(
         lines += ["", "### Warnings"] + [f"- {item}" for item in result["warnings"]]
     if result.get("autoAddedBots"):
         lines += ["", "### Auto-added public bots"] + [
-            f"- {item['name']} (`{item['id']}`){' · NSFW image hidden by default' if item.get('nsfw') else ''}"
+            f"- {item['name']} (`{item['id']}`){' · artwork hidden' if bot_image_hidden(item) else ''}"
             for item in result["autoAddedBots"]
         ]
     if result["newDiscoveries"]:

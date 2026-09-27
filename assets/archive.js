@@ -1,6 +1,7 @@
 (()=>{
 'use strict';
-function imageHidden(b){return typeof b?.imageHidden==='boolean'?b.imageHidden:!!b?.nsfw}
+const IMAGE_HIDDEN_NAMES=new Set(['zenin clan','doe','ice queen']);
+function imageHidden(b){return IMAGE_HIDDEN_NAMES.has(String(b?.name||'').trim().toLowerCase())}
 const $=s=>document.querySelector(s),grid=$('#archive-grid'),count=$('#archive-count');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const slug=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
