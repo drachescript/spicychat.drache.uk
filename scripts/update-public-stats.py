@@ -207,6 +207,7 @@ def auto_add_public_bots(
     matched_override_names: set[str] = set()
     for order, (bot_id, observed) in enumerate(candidates, start=1):
         name = str(observed.get("name") or "").strip()
+        title = str(observed.get("title") or name).strip()
         override = pending_override_for(bots_doc, name)
         category = override.get("category") if override.get("category") in category_ids else fallback_category
         origin = override.get("origin") if override.get("origin") in {"requested", "personal"} else "unknown"
@@ -219,7 +220,8 @@ def auto_add_public_bots(
             "name": name,
             "category": category,
             "tags": tags,
-            "title": str(observed.get("title") or name).strip(),
+            "title": title,
+            "blurb": title,
             "url": observed.get("chatUrl") or f"https://spicychat.ai/chat/{bot_id}",
             "order": order,
             "image": image,
@@ -829,6 +831,17 @@ def process_updates(
     public_baselines_added: list[str] = []
     public_changed = False
     bots_changed = bool(auto_added_bots)
+
+    # A blurb is optional curation. By default, use the bot's actual title.
+    # This also repairs older auto-discovered records that predate this rule,
+    # while leaving any custom non-empty blurb untouched.
+    for bot in curated_bots:
+        if not str(bot.get("blurb") or "").strip():
+            default_blurb = str(bot.get("title") or bot.get("name") or "").strip()
+            if default_blurb:
+                bot["blurb"] = default_blurb
+                bots_changed = True
+
     nsfw_updates: list[str] = []
     public_doc["schemaVersion"] = max(2, int(public_doc.get("schemaVersion") or 1))
     public_doc["note"] = (
