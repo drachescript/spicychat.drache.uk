@@ -1595,6 +1595,42 @@
       "baselineSource": "typesense",
       "accuracy": "first-observed",
       "source": "typesense"
+    },
+    {
+      "id": "a2d3bb66-4cc8-49b9-b097-7e2bddffc512",
+      "name": "Finn",
+      "publicSinceAt": "2026-09-28T18:14:49Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-09-28T18:14:49Z",
+      "previousNonPublicObservedAt": null,
+      "baselineAt": "2026-09-28T18:14:49Z",
+      "messagesAtBaseline": 0,
+      "messagesDisplayAtBaseline": "0",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
+    },
+    {
+      "id": "c5a53445-3dd9-48af-9aa1-90743071f75c",
+      "name": "Squirrelly Dan",
+      "publicSinceAt": "2026-09-28T18:14:49Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-09-28T18:14:49Z",
+      "previousNonPublicObservedAt": null,
+      "baselineAt": "2026-09-28T18:14:49Z",
+      "messagesAtBaseline": 0,
+      "messagesDisplayAtBaseline": "0",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
     }
   ]
 }
