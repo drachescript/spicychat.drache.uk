@@ -1562,20 +1562,21 @@
     {
       "id": "cab36813-f705-4cd7-9156-853904939343",
       "name": "Lyris",
-      "publicSinceAt": "2026-09-28T08:55:02Z",
-      "publicSinceAccuracy": "first-observed",
-      "publicSinceSource": "typesense",
+      "publicSinceAt": "2026-09-28T02:39:32+00:00",
+      "publicSinceAccuracy": "confirmed",
+      "publicSinceSource": "spicychat-approval-email",
       "firstPublicObservedAt": "2026-09-28T08:55:02Z",
       "previousNonPublicObservedAt": null,
       "baselineAt": "2026-09-28T08:55:02Z",
       "messagesAtBaseline": 7,
       "messagesDisplayAtBaseline": "7",
       "messagesApproximateAtBaseline": false,
-      "baselineAccuracy": "same-observation",
-      "baselineLagMinutes": 0,
+      "baselineAccuracy": "after-public",
+      "baselineLagMinutes": 376,
       "baselineSource": "typesense",
-      "accuracy": "first-observed",
-      "source": "typesense"
+      "accuracy": "confirmed",
+      "source": "spicychat-approval-email",
+      "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
     },
     {
       "id": "719582fa-603c-4904-8805-632c094a500b",
