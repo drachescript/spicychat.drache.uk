@@ -143,6 +143,67 @@ def pending_override_for(bots_doc: dict, name: str | None) -> dict:
     return {}
 
 
+def infer_category(name: str | None, title: str | None, tags, category_ids: set[str]) -> str | None:
+    """Conservatively pick a browse category for a newly discovered bot.
+
+    Explicit pending overrides still win. The rules intentionally focus on obvious
+    signals so ambiguous bots keep falling back to Other instead of being forced
+    into a bad category.
+    """
+    tag_values = [str(tag).strip().casefold() for tag in (tags or []) if str(tag).strip()]
+    text = " ".join([str(name or ""), str(title or ""), *tag_values]).casefold()
+
+    def available(category_id: str) -> str | None:
+        return category_id if category_id in category_ids else None
+
+    # Existing specialist categories first.
+    if "dragon hybrid" in text:
+        return available("dragon-hybrid")
+    if any(term in text for term in ("indoraptor pov", "raptor handler", "raptor pack")):
+        return available("indoraptor")
+    if "(did pov)" in text or " dissociative identity disorder " in f" {text} " or "did" in tag_values:
+        return available("did")
+
+    accessibility_terms = (
+        "blind pov", "deaf pov", "mute pov", "autism pov", "adhd pov",
+        "panic disorder pov", "depression pov", "derealization pov",
+        "psychosis", "paranoia pov", "social anxiety pov", "seizure",
+        "ptsd pov", "bpd pov", "ocd pov", "sleep paralysis",
+    )
+    if any(term in text for term in accessibility_terms):
+        return available("accessibility")
+
+    # Named-IP/Fictional Media tags should keep precedence over broader genre tags.
+    fandom_terms = (
+        "cyberpunk 2077", "silent hill", "jurassic world", "soulcalibur",
+        "jujutsu kaisen", "nijisanji", "dead by daylight", "letterkenny",
+        "charlie's angels", "hunter: the parenting", "peteristhewolf",
+        "star wars", "resident evil", "wwe", "scp foundation",
+    )
+    if "fandom" in tag_values or "fictional media" in tag_values or any(term in text for term in fandom_terms):
+        return available("fandom")
+
+    supernatural_terms = (
+        "vampire", "werewolf", "mimic", "lamia", "siren", "shapeshifter",
+        "supernatural", "monster girl", "monster girls",
+    )
+    if any(term in text for term in supernatural_terms):
+        return available("supernatural")
+
+    fantasy_terms = ("fantasy", " rpg ", "magic", "potion", "dungeon", "elf ")
+    if any(term in f" {text} " for term in fantasy_terms):
+        return available("fantasy-rpg")
+
+    scifi_terms = (
+        "sci-fi", "science fiction", "alien", "experiment", "android",
+        "cyborg", "nocturne hive", "drone", "abandoned facility",
+    )
+    if any(term in text for term in scifi_terms):
+        return available("scifi-experiments")
+
+    return available("other")
+
+
 def normalize_avatar_url(value) -> str | None:
     if not value:
         return None
@@ -176,9 +237,9 @@ def auto_add_public_bots(
     """Promote newly discovered public creator bots into the live site automatically.
 
     Typesense/creator-profile discovery is already restricted to the configured
-    creator and public visibility.  New records use safe defaults for fields that
-    cannot be inferred (origin remains unknown; category falls back to Other) and
-    can be curated later without blocking stats/public-date tracking.
+    creator and public visibility. New records use conservative title/tag rules
+    for obvious categories; ambiguous bots still fall back to Other. Origin remains
+    unknown unless a pending override exists, and everything can still be curated later.
     """
     active = list(bots_doc.get("bots") or [])
     active_ids = {str(bot.get("id")) for bot in active if bot.get("id")}
@@ -222,11 +283,15 @@ def auto_add_public_bots(
         name = str(observed.get("name") or "").strip()
         title = str(observed.get("title") or name).strip()
         override = pending_override_for(bots_doc, name)
-        category = override.get("category") if override.get("category") in category_ids else fallback_category
+        tags = [str(tag).strip() for tag in (observed.get("tags") or []) if str(tag).strip()]
+        category = (
+            override.get("category")
+            if override.get("category") in category_ids
+            else infer_category(name, title, tags, category_ids) or fallback_category
+        )
         origin = override.get("origin") if override.get("origin") in {"requested", "personal"} else "unknown"
         created_full = str(observed.get("createdAt") or now)
         image = normalize_avatar_url(observed.get("image"))
-        tags = [str(tag).strip() for tag in (observed.get("tags") or []) if str(tag).strip()]
 
         bot = {
             "id": bot_id,

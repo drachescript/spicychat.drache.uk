@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T21:34:37Z",
+  "updatedAt": "2026-09-28T07:09:48Z",
   "newBadgeDays": 7,
   "categories": [
     {
@@ -26,6 +26,21 @@
       "id": "fandom",
       "name": "Fandom",
       "note": "characters, series and AUs I like and wanted to do my own version of."
+    },
+    {
+      "id": "supernatural",
+      "name": "Supernatural / Monsters",
+      "note": "vampires, werewolves, mimics, monster girls and other things that probably shouldn't be this dateable."
+    },
+    {
+      "id": "fantasy-rpg",
+      "name": "Fantasy / RPG",
+      "note": "fantasy worlds, magic, kingdoms, adventurers and RPG-style setups that aren't mainly tied to a specific fandom."
+    },
+    {
+      "id": "scifi-experiments",
+      "name": "Sci-Fi / Experiments",
+      "note": "aliens, experiments, transformations, facilities and other things where science has clearly gone a little off-script."
     },
     {
       "id": "other",
@@ -164,7 +179,7 @@
     {
       "id": "478fb192-528b-413a-8397-d09e4db182d7",
       "name": "Hazel",
-      "category": "fandom",
+      "category": "other",
       "tags": [],
       "title": "Your Bunny Barista Is Terrible at Hiding Her Crush (AnyPOV)",
       "blurb": "Your Bunny Barista Is Terrible at Hiding Her Crush (AnyPOV)",
@@ -221,7 +236,7 @@
     {
       "id": "35a4788f-5e20-4a44-8ace-0c519f134a7f",
       "name": "Game Night Crew",
-      "category": "other",
+      "category": "supernatural",
       "tags": [
         "Female",
         "Fantasy",
@@ -253,7 +268,7 @@
     {
       "id": "cc8459ee-93e4-4e68-9478-410e96075dfa",
       "name": "Sabine Crowe",
-      "category": "other",
+      "category": "supernatural",
       "tags": [
         "Female",
         "Supernatural",
@@ -287,7 +302,7 @@
     {
       "id": "76c0d718-a6e6-4231-9582-cc6e2b9aa664",
       "name": "Kara Blackwell",
-      "category": "other",
+      "category": "supernatural",
       "tags": [
         "Female",
         "Submissive",
@@ -321,7 +336,7 @@
     {
       "id": "5d2480a6-6344-43b5-9338-ae54644a4659",
       "name": "Raptor Pack + Indo",
-      "category": "other",
+      "category": "indoraptor",
       "tags": [
         "Female",
         "Anthro",
@@ -382,7 +397,7 @@
     {
       "id": "ba64e17e-cc7c-4747-88af-efc9a2f361c4",
       "name": "The Wayfarer's Shrin",
-      "category": "other",
+      "category": "fantasy-rpg",
       "tags": [
         "Fantasy",
         "Female",
@@ -414,7 +429,7 @@
     {
       "id": "3caf7d05-f74a-4cf0-bb28-9b8e67a0de47",
       "name": "Veloria",
-      "category": "other",
+      "category": "fantasy-rpg",
       "tags": [
         "Fantasy",
         "Adventure",
@@ -475,7 +490,7 @@
     {
       "id": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
       "name": "Crimson Licker POV",
-      "category": "other",
+      "category": "fandom",
       "tags": [],
       "title": "They Thought You Were Just Another Monster (Licker POV)",
       "blurb": "They Thought You Were Just Another Monster (Licker POV)",
@@ -497,7 +512,7 @@
     {
       "id": "eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
       "name": "Crimson Licker",
-      "category": "other",
+      "category": "fandom",
       "tags": [],
       "title": "The Licker Caught You Alone (FemalePOV)",
       "blurb": "The Licker Caught You Alone (FemalePOV)",
@@ -519,7 +534,7 @@
     {
       "id": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
       "name": "Ice Queen",
-      "category": "other",
+      "category": "fantasy-rpg",
       "tags": [
         "ice queen",
         "fantasy",
@@ -587,7 +602,7 @@
     {
       "id": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
       "name": "Vessa",
-      "category": "other",
+      "category": "supernatural",
       "tags": [
         "mimic",
         "fantasy",
@@ -641,7 +656,7 @@
     {
       "id": "3c719d70-7e67-4562-962a-2906a33cbf08",
       "name": "Alpha Chooses You",
-      "category": "other",
+      "category": "supernatural",
       "tags": [
         "werewolf",
         "pack",
@@ -722,7 +737,7 @@
     {
       "id": "78986c9b-8a87-485d-b92c-33423de50a78",
       "name": "Saeli Venn",
-      "category": "other",
+      "category": "scifi-experiments",
       "tags": [
         "alien",
         "dating",
@@ -858,7 +873,7 @@
     {
       "id": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
       "name": "Nyra",
-      "category": "other",
+      "category": "scifi-experiments",
       "tags": [
         "Nocturne Hive",
         "drone",
@@ -911,7 +926,7 @@
     {
       "id": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
       "name": "Veyr",
-      "category": "other",
+      "category": "scifi-experiments",
       "tags": [
         "Nocturne Hive",
         "drone",
@@ -1236,7 +1251,7 @@
     {
       "id": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
       "name": "The Crooked Flask",
-      "category": "other",
+      "category": "fantasy-rpg",
       "tags": [],
       "title": "You Tailor Potions for Adventurers Before Their Dungeon Runs (Potion Seller POV)",
       "blurb": "You Tailor Potions for Adventurers Before Their Dungeon Runs (Potion Seller POV)",
@@ -1307,7 +1322,7 @@
     {
       "id": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
       "name": "Elise Carver",
-      "category": "other",
+      "category": "scifi-experiments",
       "tags": [
         "facility",
         "inheritance",
@@ -1333,7 +1348,7 @@
     {
       "id": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
       "name": "Vivian Kade",
-      "category": "other",
+      "category": "supernatural",
       "tags": [
         "creature POV",
         "black market",
@@ -1794,7 +1809,7 @@
     {
       "id": "9831d4b3-5cca-4425-95cb-44d72bb87937",
       "name": "Dr. Yara Vale",
-      "category": "other",
+      "category": "scifi-experiments",
       "tags": [
         "Y-Change POV",
         "transformation",
@@ -2360,8 +2375,9 @@
     "reviewVisibility": "Only bots already established as public stay public while an edit is Under Review. Previously unlisted/unknown review cards keep their prior visibility until publication is confirmed.",
     "statsGuard": "Optional defensive rule used only when an updater row exactly mirrors another bot. The site falls back to the last known-good/manual values instead of displaying the mirrored stats.",
     "nsfw": "Automatic discovery metadata from SpicyChat Typesense. This does not control discoverability on this site.",
-    "imageHidden": "Optional manual override for bot artwork. When omitted, the site hides images for nsfw=true and shows images otherwise. Explicit true/false always wins over the automatic NSFW default.",
-    "pendingBotOverrides": "User-confirmed metadata that can be applied when a not-yet-curated bot is later discovered with a stable ID."
+    "imageHidden": "Artwork is shown by default, including for NSFW bots. imageHidden=true is a manual block; current blocked artwork is limited to Zenin Clan, Doe and Ice Queen.",
+    "pendingBotOverrides": "User-confirmed metadata that can be applied when a not-yet-curated bot is later discovered with a stable ID.",
+    "category": "Primary browse category. Requested and Made for Myself are separate origin groupings, so each bot still has one main content/category home."
   },
   "pendingBotOverrides": []
 }

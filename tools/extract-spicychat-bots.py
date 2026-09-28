@@ -34,6 +34,27 @@ def pending_override_for(doc,name):
         if str(item.get('name','')).strip().casefold()==normalized:return item
     return {}
 
+def infer_category(name,title,category_ids):
+    """Conservative title-only category guess for newly imported bots."""
+    text=f"{name or ''} {title or ''}".casefold()
+    def available(category_id):
+        return category_id if category_id in category_ids else None
+    if 'dragon hybrid' in text:return available('dragon-hybrid')
+    if any(term in text for term in ('indoraptor pov','raptor handler','raptor pack')):return available('indoraptor')
+    if '(did pov)' in text or 'dissociative identity disorder' in text:return available('did')
+    accessibility_terms=('blind pov','deaf pov','mute pov','autism pov','adhd pov','panic disorder pov','depression pov','derealization pov','psychosis','paranoia pov','social anxiety pov','seizure','ptsd pov','bpd pov','ocd pov','sleep paralysis')
+    if any(term in text for term in accessibility_terms):return available('accessibility')
+    fandom_terms=('cyberpunk 2077','silent hill','jurassic world','soulcalibur','jujutsu kaisen','nijisanji','dead by daylight','letterkenny',"charlie's angels",'hunter: the parenting','peteristhewolf','star wars','resident evil','wwe','scp foundation')
+    if any(term in text for term in fandom_terms):return available('fandom')
+    supernatural_terms=('vampire','werewolf','mimic','lamia','siren','shapeshifter','supernatural','monster girl','monster girls')
+    if any(term in text for term in supernatural_terms):return available('supernatural')
+    fantasy_terms=('fantasy',' rpg ','magic','potion','dungeon','elf ')
+    padded=f' {text} '
+    if any(term in padded for term in fantasy_terms):return available('fantasy-rpg')
+    scifi_terms=('sci-fi','science fiction','alien','experiment','android','cyborg','nocturne hive','drone','abandoned facility')
+    if any(term in text for term in scifi_terms):return available('scifi-experiments')
+    return available('other')
+
 def image_hidden(bot):
     return str(bot.get('name') or '').strip().casefold() in IMAGE_HIDDEN_NAMES
 
@@ -318,6 +339,7 @@ def main():
     if not source or not source.exists():
         print(r'No HTML found. Put a saved My Creations page in tools\storage\imports or drag it onto update-chatbots.bat.');return 2
     bots_doc=load_json(BOTS,{'schemaVersion':3,'updatedAt':datetime.now().date().isoformat(),'newBadgeDays':14,'categories':[],'bots':[]});old_stats=load_json(STATS,{'schemaVersion':2,'bots':[]});history=load_json(HISTORY,{'schemaVersion':2,'snapshots':[]});events=load_json(EVENTS,{'schemaVersion':1,'milestones':MILESTONES,'events':[]});public_doc=load_json(PUBLIC,{'schemaVersion':1,'bots':[]});archived_doc=load_json(ARCHIVED,{'schemaVersion':1,'bots':[]});archived_ids={x.get('id') for x in archived_doc.get('bots',[]) if x.get('id')}
+    category_ids={str(x.get('id')) for x in bots_doc.get('categories',[]) if isinstance(x,dict) and x.get('id')}
     stale_warning=None;skipped_private=[]
     try:
         raw_data=[x for x in extract(source) if x.get('id') not in archived_ids]
@@ -363,9 +385,10 @@ def main():
             initial_visibility=effective_visibility(x,x['id'],curated,old_map,hist_map,public_by_id,visibility_events)
             override=pending_override_for(bots_doc,x.get('name'))
             origin=override.get('origin') if override.get('origin') in ('requested','personal') else 'unknown'
+            category=override.get('category') if override.get('category') in category_ids else infer_category(x.get('name'),x.get('title'),category_ids)
             assigned_order=next_safe_order if page_has_review else order[x['id']]
             if page_has_review:next_safe_order+=1
-            b={'id':x['id'],'name':x['name'],'category':'other','tags':[],'title':x['title'],'blurb':x['title'],'url':x['url'],'origin':origin,'order':assigned_order,'image':x.get('image'),'addedAt':now.date().isoformat(),'knownSince':iso,'knownSinceSource':'first-import','firstSeenAt':iso,'createdAt':now.date().isoformat(),'createdAtSource':'first-import','needsReview':True}
+            b={'id':x['id'],'name':x['name'],'category':category or 'other','tags':[],'title':x['title'],'blurb':x['title'],'url':x['url'],'origin':origin,'order':assigned_order,'image':x.get('image'),'addedAt':now.date().isoformat(),'knownSince':iso,'knownSinceSource':'first-import','firstSeenAt':iso,'createdAt':now.date().isoformat(),'createdAtSource':'first-import','needsReview':True}
             if override.get('origin') in ('requested','personal'):b['originSource']=override.get('source') or 'pending-override'
             if initial_visibility in ('public','unlisted','private'):b['visibility']=initial_visibility
             curated[x['id']]=b
@@ -374,6 +397,8 @@ def main():
         if not page_has_review:b['order']=order[x['id']]
         b.pop('missingFromLatest',None)
         override=pending_override_for(bots_doc,x.get('name'))
+        if override.get('category') in category_ids and b.get('category')!=override.get('category'):
+            b['category']=override['category']
         if b.get('origin') in (None,'','unknown') and override.get('origin') in ('requested','personal'):
             b['origin']=override['origin'];b['originSource']=override.get('source') or 'pending-override'
         resolved_visibility=effective_visibility(x,x['id'],curated,old_map,hist_map,public_by_id,visibility_events)
