@@ -3483,6 +3483,42 @@
       "botName": "Squirrelly Dan",
       "type": "new",
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-28T23:27:37Z",
+      "botId": "478fb192-528b-413a-8397-d09e4db182d7",
+      "botName": "Hazel",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-28T23:27:37Z",
+      "botId": "478fb192-528b-413a-8397-d09e4db182d7",
+      "botName": "Hazel",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-28T23:27:37Z",
+      "botId": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
+      "botName": "Kinky Delivery",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-28T23:27:37Z",
+      "botId": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
+      "botName": "Nova",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }

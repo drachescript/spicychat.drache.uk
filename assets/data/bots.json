@@ -327,7 +327,8 @@
       "createdAtSource": "first-import",
       "needsReview": false,
       "visibility": "unlisted",
-      "visibilitySource": "saved-my-creations"
+      "visibilitySource": "saved-my-creations",
+      "nsfw": true
     },
     {
       "id": "12cd6561-8d61-4c26-87c0-bd237a8c8c2d",
