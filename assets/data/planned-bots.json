@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T23:21:00-04:00",
-  "note": "Lightweight public backlog only. Completed concepts are removed as they become current bots; full bot definitions remain private.",
+  "updatedAt": "2026-09-28T03:36:02-04:00",
+  "note": "Lightweight public backlog only. Completed or removed concepts are not kept here; full bot definitions remain private.",
   "ideas": [
     {
       "id": "did-coworker-distinct-relationships",
@@ -23,6 +23,30 @@
       "id": "did-tattoo-artist-stops-switch",
       "title": "The Tattoo Artist Stops the Second You Switch (DID POV)",
       "premise": "{{user}} consented to a tattoo, but a different alter fronts mid-session and does not; the tattoo artist immediately stops.",
+      "type": "DID",
+      "origin": "personal",
+      "status": "Planned"
+    },
+    {
+      "id": "did-system-wants-dog",
+      "title": "Someone in Your System Wants a Dog (DID POV)",
+      "premise": "A DID POV concept centered on someone in the system wanting a dog; the exact character and opening setup still need finalizing.",
+      "type": "DID",
+      "origin": "personal",
+      "status": "Planned"
+    },
+    {
+      "id": "did-teacher-who-adapts",
+      "title": "The Teacher Who Adapts (DID POV)",
+      "premise": "A DID POV concept centered on a teacher who learns to adapt to the system instead of expecting every alter to respond the same way.",
+      "type": "DID",
+      "origin": "personal",
+      "status": "Planned"
+    },
+    {
+      "id": "did-coworker-remembers-good-days",
+      "title": "The Coworker Who Remembers Your Good Days (DID POV)",
+      "premise": "A DID POV coworker concept built around somebody who remembers the good days as well as the confusing ones; the exact opening still needs finalizing.",
       "type": "DID",
       "origin": "personal",
       "status": "Planned"
@@ -60,28 +84,52 @@
       "status": "Planned"
     },
     {
-      "id": "four-plus-character-poly-bot",
-      "title": "4+ Character Poly Bot",
-      "premise": "A larger multi-character relationship setup built around four or more characters; exact cast and scenario still need choosing.",
-      "type": "Multi-character",
+      "id": "shapeshifter-forgot-original-face",
+      "title": "Shapeshifter Forgot Which Face Was Hers",
+      "premise": "A female shapeshifter has worn other faces for so long that she no longer knows which appearance was originally hers. Separate from Vessa's mimic concept.",
+      "type": "Supernatural / Monsters",
       "origin": "personal",
-      "status": "Idea"
-    },
-    {
-      "id": "cyberpunk-evelyn-parker",
-      "title": "Evelyn Parker — Cyberpunk 2077",
-      "premise": "Cyberpunk 2077 request counterpart to Rogue Amendiares: {{user}} is a merc with a reputation, with jealousy / possessiveness and room for multiple outcomes.",
-      "type": "Cyberpunk 2077",
-      "origin": "requested",
       "status": "Planned"
     },
     {
-      "id": "infinite-hijacked-commercial",
-      "title": "Infinite / Hijacked Commercial",
-      "premise": "An experimental concept built around an endless or hijacked commercial; the exact scenario is still unresolved.",
-      "type": "Experimental",
+      "id": "vampire-immortal-reencounter",
+      "title": "You Were Supposed to Stay Dead (Vampire x Immortal POV)",
+      "premise": "A vampire who fed from {{user}} days or weeks earlier and believed the encounter was fatal recognizes them alive again. How {{user}} survives and what their immortality means stays user-defined.",
+      "type": "Vampire / Immortal POV",
       "origin": "personal",
-      "status": "Idea"
+      "status": "Planned"
+    },
+    {
+      "id": "siren-keeps-singing-for-you",
+      "title": "The Siren Keeps Singing for You (AnyPOV)",
+      "premise": "A siren's supernatural song cannot affect {{user}}, but they keep returning to listen anyway. She eventually starts singing because {{user}} genuinely enjoys it rather than because the song can control them.",
+      "type": "Siren",
+      "origin": "personal",
+      "status": "Planned"
+    },
+    {
+      "id": "mermaid-picks-wrong-target",
+      "title": "Mermaid Picks the Wrong Target",
+      "premise": "A mermaid-focused wrong-target concept where {{user}} is not the kind of target she expected; the exact reason and opening setup still need choosing.",
+      "type": "Mermaid",
+      "origin": "personal",
+      "status": "Possible"
+    },
+    {
+      "id": "werewolf-pack-likes-you",
+      "title": "Werewolf Pack Likes You",
+      "premise": "A reversal of the earlier pack setup: the werewolf pack openly likes or admires {{user}}, while the alpha mostly just tolerates them.",
+      "type": "Werewolf Pack",
+      "origin": "personal",
+      "status": "Possible"
+    },
+    {
+      "id": "impossible-powers-partner",
+      "title": "Impossible Powers Partner",
+      "premise": "An adult woman gradually discovers that {{user}} can turn invisible, teleport and stop time. The setup starts with discovery and trust rather than immediately using the powers for anything else.",
+      "type": "Impossible Powers",
+      "origin": "personal",
+      "status": "Backburner"
     },
     {
       "id": "dragon-hunter-half-dragon",
