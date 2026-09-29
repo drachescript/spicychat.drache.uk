@@ -3519,6 +3519,22 @@
       "value": 10000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-29T06:03:26Z",
+      "botId": "2af0a950-b002-473b-8ec1-5f1ac558bae5",
+      "botName": "Daryl",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-29T06:03:26Z",
+      "botId": "2af0a950-b002-473b-8ec1-5f1ac558bae5",
+      "botName": "Daryl",
+      "type": "new",
+      "source": "typesense"
     }
   ]
 }
