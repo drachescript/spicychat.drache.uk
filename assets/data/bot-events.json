@@ -3535,6 +3535,15 @@
       "botName": "Daryl",
       "type": "new",
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-29T19:35:27Z",
+      "botId": "bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
+      "botName": "Nadia Cross",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
