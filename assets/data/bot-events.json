@@ -3571,6 +3571,15 @@
       "value": 2500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-30T12:56:06Z",
+      "botId": "fee9a583-d3b6-4043-9300-fd7be8505111",
+      "botName": "Katy",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
