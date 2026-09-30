@@ -3553,6 +3553,24 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-09-30T05:53:13Z",
+      "botId": "bb107274-bf89-43de-bee1-6269f373494a",
+      "botName": "Matilda Wilde",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-09-30T05:53:13Z",
+      "botId": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
+      "botName": "Crimson Licker POV",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
