@@ -1675,20 +1675,21 @@
     {
       "id": "bb107274-bf89-43de-bee1-6269f373494a",
       "name": "Matilda Wilde",
-      "publicSinceAt": "2026-09-30T05:53:13Z",
-      "publicSinceAccuracy": "first-observed",
-      "publicSinceSource": "typesense",
+      "publicSinceAt": "2026-09-30T05:07:42+00:00",
+      "publicSinceAccuracy": "confirmed",
+      "publicSinceSource": "spicychat-approval-email",
       "firstPublicObservedAt": "2026-09-30T05:53:13Z",
       "previousNonPublicObservedAt": "2026-09-29T23:55:55Z",
       "baselineAt": "2026-09-30T05:53:13Z",
       "messagesAtBaseline": 4,
       "messagesDisplayAtBaseline": "4",
       "messagesApproximateAtBaseline": false,
-      "baselineAccuracy": "same-observation",
-      "baselineLagMinutes": 0,
+      "baselineAccuracy": "after-public",
+      "baselineLagMinutes": 46,
       "baselineSource": "typesense",
-      "accuracy": "first-observed",
-      "source": "typesense"
+      "accuracy": "confirmed",
+      "source": "spicychat-approval-email",
+      "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
     }
   ]
 }
