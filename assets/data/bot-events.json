@@ -3580,6 +3580,15 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-01T06:26:09Z",
+      "botId": "478fb192-528b-413a-8397-d09e4db182d7",
+      "botName": "Hazel",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
