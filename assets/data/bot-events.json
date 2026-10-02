@@ -3598,6 +3598,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-02T06:04:25Z",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
