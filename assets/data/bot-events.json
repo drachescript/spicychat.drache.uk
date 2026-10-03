@@ -3643,6 +3643,15 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-03T16:37:09Z",
+      "botId": "fee9a583-d3b6-4043-9300-fd7be8505111",
+      "botName": "Katy",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
