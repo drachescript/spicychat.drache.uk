@@ -3616,6 +3616,33 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-03T11:56:36Z",
+      "botId": "cc8459ee-93e4-4e68-9478-410e96075dfa",
+      "botName": "Sabine Crowe",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-03T11:56:36Z",
+      "botId": "e7b48989-6847-400a-9a72-719a64bc5bf4",
+      "botName": "Rhea Ripley",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-03T11:56:36Z",
+      "botId": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
+      "botName": "Soulcalibur RPG",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
