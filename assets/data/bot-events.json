@@ -3661,6 +3661,15 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-03T23:16:40Z",
+      "botId": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "botName": "Aurelia & Vaelira",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
