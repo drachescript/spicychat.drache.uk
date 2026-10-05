@@ -3724,6 +3724,15 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-05T19:22:34Z",
+      "botId": "a04bc9a5-952e-4870-ac90-0a267f695374",
+      "botName": "Kaia Sterling",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
