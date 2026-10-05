@@ -3679,6 +3679,24 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-05T01:09:28Z",
+      "botId": "3c719d70-7e67-4562-962a-2906a33cbf08",
+      "botName": "Alpha Chooses You",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-05T01:09:28Z",
+      "botId": "be449df2-b6f7-48b4-831d-d309eaf04f27",
+      "botName": "Celia Maren",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
