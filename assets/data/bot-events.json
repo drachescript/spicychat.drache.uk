@@ -3697,6 +3697,33 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-05T09:32:44Z",
+      "botId": "143db585-b684-40ba-a63f-cbd7f165bc81",
+      "botName": "Kairo",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-05T09:32:44Z",
+      "botId": "f4698655-1341-481a-a81a-3b7e395a582c",
+      "botName": "Aurelia & Vaelira",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-05T09:32:44Z",
+      "botId": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
+      "botName": "Maya Bennett",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
