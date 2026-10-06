@@ -3733,42 +3733,6 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
-    },
-    {
-      "at": "2026-10-06T02:09:37-04:00",
-      "botId": "e654d057-f51e-4b29-97e8-f59e95aa147b",
-      "botName": "Evelyn Hart",
-      "type": "new"
-    },
-    {
-      "at": "2026-10-06T02:09:37-04:00",
-      "botId": "26f0e580-59a8-4a9e-aee1-05dcb314a283",
-      "botName": "Liora Ash",
-      "type": "new"
-    },
-    {
-      "at": "2026-10-06T02:09:37-04:00",
-      "botId": "a9b6cec6-a5d8-489e-929b-acc678c14dec",
-      "botName": "Seraphine Vale",
-      "type": "new"
-    },
-    {
-      "at": "2026-10-06T02:09:37-04:00",
-      "botId": "f269e055-5763-45ad-8bf9-a8e1101e3446",
-      "botName": "Nadia Mercer",
-      "type": "new"
-    },
-    {
-      "at": "2026-10-06T02:09:37-04:00",
-      "botId": "f6b51b97-5d6d-486b-b7e1-721efb4eb883",
-      "botName": "Doctor's Orders",
-      "type": "new"
-    },
-    {
-      "at": "2026-10-06T02:09:37-04:00",
-      "botId": "335fc9a0-a010-490f-ac1e-881e1d740c95",
-      "botName": "Gotham City Sirens",
-      "type": "new"
     }
   ]
 }
