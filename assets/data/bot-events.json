@@ -3769,6 +3769,15 @@
       "botId": "335fc9a0-a010-490f-ac1e-881e1d740c95",
       "botName": "Gotham City Sirens",
       "type": "new"
+    },
+    {
+      "at": "2026-10-06T22:45:40Z",
+      "botId": "57fc84b4-cb36-464f-9b87-49b30057e093",
+      "botName": "Maeve Calder",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
