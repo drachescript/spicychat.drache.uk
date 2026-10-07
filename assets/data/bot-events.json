@@ -3787,6 +3787,15 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-07T13:47:17Z",
+      "botId": "73ac8972-cd7e-445f-b916-0d8821934d68",
+      "botName": "Rogue Amendiares",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
