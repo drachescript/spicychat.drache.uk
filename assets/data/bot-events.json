@@ -3778,6 +3778,15 @@
       "value": 2500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-07T06:21:57Z",
+      "botId": "143db585-b684-40ba-a63f-cbd7f165bc81",
+      "botName": "Kairo",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
