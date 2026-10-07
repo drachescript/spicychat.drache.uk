@@ -3796,6 +3796,15 @@
       "value": 2500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-07T20:06:29Z",
+      "botId": "12cd6561-8d61-4c26-87c0-bd237a8c8c2d",
+      "botName": "Butch Cramer",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
