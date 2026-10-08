@@ -67,3 +67,15 @@ body.age-gate-open{overflow:hidden}.age-gate[hidden],#request-page-content[hidde
 .bot-card-clickable .chat-button{position:relative;z-index:4}
 .bot-card-clickable .bot-card-stats-hint{z-index:3;pointer-events:none}
 .bot-card-clickable:focus-within .bot-card-stats-hint{color:var(--blue);opacity:1;transform:translateY(0)}
+
+/* Nested Fandom media and franchise controls */
+.fandom-controls{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 18px;padding:12px;border:1px solid var(--line);border-radius:13px;background:#0e1015}
+.fandom-media-filters{display:flex;gap:6px;flex:1 1 420px;flex-wrap:wrap}
+.fandom-chip{appearance:none;cursor:pointer;padding:8px 11px;border:1px solid var(--line);border-radius:9px;background:#171a22;color:var(--muted);font:inherit;font-size:10px;font-weight:750}
+.fandom-chip:hover{color:#fff;border-color:#41495b}.fandom-chip.active{background:rgba(124,183,255,.12);border-color:rgba(124,183,255,.38);color:#eaf4ff}
+.fandom-chip span{opacity:.65;margin-left:3px}
+.fandom-franchise-label{display:flex;flex-direction:column;gap:4px;color:var(--muted);font-size:9px;font-weight:780;min-width:170px}
+.fandom-franchise-label select{width:100%;min-height:35px;padding:7px 9px;border:1px solid var(--line);border-radius:9px;background:#161a22;color:#fff;font-size:10.5px}
+.fandom-empty{padding:12px 4px;color:var(--muted);font-size:12px}
+.fandom-chip:focus-visible,.fandom-franchise-label select:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+@media(max-width:620px){.fandom-controls{align-items:stretch;flex-direction:column}.fandom-franchise-label{width:100%}}
