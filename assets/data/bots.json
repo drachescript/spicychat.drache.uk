@@ -113,7 +113,8 @@
       "createdAtSource": "first-import",
       "needsReview": false,
       "visibility": "public",
-      "visibilitySource": "spicychat-approval-email"
+      "visibilitySource": "spicychat-approval-email",
+      "nsfw": false
     },
     {
       "id": "26f0e580-59a8-4a9e-aee1-05dcb314a283",
@@ -134,7 +135,8 @@
       "createdAtSource": "first-import",
       "needsReview": false,
       "visibility": "public",
-      "visibilitySource": "spicychat-approval-email"
+      "visibilitySource": "spicychat-approval-email",
+      "nsfw": false
     },
     {
       "id": "a9b6cec6-a5d8-489e-929b-acc678c14dec",
@@ -155,7 +157,8 @@
       "createdAtSource": "first-import",
       "needsReview": false,
       "visibility": "public",
-      "visibilitySource": "spicychat-approval-email"
+      "visibilitySource": "spicychat-approval-email",
+      "nsfw": false
     },
     {
       "id": "f269e055-5763-45ad-8bf9-a8e1101e3446",
@@ -176,7 +179,8 @@
       "createdAtSource": "first-import",
       "needsReview": false,
       "visibility": "public",
-      "visibilitySource": "spicychat-approval-email"
+      "visibilitySource": "spicychat-approval-email",
+      "nsfw": false
     },
     {
       "id": "f6b51b97-5d6d-486b-b7e1-721efb4eb883",

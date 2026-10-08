@@ -3823,6 +3823,15 @@
       "from": "unlisted",
       "to": "public",
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-08T20:03:42Z",
+      "botId": "335fc9a0-a010-490f-ac1e-881e1d740c95",
+      "botName": "Gotham City Sirens",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
