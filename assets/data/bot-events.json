@@ -3805,6 +3805,24 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-08T13:55:25Z",
+      "botId": "f6b51b97-5d6d-486b-b7e1-721efb4eb883",
+      "botName": "Doctor's Orders",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-08T13:55:25Z",
+      "botId": "335fc9a0-a010-490f-ac1e-881e1d740c95",
+      "botName": "Gotham City Sirens",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "typesense"
     }
   ]
 }

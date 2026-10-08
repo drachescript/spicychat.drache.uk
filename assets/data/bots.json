@@ -162,7 +162,8 @@
       "createdAtSource": "first-import",
       "needsReview": false,
       "visibility": "unlisted",
-      "visibilitySource": "saved-my-creations"
+      "visibilitySource": "saved-my-creations",
+      "nsfw": true
     },
     {
       "id": "335fc9a0-a010-490f-ac1e-881e1d740c95",
@@ -183,7 +184,8 @@
       "createdAtSource": "first-import",
       "needsReview": false,
       "visibility": "unlisted",
-      "visibilitySource": "saved-my-creations"
+      "visibilitySource": "saved-my-creations",
+      "nsfw": true
     },
     {
       "id": "2af0a950-b002-473b-8ec1-5f1ac558bae5",
@@ -1844,7 +1846,7 @@
       "createdAtSource": "first-snapshot",
       "visibility": "public",
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
@@ -1872,7 +1874,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
@@ -1901,7 +1903,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "db30675a-4626-49bf-8048-43c6fda034da",
@@ -2014,7 +2016,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "fbfad622-eea2-493b-8894-6d6f877441de",
@@ -2066,7 +2068,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
@@ -2118,7 +2120,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "43c73c72-432d-4eeb-8615-a0a519cf7683",
@@ -2197,7 +2199,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "9e005568-3419-4717-9d31-d7dd70104a7f",
@@ -2224,7 +2226,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "be449df2-b6f7-48b4-831d-d309eaf04f27",
@@ -2250,7 +2252,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
@@ -2278,7 +2280,7 @@
       "needsReview": false,
       "favoriteOrder": 5,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "57fc84b4-cb36-464f-9b87-49b30057e093",
@@ -2304,7 +2306,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "c8c96422-d782-438d-999c-79e785f635de",
@@ -2331,7 +2333,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "97533fef-f306-4d71-8c5c-4eb98fecf040",
@@ -2486,7 +2488,7 @@
       "needsReview": false,
       "favoriteOrder": 9,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     },
     {
       "id": "bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
@@ -2650,7 +2652,7 @@
       "visibility": "public",
       "needsReview": false,
       "visibilitySource": "saved-my-creations",
-      "nsfw": false
+      "nsfw": true
     }
   ],
   "schemaVersion": 4,

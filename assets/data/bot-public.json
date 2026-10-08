@@ -1690,6 +1690,42 @@
       "accuracy": "confirmed",
       "source": "spicychat-approval-email",
       "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
+    },
+    {
+      "id": "f6b51b97-5d6d-486b-b7e1-721efb4eb883",
+      "name": "Doctor's Orders",
+      "publicSinceAt": "2026-10-08T13:55:25Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-10-08T13:55:25Z",
+      "previousNonPublicObservedAt": "2026-10-08T06:33:24Z",
+      "baselineAt": "2026-10-08T13:55:25Z",
+      "messagesAtBaseline": 0,
+      "messagesDisplayAtBaseline": "0",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
+    },
+    {
+      "id": "335fc9a0-a010-490f-ac1e-881e1d740c95",
+      "name": "Gotham City Sirens",
+      "publicSinceAt": "2026-10-08T13:55:25Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-10-08T13:55:25Z",
+      "previousNonPublicObservedAt": "2026-10-08T06:33:24Z",
+      "baselineAt": "2026-10-08T13:55:25Z",
+      "messagesAtBaseline": 37,
+      "messagesDisplayAtBaseline": "37",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
     }
   ]
 }
