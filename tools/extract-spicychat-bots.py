@@ -388,7 +388,7 @@ def main():
             category=override.get('category') if override.get('category') in category_ids else infer_category(x.get('name'),x.get('title'),category_ids)
             assigned_order=next_safe_order if page_has_review else order[x['id']]
             if page_has_review:next_safe_order+=1
-            b={'id':x['id'],'name':x['name'],'category':category or 'other','tags':[],'title':x['title'],'blurb':x['title'],'url':x['url'],'origin':origin,'order':assigned_order,'image':x.get('image'),'addedAt':now.date().isoformat(),'knownSince':iso,'knownSinceSource':'first-import','firstSeenAt':iso,'createdAt':now.date().isoformat(),'createdAtSource':'first-import','needsReview':True}
+            b={'id':x['id'],'name':x['name'],'category':category or 'other','tags':[],'title':x['title'],'blurb':x['title'],'url':x['url'],'origin':origin,'order':assigned_order,'image':x.get('image'),'addedAt':now.date().isoformat(),'knownSince':iso,'knownSinceSource':'first-import','firstSeenAt':iso,'createdAt':now.date().isoformat(),'createdAtSource':'first-import'}
             if override.get('origin') in ('requested','personal'):b['originSource']=override.get('source') or 'pending-override'
             if initial_visibility in ('public','unlisted','private'):b['visibility']=initial_visibility
             curated[x['id']]=b
@@ -410,7 +410,6 @@ def main():
                 b['visibilitySource']='saved-my-creations'
             elif x.get('underReview'):
                 b.setdefault('visibilitySource','preserved-during-review')
-            if resolved_visibility=='public':b['needsReview']=False
         b.setdefault('knownSince',iso);b.setdefault('knownSinceSource','first-import');b.setdefault('firstSeenAt',b.get('knownSince') or iso);b.setdefault('createdAt',(b.get('knownSince') or iso)[:10]);b.setdefault('createdAtSource',b.get('knownSinceSource') or 'first-import')
         if not image_hidden(b):b['image']=x.get('image') or b.get('image')
         if image_hidden(b):b['imageHidden']=True

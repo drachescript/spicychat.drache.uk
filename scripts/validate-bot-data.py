@@ -151,9 +151,13 @@ for bot in bots:
         err(f"{name}: invalid category {bot.get('category')!r}")
     if bot.get("origin") not in allowed_origins:
         err(f"{name}: invalid origin {bot.get('origin')!r}")
-    for field in ("nsfw", "imageHidden", "needsReview"):
+    for field in ("nsfw", "imageHidden"):
         if field in bot and not isinstance(bot.get(field), bool):
             err(f"{name}: {field} must be boolean when present")
+
+for bot in bots + archived:
+    if "needsReview" in bot:
+        err(f"{bot.get('name', bot.get('id', 'unknown'))}: obsolete needsReview field is no longer supported")
 
 for item in discoveries:
     name = item.get("name") or item.get("id") or "unknown discovery"

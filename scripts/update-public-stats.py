@@ -310,7 +310,6 @@ def auto_add_public_bots(
             "createdAt": date_only(observed.get("createdAt"), now),
             "createdAtSource": "typesense" if observed.get("source") == "typesense" and observed.get("createdAt") else "automatic-discovery",
             "visibility": "public",
-            "needsReview": False,
             "visibilitySource": observed.get("source") or "automatic-discovery",
             "autoDiscoveredAt": now,
             "autoDiscoveredSource": observed.get("source") or "automatic-discovery",
