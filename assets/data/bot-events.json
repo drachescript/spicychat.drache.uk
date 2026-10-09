@@ -3832,6 +3832,15 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-09T19:39:48Z",
+      "botId": "cc8459ee-93e4-4e68-9478-410e96075dfa",
+      "botName": "Sabine Crowe",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
