@@ -3841,6 +3841,33 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-10T12:58:03Z",
+      "botId": "da969ba1-4a68-4611-b8cc-8f281ea671f0",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-10T12:58:03Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-10T12:58:03Z",
+      "botId": "57fc84b4-cb36-464f-9b87-49b30057e093",
+      "botName": "Maeve Calder",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
