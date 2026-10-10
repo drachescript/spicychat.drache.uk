@@ -3868,6 +3868,24 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-10T23:46:29Z",
+      "botId": "e654d057-f51e-4b29-97e8-f59e95aa147b",
+      "botName": "Evelyn Hart",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-10T23:46:29Z",
+      "botId": "f269e055-5763-45ad-8bf9-a8e1101e3446",
+      "botName": "Nadia Mercer",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
