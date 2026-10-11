@@ -3886,6 +3886,15 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-11T13:22:08Z",
+      "botId": "5d2480a6-6344-43b5-9338-ae54644a4659",
+      "botName": "Raptor Pack + Indo",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
