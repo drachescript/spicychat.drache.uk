@@ -3895,6 +3895,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-12T15:58:09Z",
+      "botId": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
+      "botName": "Spider Lady",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
