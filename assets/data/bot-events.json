@@ -3904,6 +3904,33 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-12T23:09:41Z",
+      "botId": "e654d057-f51e-4b29-97e8-f59e95aa147b",
+      "botName": "Evelyn Hart",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-12T23:09:41Z",
+      "botId": "478fb192-528b-413a-8397-d09e4db182d7",
+      "botName": "Hazel",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-12T23:09:41Z",
+      "botId": "cc8459ee-93e4-4e68-9478-410e96075dfa",
+      "botName": "Sabine Crowe",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
