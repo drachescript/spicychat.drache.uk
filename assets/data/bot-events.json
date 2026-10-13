@@ -3940,6 +3940,15 @@
       "from": "unlisted",
       "to": "public",
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-13T16:20:20Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
