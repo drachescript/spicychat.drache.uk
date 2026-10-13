@@ -1814,20 +1814,21 @@
     {
       "id": "fc7e3398-19f3-47fa-ba76-053b85e03810",
       "name": "Yuna Tachibana",
-      "publicSinceAt": "2026-10-13T07:01:18Z",
-      "publicSinceAccuracy": "first-observed",
-      "publicSinceSource": "typesense",
+      "publicSinceAt": "2026-10-13T01:49:10+00:00",
+      "publicSinceAccuracy": "confirmed",
+      "publicSinceSource": "spicychat-approval-email",
       "firstPublicObservedAt": "2026-10-13T07:01:18Z",
       "previousNonPublicObservedAt": "2026-10-12T23:09:41Z",
       "baselineAt": "2026-10-13T07:01:18Z",
       "messagesAtBaseline": 214,
       "messagesDisplayAtBaseline": "214",
       "messagesApproximateAtBaseline": false,
-      "baselineAccuracy": "same-observation",
-      "baselineLagMinutes": 0,
+      "baselineAccuracy": "after-public",
+      "baselineLagMinutes": 312,
       "baselineSource": "typesense",
-      "accuracy": "first-observed",
-      "source": "typesense"
+      "accuracy": "confirmed",
+      "source": "spicychat-approval-email",
+      "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
     }
   ]
 }
