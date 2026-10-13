@@ -1772,6 +1772,26 @@
       "notes": "Publication minute confirmed from saved October 8 Gmail approval thread. Message baseline is the first retained observation after that email; gains since public are a minimum."
     },
     {
+      "id": "f269e055-5763-45ad-8bf9-a8e1101e3446",
+      "name": "Nadia Mercer",
+      "publicSinceAt": "2026-10-08T15:39:00Z",
+      "publicSinceAccuracy": "confirmed",
+      "publicSincePrecision": "minute",
+      "publicSinceSource": "spicychat-approval-email",
+      "firstPublicObservedAt": "2026-10-08T15:47:34Z",
+      "previousNonPublicObservedAt": "2026-10-08T13:55:25Z",
+      "baselineAt": "2026-10-08T15:47:34Z",
+      "messagesAtBaseline": 23,
+      "messagesDisplayAtBaseline": "23",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "first-post-public-observation",
+      "baselineLagMinutes": 9,
+      "baselineSource": "saved-my-creations",
+      "accuracy": "confirmed",
+      "source": "spicychat-approval-email",
+      "notes": "Publication minute confirmed from saved October 8 Gmail approval thread. Message baseline is the first retained observation after that email; gains since public are a minimum."
+    },
+    {
       "id": "a9b6cec6-a5d8-489e-929b-acc678c14dec",
       "name": "Seraphine Vale",
       "publicSinceAt": "2026-10-08T15:39:00Z",
@@ -1792,24 +1812,22 @@
       "notes": "Publication minute confirmed from saved October 8 Gmail approval thread. Message baseline is the first retained observation after that email; gains since public are a minimum."
     },
     {
-      "id": "f269e055-5763-45ad-8bf9-a8e1101e3446",
-      "name": "Nadia Mercer",
-      "publicSinceAt": "2026-10-08T15:39:00Z",
-      "publicSinceAccuracy": "confirmed",
-      "publicSincePrecision": "minute",
-      "publicSinceSource": "spicychat-approval-email",
-      "firstPublicObservedAt": "2026-10-08T15:47:34Z",
-      "previousNonPublicObservedAt": "2026-10-08T13:55:25Z",
-      "baselineAt": "2026-10-08T15:47:34Z",
-      "messagesAtBaseline": 23,
-      "messagesDisplayAtBaseline": "23",
+      "id": "fc7e3398-19f3-47fa-ba76-053b85e03810",
+      "name": "Yuna Tachibana",
+      "publicSinceAt": "2026-10-13T07:01:18Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-10-13T07:01:18Z",
+      "previousNonPublicObservedAt": "2026-10-12T23:09:41Z",
+      "baselineAt": "2026-10-13T07:01:18Z",
+      "messagesAtBaseline": 214,
+      "messagesDisplayAtBaseline": "214",
       "messagesApproximateAtBaseline": false,
-      "baselineAccuracy": "first-post-public-observation",
-      "baselineLagMinutes": 9,
-      "baselineSource": "saved-my-creations",
-      "accuracy": "confirmed",
-      "source": "spicychat-approval-email",
-      "notes": "Publication minute confirmed from saved October 8 Gmail approval thread. Message baseline is the first retained observation after that email; gains since public are a minimum."
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
     }
   ]
 }

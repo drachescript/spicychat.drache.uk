@@ -3931,6 +3931,15 @@
       "value": 10000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-13T07:01:18Z",
+      "botId": "fc7e3398-19f3-47fa-ba76-053b85e03810",
+      "botName": "Yuna Tachibana",
+      "type": "visibility",
+      "from": "unlisted",
+      "to": "public",
+      "source": "typesense"
     }
   ]
 }

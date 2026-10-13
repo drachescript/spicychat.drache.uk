@@ -92,7 +92,8 @@
       "createdAtSource": "saved-my-creations",
       "visibility": "unlisted",
       "visibilitySource": "saved-my-creations",
-      "originSource": "user-confirmed"
+      "originSource": "user-confirmed",
+      "nsfw": false
     },
     {
       "id": "e654d057-f51e-4b29-97e8-f59e95aa147b",
