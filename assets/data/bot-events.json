@@ -3958,6 +3958,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-14T13:58:07Z",
+      "botId": "719582fa-603c-4904-8805-632c094a500b",
+      "botName": "Sabine Crowe",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
