@@ -3967,6 +3967,15 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-14T18:49:30Z",
+      "botId": "f269e055-5763-45ad-8bf9-a8e1101e3446",
+      "botName": "Nadia Mercer",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
