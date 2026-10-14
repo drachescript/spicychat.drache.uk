@@ -3949,6 +3949,15 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-14T07:57:32Z",
+      "botId": "43c73c72-432d-4eeb-8615-a0a519cf7683",
+      "botName": "Zenin Clan",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
