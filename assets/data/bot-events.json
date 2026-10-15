@@ -4021,6 +4021,24 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-15T21:40:33Z",
+      "botId": "f269e055-5763-45ad-8bf9-a8e1101e3446",
+      "botName": "Nadia Mercer",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-15T21:40:33Z",
+      "botId": "719582fa-603c-4904-8805-632c094a500b",
+      "botName": "Sabine Crowe",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
