@@ -3976,6 +3976,33 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-15T05:03:25Z",
+      "botId": "12cd6561-8d61-4c26-87c0-bd237a8c8c2d",
+      "botName": "Butch Cramer",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-15T05:03:25Z",
+      "botId": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "botName": "Piper QoL",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-15T05:03:25Z",
+      "botId": "c1fe4367-501f-472c-967c-275c71d38378",
+      "botName": "Rhea Mercer",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
