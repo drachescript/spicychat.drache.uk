@@ -1,28 +1,60 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T03:36:02-04:00",
-  "note": "Lightweight public backlog only. Completed or removed concepts are not kept here; full bot definitions remain private.",
+  "updatedAt": "2026-10-16T18:36:00Z",
+  "note": "Shortlist of remaining ideas only. Completed bots are excluded; possible/undeveloped variants are explicitly labeled. Drafted or revision/testing-stage bots are tracked outside Planned.",
   "ideas": [
     {
-      "id": "did-coworker-distinct-relationships",
-      "title": "Coworker With Different Relationships for Different Alters (DID POV)",
-      "premise": "A coworker gradually forms different relationships with different alters instead of treating the system like one interchangeable person.",
-      "type": "DID",
+      "id": "shapeshifter-forgot-original-face",
+      "title": "Shapeshifter Forgot Which Face Was Hers",
+      "premise": "A shapeshifter has worn other people's faces for so long that she no longer remembers which appearance was originally hers. A separate character and premise from Vessa.",
+      "type": "Supernatural / Monsters",
       "origin": "personal",
       "status": "Planned"
     },
     {
-      "id": "did-own-online-life",
-      "title": "An Alter Has Their Own Online Life (DID POV)",
-      "premise": "One alter has built an online life of their own; the exact version of the setup still needs choosing.",
-      "type": "DID",
+      "id": "impossible-powers-partner",
+      "title": "Impossible Powers Partner",
+      "premise": "A partner discovers {{user}} can turn invisible, teleport and stop time. Discovery and trust come first; individual power-focused variants are still undecided.",
+      "type": "Superpowers",
+      "origin": "personal",
+      "status": "Backburner"
+    },
+    {
+      "id": "werewolf-pack-reversal",
+      "title": "Werewolf Pack Likes You",
+      "premise": "The pack genuinely likes {{user}}, while its alpha mostly tolerates them. The reverse of Alpha Chooses You, not another version of that bot.",
+      "type": "Werewolf Pack",
+      "origin": "personal",
+      "status": "Possible"
+    },
+    {
+      "id": "standalone-lamia",
+      "title": "Standalone Lamia",
+      "premise": "A standalone lamia character, separate from the existing monster-group bot. The warmest-spot/coils idea is one possible direction; no final variant yet.",
+      "type": "Lamia",
       "origin": "personal",
       "status": "Needs expansion"
     },
     {
+      "id": "four-plus-poly-relationship",
+      "title": "4+ Character Poly Relationship",
+      "premise": "A dedicated multi-partner relationship concept with four or more distinct characters, separate from Four Monster Girls, One Very Crowded Couch. Exact cast and dynamics still undecided.",
+      "type": "Group / Relationship",
+      "origin": "personal",
+      "status": "Possible"
+    },
+    {
+      "id": "evelyn-parker-solo",
+      "title": "Evelyn Parker — Solo Bot",
+      "premise": "A standalone Evelyn Parker character rather than the already-completed Judy & Evelyn duo. Specific scenario still to be settled.",
+      "type": "Cyberpunk 2077 / Fandom",
+      "origin": "personal",
+      "status": "Possible"
+    },
+    {
       "id": "did-tattoo-artist-stops-switch",
       "title": "The Tattoo Artist Stops the Second You Switch (DID POV)",
-      "premise": "{{user}} consented to a tattoo, but a different alter fronts mid-session and does not; the tattoo artist immediately stops.",
+      "premise": "{{user}} consented to a tattoo, but a different alter fronts mid-session and does not. The tattoo artist immediately stops and checks consent again.",
       "type": "DID",
       "origin": "personal",
       "status": "Planned"
@@ -30,7 +62,7 @@
     {
       "id": "did-system-wants-dog",
       "title": "Someone in Your System Wants a Dog (DID POV)",
-      "premise": "A DID POV concept centered on someone in the system wanting a dog; the exact character and opening setup still need finalizing.",
+      "premise": "One part of the system wants a dog, and the situation becomes a discussion about needs, responsibilities and different preferences across alters.",
       "type": "DID",
       "origin": "personal",
       "status": "Planned"
@@ -38,130 +70,82 @@
     {
       "id": "did-teacher-who-adapts",
       "title": "The Teacher Who Adapts (DID POV)",
-      "premise": "A DID POV concept centered on a teacher who learns to adapt to the system instead of expecting every alter to respond the same way.",
-      "type": "DID",
+      "premise": "A teacher learns to adapt to the system instead of assuming everyone has the same memory, preferences or communication style.",
+      "type": "DID / Supportive",
       "origin": "personal",
       "status": "Planned"
     },
     {
       "id": "did-coworker-remembers-good-days",
       "title": "The Coworker Who Remembers Your Good Days (DID POV)",
-      "premise": "A DID POV coworker concept built around somebody who remembers the good days as well as the confusing ones; the exact opening still needs finalizing.",
-      "type": "DID",
+      "premise": "A coworker remembers the good days as well as the difficult ones, without treating memory gaps or switches as a character flaw.",
+      "type": "DID / Supportive",
       "origin": "personal",
       "status": "Planned"
     },
     {
       "id": "ocd-she-thought-you-were-just-careful",
       "title": "She Thought You Were Just Careful (OCD POV)",
-      "premise": "She initially reads the routines, checking and hesitation as simple carefulness before realizing there is more behind it.",
-      "type": "OCD / POV",
+      "premise": "She initially mistakes checking, hesitation and routines for ordinary carefulness, before slowly understanding the distress behind them.",
+      "type": "Mental Health / POV",
       "origin": "personal",
       "status": "Planned"
     },
     {
       "id": "ptsd-roommate-nightmare",
       "title": "The Roommate Who Never Asks What the Nightmare Was (PTSD POV)",
-      "premise": "A roommate responds to the aftermath of nightmares without demanding an explanation of what happened in them.",
-      "type": "PTSD / POV",
+      "premise": "A roommate supports {{user}} after a nightmare without demanding the details or treating disclosure as an obligation.",
+      "type": "Mental Health / POV",
       "origin": "personal",
       "status": "Planned"
     },
     {
       "id": "bpd-going-to-work-not-leaving",
       "title": "She's Going to Work, Not Leaving You (BPD POV)",
-      "premise": "A relationship scene built around the difference between someone leaving for normal life and emotionally abandoning {{user}}.",
-      "type": "BPD / POV",
+      "premise": "A relationship setup about the difference between a partner going to work and a fear of abandonment.",
+      "type": "Mental Health / POV",
       "origin": "personal",
       "status": "Planned"
     },
     {
       "id": "sleep-paralysis",
-      "title": "Sleep Paralysis",
-      "premise": "A sleep-paralysis-focused POV bot; the exact character and opening setup still need finalizing.",
-      "type": "Sleep Paralysis / POV",
+      "title": "Sleep Paralysis POV",
+      "premise": "A sleep-paralysis-focused concept; the character, setting and introduction still need deciding.",
+      "type": "Sleep / POV",
+      "origin": "personal",
+      "status": "Needs expansion"
+    },
+    {
+      "id": "arfid-pov",
+      "title": "ARFID POV",
+      "premise": "A support-focused relationship scenario involving ARFID. Character, approach and opening are not developed yet.",
+      "type": "Eating / POV",
+      "origin": "personal",
+      "status": "Needs expansion"
+    },
+    {
+      "id": "trichotillomania-pov",
+      "title": "Trichotillomania POV",
+      "premise": "A support-focused scenario involving hair-pulling urges, coping and interpersonal understanding. Character and setup are not developed yet.",
+      "type": "Mental Health / POV",
+      "origin": "personal",
+      "status": "Needs expansion"
+    },
+    {
+      "id": "insomnia-pov",
+      "title": "Insomnia POV",
+      "premise": "A relationship or roommate situation involving chronic difficulty sleeping; exact character and scenario remain open.",
+      "type": "Sleep / POV",
+      "origin": "personal",
+      "status": "Needs expansion"
+    },
+    {
+      "id": "dragonified-xena",
+      "title": "Dragonified Xena — Former Friend Turned Bully",
+      "premise": "A dragonified reinterpretation of the Xena former-best-friend-turned-bully premise. Needs its own character and opening instead of copying the original.",
+      "type": "Dragonified / AU",
       "origin": "personal",
       "status": "Planned"
-    },
-    {
-      "id": "shapeshifter-forgot-original-face",
-      "title": "Shapeshifter Forgot Which Face Was Hers",
-      "premise": "A female shapeshifter has worn other faces for so long that she no longer knows which appearance was originally hers. Separate from Vessa's mimic concept.",
-      "type": "Supernatural / Monsters",
-      "origin": "personal",
-      "status": "Planned"
-    },
-    {
-      "id": "vampire-immortal-reencounter",
-      "title": "You Were Supposed to Stay Dead (Vampire x Immortal POV)",
-      "premise": "A vampire who fed from {{user}} days or weeks earlier and believed the encounter was fatal recognizes them alive again. How {{user}} survives and what their immortality means stays user-defined.",
-      "type": "Vampire / Immortal POV",
-      "origin": "personal",
-      "status": "Planned"
-    },
-    {
-      "id": "siren-keeps-singing-for-you",
-      "title": "The Siren Keeps Singing for You (AnyPOV)",
-      "premise": "A siren's supernatural song cannot affect {{user}}, but they keep returning to listen anyway. She eventually starts singing because {{user}} genuinely enjoys it rather than because the song can control them.",
-      "type": "Siren",
-      "origin": "personal",
-      "status": "Planned"
-    },
-    {
-      "id": "mermaid-picks-wrong-target",
-      "title": "Mermaid Picks the Wrong Target",
-      "premise": "A mermaid-focused wrong-target concept where {{user}} is not the kind of target she expected; the exact reason and opening setup still need choosing.",
-      "type": "Mermaid",
-      "origin": "personal",
-      "status": "Possible"
-    },
-    {
-      "id": "werewolf-pack-likes-you",
-      "title": "Werewolf Pack Likes You",
-      "premise": "A reversal of the earlier pack setup: the werewolf pack openly likes or admires {{user}}, while the alpha mostly just tolerates them.",
-      "type": "Werewolf Pack",
-      "origin": "personal",
-      "status": "Possible"
-    },
-    {
-      "id": "impossible-powers-partner",
-      "title": "Impossible Powers Partner",
-      "premise": "An adult woman gradually discovers that {{user}} can turn invisible, teleport and stop time. The setup starts with discovery and trust rather than immediately using the powers for anything else.",
-      "type": "Impossible Powers",
-      "origin": "personal",
-      "status": "Backburner"
-    },
-    {
-      "id": "dragon-hunter-half-dragon",
-      "title": "The Dragon Hunter Realizes You're Only Half Dragon",
-      "premise": "A dragon hunter closes in on {{user}} and realizes the target is only half dragon, complicating what was supposed to be a simple hunt.",
-      "type": "Dragon Hybrid",
-      "origin": "personal",
-      "status": "Possible"
-    },
-    {
-      "id": "lamia-warmest-spot",
-      "title": "The Lamia Keeps Offering You Her Warmest Spot",
-      "premise": "A lamia repeatedly offers {{user}} the warmest, safest place in her coils; this may be merged with or focused around another lamia concept later.",
-      "type": "Lamia",
-      "origin": "personal",
-      "status": "Possible / merge"
-    },
-    {
-      "id": "dragon-princess-sneaks-out",
-      "title": "The Dragon Princess Keeps Sneaking Out to See You",
-      "premise": "A dragon princess keeps slipping away from court or her handlers for increasingly obvious visits with {{user}}.",
-      "type": "Dragon",
-      "origin": "personal",
-      "status": "Possible"
-    },
-    {
-      "id": "elf-flirting-thinks-you-know",
-      "title": "The Elf Has Been Flirting With You for Months and Thinks You Know",
-      "premise": "An elf has been openly flirting by her own cultural standards for months and only slowly realizes {{user}} has no idea.",
-      "type": "Elf",
-      "origin": "personal",
-      "status": "Possible"
     }
   ]
 }

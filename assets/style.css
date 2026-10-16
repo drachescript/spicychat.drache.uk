@@ -79,3 +79,13 @@ body.age-gate-open{overflow:hidden}.age-gate[hidden],#request-page-content[hidde
 .fandom-empty{padding:12px 4px;color:var(--muted);font-size:12px}
 .fandom-chip:focus-visible,.fandom-franchise-label select:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
 @media(max-width:620px){.fandom-controls{align-items:stretch;flex-direction:column}.fandom-franchise-label{width:100%}}
+
+/* One-card-per-bot category browsing: origin chips replace duplicate sections. */
+#category-filters[hidden]{display:none}
+#category-filters{padding-top:28px}
+.origin-filter-group{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.origin-chip{appearance:none;cursor:pointer;padding:8px 12px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--muted);font:inherit;font-size:11px;font-weight:780}
+.origin-chip span{opacity:.7;margin-left:4px}
+.origin-chip:hover{border-color:#404757;color:#fff}
+.origin-chip.active{border-color:rgba(124,183,255,.38);background:rgba(124,183,255,.12);color:#eaf4ff}
+.origin-chip:focus-visible{outline:2px solid var(--blue);outline-offset:2px}

@@ -23,6 +23,7 @@ FILES = {
     "discoveries": DATA / "bot-discoveries.json",
     "public": DATA / "bot-public.json",
     "archived": DATA / "archived-bots.json",
+    "planned": DATA / "planned-bots.json",
 }
 
 errors: list[str] = []
@@ -100,6 +101,7 @@ archived = docs["archived"].get("bots", []) if isinstance(docs["archived"], dict
 discoveries = docs["discoveries"].get("discoveries", []) if isinstance(docs["discoveries"], dict) else []
 public_rows = docs["public"].get("bots", []) if isinstance(docs["public"], dict) else []
 snapshots = docs["history"].get("snapshots", []) if isinstance(docs["history"], dict) else []
+planned = docs["planned"].get("ideas", []) if isinstance(docs["planned"], dict) else []
 
 active_ids_list = ids(bots, "bots.bots")
 stats_ids_list = ids(stats, "bot-stats.bots")
@@ -107,12 +109,14 @@ archived_ids_list = ids(archived, "archived-bots.bots")
 discovery_ids_list = ids(discoveries, "bot-discoveries.discoveries")
 public_ids_list = ids(public_rows, "bot-public.bots")
 
+planned_ids_list = ids(planned, "planned-bots.ideas")
 for label, values in (
     ("active bots", active_ids_list),
     ("stats rows", stats_ids_list),
     ("archived bots", archived_ids_list),
     ("discoveries", discovery_ids_list),
     ("public records", public_ids_list),
+    ("planned ideas", planned_ids_list),
 ):
     dupes = duplicate_values(values)
     if dupes:
@@ -144,6 +148,13 @@ category_ids = {
     row.get("id") for row in docs["bots"].get("categories", [])
     if isinstance(row, dict) and row.get("id")
 }
+planned_titles = [str(row.get("title") or "").casefold().strip() for row in planned if isinstance(row, dict)]
+for title in duplicate_values(planned_titles):
+    err(f"duplicate title in planned-bots: {title}")
+active_title_set = {str(row.get("title") or "").casefold().strip() for row in bots if isinstance(row, dict)}
+for idea in planned:
+    if isinstance(idea, dict) and str(idea.get("title") or "").casefold().strip() in active_title_set:
+        err(f"completed bot still appears in planned-bots: {idea.get('title')!r}")
 allowed_origins = {"requested", "personal", "unknown", None, ""}
 for bot in bots:
     name = bot.get("name") or bot.get("id") or "unknown"
