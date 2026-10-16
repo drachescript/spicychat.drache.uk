@@ -4039,6 +4039,24 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-16T00:39:13Z",
+      "botId": "57fc84b4-cb36-464f-9b87-49b30057e093",
+      "botName": "Maeve Calder",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-16T00:39:13Z",
+      "botId": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
+      "botName": "Dragon",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
