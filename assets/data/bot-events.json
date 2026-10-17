@@ -4102,6 +4102,24 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-17T12:20:41Z",
+      "botId": "bb107274-bf89-43de-bee1-6269f373494a",
+      "botName": "Matilda Wilde",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-17T12:20:41Z",
+      "botId": "edd37295-26d2-4a29-8951-8771b1fa3088",
+      "botName": "A Jurassic TF",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
