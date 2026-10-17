@@ -4129,6 +4129,15 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-17T22:34:47Z",
+      "botId": "cab36813-f705-4cd7-9156-853904939343",
+      "botName": "Lyris",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
