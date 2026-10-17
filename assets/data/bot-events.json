@@ -4120,6 +4120,15 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-17T15:51:50Z",
+      "botId": "bb107274-bf89-43de-bee1-6269f373494a",
+      "botName": "Matilda Wilde",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
