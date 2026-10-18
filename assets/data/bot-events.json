@@ -4138,6 +4138,33 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-18T16:05:33Z",
+      "botId": "da969ba1-4a68-4611-b8cc-8f281ea671f0",
+      "botName": "Raptor Pack Handler",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-18T16:05:33Z",
+      "botId": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
+      "botName": "SCP Foundation",
+      "type": "milestone",
+      "value": 10000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-18T16:05:33Z",
+      "botId": "e28727e4-3475-4aa3-acc8-54f039626243",
+      "botName": "Avery Knox",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
