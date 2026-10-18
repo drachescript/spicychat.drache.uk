@@ -4165,6 +4165,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-18T18:50:15Z",
+      "botId": "26f0e580-59a8-4a9e-aee1-05dcb314a283",
+      "botName": "Liora Ash",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
