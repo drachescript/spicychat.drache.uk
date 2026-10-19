@@ -4183,6 +4183,31 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-19T05:10:08Z",
+      "botId": "3b6f7721-bfc4-41da-aad3-b6beb89368fa",
+      "botName": "Leda Park",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-19T05:10:08Z",
+      "botId": "3b6f7721-bfc4-41da-aad3-b6beb89368fa",
+      "botName": "Leda Park",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-19T05:10:08Z",
+      "botId": "719582fa-603c-4904-8805-632c094a500b",
+      "botName": "Sabine Crowe",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
