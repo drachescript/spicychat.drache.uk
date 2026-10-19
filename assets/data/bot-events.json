@@ -4208,6 +4208,15 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-19T23:54:04Z",
+      "botId": "335fc9a0-a010-490f-ac1e-881e1d740c95",
+      "botName": "Gotham City Sirens",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
