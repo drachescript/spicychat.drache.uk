@@ -1833,20 +1833,21 @@
     {
       "id": "3b6f7721-bfc4-41da-aad3-b6beb89368fa",
       "name": "Leda Park",
-      "publicSinceAt": "2026-10-19T05:10:08Z",
-      "publicSinceAccuracy": "first-observed",
-      "publicSinceSource": "typesense",
+      "publicSinceAt": "2026-10-19T03:58:23+00:00",
+      "publicSinceAccuracy": "confirmed",
+      "publicSinceSource": "spicychat-approval-email",
       "firstPublicObservedAt": "2026-10-19T05:10:08Z",
       "previousNonPublicObservedAt": null,
       "baselineAt": "2026-10-19T05:10:08Z",
       "messagesAtBaseline": 43,
       "messagesDisplayAtBaseline": "43",
       "messagesApproximateAtBaseline": false,
-      "baselineAccuracy": "same-observation",
-      "baselineLagMinutes": 0,
+      "baselineAccuracy": "after-public",
+      "baselineLagMinutes": 72,
       "baselineSource": "typesense",
-      "accuracy": "first-observed",
-      "source": "typesense"
+      "accuracy": "confirmed",
+      "source": "spicychat-approval-email",
+      "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
     }
   ]
 }
