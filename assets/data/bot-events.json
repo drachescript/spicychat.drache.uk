@@ -4226,6 +4226,15 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-20T17:27:26Z",
+      "botId": "a9b6cec6-a5d8-489e-929b-acc678c14dec",
+      "botName": "Seraphine Vale",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
