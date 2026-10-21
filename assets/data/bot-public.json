@@ -1848,6 +1848,42 @@
       "accuracy": "confirmed",
       "source": "spicychat-approval-email",
       "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
+    },
+    {
+      "id": "58d7adc7-3790-49d1-a32e-8cbad7d99352",
+      "name": "Mara Ellison",
+      "publicSinceAt": "2026-10-21T14:03:45Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-10-21T14:03:45Z",
+      "previousNonPublicObservedAt": null,
+      "baselineAt": "2026-10-21T14:03:45Z",
+      "messagesAtBaseline": 200,
+      "messagesDisplayAtBaseline": "200",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
+    },
+    {
+      "id": "96adbe96-bb6c-491d-a890-ce316643bd48",
+      "name": "Midnight Road Queens",
+      "publicSinceAt": "2026-10-21T14:03:45Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-10-21T14:03:45Z",
+      "previousNonPublicObservedAt": null,
+      "baselineAt": "2026-10-21T14:03:45Z",
+      "messagesAtBaseline": 144,
+      "messagesDisplayAtBaseline": "144",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
     }
   ]
 }

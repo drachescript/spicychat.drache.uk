@@ -4244,6 +4244,38 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-21T14:03:45Z",
+      "botId": "58d7adc7-3790-49d1-a32e-8cbad7d99352",
+      "botName": "Mara Ellison",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-21T14:03:45Z",
+      "botId": "58d7adc7-3790-49d1-a32e-8cbad7d99352",
+      "botName": "Mara Ellison",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-21T14:03:45Z",
+      "botId": "96adbe96-bb6c-491d-a890-ce316643bd48",
+      "botName": "Midnight Road Queens",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-21T14:03:45Z",
+      "botId": "96adbe96-bb6c-491d-a890-ce316643bd48",
+      "botName": "Midnight Road Queens",
+      "type": "new",
+      "source": "typesense"
     }
   ]
 }
