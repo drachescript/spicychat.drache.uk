@@ -4303,6 +4303,24 @@
       "value": 2500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-23T18:39:04Z",
+      "botId": "f269e055-5763-45ad-8bf9-a8e1101e3446",
+      "botName": "Nadia Mercer",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-23T18:39:04Z",
+      "botId": "bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
+      "botName": "Nadia Cross",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
