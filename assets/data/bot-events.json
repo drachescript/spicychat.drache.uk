@@ -4285,6 +4285,24 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-23T13:44:55Z",
+      "botId": "58d7adc7-3790-49d1-a32e-8cbad7d99352",
+      "botName": "Mara Ellison",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-23T13:44:55Z",
+      "botId": "5d2480a6-6344-43b5-9338-ae54644a4659",
+      "botName": "Raptor Pack + Indo",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
