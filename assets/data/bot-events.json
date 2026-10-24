@@ -4321,6 +4321,15 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-24T16:10:47Z",
+      "botId": "e654d057-f51e-4b29-97e8-f59e95aa147b",
+      "botName": "Evelyn Hart",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
