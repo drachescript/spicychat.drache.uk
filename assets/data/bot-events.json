@@ -4339,6 +4339,15 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-25T16:43:01Z",
+      "botId": "eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
+      "botName": "Crimson Licker",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
