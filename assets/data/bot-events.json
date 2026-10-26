@@ -4357,6 +4357,15 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-26T05:13:53Z",
+      "botId": "bab26e74-f1b1-40f8-b128-8dced36db375",
+      "botName": "Stewart",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
