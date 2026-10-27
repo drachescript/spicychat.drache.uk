@@ -4402,6 +4402,22 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-27T18:13:11Z",
+      "botId": "17f128c6-2c8c-40a4-bed0-34c6a4a2d47a",
+      "botName": "Godiva",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-27T18:13:11Z",
+      "botId": "17f128c6-2c8c-40a4-bed0-34c6a4a2d47a",
+      "botName": "Godiva",
+      "type": "new",
+      "source": "typesense"
     }
   ]
 }
