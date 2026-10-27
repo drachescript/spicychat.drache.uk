@@ -4393,6 +4393,15 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-27T05:28:27Z",
+      "botId": "435e0b77-68cc-4d4f-bbe8-417208124b07",
+      "botName": "Jade Marlowe",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
