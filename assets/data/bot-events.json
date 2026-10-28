@@ -4418,6 +4418,15 @@
       "botName": "Godiva",
       "type": "new",
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-28T08:55:08Z",
+      "botId": "b376faf0-8c37-4b37-8861-8ca68cdd64b6",
+      "botName": "Yui Kimura",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
