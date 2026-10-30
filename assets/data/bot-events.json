@@ -4427,6 +4427,33 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-30T07:39:22Z",
+      "botId": "58d7adc7-3790-49d1-a32e-8cbad7d99352",
+      "botName": "Mara Ellison",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-30T07:39:22Z",
+      "botId": "bab26e74-f1b1-40f8-b128-8dced36db375",
+      "botName": "Stewart",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-30T07:39:22Z",
+      "botId": "fee9a583-d3b6-4043-9300-fd7be8505111",
+      "botName": "Katy",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
