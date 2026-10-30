@@ -4454,6 +4454,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-30T13:25:01Z",
+      "botId": "78986c9b-8a87-485d-b92c-33423de50a78",
+      "botName": "Saeli Venn",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
