@@ -4499,6 +4499,104 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "1ae3557d-f308-4755-ade8-0ad9897c27bb",
+      "botName": "J.A.R.V.I.S.",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "1ae3557d-f308-4755-ade8-0ad9897c27bb",
+      "botName": "J.A.R.V.I.S.",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "95de7ca2-a625-4953-a03a-cc80cb910e78",
+      "botName": "F.R.I.D.A.Y.",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "95de7ca2-a625-4953-a03a-cc80cb910e78",
+      "botName": "F.R.I.D.A.Y.",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "a8bbe351-230c-4404-b3d4-142e225dd437",
+      "botName": "Aldrich Killian",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "a8bbe351-230c-4404-b3d4-142e225dd437",
+      "botName": "Aldrich Killian",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "e39db94b-ee4e-4bb8-b46c-0d28637b8d4b",
+      "botName": "Eleanor Rowley",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "e39db94b-ee4e-4bb8-b46c-0d28637b8d4b",
+      "botName": "Eleanor Rowley",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "94984824-cd9b-4311-af3a-359f715fd749",
+      "botName": "Ruth Calder",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "94984824-cd9b-4311-af3a-359f715fd749",
+      "botName": "Ruth Calder",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
+      "botName": "Judy & Evelyn",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-10-31T18:41:36Z",
+      "botId": "ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
+      "botName": "Naomi Vance",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
