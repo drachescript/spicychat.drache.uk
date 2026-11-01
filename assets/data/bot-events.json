@@ -4624,6 +4624,24 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-01T15:25:17Z",
+      "botId": "96adbe96-bb6c-491d-a890-ce316643bd48",
+      "botName": "Midnight Road Queens",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-01T15:25:17Z",
+      "botId": "fc7e3398-19f3-47fa-ba76-053b85e03810",
+      "botName": "Yuna Tachibana",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
