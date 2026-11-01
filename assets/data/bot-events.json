@@ -4642,6 +4642,22 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-01T20:44:55Z",
+      "botId": "66c7f00d-fca6-49a5-ad92-bc2d94ad0dfb",
+      "botName": "Dusk",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-01T20:44:55Z",
+      "botId": "66c7f00d-fca6-49a5-ad92-bc2d94ad0dfb",
+      "botName": "Dusk",
+      "type": "new",
+      "source": "typesense"
     }
   ]
 }

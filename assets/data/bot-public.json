@@ -2000,6 +2000,24 @@
       "accuracy": "confirmed",
       "source": "spicychat-approval-email",
       "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
+    },
+    {
+      "id": "66c7f00d-fca6-49a5-ad92-bc2d94ad0dfb",
+      "name": "Dusk",
+      "publicSinceAt": "2026-11-01T20:44:55Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-11-01T20:44:55Z",
+      "previousNonPublicObservedAt": null,
+      "baselineAt": "2026-11-01T20:44:55Z",
+      "messagesAtBaseline": 162,
+      "messagesDisplayAtBaseline": "162",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
     }
   ]
 }
