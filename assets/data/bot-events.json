@@ -4597,6 +4597,33 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-01T06:42:05Z",
+      "botId": "95de7ca2-a625-4953-a03a-cc80cb910e78",
+      "botName": "F.R.I.D.A.Y.",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-01T06:42:05Z",
+      "botId": "95de7ca2-a625-4953-a03a-cc80cb910e78",
+      "botName": "F.R.I.D.A.Y.",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-01T06:42:05Z",
+      "botId": "f269e055-5763-45ad-8bf9-a8e1101e3446",
+      "botName": "Nadia Mercer",
+      "type": "milestone",
+      "value": 5000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
