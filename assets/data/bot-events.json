@@ -4658,6 +4658,15 @@
       "botName": "Dusk",
       "type": "new",
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-02T20:28:50Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
