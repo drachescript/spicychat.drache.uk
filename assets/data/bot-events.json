@@ -4712,6 +4712,24 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-04T22:05:56Z",
+      "botId": "719582fa-603c-4904-8805-632c094a500b",
+      "botName": "Sabine Crowe",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-04T22:05:56Z",
+      "botId": "691a385e-a7f0-43d2-8d55-e121f0fdb82a",
+      "botName": "Han Ji-won",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
