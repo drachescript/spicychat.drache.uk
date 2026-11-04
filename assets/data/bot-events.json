@@ -4685,6 +4685,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-04T06:55:20Z",
+      "botId": "a1cf80af-e406-4a57-9cd4-547c736c9683",
+      "botName": "Felicia Mercer",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
