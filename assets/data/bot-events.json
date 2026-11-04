@@ -4694,6 +4694,24 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-04T16:30:09Z",
+      "botId": "335fc9a0-a010-490f-ac1e-881e1d740c95",
+      "botName": "Gotham City Sirens",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-04T16:30:09Z",
+      "botId": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
+      "botName": "Inui Toko",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
