@@ -4820,6 +4820,15 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-09T19:03:30Z",
+      "botId": "fc7e3398-19f3-47fa-ba76-053b85e03810",
+      "botName": "Yuna Tachibana",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
