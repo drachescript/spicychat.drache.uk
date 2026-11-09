@@ -4802,6 +4802,24 @@
       "value": 10000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-09T07:04:12Z",
+      "botId": "3c719d70-7e67-4562-962a-2906a33cbf08",
+      "botName": "Alpha Chooses You",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-09T07:04:12Z",
+      "botId": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
+      "botName": "Inui Toko",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
