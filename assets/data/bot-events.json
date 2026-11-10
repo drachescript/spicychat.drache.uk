@@ -4838,6 +4838,15 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-10T12:54:45Z",
+      "botId": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
+      "botName": "Lena Foster",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
