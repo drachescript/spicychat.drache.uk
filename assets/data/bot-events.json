@@ -4856,6 +4856,15 @@
       "value": 5000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-11T09:46:52Z",
+      "botId": "1a4b74a8-2f2a-4a47-a63d-3ea89155e85a",
+      "botName": "Aster System",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
