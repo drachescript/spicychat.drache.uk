@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "capturedAt": "2026-11-12T23:47:56Z",
+  "capturedAt": "2026-11-13T07:07:18Z",
   "source": "github-public-updater",
   "label": "Automatic update",
   "bots": [
@@ -14,7 +14,7 @@
       "messagesDisplay": "162",
       "messagesApproximate": false,
       "exactMessages": 162,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 1127,
       "tokensDisplay": "1127",
@@ -24,7 +24,7 @@
       "rawTokens": "1,127",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/66c7f00d-fca6-49a5-ad92-bc2d94ad0dfb",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "1ae3557d-f308-4755-ade8-0ad9897c27bb",
@@ -36,7 +36,7 @@
       "messagesDisplay": "32",
       "messagesApproximate": false,
       "exactMessages": 32,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 926,
       "tokensDisplay": "926",
@@ -46,7 +46,7 @@
       "rawTokens": "926",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/1ae3557d-f308-4755-ade8-0ad9897c27bb",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "95de7ca2-a625-4953-a03a-cc80cb910e78",
@@ -54,21 +54,21 @@
       "title": "The Voice Behind the Armor (F.R.I.D.A.Y., AnyPOV)",
       "url": "https://spicychat.ai/chat/95de7ca2-a625-4953-a03a-cc80cb910e78",
       "visibility": "public",
-      "messages": 441,
-      "messagesDisplay": "441",
+      "messages": 456,
+      "messagesDisplay": "456",
       "messagesApproximate": false,
-      "exactMessages": 441,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 456,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 884,
       "tokensDisplay": "884",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/25dfd0bb-20ef-4dcd-aa06-600df95113f3.png?class=avatar256x256",
-      "rawMessages": "441",
+      "rawMessages": "456",
       "rawTokens": "884",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/95de7ca2-a625-4953-a03a-cc80cb910e78",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "a8bbe351-230c-4404-b3d4-142e225dd437",
@@ -80,7 +80,7 @@
       "messagesDisplay": "0",
       "messagesApproximate": false,
       "exactMessages": 0,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 998,
       "tokensDisplay": "998",
@@ -90,7 +90,7 @@
       "rawTokens": "998",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/a8bbe351-230c-4404-b3d4-142e225dd437",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "e39db94b-ee4e-4bb8-b46c-0d28637b8d4b",
@@ -102,7 +102,7 @@
       "messagesDisplay": "64",
       "messagesApproximate": false,
       "exactMessages": 64,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 1052,
       "tokensDisplay": "1052",
@@ -112,7 +112,7 @@
       "rawTokens": "1,052",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/e39db94b-ee4e-4bb8-b46c-0d28637b8d4b",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "94984824-cd9b-4311-af3a-359f715fd749",
@@ -124,7 +124,7 @@
       "messagesDisplay": "98",
       "messagesApproximate": false,
       "exactMessages": 98,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 1944,
       "tokensDisplay": "1944",
@@ -134,7 +134,7 @@
       "rawTokens": "1,944",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/94984824-cd9b-4311-af3a-359f715fd749",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "17f128c6-2c8c-40a4-bed0-34c6a4a2d47a",
@@ -142,21 +142,21 @@
       "title": "She Woke Up in a Gargoyle Android Body (AnyPOV)",
       "url": "https://spicychat.ai/chat/17f128c6-2c8c-40a4-bed0-34c6a4a2d47a",
       "visibility": "public",
-      "messages": 56,
-      "messagesDisplay": "56",
+      "messages": 65,
+      "messagesDisplay": "65",
       "messagesApproximate": false,
-      "exactMessages": 56,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 65,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 1027,
       "tokensDisplay": "1027",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/eb8f8ca8-afd9-4971-9851-cc62659a1060.png?class=avatar256x256",
-      "rawMessages": "56",
+      "rawMessages": "65",
       "rawTokens": "1,027",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/17f128c6-2c8c-40a4-bed0-34c6a4a2d47a",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "58d7adc7-3790-49d1-a32e-8cbad7d99352",
@@ -168,7 +168,7 @@
       "messagesDisplay": "2,328",
       "messagesApproximate": false,
       "exactMessages": 2328,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 1963,
       "tokensDisplay": "1963",
@@ -178,7 +178,7 @@
       "rawTokens": "1,963",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/58d7adc7-3790-49d1-a32e-8cbad7d99352",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "96adbe96-bb6c-491d-a890-ce316643bd48",
@@ -190,7 +190,7 @@
       "messagesDisplay": "328",
       "messagesApproximate": false,
       "exactMessages": 328,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 1937,
       "tokensDisplay": "1937",
@@ -200,7 +200,7 @@
       "rawTokens": "1,937",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/96adbe96-bb6c-491d-a890-ce316643bd48",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "3b6f7721-bfc4-41da-aad3-b6beb89368fa",
@@ -212,7 +212,7 @@
       "messagesDisplay": "511",
       "messagesApproximate": false,
       "exactMessages": 511,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 1862,
       "tokensDisplay": "1862",
@@ -222,7 +222,7 @@
       "rawTokens": "1,862",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/3b6f7721-bfc4-41da-aad3-b6beb89368fa",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "fc7e3398-19f3-47fa-ba76-053b85e03810",
@@ -234,7 +234,7 @@
       "messagesDisplay": "1,375",
       "messagesApproximate": false,
       "exactMessages": 1375,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "tokens": 1506,
       "tokensDisplay": "1506",
@@ -243,7 +243,7 @@
       "rawMessages": "1,375",
       "rawTokens": "1,506",
       "statsSource": "typesense",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z",
+      "statsUpdatedAt": "2026-11-13T07:07:18Z",
       "profileUrl": "https://spicychat.ai/chatbot/fc7e3398-19f3-47fa-ba76-053b85e03810"
     },
     {
@@ -263,11 +263,11 @@
       "rawTokens": "1421",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 5786,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/e654d057-f51e-4b29-97e8-f59e95aa147b",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "26f0e580-59a8-4a9e-aee1-05dcb314a283",
@@ -286,11 +286,11 @@
       "rawTokens": "1427",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 229,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/26f0e580-59a8-4a9e-aee1-05dcb314a283",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "a9b6cec6-a5d8-489e-929b-acc678c14dec",
@@ -309,11 +309,11 @@
       "rawTokens": "1606",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 3155,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/a9b6cec6-a5d8-489e-929b-acc678c14dec",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "f269e055-5763-45ad-8bf9-a8e1101e3446",
@@ -321,22 +321,22 @@
       "title": "She Just Became Immortal. You've Been One for Ages (Immortal POV)",
       "url": "https://spicychat.ai/chat/f269e055-5763-45ad-8bf9-a8e1101e3446",
       "visibility": "public",
-      "messages": 10656,
-      "messagesDisplay": "10,656",
+      "messages": 10696,
+      "messagesDisplay": "10,696",
       "messagesApproximate": false,
       "tokens": 1874,
       "tokensDisplay": "1874",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/0115408a-dad7-4446-a099-e338b4a1ae5b.webp?class=avatar256x256",
-      "rawMessages": "10,656",
+      "rawMessages": "10,696",
       "rawTokens": "1874",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 10656,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 10696,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/f269e055-5763-45ad-8bf9-a8e1101e3446",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "f6b51b97-5d6d-486b-b7e1-721efb4eb883",
@@ -355,11 +355,11 @@
       "rawTokens": "2134",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 47,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/f6b51b97-5d6d-486b-b7e1-721efb4eb883",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "335fc9a0-a010-490f-ac1e-881e1d740c95",
@@ -367,22 +367,22 @@
       "title": "Caught by the Gotham City Sirens (AnyPOV)",
       "url": "https://spicychat.ai/chat/335fc9a0-a010-490f-ac1e-881e1d740c95",
       "visibility": "public",
-      "messages": 1238,
-      "messagesDisplay": "1,238",
+      "messages": 1243,
+      "messagesDisplay": "1,243",
       "messagesApproximate": false,
       "tokens": 2125,
       "tokensDisplay": "2125",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/36a3e653-17b1-4391-8102-8af4d3a3b2e8.jpg?class=avatar256x256",
-      "rawMessages": "1,238",
+      "rawMessages": "1,243",
       "rawTokens": "2125",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 1238,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 1243,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/335fc9a0-a010-490f-ac1e-881e1d740c95",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "2af0a950-b002-473b-8ec1-5f1ac558bae5",
@@ -401,11 +401,11 @@
       "rawTokens": "1318",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 0,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/2af0a950-b002-473b-8ec1-5f1ac558bae5",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "bb107274-bf89-43de-bee1-6269f373494a",
@@ -424,11 +424,11 @@
       "rawTokens": "1706",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 592,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/bb107274-bf89-43de-bee1-6269f373494a",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "88e43337-cde4-49ec-9f82-7e2f587233ae",
@@ -447,11 +447,11 @@
       "rawTokens": "1385",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 255,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/88e43337-cde4-49ec-9f82-7e2f587233ae",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "a2d3bb66-4cc8-49b9-b097-7e2bddffc512",
@@ -470,11 +470,11 @@
       "rawTokens": "1221",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 9,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/a2d3bb66-4cc8-49b9-b097-7e2bddffc512",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "bab26e74-f1b1-40f8-b128-8dced36db375",
@@ -493,11 +493,11 @@
       "rawTokens": "993",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 510,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/bab26e74-f1b1-40f8-b128-8dced36db375",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "c5a53445-3dd9-48af-9aa1-90743071f75c",
@@ -516,11 +516,11 @@
       "rawTokens": "1143",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 7,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/c5a53445-3dd9-48af-9aa1-90743071f75c",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "fee9a583-d3b6-4043-9300-fd7be8505111",
@@ -539,11 +539,11 @@
       "rawTokens": "806",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1036,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/fee9a583-d3b6-4043-9300-fd7be8505111",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "478fb192-528b-413a-8397-d09e4db182d7",
@@ -562,11 +562,11 @@
       "rawTokens": "1197",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1108,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/478fb192-528b-413a-8397-d09e4db182d7",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "12cd6561-8d61-4c26-87c0-bd237a8c8c2d",
@@ -585,11 +585,11 @@
       "rawTokens": "2003",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 459,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/12cd6561-8d61-4c26-87c0-bd237a8c8c2d",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "35a4788f-5e20-4a44-8ace-0c519f134a7f",
@@ -608,11 +608,11 @@
       "rawTokens": "2166",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 416,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/35a4788f-5e20-4a44-8ace-0c519f134a7f",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "cab36813-f705-4cd7-9156-853904939343",
@@ -620,22 +620,22 @@
       "title": "The Siren Keeps Singing for You (AnyPOV)",
       "url": "https://spicychat.ai/chat/cab36813-f705-4cd7-9156-853904939343",
       "visibility": "public",
-      "messages": 458,
-      "messagesDisplay": "458",
+      "messages": 462,
+      "messagesDisplay": "462",
       "messagesApproximate": false,
       "tokens": 2083,
       "tokensDisplay": "2083",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/1cfa09fa-1ca5-48e8-8d3d-8e5f0486bc19.png?class=avatar256x256",
-      "rawMessages": "458",
+      "rawMessages": "462",
       "rawTokens": "2083",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 458,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 462,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/cab36813-f705-4cd7-9156-853904939343",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "cc8459ee-93e4-4e68-9478-410e96075dfa",
@@ -643,22 +643,22 @@
       "title": "The Vampire Picked the Wrong Target (Immortal POV)",
       "url": "https://spicychat.ai/chat/cc8459ee-93e4-4e68-9478-410e96075dfa",
       "visibility": "public",
-      "messages": 133085,
-      "messagesDisplay": "133,085",
+      "messages": 133246,
+      "messagesDisplay": "133,246",
       "messagesApproximate": false,
       "tokens": 1889,
       "tokensDisplay": "1889",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/46ff0e1e-33e8-44f8-85f6-db38916bb55e.jpg?class=avatar256x256",
-      "rawMessages": "133,085",
+      "rawMessages": "133,246",
       "rawTokens": "1889",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 133085,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 133246,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/cc8459ee-93e4-4e68-9478-410e96075dfa",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "719582fa-603c-4904-8805-632c094a500b",
@@ -666,22 +666,22 @@
       "title": "You Were Supposed to Stay Dead (Vampire x Immortal POV)",
       "url": "https://spicychat.ai/chat/719582fa-603c-4904-8805-632c094a500b",
       "visibility": "public",
-      "messages": 1155,
-      "messagesDisplay": "1,155",
+      "messages": 1321,
+      "messagesDisplay": "1,321",
       "messagesApproximate": false,
       "tokens": 1922,
       "tokensDisplay": "1922",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/45a5e97d-4925-40dc-a242-3effd6fb09f7.jpg?class=avatar256x256",
-      "rawMessages": "1,155",
+      "rawMessages": "1,321",
       "rawTokens": "1922",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 1155,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 1321,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/719582fa-603c-4904-8805-632c094a500b",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "76c0d718-a6e6-4231-9582-cc6e2b9aa664",
@@ -700,11 +700,11 @@
       "rawTokens": "2076",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 995,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/76c0d718-a6e6-4231-9582-cc6e2b9aa664",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "5d2480a6-6344-43b5-9338-ae54644a4659",
@@ -723,11 +723,11 @@
       "rawTokens": "2163",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 5534,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/5d2480a6-6344-43b5-9338-ae54644a4659",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "da969ba1-4a68-4611-b8cc-8f281ea671f0",
@@ -746,11 +746,11 @@
       "rawTokens": "2236",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 3795,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/da969ba1-4a68-4611-b8cc-8f281ea671f0",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "ba64e17e-cc7c-4747-88af-efc9a2f361c4",
@@ -769,11 +769,11 @@
       "rawTokens": "1924",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1106,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/ba64e17e-cc7c-4747-88af-efc9a2f361c4",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "3caf7d05-f74a-4cf0-bb28-9b8e67a0de47",
@@ -792,11 +792,11 @@
       "rawTokens": "1938",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1483,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/3caf7d05-f74a-4cf0-bb28-9b8e67a0de47",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "143db585-b684-40ba-a63f-cbd7f165bc81",
@@ -815,11 +815,11 @@
       "rawTokens": "1776",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 932,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/143db585-b684-40ba-a63f-cbd7f165bc81",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
@@ -827,22 +827,22 @@
       "title": "They Thought You Were Just Another Monster (Licker POV)",
       "url": "https://spicychat.ai/chat/a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
       "visibility": "public",
-      "messages": 5807,
-      "messagesDisplay": "5,807",
+      "messages": 5809,
+      "messagesDisplay": "5,809",
       "messagesApproximate": false,
       "tokens": 1753,
       "tokensDisplay": "1753",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/09f3850f-4cf1-4b76-98d0-fbaa77658894.jpg?class=avatar256x256",
-      "rawMessages": "5,807",
+      "rawMessages": "5,809",
       "rawTokens": "1753",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 5807,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 5809,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/a35fdf55-2344-4e8e-9747-0dcec38bbe7f",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
@@ -850,22 +850,22 @@
       "title": "The Licker Caught You Alone (FemalePOV)",
       "url": "https://spicychat.ai/chat/eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
       "visibility": "public",
-      "messages": 5140,
-      "messagesDisplay": "5,140",
+      "messages": 5185,
+      "messagesDisplay": "5,185",
       "messagesApproximate": false,
       "tokens": 1448,
       "tokensDisplay": "1448",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/0c74bc58-ae10-462a-b184-794f4a7d215f.jpg?class=avatar256x256",
-      "rawMessages": "5,140",
+      "rawMessages": "5,185",
       "rawTokens": "1448",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 5140,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 5185,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/eebd2f11-c0b6-4e71-85c8-e7c663dda85a",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "09bc867b-cc45-496e-b7f2-4821fc0f7b48",
@@ -884,11 +884,11 @@
       "rawTokens": "1710",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1580,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/09bc867b-cc45-496e-b7f2-4821fc0f7b48",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "196fe6d2-c164-45d0-ae5c-c56229aac706",
@@ -907,11 +907,11 @@
       "rawTokens": "2166",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 462,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/196fe6d2-c164-45d0-ae5c-c56229aac706",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "4999f8d3-8d88-4391-a7d9-6e29a941f560",
@@ -930,11 +930,11 @@
       "rawTokens": "844",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 791,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/4999f8d3-8d88-4391-a7d9-6e29a941f560",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "e3dec212-835d-4f2e-aebd-006e0ae011a3",
@@ -953,11 +953,11 @@
       "rawTokens": "1376",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 76,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/e3dec212-835d-4f2e-aebd-006e0ae011a3",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "3c719d70-7e67-4562-962a-2906a33cbf08",
@@ -976,11 +976,11 @@
       "rawTokens": "1638",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 831,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/3c719d70-7e67-4562-962a-2906a33cbf08",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
@@ -999,11 +999,11 @@
       "rawTokens": "1468",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 6930,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/b7b7bda6-70ae-4d12-b581-004cbf74d4bf",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
@@ -1022,11 +1022,11 @@
       "rawTokens": "1,533",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 2863,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/7b9ea434-bee4-4ebd-ae9f-8941e09e599a",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "78986c9b-8a87-485d-b92c-33423de50a78",
@@ -1045,11 +1045,11 @@
       "rawTokens": "1,470",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 367,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/78986c9b-8a87-485d-b92c-33423de50a78",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "f4698655-1341-481a-a81a-3b7e395a582c",
@@ -1068,11 +1068,11 @@
       "rawTokens": "2102",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1322,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/f4698655-1341-481a-a81a-3b7e395a582c",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "38154344-755f-4541-adf6-af8a38e628e6",
@@ -1080,22 +1080,22 @@
       "title": "The Queen Keeps Finding Reasons to Summon You (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/38154344-755f-4541-adf6-af8a38e628e6",
       "visibility": "public",
-      "messages": 453,
-      "messagesDisplay": "453",
+      "messages": 454,
+      "messagesDisplay": "454",
       "messagesApproximate": false,
       "tokens": 1762,
       "tokensDisplay": "1762",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/06fb3ba7-c823-4c21-abfa-5448482574f5.jpg?class=avatar256x256",
-      "rawMessages": "453",
+      "rawMessages": "454",
       "rawTokens": "1762",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 453,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 454,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/38154344-755f-4541-adf6-af8a38e628e6",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "e53b778e-9f38-4a72-b805-a4aec2295ff4",
@@ -1114,11 +1114,11 @@
       "rawTokens": "1677",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 868,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/e53b778e-9f38-4a72-b805-a4aec2295ff4",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "73ac8972-cd7e-445f-b916-0d8821934d68",
@@ -1137,11 +1137,11 @@
       "rawTokens": "1738",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 6897,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/73ac8972-cd7e-445f-b916-0d8821934d68",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "6f439a04-51b2-4e31-b5da-f635aa3b9e24",
@@ -1149,22 +1149,22 @@
       "title": "Twenty-Four Hours Until You're Her Drone",
       "url": "https://spicychat.ai/chat/6f439a04-51b2-4e31-b5da-f635aa3b9e24",
       "visibility": "public",
-      "messages": 858,
-      "messagesDisplay": "858",
+      "messages": 1002,
+      "messagesDisplay": "1,002",
       "messagesApproximate": false,
       "tokens": 1773,
       "tokensDisplay": "1773",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/6585c5b8-bb40-427b-917c-7e5e9965fb1e.webp?class=avatar256x256",
-      "rawMessages": "858",
+      "rawMessages": "1,002",
       "rawTokens": "1773",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 858,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 1002,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/6f439a04-51b2-4e31-b5da-f635aa3b9e24",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "e7b48989-6847-400a-9a72-719a64bc5bf4",
@@ -1183,11 +1183,11 @@
       "rawTokens": "1367",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 407,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/e7b48989-6847-400a-9a72-719a64bc5bf4",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
@@ -1206,11 +1206,11 @@
       "rawTokens": "1971",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1501,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/14f39c11-eb1a-4ab8-a7af-3c0354d17c63",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "d757caa5-3abb-4b27-8fa8-bc03897e755b",
@@ -1229,11 +1229,11 @@
       "rawTokens": "1533",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 150,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/d757caa5-3abb-4b27-8fa8-bc03897e755b",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
@@ -1252,11 +1252,11 @@
       "rawTokens": "1319",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 180,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/cb67109b-cdd7-48e9-a49b-da36cc97b7c3",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "dcaa687b-ea31-400e-8e62-04a56168dad8",
@@ -1264,22 +1264,22 @@
       "title": "She Found the Note You Never Meant Her to Read",
       "url": "https://spicychat.ai/chat/dcaa687b-ea31-400e-8e62-04a56168dad8",
       "visibility": "public",
-      "messages": 134934,
-      "messagesDisplay": "134,934",
+      "messages": 135962,
+      "messagesDisplay": "135,962",
       "messagesApproximate": false,
       "tokens": 1387,
       "tokensDisplay": "1387",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/4c98437a-635f-44ca-a558-b2a4c0bf9601.jpg?class=avatar256x256",
-      "rawMessages": "134,934",
+      "rawMessages": "135,962",
       "rawTokens": "1387",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 134934,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 135962,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/dcaa687b-ea31-400e-8e62-04a56168dad8",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "edd37295-26d2-4a29-8951-8771b1fa3088",
@@ -1287,22 +1287,22 @@
       "title": "She turned you into Jurassic World's first human-raptor hybrid.",
       "url": "https://spicychat.ai/chat/edd37295-26d2-4a29-8951-8771b1fa3088",
       "visibility": "public",
-      "messages": 6608,
-      "messagesDisplay": "6,608",
+      "messages": 6723,
+      "messagesDisplay": "6,723",
       "messagesApproximate": false,
       "tokens": 1886,
       "tokensDisplay": "1886",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/9cb88eff-5f70-4507-a351-32e26b9ded72.png?class=avatar256x256",
-      "rawMessages": "6,608",
+      "rawMessages": "6,723",
       "rawTokens": "1,886",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 6608,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 6723,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/edd37295-26d2-4a29-8951-8771b1fa3088",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
@@ -1321,11 +1321,11 @@
       "rawTokens": "1845",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 286,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/40eaf4cc-6f88-483d-a9b5-0837bac79ccc",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
@@ -1344,11 +1344,11 @@
       "rawTokens": "1725",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 108,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/ecd7f21a-651d-4847-9406-9a6bbf4c9af4",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "6fc193e7-25b5-4e11-b533-22a88d001b26",
@@ -1356,22 +1356,22 @@
       "title": "You Said You Were Almost Ready (ADHD POV)",
       "url": "https://spicychat.ai/chat/6fc193e7-25b5-4e11-b533-22a88d001b26",
       "visibility": "public",
-      "messages": 856,
-      "messagesDisplay": "856",
+      "messages": 859,
+      "messagesDisplay": "859",
       "messagesApproximate": false,
       "tokens": 1378,
       "tokensDisplay": "1378",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/0ad547c2-79d4-4f13-8cc1-967cf8d959d1.png?class=avatar256x256",
-      "rawMessages": "856",
+      "rawMessages": "859",
       "rawTokens": "1378",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 856,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 859,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/6fc193e7-25b5-4e11-b533-22a88d001b26",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "72b90b87-3d31-40be-ba07-37bd47c43a52",
@@ -1390,11 +1390,11 @@
       "rawTokens": "1381",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 37,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/72b90b87-3d31-40be-ba07-37bd47c43a52",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
@@ -1413,11 +1413,11 @@
       "rawTokens": "1270",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1267,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/2cb6b2a6-481d-4f0e-8da6-9123b33c5714",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "03988822-692f-48ad-b158-8e152bb6dc20",
@@ -1436,11 +1436,11 @@
       "rawTokens": "1219",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 157,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/03988822-692f-48ad-b158-8e152bb6dc20",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "f766afe6-5b8f-4220-b389-475e4c6d2b9f",
@@ -1459,11 +1459,11 @@
       "rawTokens": "1514",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1553,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/f766afe6-5b8f-4220-b389-475e4c6d2b9f",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "9e6207d9-60bd-482c-a28c-4e29a2dbea89",
@@ -1482,11 +1482,11 @@
       "rawTokens": "1407",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 763,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/9e6207d9-60bd-482c-a28c-4e29a2dbea89",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
@@ -1505,11 +1505,11 @@
       "rawTokens": "1445",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 363,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/98ebe0d7-625d-4196-a7a5-ebfd4f262367",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
@@ -1517,22 +1517,22 @@
       "title": "She Inherited an Abandoned Facility With You Still Inside",
       "url": "https://spicychat.ai/chat/82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
       "visibility": "public",
-      "messages": 135033,
-      "messagesDisplay": "135,033",
+      "messages": 135292,
+      "messagesDisplay": "135,292",
       "messagesApproximate": false,
       "tokens": 1431,
       "tokensDisplay": "1431",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/3a01b14a-5294-49b0-a538-447220bd6779.jpg?class=avatar256x256",
-      "rawMessages": "135,033",
+      "rawMessages": "135,292",
       "rawTokens": "1431",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 135033,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 135292,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/82522e6e-74c9-4db1-98e3-f2d4e07dc65f",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "2b4a0861-36d4-49de-8ea0-a77071953a1e",
@@ -1540,22 +1540,22 @@
       "title": "The Black-Market Auction Goes Wrong (Adult Creature POV)",
       "url": "https://spicychat.ai/chat/2b4a0861-36d4-49de-8ea0-a77071953a1e",
       "visibility": "public",
-      "messages": 25431,
-      "messagesDisplay": "25,431",
+      "messages": 25456,
+      "messagesDisplay": "25,456",
       "messagesApproximate": false,
       "tokens": 1367,
       "tokensDisplay": "1367",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/b98cea2e-da59-4c13-8472-bfe22b86b177.jpg?class=avatar256x256",
-      "rawMessages": "25,431",
+      "rawMessages": "25,456",
       "rawTokens": "1367",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 25431,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 25456,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/2b4a0861-36d4-49de-8ea0-a77071953a1e",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "81c1380f-7f02-472c-93c2-5d230032cdf9",
@@ -1574,11 +1574,11 @@
       "rawTokens": "1242",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 98,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/81c1380f-7f02-472c-93c2-5d230032cdf9",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
@@ -1586,22 +1586,22 @@
       "title": "The Foundation Caught the Living Blueprint of Every Creature (SCP POV)",
       "url": "https://spicychat.ai/chat/51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
       "visibility": "public",
-      "messages": 21158,
-      "messagesDisplay": "21,158",
+      "messages": 21937,
+      "messagesDisplay": "21,937",
       "messagesApproximate": false,
       "tokens": 1553,
       "tokensDisplay": "1553",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/714ca673-a377-4b49-80f0-cea10f923206.webp?class=avatar256x256",
-      "rawMessages": "21,158",
+      "rawMessages": "21,937",
       "rawTokens": "1553",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 21158,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 21937,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/51dbd9e1-71b7-4d8f-ab52-3802b7319cfb",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
@@ -1620,11 +1620,11 @@
       "rawTokens": "1515",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 200,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/c7e2d7d6-1ab9-41b8-b6aa-5a5080173bb3",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "435e0b77-68cc-4d4f-bbe8-417208124b07",
@@ -1643,11 +1643,11 @@
       "rawTokens": "1438",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 559,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/435e0b77-68cc-4d4f-bbe8-417208124b07",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "8fdfe8d4-5b03-49c5-9e50-b505222e2d45",
@@ -1666,11 +1666,11 @@
       "rawTokens": "1585",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 382,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/8fdfe8d4-5b03-49c5-9e50-b505222e2d45",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "1a4b74a8-2f2a-4a47-a63d-3ea89155e85a",
@@ -1689,11 +1689,11 @@
       "rawTokens": "1528",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 116,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/1a4b74a8-2f2a-4a47-a63d-3ea89155e85a",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "691a385e-a7f0-43d2-8d55-e121f0fdb82a",
@@ -1712,11 +1712,11 @@
       "rawTokens": "1390",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 324,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/691a385e-a7f0-43d2-8d55-e121f0fdb82a",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "926c92a3-856c-4fa8-aa81-3d05dccf77fa",
@@ -1735,11 +1735,11 @@
       "rawTokens": "1641",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 404,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/926c92a3-856c-4fa8-aa81-3d05dccf77fa",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
@@ -1758,11 +1758,11 @@
       "rawTokens": "1249",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1370,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/e18ab7dc-f5bd-425f-9330-fbc70ac3a16f",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "db30675a-4626-49bf-8048-43c6fda034da",
@@ -1781,11 +1781,11 @@
       "rawTokens": "1486",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 213,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/db30675a-4626-49bf-8048-43c6fda034da",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "b322238d-4847-40ed-a896-6d6f44f55192",
@@ -1804,11 +1804,11 @@
       "rawTokens": "1478",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 797,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/b322238d-4847-40ed-a896-6d6f44f55192",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "f55dad9d-8339-46ac-a11d-dce0afd98660",
@@ -1827,11 +1827,11 @@
       "rawTokens": "1240",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 474,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/f55dad9d-8339-46ac-a11d-dce0afd98660",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
@@ -1850,11 +1850,11 @@
       "rawTokens": "1332",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 2163,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/a2ba3e35-2d83-43ff-9fc9-db8bdc17531f",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "fbfad622-eea2-493b-8894-6d6f877441de",
@@ -1873,11 +1873,11 @@
       "rawTokens": "1478",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 931,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/fbfad622-eea2-493b-8894-6d6f877441de",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "a04bc9a5-952e-4870-ac90-0a267f695374",
@@ -1896,11 +1896,11 @@
       "rawTokens": "1336",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 8811,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/a04bc9a5-952e-4870-ac90-0a267f695374",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "879971fb-ab6a-4ccc-b94e-60704ec52a2f",
@@ -1908,22 +1908,22 @@
       "title": "The Spider Lady Keeps Finding You (Silent Hill)",
       "url": "https://spicychat.ai/chat/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
       "visibility": "public",
-      "messages": 7143,
-      "messagesDisplay": "7,143",
+      "messages": 7174,
+      "messagesDisplay": "7,174",
       "messagesApproximate": false,
       "tokens": 1584,
       "tokensDisplay": "1584",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/c764f723-5894-448e-ae8e-a6d6b48f824f.jpg?class=avatar256x256",
-      "rawMessages": "7,143",
+      "rawMessages": "7,174",
       "rawTokens": "1584",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 7143,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 7174,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/879971fb-ab6a-4ccc-b94e-60704ec52a2f",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "9831d4b3-5cca-4425-95cb-44d72bb87937",
@@ -1942,11 +1942,11 @@
       "rawTokens": "1536",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 3788,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/9831d4b3-5cca-4425-95cb-44d72bb87937",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "43c73c72-432d-4eeb-8615-a0a519cf7683",
@@ -1954,22 +1954,22 @@
       "title": "The Zenin Clan Made You Their Property (Adult Maki POV)",
       "url": "https://spicychat.ai/chat/43c73c72-432d-4eeb-8615-a0a519cf7683",
       "visibility": "public",
-      "messages": 1309,
-      "messagesDisplay": "1,309",
+      "messages": 1649,
+      "messagesDisplay": "1,649",
       "messagesApproximate": false,
       "tokens": 1901,
       "tokensDisplay": "1901",
       "tokensApproximate": false,
       "image": null,
-      "rawMessages": "1,309",
+      "rawMessages": "1,649",
       "rawTokens": "1901",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 1309,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 1649,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/43c73c72-432d-4eeb-8615-a0a519cf7683",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "a1cf80af-e406-4a57-9cd4-547c736c9683",
@@ -1988,11 +1988,11 @@
       "rawTokens": "1837",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1142,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/a1cf80af-e406-4a57-9cd4-547c736c9683",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
@@ -2000,22 +2000,22 @@
       "title": "You Keep Coming Back to Her Café (Inui Toko / Nijisanji)",
       "url": "https://spicychat.ai/chat/f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
       "visibility": "public",
-      "messages": 1191,
-      "messagesDisplay": "1,191",
+      "messages": 1196,
+      "messagesDisplay": "1,196",
       "messagesApproximate": false,
       "tokens": 1570,
       "tokensDisplay": "1570",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/52af9e91-f013-4d24-847b-a824246792ab.webp?class=avatar256x256",
-      "rawMessages": "1,191",
+      "rawMessages": "1,196",
       "rawTokens": "1570",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 1191,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 1196,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/f2d4a6d5-d0eb-4b74-a57a-0dfa4a0a6372",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "9e005568-3419-4717-9d31-d7dd70104a7f",
@@ -2034,11 +2034,11 @@
       "rawTokens": "1486",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 78222,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/9e005568-3419-4717-9d31-d7dd70104a7f",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "be449df2-b6f7-48b4-831d-d309eaf04f27",
@@ -2057,11 +2057,11 @@
       "rawTokens": "1410",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 7601,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/be449df2-b6f7-48b4-831d-d309eaf04f27",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
@@ -2069,22 +2069,22 @@
       "title": "The Knight Hunting the Dragon Doesn't Know It's You (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
       "visibility": "public",
-      "messages": 261792,
-      "messagesDisplay": "261,792",
+      "messages": 261863,
+      "messagesDisplay": "261,863",
       "messagesApproximate": false,
       "tokens": 1396,
       "tokensDisplay": "1396",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/5bd18c54-9535-451e-8f65-99dd297a2ab4.jpg?class=avatar256x256",
-      "rawMessages": "261,792",
+      "rawMessages": "261,863",
       "rawTokens": "1396",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 261792,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 261863,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/b7eeecb2-c2e1-4a23-91ea-4e6a286e501a",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "57fc84b4-cb36-464f-9b87-49b30057e093",
@@ -2092,22 +2092,22 @@
       "title": "She Inherited Your Mountain and Thinks the Deed Settles It (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/57fc84b4-cb36-464f-9b87-49b30057e093",
       "visibility": "public",
-      "messages": 15513,
-      "messagesDisplay": "15,513",
+      "messages": 15525,
+      "messagesDisplay": "15,525",
       "messagesApproximate": false,
       "tokens": 1449,
       "tokensDisplay": "1449",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/4c1ae9d0-5640-453b-9102-60dc6c07a331.jpg?class=avatar256x256",
-      "rawMessages": "15,513",
+      "rawMessages": "15,525",
       "rawTokens": "1449",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 15513,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 15525,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/57fc84b4-cb36-464f-9b87-49b30057e093",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "c8c96422-d782-438d-999c-79e785f635de",
@@ -2115,22 +2115,22 @@
       "title": "Your Dragon Scholar Girlfriend Has No Idea you are one (Dragon Hybrid POV)",
       "url": "https://spicychat.ai/chat/c8c96422-d782-438d-999c-79e785f635de",
       "visibility": "public",
-      "messages": 65112,
-      "messagesDisplay": "65,112",
+      "messages": 65157,
+      "messagesDisplay": "65,157",
       "messagesApproximate": false,
       "tokens": 1260,
       "tokensDisplay": "1260",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/ed4b4f9b-16e6-4abd-ad77-fc83aa865a5d.jpg?class=avatar256x256",
-      "rawMessages": "65,112",
+      "rawMessages": "65,157",
       "rawTokens": "1260",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 65112,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 65157,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/c8c96422-d782-438d-999c-79e785f635de",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "97533fef-f306-4d71-8c5c-4eb98fecf040",
@@ -2149,11 +2149,11 @@
       "rawTokens": "1322",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 30557,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/97533fef-f306-4d71-8c5c-4eb98fecf040",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "b5964f5b-b916-439e-9537-6ba2247799bd",
@@ -2172,11 +2172,11 @@
       "rawTokens": "1295",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 44387,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/b5964f5b-b916-439e-9537-6ba2247799bd",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "615e3b47-93d7-4b56-855e-6129db0529f3",
@@ -2195,11 +2195,11 @@
       "rawTokens": "1419",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 5562,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/615e3b47-93d7-4b56-855e-6129db0529f3",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "e28727e4-3475-4aa3-acc8-54f039626243",
@@ -2218,11 +2218,11 @@
       "rawTokens": "1594",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1750,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/e28727e4-3475-4aa3-acc8-54f039626243",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "2d0a994a-65cd-4f94-accd-ffed0c45230e",
@@ -2241,11 +2241,11 @@
       "rawTokens": "1999",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 16049,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/2d0a994a-65cd-4f94-accd-ffed0c45230e",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "5d2df83e-1ee3-4654-8897-c280742a0fe2",
@@ -2253,22 +2253,22 @@
       "title": "The Popular Girl Thinks You Hate Her (Mute POV)",
       "url": "https://spicychat.ai/chat/5d2df83e-1ee3-4654-8897-c280742a0fe2",
       "visibility": "public",
-      "messages": 102043,
-      "messagesDisplay": "102,043",
+      "messages": 102050,
+      "messagesDisplay": "102,050",
       "messagesApproximate": false,
       "tokens": 1749,
       "tokensDisplay": "1749",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/f6795cc1-8dbf-46df-bcd7-0adec3544ba3.jpg?class=avatar256x256",
-      "rawMessages": "102,043",
+      "rawMessages": "102,050",
       "rawTokens": "1,749",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 102043,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 102050,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/5d2df83e-1ee3-4654-8897-c280742a0fe2",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
@@ -2287,11 +2287,11 @@
       "rawTokens": "1721",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 668,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/bf8821a9-bd9c-4a29-8deb-a8f7557b97d9",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "b376faf0-8c37-4b37-8861-8ca68cdd64b6",
@@ -2310,11 +2310,11 @@
       "rawTokens": "1866",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 1059,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/b376faf0-8c37-4b37-8861-8ca68cdd64b6",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "c1fe4367-501f-472c-967c-275c71d38378",
@@ -2333,11 +2333,11 @@
       "rawTokens": "1818",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 252,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/c1fe4367-501f-472c-967c-275c71d38378",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
@@ -2345,22 +2345,22 @@
       "title": "A blunt alt girl notices when the noise becomes too much and slowly learns how to help.",
       "url": "https://spicychat.ai/chat/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
       "visibility": "public",
-      "messages": 48437,
-      "messagesDisplay": "48,437",
+      "messages": 48447,
+      "messagesDisplay": "48,447",
       "messagesApproximate": false,
       "tokens": 1772,
       "tokensDisplay": "1772",
       "tokensApproximate": false,
       "image": "https://cdn.nd-api.com/avatars/223307ed-49df-451b-b4fe-48ec587b8ce9.jpg?class=avatar256x256",
-      "rawMessages": "48,437",
+      "rawMessages": "48,447",
       "rawTokens": "1772",
       "observedAt": "2026-10-06T02:09:37-04:00",
-      "exactMessages": 48437,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessages": 48447,
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/6dc7e3ca-253f-4fcc-a40d-f0e2ace005fb",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
@@ -2379,11 +2379,11 @@
       "rawTokens": "1,888",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 406,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/7b755ef4-9032-4e9f-84ea-6812f25ce8ac",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     },
     {
       "id": "dd422bcb-0e92-4166-b483-72b36edcfcbd",
@@ -2402,11 +2402,11 @@
       "rawTokens": "1811",
       "observedAt": "2026-10-06T02:09:37-04:00",
       "exactMessages": 732,
-      "exactMessagesObservedAt": "2026-11-12T23:47:56Z",
+      "exactMessagesObservedAt": "2026-11-13T07:07:18Z",
       "exactMessagesSource": "typesense",
       "statsSource": "typesense",
       "profileUrl": "https://spicychat.ai/chatbot/dd422bcb-0e92-4166-b483-72b36edcfcbd",
-      "statsUpdatedAt": "2026-11-12T23:47:56Z"
+      "statsUpdatedAt": "2026-11-13T07:07:18Z"
     }
   ],
   "sourceFile": "All Your Chatbot Characters In One Place _ Spicychat(20261008-154734).html"
