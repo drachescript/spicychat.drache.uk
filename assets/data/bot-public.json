@@ -2019,6 +2019,24 @@
       "accuracy": "confirmed",
       "source": "spicychat-approval-email",
       "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
+    },
+    {
+      "id": "7b1000eb-4ebc-4760-8959-7c35a0d61076",
+      "name": "Enric Pryde",
+      "publicSinceAt": "2026-11-13T16:41:20Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-11-13T16:41:20Z",
+      "previousNonPublicObservedAt": null,
+      "baselineAt": "2026-11-13T16:41:20Z",
+      "messagesAtBaseline": 0,
+      "messagesDisplayAtBaseline": "0",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
     }
   ]
 }

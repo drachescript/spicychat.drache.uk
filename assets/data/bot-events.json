@@ -4874,6 +4874,22 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-13T16:41:20Z",
+      "botId": "7b1000eb-4ebc-4760-8959-7c35a0d61076",
+      "botName": "Enric Pryde",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-13T16:41:20Z",
+      "botId": "7b1000eb-4ebc-4760-8959-7c35a0d61076",
+      "botName": "Enric Pryde",
+      "type": "new",
+      "source": "typesense"
     }
   ]
 }
