@@ -4890,6 +4890,15 @@
       "botName": "Enric Pryde",
       "type": "new",
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-14T06:55:52Z",
+      "botId": "94984824-cd9b-4311-af3a-359f715fd749",
+      "botName": "Ruth Calder",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
