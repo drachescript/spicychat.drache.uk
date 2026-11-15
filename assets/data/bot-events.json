@@ -4908,6 +4908,15 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-15T17:21:45Z",
+      "botId": "38154344-755f-4541-adf6-af8a38e628e6",
+      "botName": "Queen Elowen",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
