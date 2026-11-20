@@ -4971,6 +4971,15 @@
       "value": 250,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-20T13:29:49Z",
+      "botId": "e39db94b-ee4e-4bb8-b46c-0d28637b8d4b",
+      "botName": "Eleanor Rowley",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
