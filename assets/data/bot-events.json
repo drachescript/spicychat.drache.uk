@@ -4980,6 +4980,15 @@
       "value": 100,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-22T17:59:43Z",
+      "botId": "e28727e4-3475-4aa3-acc8-54f039626243",
+      "botName": "Avery Knox",
+      "type": "milestone",
+      "value": 2500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
