@@ -4989,6 +4989,15 @@
       "value": 2500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-22T23:45:39Z",
+      "botId": "fbfad622-eea2-493b-8894-6d6f877441de",
+      "botName": "Vesper System",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
