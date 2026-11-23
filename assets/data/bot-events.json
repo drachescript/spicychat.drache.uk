@@ -4998,6 +4998,24 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-23T08:03:49Z",
+      "botId": "81c1380f-7f02-472c-93c2-5d230032cdf9",
+      "botName": "Riley Stone",
+      "type": "milestone",
+      "value": 100,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-23T08:03:49Z",
+      "botId": "8fdfe8d4-5b03-49c5-9e50-b505222e2d45",
+      "botName": "Harbor System",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
