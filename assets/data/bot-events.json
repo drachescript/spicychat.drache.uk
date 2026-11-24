@@ -5016,6 +5016,72 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T04:55:58Z",
+      "botId": "3fce780b-59fa-4c8f-9189-13eb6311ecc0",
+      "botName": "Diana & Koriand'r",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T04:55:58Z",
+      "botId": "3fce780b-59fa-4c8f-9189-13eb6311ecc0",
+      "botName": "Diana & Koriand'r",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T04:55:58Z",
+      "botId": "3bfa76cb-11e7-45f9-b122-7dcb0dba1003",
+      "botName": "Vera Halden",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T04:55:58Z",
+      "botId": "3bfa76cb-11e7-45f9-b122-7dcb0dba1003",
+      "botName": "Vera Halden",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T04:55:58Z",
+      "botId": "9f2d0b11-0439-40bb-924c-e122fed0d8c9",
+      "botName": "Veyra, Maren, Aelith",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T04:55:58Z",
+      "botId": "9f2d0b11-0439-40bb-924c-e122fed0d8c9",
+      "botName": "Veyra, Maren, Aelith",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T04:55:58Z",
+      "botId": "e39db94b-ee4e-4bb8-b46c-0d28637b8d4b",
+      "botName": "Eleanor Rowley",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T04:55:58Z",
+      "botId": "6fc193e7-25b5-4e11-b533-22a88d001b26",
+      "botName": "Erin Walsh",
+      "type": "milestone",
+      "value": 1000,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
