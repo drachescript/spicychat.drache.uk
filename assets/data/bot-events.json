@@ -5082,6 +5082,70 @@
       "value": 1000,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T18:10:02Z",
+      "botId": "078a059d-a388-46b3-b62c-742e09d4a86f",
+      "botName": "Hazel",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T18:10:02Z",
+      "botId": "078a059d-a388-46b3-b62c-742e09d4a86f",
+      "botName": "Hazel",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T18:10:02Z",
+      "botId": "985a9753-46a8-4c23-8bf8-071c638e275f",
+      "botName": "Astra",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T18:10:02Z",
+      "botId": "985a9753-46a8-4c23-8bf8-071c638e275f",
+      "botName": "Astra",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T18:10:02Z",
+      "botId": "d7763b82-dc62-40b1-b8a1-a1287fa537c7",
+      "botName": "Rhea Ember",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T18:10:02Z",
+      "botId": "d7763b82-dc62-40b1-b8a1-a1287fa537c7",
+      "botName": "Rhea Ember",
+      "type": "new",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T18:10:02Z",
+      "botId": "cb0edc8d-1399-4e3f-8a3b-1eeac5e3af50",
+      "botName": "Nessa Rook",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-24T18:10:02Z",
+      "botId": "cb0edc8d-1399-4e3f-8a3b-1eeac5e3af50",
+      "botName": "Nessa Rook",
+      "type": "new",
+      "source": "typesense"
     }
   ]
 }
