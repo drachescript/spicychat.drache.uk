@@ -5146,6 +5146,24 @@
       "botName": "Nessa Rook",
       "type": "new",
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-25T14:51:38Z",
+      "botId": "3bfa76cb-11e7-45f9-b122-7dcb0dba1003",
+      "botName": "Vera Halden",
+      "type": "milestone",
+      "value": 250,
+      "approximate": false,
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-25T14:51:38Z",
+      "botId": "98ebe0d7-625d-4196-a7a5-ebfd4f262367",
+      "botName": "Piper QoL",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
