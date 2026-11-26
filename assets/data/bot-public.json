@@ -2170,6 +2170,24 @@
       "accuracy": "confirmed",
       "source": "spicychat-approval-email",
       "notes": "Public time confirmed from the SpicyChat approval email. The message baseline is the first saved stats point after approval, so the since-public message gain is a minimum."
+    },
+    {
+      "id": "b8e1e787-8d7f-4153-8da9-40d57368ddd3",
+      "name": "Friend Group",
+      "publicSinceAt": "2026-11-26T19:46:07Z",
+      "publicSinceAccuracy": "first-observed",
+      "publicSinceSource": "typesense",
+      "firstPublicObservedAt": "2026-11-26T19:46:07Z",
+      "previousNonPublicObservedAt": null,
+      "baselineAt": "2026-11-26T19:46:07Z",
+      "messagesAtBaseline": 361,
+      "messagesDisplayAtBaseline": "361",
+      "messagesApproximateAtBaseline": false,
+      "baselineAccuracy": "same-observation",
+      "baselineLagMinutes": 0,
+      "baselineSource": "typesense",
+      "accuracy": "first-observed",
+      "source": "typesense"
     }
   ]
 }

@@ -5164,6 +5164,22 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-26T19:46:07Z",
+      "botId": "b8e1e787-8d7f-4153-8da9-40d57368ddd3",
+      "botName": "Friend Group",
+      "type": "visibility",
+      "from": "unknown",
+      "to": "public",
+      "source": "typesense"
+    },
+    {
+      "at": "2026-11-26T19:46:07Z",
+      "botId": "b8e1e787-8d7f-4153-8da9-40d57368ddd3",
+      "botName": "Friend Group",
+      "type": "new",
+      "source": "typesense"
     }
   ]
 }
