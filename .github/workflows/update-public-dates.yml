@@ -2,9 +2,20 @@ name: Update public dates from Gmail
 
 on:
   workflow_dispatch:
+    inputs:
+      full_rescan:
+        description: "Reconcile historical IDs (reuse cached approvals)"
+        type: boolean
+        default: false
+      retry_unresolved:
+        description: "Retry quarantined/unparseable messages"
+        type: boolean
+        default: false
+      reset_state:
+        description: "Rebuild encrypted state (only for recovery/key change)"
+        type: boolean
+        default: false
   schedule:
-    # Approval mail is low-volume; every 6 hours is plenty.
-    # Kept away from the bot-stats worker's :37 schedule.
     - cron: "12 */6 * * *"
 
 permissions:
@@ -12,19 +23,19 @@ permissions:
   pages: write
 
 concurrency:
-  # Use this same group for every workflow that writes bot data if possible.
   group: spicychat-data-writers
   cancel-in-progress: false
 
 jobs:
   update:
+    if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    timeout-minutes: 15
     steps:
-      - name: Check out site
+      - name: Check out current site
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -35,17 +46,28 @@ jobs:
           cache-dependency-path: scripts/requirements-gmail-public-dates.txt
 
       - name: Install Gmail API dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install -r scripts/requirements-gmail-public-dates.txt
+        run: python -m pip install -r scripts/requirements-gmail-public-dates.txt
 
-      - name: Scan Gmail approval emails
+      - name: Offline regression tests
+        run: python -m unittest discover -s tests -p test_gmail_public_dates.py
+
+      - name: Sync Gmail approval emails
+        id: sync
+        continue-on-error: true
         env:
           GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
           GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          GMAIL_SYNC_STATE_KEY: ${{ secrets.GMAIL_SYNC_STATE_KEY }}
+          FULL_RESCAN: ${{ inputs.full_rescan || false }}
+          RETRY_UNRESOLVED: ${{ inputs.retry_unresolved || false }}
+          RESET_STATE: ${{ inputs.reset_state || false }}
         run: |
-          python scripts/update-public-dates-from-gmail.py \
+          args=()
+          if [[ "$FULL_RESCAN" == "true" ]]; then args+=(--full-rescan); fi
+          if [[ "$RETRY_UNRESOLVED" == "true" ]]; then args+=(--retry-unresolved); fi
+          if [[ "$RESET_STATE" == "true" ]]; then args+=(--reset-state); fi
+          python scripts/update-public-dates-from-gmail.py "${args[@]}" \
             --summary-file "$RUNNER_TEMP/gmail-public-date-summary.md"
 
       - name: Add run summary
@@ -55,27 +77,42 @@ jobs:
             cat "$RUNNER_TEMP/gmail-public-date-summary.md" >> "$GITHUB_STEP_SUMMARY"
           fi
 
-      - name: Commit safe public-date updates
+      - name: Validate changed publication data
+        if: steps.sync.outcome == 'success' || steps.sync.outcome == 'failure'
+        run: |
+          if ! git diff --quiet -- assets/data/bot-public.json; then
+            python scripts/validate-bot-data.py
+          fi
+
+      - name: Commit sync progress and safe dates
+        if: steps.sync.outcome == 'success' || steps.sync.outcome == 'failure'
         id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add assets/data/bot-public.json
-
+          if [ -f .github/gmail-public-date-state.enc ]; then
+            git add .github/gmail-public-date-state.enc
+          fi
+          public_changed=false
+          if ! git diff --cached --quiet -- assets/data/bot-public.json; then
+            public_changed=true
+          fi
           if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No safe public-date changes to commit."
+            echo "public_changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-
-          git commit -m "Update bot public dates"
+          git commit -m "Sync Gmail publication dates and checkpoint"
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin HEAD:"$GITHUB_REF_NAME"
-          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "public_changed=$public_changed" >> "$GITHUB_OUTPUT"
 
       - name: Refresh GitHub Pages
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.public_changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
+
+      - name: Surface sync failure after saving progress
+        if: steps.sync.outcome == 'failure'
+        run: exit 1
