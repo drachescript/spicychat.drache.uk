@@ -5189,6 +5189,15 @@
       "value": 500,
       "approximate": false,
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-27T14:12:18Z",
+      "botId": "f55dad9d-8339-46ac-a11d-dce0afd98660",
+      "botName": "Doe",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
