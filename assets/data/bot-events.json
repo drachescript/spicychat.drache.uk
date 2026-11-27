@@ -5180,6 +5180,15 @@
       "botName": "Friend Group",
       "type": "new",
       "source": "typesense"
+    },
+    {
+      "at": "2026-11-27T03:09:16Z",
+      "botId": "3bfa76cb-11e7-45f9-b122-7dcb0dba1003",
+      "botName": "Vera Halden",
+      "type": "milestone",
+      "value": 500,
+      "approximate": false,
+      "source": "typesense"
     }
   ]
 }
